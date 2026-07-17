@@ -22,17 +22,38 @@ def parse_pts(d):
     return list(zip(n[0::2], n[1::2]))
 
 
+# Same seven anchors as site.html's --rain1..--rain7 and the same
+# interpolation as its rainFill() — every isohyet gets its own blended
+# shade, not just a copy of the nearest of seven buckets. The flyer has
+# no stylesheet at print time, so the blend is baked to hex here instead
+# of left as a var() reference.
+RAIN_STOPS = [
+    (10, "#d9c8a4"), (40, "#c3c19a"), (70, "#9fae8c"), (110, "#6d8f86"),
+    (160, "#3f6f74"), (220, "#2d4d5c"), (300, "#203046"),
+]
+
+
+def _hex_to_rgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def _rgb_to_hex(rgb):
+    return "#" + "".join("%02x" % max(0, min(255, round(c))) for c in rgb)
+
+
 def rain_fill(r):
     r = int(r)
-    if r < 20:
-        return "var(--rain1)"
-    if r < 40:
-        return "var(--rain2)"
-    if r < 70:
-        return "var(--rain3)"
-    if r < 110:
-        return "var(--rain4)"
-    return "var(--rain5)"
+    if r <= RAIN_STOPS[0][0]:
+        return RAIN_STOPS[0][1]
+    if r >= RAIN_STOPS[-1][0]:
+        return RAIN_STOPS[-1][1]
+    for (va, ca), (vb, cb) in zip(RAIN_STOPS, RAIN_STOPS[1:]):
+        if va <= r <= vb:
+            t = (r - va) / (vb - va)
+            ra, rb = _hex_to_rgb(ca), _hex_to_rgb(cb)
+            return _rgb_to_hex(ra[i] + (rb[i] - ra[i]) * t for i in range(3))
+    return RAIN_STOPS[-1][1]
 
 
 def windward(MAP):
@@ -82,12 +103,10 @@ def main():
             L.append('          <path d="%s" fill="%s" filter="url(#fl-soft)"/>' % (d, rain_fill(c)))
     L.append("        </g>")
     L.append('        <path class="coast" d="%s"/>' % MAP["islandD"])
-    # The arc marks the wettest coast, which is exactly where the map is darkest:
-    # ink on rain5 is only 3.2:1. So it is cased — a paper-coloured line under an ink
-    # one — which reads on the dark teal AND on the dry tan at the Hāmākua end, and
-    # still survives a photocopier.
+    # The arc marks the wettest coast. It is drawn as a string of ember-coloured
+    # beads (see .mini .on in the flyer CSS: volcanic stroke, round caps, dasharray)
+    # — legible on the dark teal and the dry tan alike, no bar of ink.
     arc = windward(MAP)
-    L.append('        <path class="on-case" d="%s"/>' % arc)
     L.append('        <path class="on" d="%s"/>' % arc)
     L.append("      </svg>")
     svg = "\n".join(L)
