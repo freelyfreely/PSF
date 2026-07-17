@@ -1,0 +1,868 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prep · Set · Forget — what your ground already wants to grow</title>
+<style>
+  :root {
+    --soil-ink:#1a1613; --earth-mid:#8b7355; --earth-faint:#d4c4a8;
+    --volcanic:#c4704b; --body-bg:#f7f3ee;
+    --leaf-shrub:#9fb375; --leaf-subcanopy:#5d7148; --leaf-canopy:#2d3a28;
+
+    --serif: Literata,"Source Serif 4",Charter,"Iowan Old Style",Georgia,serif;
+    --sans:"Source Sans 3","Nunito Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+    --mono:"Iosevka","JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+
+    --t-mark:.75rem; --t-aside:.875rem; --t-body:1rem; --t-lead:1.25rem; --t-name:2.375rem;
+    --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s6:24px; --s8:32px; --s12:48px; --s16:64px;
+    --measure:62ch; --pad:48px;
+
+    --yr1:14%; --yr3:32%; --yr5:44%; --yr10:62%; --yr50:92%;
+
+    /* rain scale. cool means wet — the only place cool tones appear. */
+    --rain1:#d9c8a4; --rain2:#c3c19a; --rain3:#9fae8c; --rain4:#6d8f86; --rain5:#3f6f74;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--body-bg);color:var(--soil-ink);font-family:var(--sans);
+    font-size:var(--t-body);line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:var(--s12) var(--s8) 128px}
+
+  /* ── masthead ─────────────────────────────────────────────────────── */
+  .mast{display:flex;flex-direction:column;gap:var(--s2);margin-bottom:var(--s12)}
+  .mast h1{font-family:var(--serif);font-size:var(--t-name);font-weight:600;margin:0;
+    letter-spacing:-.02em;line-height:1.1}
+  .mast p{margin:0;font-family:var(--serif);font-size:var(--t-lead);color:var(--earth-mid);
+    max-width:52ch}
+
+  /* ── the picker ───────────────────────────────────────────────────── */
+  .picker{display:grid;grid-template-columns:minmax(0,1fr) 19rem;gap:var(--s12);
+    align-items:start}
+  .mapwrap{position:relative}
+  svg.island{width:100%;height:auto;display:block;cursor:crosshair;
+    max-height:78vh;margin:0 auto}
+  #coast{stroke:var(--soil-ink);stroke-width:2.2;stroke-linejoin:round}
+  #sea{fill:none}
+  .townpin{fill:var(--soil-ink);stroke:var(--body-bg);stroke-width:2;pointer-events:none}
+  .townlabel{font-family:var(--mono);font-size:15px;fill:var(--soil-ink);
+    pointer-events:none;letter-spacing:.02em;
+    paint-order:stroke;stroke:rgba(247,243,238,.85);stroke-width:4px;stroke-linejoin:round}
+  .mark-outer{fill:none;stroke:var(--volcanic);stroke-width:3;opacity:.9}
+  .mark-inner{fill:var(--volcanic);stroke:#faf8f4;stroke-width:2}
+
+  .maplegend{display:flex;align-items:center;gap:var(--s2);margin-top:var(--s4);
+    font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid)}
+  .maplegend .swatches{display:flex;flex:none}
+  .maplegend i{width:22px;height:9px;display:block}
+  .schematic{margin:var(--s2) 0 0;font-family:var(--mono);font-size:var(--t-mark);
+    color:var(--earth-mid);opacity:.85}
+
+  .doors{display:flex;flex-direction:column;gap:var(--s6)}
+  .doors h2{font-family:var(--serif);font-size:var(--t-lead);font-weight:600;margin:0 0 var(--s3)}
+  .field{display:flex;gap:var(--s2)}
+  .field input{flex:1;min-width:0;font:inherit;font-size:var(--t-body);
+    padding:var(--s3) var(--s4);border:1px solid var(--earth-faint);border-radius:2px;
+    background:#faf8f4;color:var(--soil-ink)}
+  .field input:focus-visible{outline:2px solid var(--volcanic);outline-offset:1px}
+  .field button{font:inherit;font-weight:600;font-size:var(--t-body);padding:var(--s3) var(--s6);
+    border:none;border-radius:2px;background:#a85434;color:#faf8f4;cursor:pointer}
+  .field button:hover{filter:brightness(1.07)}
+  .hint{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);margin:var(--s2) 0 0}
+
+  .places{display:flex;flex-wrap:wrap;gap:var(--s2)}
+  .place{font-family:var(--sans);font-size:var(--t-aside);font-weight:600;
+    padding:var(--s2) var(--s4);border:1px solid var(--earth-faint);border-radius:2px;
+    background:none;color:var(--soil-ink);cursor:pointer;transition:background-color 160ms ease-out}
+  .place:hover{background:rgba(139,115,85,.1)}
+  .place[aria-pressed="true"]{background:var(--soil-ink);color:var(--body-bg);
+    border-color:var(--soil-ink)}
+  .place:focus-visible{outline:2px solid var(--volcanic);outline-offset:2px}
+
+  /* ── the ground reading ───────────────────────────────────────────── */
+  .reading{display:none;margin-top:var(--s16);padding-top:var(--s8);
+    border-top:1px solid rgba(26,22,19,.16)}
+  .reading[data-shown="true"]{display:block;animation:rise 260ms ease-out both}
+  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .reading h2{font-family:var(--serif);font-size:var(--t-name);font-weight:600;margin:0;
+    letter-spacing:-.02em;line-height:1.1}
+  .reading .ground-lines{font-family:var(--serif);font-size:var(--t-lead);margin:var(--s3) 0 0;
+    max-width:var(--measure)}
+  .reading .caveat{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);
+    margin:var(--s4) 0 0}
+
+  .axis-title{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);
+    margin:var(--s16) 0 var(--s3);padding-left:var(--pad)}
+
+  /* ── the entry ────────────────────────────────────────────────────── */
+  .entry{--ent-bg:var(--body-bg);--ent-ink:var(--soil-ink);--ent-mid:var(--earth-mid);
+    --ent-rule:rgba(26,22,19,.16);--ent-act:var(--volcanic);--furrow:rgba(26,22,19,.13);
+    --btn-bg:#a85434;--btn-ink:#faf8f4;
+    position:relative;background:var(--ent-bg);color:var(--ent-ink);padding:var(--s12) var(--pad)}
+  .entry[data-stratum="ground"]{--ent-bg:color-mix(in srgb,#c9d69b 30%,var(--body-bg))}
+  .entry[data-stratum="shrub"]{--ent-bg:color-mix(in srgb,var(--leaf-shrub) 34%,var(--body-bg))}
+  .entry[data-stratum="sub-canopy"]{--ent-bg:var(--leaf-subcanopy);--ent-ink:#f2eee5;
+    --ent-mid:#c3cdaf;--ent-rule:rgba(242,238,229,.28);--ent-act:#f0b298;
+    --furrow:rgba(242,238,229,.18);--btn-bg:#f0b298;--btn-ink:#1a1613}
+  .entry[data-stratum="canopy"]{--ent-bg:var(--leaf-canopy);--ent-ink:#f2eee5;
+    --ent-mid:#a8b39a;--ent-rule:rgba(242,238,229,.24);--ent-act:#f0b298;
+    --furrow:rgba(242,238,229,.17);--btn-bg:#f0b298;--btn-ink:#1a1613}
+
+  /* the tail: probably not here. it stays readable. */
+  .entry[data-fit="poor"]{filter:grayscale(1);opacity:.5}
+  .entry[data-fit="poor"]:hover,.entry[data-fit="poor"]:focus-within{opacity:.9}
+
+  .naming{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 var(--s3)}
+  .naming .hawaiian,.naming .common{font-family:var(--serif);font-size:var(--t-name);
+    font-weight:600;line-height:1.1;letter-spacing:-.02em;margin:0}
+  .naming .common{color:var(--ent-mid);font-weight:400}
+  .naming .common::before{content:"· ";opacity:.45}
+  .naming .binomial{font-family:var(--serif);font-style:italic;font-size:var(--t-body);
+    color:var(--ent-mid);flex-basis:100%;margin:var(--s2) 0 0}
+
+  .fit{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+    gap:var(--s3) var(--s8);margin-top:var(--s6);padding-bottom:var(--s4);
+    border-bottom:1px solid var(--ent-rule);font-family:var(--mono);font-size:var(--t-mark);
+    letter-spacing:.06em}
+  .fit .yield-type{font-weight:600;text-transform:uppercase;color:var(--ent-ink)}
+  .prefs{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s4);color:var(--ent-mid)}
+  .pref{display:inline-flex;align-items:center;gap:var(--s2);cursor:help}
+  .pref svg{width:15px;height:15px;flex:none;opacity:.85}
+  .pref[data-flag="caution"]{color:var(--ent-act)}
+  .pref[data-flag="poor"]{color:var(--ent-act);font-weight:600}
+
+  .verdict{font-family:var(--mono);font-size:var(--t-mark);color:var(--ent-act);
+    margin:var(--s4) 0 0}
+  .distil{font-family:var(--serif);font-size:var(--t-lead);line-height:1.5;
+    margin:var(--s6) 0 0;max-width:var(--measure)}
+
+  /* ── the life, on the shared clock ────────────────────────────────── */
+  .life{position:relative;margin:var(--s8) calc(var(--pad)*-1) 0 0;padding-right:var(--pad);
+    overflow:hidden}
+  .life-track{position:relative;height:20px}
+  .furrow{position:absolute;top:0;bottom:0;width:1px;background:var(--furrow)}
+  .span{position:absolute;top:8px;height:3px;left:0;right:0;background:var(--ent-ink)}
+  .span-set{position:absolute;top:8px;height:3px;left:0;background:var(--ent-act)}
+  .span--open{-webkit-mask-image:linear-gradient(to right,#000 74%,transparent 100%);
+    mask-image:linear-gradient(to right,#000 74%,transparent 100%)}
+  .span--closes::after{content:"";position:absolute;right:0;top:-5px;bottom:-5px;width:1px;
+    background:var(--ent-ink)}
+  .yield-dot{position:absolute;top:5px;width:9px;height:9px;border-radius:50%;
+    background:var(--ent-act);transform:translateX(-50%);box-shadow:0 0 0 3px var(--ent-bg)}
+  .life-scale,.life-events{position:relative;height:1.3em;font-family:var(--mono);
+    font-size:var(--t-mark);color:var(--ent-mid);font-variant-numeric:tabular-nums}
+  .life-events{margin-bottom:var(--s1)}
+  .life-scale{margin-top:var(--s1)}
+  .life-scale span,.life-events span{position:absolute;top:0;white-space:nowrap}
+  .life-scale span{transform:translateX(-50%)}
+  .life-events .ev{transform:translateX(-50%);color:var(--ent-act);font-weight:600}
+  .life-events .ev--left{transform:none}
+  .life-events .ev--end{transform:none;right:var(--pad);color:var(--ent-mid);font-weight:400}
+
+  /* ── grow ─────────────────────────────────────────────────────────── */
+  .grow{display:flex;align-items:center;justify-content:center;gap:var(--s3);
+    margin:var(--s16) auto var(--s2);padding:var(--s4) var(--s12);min-width:260px;
+    background:var(--btn-bg);color:var(--btn-ink);border:none;border-radius:2px;
+    font-family:var(--sans);font-size:var(--t-body);font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;cursor:pointer;transition:filter 200ms ease-out}
+  .grow:hover{filter:brightness(1.07)}
+  .grow:focus-visible{outline:2px solid var(--ent-act);outline-offset:3px}
+  .grow .sprout{width:18px;height:18px;flex:none;transition:transform 240ms ease-out}
+  .entry[data-open="true"] .grow .sprout{transform:rotate(180deg)}
+
+  .deep{display:none}
+  .entry[data-open="true"] .deep{display:block;margin-top:var(--s12);
+    animation:rise 260ms ease-out both}
+  @media (prefers-reduced-motion:reduce){
+    .entry[data-open="true"] .deep,.reading[data-shown="true"]{animation:none}
+    .grow,.grow .sprout,.zone{transition:none}
+  }
+
+  .beats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s12)}
+  .beat h4,.ground h4{font-family:var(--serif);font-size:var(--t-lead);font-weight:600;
+    line-height:1.2;color:var(--ent-ink);margin:0 0 var(--s4)}
+  .beat ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--s4)}
+  .beat--forget{color:color-mix(in srgb,var(--ent-ink) 86%,var(--ent-bg))}
+
+  .ground{display:grid;grid-template-columns:minmax(0,1fr) 14rem;gap:var(--s12);
+    margin-top:var(--s12);padding-top:var(--s8);border-top:1px solid var(--ent-rule)}
+  .ground .primary{display:flex;flex-direction:column;gap:var(--s8);max-width:var(--measure)}
+  .ground p{margin:0}
+  .carried{font-family:var(--serif);font-size:var(--t-lead);line-height:1.6;
+    color:color-mix(in srgb,var(--ent-ink) 92%,var(--ent-bg))}
+  .pending{border:1px dashed var(--ent-rule);padding:var(--s4);font-family:var(--mono);
+    font-size:var(--t-mark);line-height:1.6;color:var(--ent-mid)}
+
+  /* ── the tail divider ─────────────────────────────────────────────── */
+  .tail-note{margin:var(--s16) 0 0;padding:var(--s6) var(--pad);
+    border-top:1px solid rgba(26,22,19,.16);font-family:var(--serif);
+    font-size:var(--t-lead);color:var(--earth-mid);max-width:var(--measure)}
+
+  .colophon{margin-top:128px;padding-top:var(--s8);border-top:1px solid rgba(26,22,19,.16);
+    font-size:var(--t-aside);color:var(--earth-mid);max-width:var(--measure);
+    display:flex;flex-direction:column;gap:var(--s3)}
+  .colophon a{color:var(--soil-ink)}
+
+  @media (max-width:860px){
+    :root{--pad:24px;--t-name:1.75rem;--t-lead:1.125rem}
+    .wrap{padding:var(--s8) var(--s4) 80px}
+    .picker{grid-template-columns:1fr;gap:var(--s8)}
+    .beats,.ground{grid-template-columns:1fr;gap:var(--s8)}
+    .fit{justify-content:flex-start}
+    .life-scale .sc--10,.life-scale .sc--50{display:none}
+    .tail-note,.axis-title{padding-left:var(--pad);padding-right:var(--pad)}
+  }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="i-rain" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.8c0 0-4.3 5.2-4.3 8A4.3 4.3 0 0 0 12.3 9.8c0-2.8-4.3-8-4.3-8z"/></symbol>
+  <symbol id="i-temp" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 9.1V3.9a1.6 1.6 0 1 0-3.2 0v5.2a3.1 3.1 0 1 0 3.2 0z"/><path d="M8 6.6v3.9"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.4 13.2 6 5.4l2.7 4.4 1.7-2.6 4.2 6z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3.1"/><path d="M8 1.4v1.6M8 13v1.6M14.6 8H13M3 8H1.4M12.7 3.3l-1.1 1.1M4.4 11.6l-1.1 1.1M12.7 12.7l-1.1-1.1M4.4 4.4 3.3 3.3"/></symbol>
+  <symbol id="i-sprout" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17V8.5"/><path d="M10 9.4C10 6.6 12.1 4 15.4 3.5c.4 3.2-1.6 6-5.4 6.4z"/><path d="M10 11.6C10 9.4 8.3 7.3 5.6 6.9c-.3 2.6 1.3 4.8 4.4 5.1z"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+
+  <div class="mast">
+    <h1>Prep · Set · Forget</h1>
+    <p>What your ground already wants to grow.</p>
+  </div>
+
+  <div class="picker">
+    <div class="mapwrap">
+      <svg class="island" id="map" role="group" aria-label="Hawaiʻi Island, drawn with yearly rainfall contours. Click anywhere on land.">
+        <defs><clipPath id="clip-island"><path id="clip-path" d=""/></clipPath></defs>
+        <path id="sea" d="" fill="none"/>
+        <g clip-path="url(#clip-island)"><g id="bands"></g></g>
+        <path id="coast" d="" fill="none"/>
+        <g id="isolines"></g>
+        <g id="towns"></g>
+        <g id="marker"></g>
+      </svg>
+      <div class="maplegend">
+        <span>dry</span>
+        <span class="swatches">
+          <i style="background:var(--rain1)"></i><i style="background:var(--rain2)"></i>
+          <i style="background:var(--rain3)"></i><i style="background:var(--rain4)"></i>
+          <i style="background:var(--rain5)"></i>
+        </span>
+        <span>wet · 10 to 140+ inches a year</span>
+      </div>
+      <p class="schematic">Coastline from the US Census. Rainfall lines from the Rainfall Atlas of Hawaiʻi. Click any point on land and it reads the rain and the elevation at that spot.</p>
+    </div>
+
+    <div class="doors">
+      <div>
+        <h2>Your address</h2>
+        <div class="field">
+          <input id="addr" type="text" placeholder="Street, town" aria-label="Your address">
+          <button id="addrgo" type="button">Find</button>
+        </div>
+        <p class="hint">Names the nearest place below. Nothing is stored.</p>
+      </div>
+      <div>
+        <h2>Or a place you know</h2>
+        <div class="places" id="places"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reading" id="reading" data-shown="false" aria-live="polite">
+    <h2 id="place-name"></h2>
+    <p class="ground-lines" id="ground-lines"></p>
+    <p class="caveat">Rain and elevation read live at this point. Temperature is worked out from the elevation, not measured. Your microclimate may vary.</p>
+  </div>
+
+  <div id="results"></div>
+
+  <div class="colophon">
+    <p><strong>Prep Set Forget.</strong> Prep is what the ground needs before the plant goes in. Set is how it gets there. Forget is what happens after, which is mostly cutting things back and letting them fall where they land.</p>
+    <p>Plant facts from the <a href="https://tropical.theferns.info">Ferns Tropical Plants Database</a>. Rainfall from the <a href="https://rainfall.geography.hawaii.edu">Rainfall Atlas of Hawaiʻi</a> (UH Mānoa), served by the <a href="https://geoportal.hawaii.gov">Hawaiʻi Statewide GIS Program</a>. Elevation from <a href="https://apps.nationalmap.gov/epqs/">USGS 3DEP</a>. Coastline from the US Census. No account, no tracking, nothing to sign.</p>
+  </div>
+</div>
+
+<script>
+var MAP={"W":1000,"H":1145,"minX":-147.0215972207095,"minY":-20.271548,"S":845.831929272011,"K":0.9420574527872967,"islandD":"M228 21.8L232.4 22.1L253 33.2L260.8 41.3L261.8 50L264.3 56L327 88.1L345.8 105.4L350.4 106.3L363.8 113L369.3 122.6L371.6 124.3L377.2 126.1L384.6 125.1L395.2 119.3L402.7 118.4L430.8 128.2L436.3 132.2L447.7 133.1L475 141.5L494.4 149.1L525 163.1L527.5 165.8L539.3 172.9L585 197.1L612.7 209L622.9 211.1L632.7 217.4L656.1 238L685.2 255.5L693.1 264.9L704.7 272.5L729.2 294.9L733.1 296.9L743.5 308.5L748.8 316.6L751.1 326L762.4 337.6L769.4 341.5L772.4 341.4L779.3 352L780.9 356.8L779.8 366.2L777.2 376.3L772.9 386.2L774.7 399.4L775.4 418.8L773.6 422.7L773.7 451.5L778.7 459.7L784.8 461.3L797.1 459L811.9 449.7L843 450.2L850.3 459.3L858.3 476.2L863.2 491.3L860.3 507L861 532.8L868.6 539.9L876.8 544.7L887.7 545.6L889.6 547.5L889.8 549.5L887.1 556.5L890.3 563.9L900.7 570.1L905.3 574.2L908.3 579.4L925 592.9L947.7 604.6L965.5 611L977.7 620.2L986.2 620.8L996 627.1L999.9 633.7L1000 636.5L989.2 668.4L976.8 683.4L952.9 704.9L937.5 714.8L904.9 739.2L892.6 752.5L876.3 766.2L863.4 780.1L831.7 795.3L798.9 807.7L757.9 829.7L741.6 842L720.9 848.5L710.7 847.9L698.8 850.4L691.7 854.5L684 854.8L653.7 846L637.3 843.6L611.6 850.3L606 854L598.4 863.5L576.2 877.6L569.9 891.3L560.8 898.8L546.4 904.3L536.8 905.4L515.5 916.6L507.8 923.7L503.5 931.2L486.7 947L477.1 951.2L445.5 958.9L438 963.4L440 967.1L440 970.4L434 976.5L428.9 977.5L426.7 979.3L414 998.5L409 1000.4L403.6 1006L405.6 1016.8L405.7 1029.9L404 1036.1L396.8 1048L388.7 1052.3L384.4 1056.7L373.2 1076.5L372.8 1091.9L368.5 1099.6L358.9 1100.6L349.9 1107.7L350.1 1109.4L339.7 1124.8L323.4 1139.1L312.6 1145.3L304.8 1144.3L300.1 1140.3L298.2 1132.9L295.8 1125.8L269.6 1101.4L239.7 1090.9L205.8 1063.7L167.7 1055.4L145.7 1044.5L143.7 1042.3L141.9 1028.4L128 1007.2L124.3 1006.9L113.9 973L117.2 943.6L128.3 891.3L127.1 880.9L128.9 856.9L134.6 843.2L138.3 822.7L141 790.4L140 781.1L131.9 755.8L119.9 736.2L123.7 724.1L113.7 711.3L111.6 704.4L110.9 679.6L113 670.7L111.7 668.3L106.6 665.4L102.6 664.8L102 667.9L99.8 668.2L89.9 663.9L88.8 662.1L88.2 644.1L82.8 613.2L81.4 608.8L79 606.3L75.7 605.3L74.4 579.6L68.7 561.1L53.1 531.8L28.2 525.6L25 522.4L23.4 517.8L24.7 509.5L29.4 507L28 501.3L22.5 491.7L13.1 484.3L10.1 480.3L9.5 467.6L0 457.4L5.7 447.5L9.6 435.4L11.7 415.4L34 397L46.3 384L65 360.2L69.9 356.1L79.3 352.2L91.7 350.6L94.9 353.6L98.8 354.6L110.4 349L109.5 339.5L110.7 335.4L118.5 325.2L129.4 304L135.7 294.7L135.4 291.5L136.9 287.1L157.3 268.4L165.6 256L178.2 249.2L179.8 250.4L182.5 249.9L185.2 244.3L187.6 233.5L190.4 207.7L188.2 199.7L170.5 176.8L157.3 163.2L143.6 139.4L131.6 106.4L126.2 56.2L129.8 30.2L138.4 13.8L144.8 7.2L151.7 3.2L168.2 0L201.5 9.5L224 21.3L228 21.8Z","iso":{"10":["M186.7 205.1L183.2 193.7L182.4 184.1L180.3 170L178.9 165.1L177.3 161.7L174.9 158.5L172.3 156.5L143.6 137.4","M111.4 344.5L118.5 343.5L122.1 342.1L127.6 338.5L132.9 332.9L145.5 315.5L153.5 306.9L163.3 300L180 292.1L183.7 289.5L188 284.6L190.5 279.2L192.2 271.6L193.5 260.6L194.6 245.8L194.6 236.4L193.8 226L190.3 214.7"],"15":["M12.7 486.6L17.3 474.5L24 447.2L29.6 431.5L32.8 424.3L36.1 418.3L40.4 412.5L45 408L49.9 404.3L56 400.8L63.2 397.5L76.4 392.5L97 385.9L136.5 376.3L141.6 374.2L147.2 370.9L150.8 367.8L154.4 363.6L166.9 344.8L170.9 340.6L175 337.4L181.2 334.1L197.7 329.2L212.2 323.1L229.2 314.9L238.9 308.2L240.7 306.1L244.1 300.3L250.3 285.8L262.7 266L266.2 258.4L267.5 252.5L267.1 248.8L265.2 247.3L257.9 243.6L249.4 237.8L231.5 222.2L220.7 210.5L210.4 195L205.3 186L199.7 174.1L193.8 157.5L189 149.8L184.8 145.4L169.9 139.1L165.3 136.3L159.2 131.5L150.3 121.8L137.6 104.2L131 96.9"],"25":["M131 37.4L134.5 43.5L136.6 49L148.7 87.4L153.7 99.2L161 112.4L165.8 118.7L172.5 125L177.9 128.7L193.8 138.1L202.5 146L208.2 153.6L215.4 165.2L225.8 186L229.9 191.7L235.2 197.3L242.1 203.3L253 211.4L258.4 214.5L263.6 216.7L270.9 218.2L282.9 218.9L294.1 218.5L308.4 216.6L313.3 217.2L320.4 219.4L326.2 222.5L330.3 226L333 229.8L336.6 239.3L338.8 249.1L340 260.2L339.7 264.7L338.9 267.7L336.7 271L333.7 273.7L326.2 277.7L313.2 283.1L307.4 286.9L305.2 290.7L304.4 295.7L304.8 300.3L306.7 304L310.3 308.2L319.7 317L322.8 321.2L323.8 324.9L323.3 330.2L323.7 334.5L325.4 338.3L329.4 342.9L333.7 345.4L339 346.3L346.3 346L353.5 344.1L360.5 340.6L367.3 335.9L385.2 321.1L387.5 317.4L387.3 315.5L382.3 307.6L380.6 300.2L381.3 289.7L382.9 283.1L385.1 279.2L388 275.4L396.1 267.8L403.6 263.3L408.8 262L412.7 262L420 263.8L427.1 267.7L430.7 271.5L432.2 275.4L433.4 286.1L432.7 292.6L430.5 297.1L424.2 304L421.9 307.8L421.6 309.6L421.9 311.6L423.3 313.5L427.7 315.5L434.7 316.6L443 316.3L456.3 314.3L464.4 313.6L476.6 314L484.1 315.6L486 316.6L489.4 319.5L498.6 332.5L504.5 338.3L508.5 341.1L513 343.4L527.1 348L530.9 350.4L532.9 353.3L533.4 355.4L533 362.7L529.1 372.5L521.7 385.8L513.1 403.2L509.4 408.7L505.8 412.6L500.9 416.9L495.2 420.3L480.7 427.7L475.3 431.5L471.7 435.1L468.1 439.8L462.8 448.8L458.8 454L442.4 468.9L436.4 475.8L429.2 486.7L425.6 494.3L423.9 500L423 509.2L423.4 534.4L420.3 559.6L421.1 568.5L423.6 575.9L426.7 581.9L431.8 589.5L442.2 601.8L452.3 612L459.3 617.8L466.1 622.1L480.7 627.6L482.9 631.4L482.6 635.2L481.2 639L456.1 681.4L443.2 698.2L435.9 705.6L423.7 715.5L408 725.5L396.3 734.1L385.5 739.6L376.8 741.8L370.9 742.2L360.5 741.6L353.4 739.9L346.2 736.1L330.1 724.6L317.1 717.4L310.3 714.3L302.1 712.4L290.3 712.8L283.5 712.1L279.2 710.1L274.1 705.5L270 699.9L263.3 685.1L260.1 679.2L256.5 676L249.6 673L244 668L236.9 659.8L233 652.6L226.2 635L224 625.4L221.4 595.2L221.4 581.9L218.9 567.1L216.9 561.2L215 557.5L206.3 551.1L203.1 547.3L201 543L199.6 537.7L198.8 528.2L199.7 502L198.1 489.8L197.9 481L199.3 471.6L201.3 466.2L202.8 464L206.5 460.2L214 454.8L233.1 448.7L241.3 444.9L251.6 437.3L263.2 427.1L271.4 418.2L277.9 412.3L284.5 407.9L295.8 403L305.2 397.5L312.2 392.1L317 385.8L319.2 380L318.9 374.9L316.5 370.6L310.2 364.9L307.8 361.1L307.6 357.3L310 345.9L308.9 339.8L308.1 338.3L306.1 336.3L303.2 334.9L299.6 334L296 334.2L290.2 335.8L279.9 341.6L264.5 353.5L254.8 360L245.8 363.9L230.1 368.2L219 372.6L206.3 380L197.9 385.8L179.5 402.1L172.3 407.6L161.6 413.5L149 418.7L140.6 421.4L132.9 422.8L103 417.5L93 416.7L84.4 416.8L79.1 417.5L73 419.3L65.2 423.9L61 427.6L54.8 434.3L48.7 443.1L44.4 453.7L42.6 463.2L42.2 469.6L42.4 476.4L46.3 511L47.6 518.2L50.5 528.5L52.1 538.1","M122.1 995L124.1 989.2L125.4 983.1L127.3 966.5L124.7 929.3L124.2 908.9","M376.7 1091.3L373.1 1086.9L369.1 1084.7L366.3 1083.9L362.1 1084.5L356.9 1087.4L353.4 1090.2L346.2 1096.5L334.6 1108.2L326.5 1114.4L321.4 1117L317.5 1118.1L313.9 1118.1L310.3 1117.4L306.7 1115.5L301.5 1110.8L298.2 1106.6L290.7 1095.1L287.1 1091.1L283.5 1088.9L279.9 1087.8L275 1087.5L261.6 1088.5L256.9 1087.8L254.4 1086.6L249.4 1082L240.5 1069.3L234.4 1063.3L229.3 1060L222.5 1057.5L206 1054.2L197.4 1051.6L192 1048.6L181.2 1041.3L174.1 1037.6L150.8 1033.9L143.6 1034.4"],"35":["M83.2 617.4L89.1 629.4L94.6 645.2L103 661.1L109.4 669.4","M453.2 961.2L454.2 945.3L455.9 937.7L459 931.9L462.7 928.2L465.6 926.3L469.7 924.2L478.4 921.2L486 919.5L493.2 918.7L505.8 919.2L510.9 920.3L516.2 922.8","M115 674.8L120.5 680.7L122.1 683.4L125.7 691.9L128.1 699.2L131 713.3L133.2 732.2L134.8 741.6L146.3 790.2L146.6 796.9L146 807L145.2 815.7L141.6 838.5L141.2 850.8L144 877.3L150.1 919.5L152.1 939.2L153.5 947.3L155.8 954.9L157.3 958.7L160.5 963.7L163.3 966.7L166.9 969.1L174.1 971.7L184.1 973.1L191.2 974.8L206.3 982.4L209.9 983L213.5 982.8L218.9 981.4L221.8 979.6L223.4 977.7L224.8 973.9L224.8 970.1L223.6 965.5L221.9 962.5L209.7 947L205.6 939.7L202.8 932.1L191 891.3L188.6 877L187.4 863.6L187.2 833.1L189.1 805.7L190.3 797L193.9 781.7L197.4 772.5L205.8 762.1L208.5 757L210.7 751.2L211.9 745.6L212.6 738.8L211.7 726.5L208.7 717L203.6 708.3L201.6 701.1L197.6 690.2L186.4 648.7L175.3 622.5L168.7 603.6L164.2 592.4L160.2 573.8L155.8 549.5L153.4 541.1L148.7 530.5L139.5 513.9L129.3 498.6L122.3 490.3L107.9 475.1L104 469.8L102 465.3L97.4 450.5L95.9 447.9L94.1 446L91.6 444.4L87.9 442.8L84.4 442.3L75.5 442.9L71.9 443.9L66.9 446.3L61.2 451L58.8 454.3L57.2 457.8L55.7 465.8L56.3 489.9L57.3 504.2L59.3 514.3L61.7 521L65.3 528L70.9 537L74.2 543.8L77.2 553.3L80.1 565.6L81.2 575.8L80.5 591.7L81.6 611.2","M147.9 8.2L148.5 14.8L146.9 27.8L146.7 34.2L148.9 48.9L153.2 67.4L156.8 78.8L161.8 90.9L167.3 101.9L172.3 109.8L177.7 116.3L184.8 122.6L197.4 131.3L205.9 138.4L224.1 159.6L231.6 168.9L235.6 181.6L237.8 186L240.6 189.7L246.3 195L258.4 203L265.6 206.2L272.7 208.3L289 210.7L310.3 211.2L321.1 212L332.1 214.3L338.9 216.6L344.4 220.3L346.9 223.3L349.2 227.9L355 245.2L356.9 249.4L360.8 254.3L364.1 256.2L367.9 256.6L370.8 255.9L394.6 244.2L401 242.3L406.9 241.4L420.5 241.2L433.1 242.2L445.2 244.6L452.4 247.4L458.9 251L463.6 254.6L474.2 266L486 273.4L495.1 281.2L499.7 283.9L513.6 290L517.6 292.6L521.8 296.4L524.6 300.2L527 305.9L527.7 310.1L527.9 317.3L529.1 321.7L531 324.8L543.6 336.3L546.5 340.7L548.8 346L549.9 352.7L549 363.2L547.1 370.7L543 379.6L532.1 396.7L525.4 408.8L521 415.3L513 424.4L500.2 437.3L496.4 442.5L486.2 460.1L468.1 481.8L464.4 488.5L462 498.2L460.3 530.5L458.2 552.4L458.6 557.7L459.8 561.7L462 565.5L465.9 569L482.4 577L487 579.9L491.5 583.8L502.2 594.6L508.7 602.8L512.3 609.2L513.7 613.4L514 621.1L512.2 629.4L508.3 639L502 650.1L489.2 667.1L469.9 694L458.5 707.5L445.8 718.9L434.9 727.4L398.4 751.4L389.9 755.7L380.3 759.3L368.8 762L362.4 762.8L349.8 762.1L329.7 755.5L324.8 754.9L319.7 755.5L313.9 757.3L308 760.2L300.1 765.1L290.5 772L274.5 784.8L262.6 795.7L257.1 801.3L245.8 814.9L239 824L233.6 833.1L230.1 841.1L227.6 850.2L225.4 864.2L225.3 873.9L226.5 878.8L228.7 884.4L228.3 891.7L228.7 897.8L233.2 918.8L235.4 935.9L237.3 945.3L242.4 960.3L248.3 973.2L262.6 998L270.3 1013.9L274.2 1025.7L277 1043.5L278.1 1047.3L280.2 1051.6L283.7 1055.5L297.8 1065.7L305.2 1072.9L310.3 1077.1L313.9 1078.7L315.8 1079L320.9 1078.3L326.7 1074.9L347.5 1057.1L356.9 1050.1L364.1 1046.2L380.9 1039.8L387.5 1035.8L394.6 1029.2L408.3 1013.2"],"50":["M200.4 9L197.4 13L193.8 15.9L187.6 18.6L172.6 22.7L167.2 26.4L164.6 30L163.6 32.1L162.8 35.7L163.1 43.5L164.9 54.7L167.9 67L171.8 78.1L177.2 90.9L181 98.7L186.9 108.3L191.4 113.7L195.3 117.5L211.9 130.6L225.3 148L240.8 162.8L242.8 166.3L245.2 175.2L247.2 180.3L249.6 183.9L253 187.4L260.1 192.3L267.3 195.5L279.6 199.7L291.8 202.4L303.2 204.1L314.1 204.9L330.5 205.5L338.7 204.6L354 204.4L362.4 205.7L371.2 208.7L396.7 222.2L401.3 224.1L409 225.6L428.3 227.4L441.2 229.9L468.1 237.8L482.4 243.1L489 246.2L496.6 250.5L511.1 260.6L529.2 269.9L535 273.6L556 313.8L561.6 328.7L564.4 340.1L565.6 348.9L565.7 357.3L564.5 364.9L560 382L556.2 391.8L550.6 401L520.1 439.1L510 455.1L502.4 469.9L497.1 483.3L492.3 498.2L490.7 506.9L489.3 520.6L489.5 532.5L490.5 539.1L492.6 545.7L494.7 549.8L499.3 556.3L513.8 572.3L523.7 585.4L531.5 599L533 602.5L534.6 608.4L534.9 616.1L533.4 624.9L525.6 654.2L521.2 664.5L514.8 673.2L469.9 720.4L453.4 734.1L430.3 751.1L408.8 768.4L397.2 776L380.3 784.6L366 790.5L330.1 801.4L322.1 805.6L313.9 811.9L301.2 823.5L288.8 836.7L280 848.4L273.5 860.8L270.6 870.8L269.5 882.6L270.3 910.4L271.7 924.5L274.6 935.9L284.4 962.5L295.9 1004.5L299.6 1012.2L306 1020.4L311.9 1025.5L317.5 1028.1L326.3 1029.2L351.5 1027.1L371.3 1020.4L380.2 1015.7L387.5 1010L393.5 1003.2L398.3 994.8L404.7 985.4L412.2 970.4L417.9 960.5L428.5 947.3L439.9 928.3L444.5 922.5L450.4 917L464 906.8L469.7 903.2L486 888.2L498.5 880.6L502.2 877.6L509.9 869.9L514.7 867.4L518.3 866.7L522.4 866.8L536.8 870.6L541.1 870.6L546.7 869.6L552.7 867.7L559.6 864.6L572.1 857.8L597 846.4L605.7 844L612.2 843.3L631.8 843.2L649 842.3L654.9 842.6L665.4 844.5L681.5 849.2L691.9 850.5L706.6 849.5L720.9 846L730 844.6L737.3 844.3L742.1 844.8"],"65":["M266.2 48.3L245.2 38.3L238.4 35.9L221.5 32.7L212.8 32.6L203.6 34.7L198.7 37L195 39.5L191.1 43.3L187.2 49L185.5 53.5L184.8 58.4L185 69.9L186.7 79.4L190.7 91.3L195.6 100.9L199.2 105.9L204.8 111.8L209.9 115.9L220.8 123.2L224.3 130.9L228.9 139.3L232.7 144.2L245.2 158L249 163.6L254.2 173.4L258.2 178.5L265.6 184L277.7 190.2L285.8 193.7L296 196.5L311.5 198.7L326.5 199.8L333.7 199.4L341.2 197.8L345.1 196.3L353.4 190.4L368.2 190.3L373.1 190.9L380.3 194.1L400 206.7L407.1 210.1L434.1 217.4L459.5 225.6L493.5 235.2L505.8 239.8L521.9 247.8L534.5 255.9L539.8 260.2L545.2 266.2L548.8 272.2L556.7 288.8L563.9 302.1L572.8 323.7L575.9 334.7L580.3 359.2L575.8 374.6L568.3 397.1L565.4 404.9L561.7 412.5L555.5 421.5L540.1 441.1L521.7 461.8L516.6 469.6L514.7 473.4L512.6 478.8L510.6 486.7L508.3 499.2L505.9 519L505.7 524.8L506.2 530.5L507.5 535.6L509.4 540L514.6 547.8L530.9 566.9L540.5 579.9L545.2 587.6L549.1 595.5L551.1 600.4L552.6 606.4L552.8 610.4L551.7 618L543.6 642.8L541.1 656.1L540.9 664.4L541.9 671.6L543.4 675.4L547 680.8L548.3 684.7L548.1 688.5L546 700.6L545.6 716.6L544.8 722.2L543.3 726.5L539.2 734.1L534.5 739.3L528.7 743.3L522.8 744.6L518.3 743.9L511.1 740.5L507.5 738L498.6 730.1L495 727.8L490.6 727.4L486 729.1L444.4 758.8L439.4 763.4L429.3 774.7L419.7 784.5L401.8 799.6L373.3 818L359.4 826.2L321.1 844.4L315.6 848.2L309.7 854L306.7 857.8L303.4 863.8L300.2 873L298.5 885.3L298.5 900.8L299.3 909.5L301.1 919L302.7 924.5L308.1 937.7L314.4 962L315.7 970.2L316.3 987.9L317.4 993L318.6 995.6L322.1 999.5L328.3 1002.5L337.3 1004.3L356.9 1006.2L366 1005.4L372.3 1003.5L378.1 1000.6L383.9 996.3L388.3 992L392.1 987.2L394.6 981.6L399.5 967.7L403.2 960.2L427.7 923.4L433.7 916.4L451.8 901.4L457.5 895.9L460.5 892.1L463.3 887L466.7 877.3L475.3 859.2L487.7 840.5L505.6 829L519.2 816.9L523.6 813.9L527.3 813.3L529.5 813.6L532.6 815.1L548.2 828L556.2 832.8L562.8 835.4L573.6 837.2L579.4 837.1L585.6 836.1L602.5 831.1L613.4 828.9L634.5 827L658.4 823.8L667.3 823.5L683.2 824.5L693.3 824.4L724.5 822.8L754.8 819.6L767.6 820.1L776.7 821.4L781 822.6"],"80":["M535.7 172.1L529.1 171.8L521.9 170.8L511.1 167.9L498.5 163.4L487.7 157.4L478.7 153.6L452 146.6L436.9 141.5L407 132.9L396.4 131.2L387.5 126.9","M280.1 64.4L271.4 63.6L252.9 60.4L250.3 59.4L241 54.1L231.4 50.1L225.6 48.4L219.5 48.3L215.8 49.5L213.6 50.9L209.1 55.8L203.8 67.2L202.4 71.9L201.4 78L201.6 83.3L202.8 88.7L204 92.2L206.3 96.3L225.6 118L238.6 138.9L258.8 164.6L265.3 171.1L277.4 180.3L287.9 187.1L295.4 189.8L319.2 193.8L330.1 194.7L335.4 194L339.8 192.6L343.2 190.4L351.1 184.1L366 178.3L374.9 177.3L383.9 178.7L390.3 181L405.1 188.2L423 195.9L440.2 205.1L457.3 212.8L469.2 216.5L477.1 218.3L506.3 222.7L514 224.9L520.5 227.5L528.3 232.5L536 239.6L553.8 258.7L558 264L562.7 271.6L572.2 294.4L576.6 306.9L583 323.1L585.6 331.5L587.6 340.8L589.1 353.5L589.1 362.1L588 372.3L584.7 386.2L573.9 415.2L569.1 425.8L565.5 432.1L555 447.6L535.6 473.4L530.2 482.9L527.9 490.5L525.9 503.8L525.6 511.3L526.3 517.2L528.2 523.9L532.6 532.1L554.8 562.2L561.3 572.4L567.6 584.8L572.4 596.8L574.6 605.9L574.9 615.2L573.7 623.5L569.2 639.7L568.6 646.7L569.1 650.4L570.9 656.1L579.3 674L583.2 680.4L587.9 684.7L594.7 687.3L606.2 689.4L611.4 692.4L615 696.2L624 709.5L633 720.8L638.5 729.4L642.4 737.9L645 747.4L647.6 764.3L649.7 769.7L653.4 775.3L663.3 785.7L672.5 790.8L676.5 800.3L681.7 804.3L686.8 806.4L694 808.3L703.4 809.8L716.8 810.9L725.8 810.8L733.7 810L768.7 803.8L794.4 796.1L813.6 793.7L820.3 792.3L833 788.4L846.8 783.1L853.6 781.2L860.8 780.4L868.1 781.5"],"100":["M341 106.3L319.3 87.9L312.2 84.1L303.2 81.4L292.8 76L288 74.7L280 73.6L253.4 72.4L248.8 71.3L242.8 68.6L238.6 67.7L235 68.1L232.6 69.2L230.5 70.9L228.4 73.7L227.1 76.7L226.1 81.3L226.4 88.6L228.3 98.5L229.5 102.3L232.9 109.9L237.6 118.3L253.9 143.2L260.8 151.8L266.1 156.9L278.5 166.5L288.8 175.6L296 180.2L303.2 182.5L324.7 186.9L331.8 187.9L336.1 187.3L338 186L350.7 173.6L365.2 153.6L366.7 151L367.4 148L366.4 142.2L362 130.8L358.8 124.8L353.1 117.8L342.7 108","M585.2 196L579.3 197.7L562.7 198L554.2 196.7L552.4 197.5L549.5 200.1L548.6 201.4L548.1 204.3L549.2 208.9L555 223.1L557.7 233.6L560.3 240.4L566.1 250.7L578 267.3L582.8 275.6L585.2 283.1L588.7 301.6L591.5 310L597.7 324.4L599 333.3L600.5 372.1L600.4 380.6L599.7 387.1L597.6 395.4L592.4 410.6L588.2 427.7L584.7 438.9L581.5 447.1L573.3 463.2L570.4 471.6L569.4 477.2L569 482.9L569.1 489.9L570 498.4L573.2 512.2L578.9 532.4L590.9 567.5L593.3 576.1L596.3 590.4L598.2 603.6L599.2 616L598.9 625.4L597.3 640.8L597.3 642.8L597.9 644.6L598.9 646.6L601.6 649.6L606.2 652.4L610.7 653.3L618.7 653.2L622.3 654.6L625.6 658.3L627.5 662L629.5 667.5L631.6 676.7L634.6 693.9L638.6 705.4L646.7 719.7L659.7 736L662.5 741.8L666.7 753.6L669.7 758.8L671.9 761.5L677.7 766.7L686.4 772.6L698.1 779.2L711.9 785.7L718.5 788.1L724.3 789.5L731.7 790.3L742.5 790.5L768.2 784.3L786.4 778.7L802.8 775.4L844.6 758.7L855.4 755.1L871.5 751.3L882.3 746.4L900.2 736.2L904.3 732.8L911.3 725L914.4 722.6L918 720.8L923.6 719L938.8 716L943.1 713.1L945.4 709.8L948.7 701.7L956.2 686.9L960.6 676.5L969.9 646.3L970.1 642.7L969.3 638L967.6 633.2L960.5 618.8L959.5 614.4L959.3 610.4"],"120":["M629.9 215L622.1 216.7L613.4 213.3L605.4 211.8L597.2 212L588.3 213.4L583.2 214.9L580.9 216.3L579.1 218.3L577.4 222.2L576.6 226.9L576.3 239.3L577.5 245L579 248.5L582.8 254.9L593.1 267.8L598.5 275.4L602.6 283.1L605 288.8L606.2 294.5L607.3 307.2L610.5 321.1L611.1 325.5L611.1 336.3L610.2 352.1L610.3 362.4L611.5 378.1L611 391.6L608.6 405.5L595.3 465.8L594.2 473.4L594.2 484.1L595.2 490.5L597.8 502L618.7 560.6L627.9 594.9L634.9 615.7L642.1 641.1L650.1 676L653.3 701.2L654.6 707.5L656.2 711.5L658.1 714.7L665 719.3L670.7 725.8L674.2 732.4L679.7 747.1L681.7 751.2L684.7 755.5L690.2 760.8L697.6 765.9L705.2 769.8L715.5 773.2L722.7 774.1L728.1 774.1L762.6 770.8L786 765.2L801.6 762.7L810.6 760L817.6 756.8L840.8 743.4L851.8 738.2L859.8 735.2L864.5 732.4L871.5 726.5L880.6 709.5L885.1 702.8L887.7 700L891.2 697.3L895.9 695.3L901.9 694.2L914.6 693.3L920.5 691L923.6 688.5L926.8 684.7L934.2 671.4L936.2 663.8L936.1 659.1L935.4 656.1L931.6 645.7L930.3 639L930.7 633.2L932.9 620L933.1 610.4L931.5 602L929.1 595.2"],"140":["M683.9 253.3L672.5 249.8L668.3 245L668 244.1L664.4 241.2","M777.4 386.8L775.4 371.3L774.4 367.1L772.3 361.8L766.5 353.5L757.2 343.5L748.1 318.9L745.7 313.8L736.8 302.3L728.1 294.1L725.2 288.8","M649.7 232.2L640.6 229.3L630.1 227.2L612.9 225.5L606.3 225.9L600.7 227.7L597.5 229.8L594.3 233.6L592.2 239.7L592.2 245L594.4 250.7L600 259.2L610 271.9L618.2 283.6L622.5 292.6L624.1 300.2L624.1 310.9L620.1 353.9L621.2 387.8L619.8 409.8L617.4 426.3L609.5 461.9L608.9 468.5L609.1 474.1L610.3 483.4L613 496.5L617 524.8L623.8 549.8L641.8 606.6L651.4 639.4L660.5 668L667.4 693.9L671.1 703.2L679.4 719.2L685.1 732.2L690.1 742.1L696.4 750.6L703.5 757L711.2 761.5L719.1 763.7L727.4 763.4L745.9 759L763.4 758.3L781.9 755.3L797.4 754.4L805 753L811.5 750.3L818.1 745.9L826.3 737.9L830.5 732.4L838.3 719.8L840 715.1L843.2 701.4L844.6 691.8L846.8 685L853.8 667.5L855.7 663.7L860.8 656.1L866.2 644.7L866.9 641.7L866.9 639L861.1 629.4L859.3 623.8L858.5 603.3L857.4 598.7L853.6 593.1L841 583.2L836.5 578.1L832.7 569.3L828.2 549.8L822.5 535.5L818.5 528.6L805.2 511.3L803.2 507.8L798 497.2L791.8 479.1L785.9 470.1L783.6 465.6L782.5 461.9"]},"towns":[{"n":"Hilo","lon":-155.089,"lat":19.707,"xy":[777.2,477.5]},{"n":"Kailua-Kona","lon":-155.977,"lat":19.639,"xy":[54.5,535]},{"n":"Waimea","lon":-155.667,"lat":20.023,"xy":[316.6,210.2]},{"n":"Pāhoa","lon":-154.945,"lat":19.496,"xy":[891.9,656]},{"n":"Volcano","lon":-155.235,"lat":19.433,"xy":[660.9,709.3]},{"n":"Nāʻālehu","lon":-155.581,"lat":19.062,"xy":[385.2,1023.1]},{"n":"Honokaʻa","lon":-155.468,"lat":20.079,"xy":[475.2,162.9]},{"n":"Kapaʻau","lon":-155.803,"lat":20.234,"xy":[208.3,31.8]},{"n":"Captain Cook","lon":-155.921,"lat":19.497,"xy":[114.2,655.1]},{"n":"Ocean View","lon":-155.762,"lat":19.108,"xy":[240.9,984.2]},{"n":"Pepeʻekeo","lon":-155.1,"lat":19.838,"xy":[768.4,366.7]},{"n":"Keaʻau","lon":-155.037,"lat":19.621,"xy":[818.6,550.3]}]};
+
+
+// ── real ground. nothing here is drawn by hand. ──────────────────────────
+// Coastline: US Census county boundary for Hawaiʻi County (15001).
+// Isohyets:  Rainfall Atlas of Hawaiʻi, via Hawaiʻi Statewide GIS.
+// Rainfall:  looked up live, per click, from the same Atlas raster.
+// Elevation: looked up live, per click, from USGS 3DEP.
+// Temperature is the one thing NOT looked up: it is derived from elevation
+// by lapse rate, and it is labelled as derived wherever it is shown.
+
+var RAIN_URL = 'https://geodata.hawaii.gov/arcgis/rest/services/Climate_Raster/MapServer/identify';
+var ELEV_URL = 'https://epqs.nationalmap.gov/v1/json';
+
+// Cool means wet. The only place cool tones appear on this whole surface.
+function rainFill(r){
+  if(r < 20) return 'var(--rain1)';
+  if(r < 40) return 'var(--rain2)';
+  if(r < 70) return 'var(--rain3)';
+  if(r < 110) return 'var(--rain4)';
+  return 'var(--rain5)';
+}
+
+function unproject(sx, sy){
+  var x = sx / MAP.S + MAP.minX;
+  var y = sy / MAP.S + MAP.minY;
+  return [ x / MAP.K, -y ];
+}
+// one projection, used by both the pins and the marker, so they cannot drift apart
+function projXY(lon, lat){
+  return [ (lon * MAP.K - MAP.minX) * MAP.S, (-lat - MAP.minY) * MAP.S ];
+}
+function ringLonLat(){
+  // rebuild the island ring in lon/lat from the projected path, for hit-testing
+  var d = MAP.islandD.slice(1).replace(/Z$/,'');
+  return d.split('L').map(function(s){
+    var p = s.trim().split(' ');
+    return unproject(parseFloat(p[0]), parseFloat(p[1]));
+  });
+}
+var RING = ringLonLat();
+function onLand(lon, lat){
+  var inside = false;
+  for(var i=0, j=RING.length-1; i<RING.length; j=i++){
+    var xi=RING[i][0], yi=RING[i][1], xj=RING[j][0], yj=RING[j][1];
+    if(((yi>lat)!==(yj>lat)) && (lon < (xj-xi)*(lat-yi)/(yj-yi)+xi)) inside = !inside;
+  }
+  return inside;
+}
+function nearestTown(lon, lat){
+  var best=null, bd=1e9;
+  MAP.towns.forEach(function(t){
+    var d = Math.pow((t.lon-lon)*MAP.K,2) + Math.pow(t.lat-lat,2);
+    if(d<bd){ bd=d; best=t; }
+  });
+  return { town: best, miles: Math.sqrt(bd)*69 };
+}
+
+function getRain(lon, lat){
+  var ext = (lon-0.02)+','+(lat-0.02)+','+(lon+0.02)+','+(lat+0.02);
+  var u = RAIN_URL + '?geometry=' + encodeURIComponent(JSON.stringify({x:lon,y:lat,spatialReference:{wkid:4326}}))
+    + '&geometryType=esriGeometryPoint&sr=4326&layers=all%3A1&tolerance=2'
+    + '&mapExtent=' + ext + '&imageDisplay=400,400,96&returnGeometry=false&f=json';
+  return fetch(u).then(function(r){return r.json();}).then(function(j){
+    var r = j.results && j.results[0];
+    if(!r) return null;
+    var v = parseFloat(r.attributes['Stretch.Pixel Value'] || r.value);
+    return isFinite(v) ? v : null;
+  });
+}
+function getElev(lon, lat){
+  return fetch(ELEV_URL + '?x='+lon+'&y='+lat+'&units=Feet&wkid=4326&includeDate=false')
+    .then(function(r){return r.json();})
+    .then(function(j){ var v = parseFloat(j.value); return isFinite(v) ? v : null; });
+}
+
+// Derived, not measured. Sea-level mean ~75°F, lapse ~3.35°F per 1,000 ft.
+function tempFromElev(ft){ return 75 - 3.35 * (ft/1000); }
+function frostFromElev(ft){ return ft > 4000; }
+
+function describe(g){
+  var rainWord = g.rain<20?'Dry':g.rain<40?'Dry, with a real dry season':g.rain<70?'Middling rain'
+    : g.rain<110?'Wet most of the year':'Wet all year, and then wetter';
+  var tempWord = g.elev>6000?'Cold, and it freezes most nights'
+    : g.elev>4000?'Cool, and it can frost on a clear night'
+    : g.elev>2500?'Mild upland air'
+    : 'Warm all year, no frost';
+  var extra = (g.rain>=110 && g.elev<2500) ? ' Nothing here stops growing in winter.' : '';
+  return Math.round(g.elev).toLocaleString() + ' feet. ' + Math.round(g.rain) +
+    ' inches of rain a year. ' + rainWord + '. ' + tempWord + '.' + extra;
+}
+
+
+// ── the plants. sorted at render by first food. ──────────────────────────
+// rain/elev in the units a person here actually uses: inches a year, feet.
+var P = [
+{ id:"uala", haw:"ʻUala", com:"Sweet potato", bin:"Ipomoea batatas", str:"ground",
+  yt:"Tuber — starch", food:3, rain:[30,80], rainTol:[14,197], elev:[0,9000],
+  frost:true, needsDry:false, setW:"3%", dot:"2%", ev:"first roots", end:null, close:"14%",
+  prefs:[["rain","30–80 in","750–2,000mm preferred"],["temp","warm","64–82°F. Young growth dies at 41°F."],["elev","coast to 9,000 ft","up to 2,800m"],["sun","sun","Shade makes vine and no tuber."]],
+  distil:"It puts starch in the ground within weeks of rooting and feeds you in three months, from a cutting somebody handed you. It runs flat and holds the soil while everything taller is still deciding.",
+  prep:["Sandy, well-drained ground. It stores starch early and it rots late if the water sits.","30 to 80 inches a year suits it. On the wet coast, mound it up.","Full sun. Shade turns it into a vine that makes leaves and no tuber.","Needs potassium. Ash from prunings does this."],
+  set:["Cuttings from vine tips. Vegetative shoots out-yield anything grown from seed.","Straight into the ground, wet season or not.","Six feet of run per plant, and it will fill the gaps you did not plan for."],
+  forget:["Two to three months to the first tuber in the tropics. It does not wait.","Cut the shoot tips as a green all the way through. It regrows from the cut.","Dig the whole plant when the vines yellow. Cure the roots warm for a week before storing.","Once anything closes over it, it is done. Move it to the next open ground."],
+  eat:"Sweet or barely sweet, depending which one you were given. Boil, roast, or bury it in the coals. The young shoot tips cook like spinach and are the part most people here throw away. Nothing on it is hazardous.",
+  carried:"ʻUala arrived by canoe and then did something strange: it turns up in Polynesia centuries before any European carried it out of the Americas. Somebody sailed east, found it, and sailed back. It fed the dry leeward slopes where kalo could not go, and it is the reason those slopes were farmed at all. It is still the plant you get handed over a fence." },
+
+{ id:"chili", haw:"Chili pepper", com:"", bin:"Capsicum frutescens", str:"shrub",
+  yt:"Fruit — spice", food:3, rain:[24,47], rainTol:[16,80], elev:[0,6600],
+  frost:true, needsDry:false, setW:"3%", dot:"2%", end:null, close:"30%",
+  prefs:[["rain","24–47 in","600–1,200mm"],["temp","warm","70–77°F. Stops setting above 90°F. Frost ends it."],["elev","coast to 6,600 ft","up to 2,000m"],["sun","sun","A very warm sunny position."]],
+  distil:"Three months from seed to the first pepper, on almost any ground, at almost any elevation on this island. It lives for years if the frost stays off it. This is the one that goes by the kitchen door.",
+  prep:["Humus-rich, fertile, well-drained loam. Light sandy ground suits it.","24 to 47 inches a year.","70 to 77°F. Above 90 it stops setting. Frost ends it.","Up to 6,600 ft, which puts it almost anywhere on this island.","A very warm, sunny position."],
+  set:["Seed in a seedbed or a container, up in three to four weeks.","Transplant at three or four inches.","Self-fertile, and the insects handle it."],
+  forget:["First harvest about three months from sowing.","Perennial, three to six feet, usually grown as an annual by people who do not know that.","Picking is the pruning. Take fruit and it sets more.","It seems to keep some insects off what stands beside it."],
+  eat:"Very hot. Three inches long and a finger wide. Raw, cooked, dried, or ground. The seed dries and grinds as pepper too. The leaves cook as a potherb, carefully.",
+  carried:"Tam's line is that the chili peppers by the kitchen door are enough to start. Not because a pepper feeds anybody, but because you walk past it every day and one afternoon you pick one and put it in the pot, and something has changed in the relationship that no amount of reading does. The nīoi is on half the porches on this island already, in a coffee can." },
+
+{ id:"moringa", haw:"Moringa", com:"", bin:"Moringa oleifera", str:"sub-canopy",
+  yt:"Leaf — protein", food:3, rain:[28,87], rainTol:[16,102], elev:[0,3300],
+  frost:true, needsDry:false, setW:"3%", dot:"2%", end:"cut it back, and again", close:null,
+  prefs:[["rain","28–87 in","700–2,200mm preferred"],["temp","warm","68–95°F. Light frost sets it back; hard freeze kills it."],["elev","coast to 3,300 ft","sea level to 1,000m"],["sun","sun","Full sun. It wants the dry side."]],
+  distil:"A stick pushed in the ground puts out edible leaves within months and stands eight feet by the end of the year. It grows on shallow, poor, dry ground. Cut it back to keep the leaves in reach.",
+  prep:["Well-drained sandy soil, clay, or clay loam. It handles shallow ground and low fertility.","Not saline.","28 to 87 inches a year preferred, 16 to 102 tolerated.","68 to 95°F, and it takes 45 to 118.","Sea level to 3,300 ft."],
+  set:["A branch three to five feet long and an inch and a half thick, straight into the ground. It roots within months.","Seed germinates 80% fresh, in one to two weeks, and is dead after two years.","Budded trees produce in six months and keep going thirteen years."],
+  forget:["Leaf harvest starts within months.","Ten to thirteen feet a year, and eight feet in the first one to three months.","Cut it to keep the leaves where your hands are. It is going to twenty-five feet otherwise and the food will be in the sky.","Cutting-grown plants pod at six to twelve months. Seed-grown flower at two years."],
+  eat:"The leaves are the crop: seven to ten percent protein dried, a mustard note, raw or cooked. The flowers eat raw or cooked and go into tea. The young pods run six to eighteen inches and cook like asparagus, or pickle. Immature seeds eat like peas; mature ones roast up like peanuts. The root is a horseradish, pungent enough that too much of it is a problem.",
+  carried:"Ground moringa seed clears muddy water. The powder pulls the silt together and drops it out, and the water above runs clean. It is used across South Asia and East Africa where that is the difference between the river and a drink. The tree does that as a side effect of being a tree." },
+
+{ id:"pigeonpea", haw:"Pigeon pea", com:"", bin:"Cajanus cajan", str:"shrub",
+  yt:"Peas — protein", food:5, rain:[20,40], rainTol:[14,60], elev:[0,4900],
+  frost:true, needsDry:false, setW:"4%", dot:"7%", end:"yr 5 — under the tree it fed", close:"44%",
+  prefs:[["rain","20–40 in","500–1,000mm. Drought-resistant."],["temp","warm","68–86°F. Frost kills it, cheaply."],["elev","coast to 4,900 ft","up to 1,500m"],["sun","sun","Full sun."]],
+  distil:"A bush that makes its own fertiliser and yours. Peas in five months, nitrogen the whole time it stands, on ground nothing else will start on. It dies at five years, and the dying is the point.",
+  prep:["Poor ground, well drained. It is drought-resistant once up and it does its work where nothing else starts.","20 to 40 inches a year is what it wants. Wetter ground needs a mound, a slope, or a cultivar bred for it.","Sour ground is the real limit. It wants pH 5.5 to 6.5 and dislikes very acid soil, which is a live question on young volcanic ground.","Full sun. Four feet apart, closer than feels right."],
+  set:["Seed, an inch deep, two per station, thinned to the strongest. Wet season.","Up in two to three weeks.","Slow at the start, which is why it does not fight a seedling tree.","Plant it the same day as the tree it is nursing."],
+  forget:["Peas from month five on a dwarf, month eight to twelve on a tall one.","Cut it back hard. It resprouts, and the cut is the transaction: it drops leaf on the soil and nitrogen off its roots at the same moment, and what is beside it eats both.","Its roots break the pan under the soil. Water starts going down again.","One to five years and it dies. Leave it to. It leaves behind mulch and a soil that will hold a tree."],
+  eat:"Green, they shell and cook like any pea, five minutes. Dry, they are how most of the world actually eats them: soaked overnight, simmered soft, into rice and into dal. The leaves are edible and honest people admit they are a strong, spicy, not-for-everyone flavour. The dry stalks burn at about half the heat of coal.",
+  carried:"Half the world eats this plant and most people here walk past it. It is gandule in Puerto Rico, toor dal across India, rice and peas at Christmas in Jamaica. There is no wild pigeon pea anywhere. It has only ever existed in the company of people, and it has never once been the plant anyone came for." },
+
+{ id:"cassava", haw:"Cassava", com:"", bin:"Manihot esculenta", str:"shrub",
+  yt:"Tuber — starch", food:6, rain:[20,98], rainTol:[16,120], elev:[0,5600],
+  frost:true, needsDry:false, setW:"3%", dot:"8%", end:"it waits in the ground", close:null,
+  prefs:[["rain","20–100 in","500–2,500mm"],["temp","warm","Above 61°F, best under 86°F."],["elev","coast to 5,600 ft","below 1,700m"],["sun","sun, sheltered","The leaves burn in hard sun."]],
+  distil:"A stick pushed into the ground becomes a bush becomes six months of starch. It grows where the soil has nothing left. Cooked carelessly it will hurt you, and the method is as old as the plant.",
+  prep:["Sandy or sandy loam, well drained. It handles poor ground that has been farmed out.","20 to 100 inches a year.","Above 61°F, and it does best under 86.","Below 5,600 ft.","Shelter from intense sun. The leaves burn."],
+  set:["Cuttings, twelve inches of woody stem, half an inch thick, leaves off. Root in water or straight in the ground.","Not seed. Seed comes up bitter.","Keep it at about chest height and it stays workable."],
+  forget:["Six months to the root. Two crops a year if you want them.","It tolerates heavy harvesting. Take what you need and leave the rest standing.","The tubers keep in the ground better than in a shed. This is the famine plant: it waits.","Watch for termites in the roots."],
+  eat:"Cassava carries hydrocyanic acid. The sweet kinds hold it in the outer layer and need ten minutes of simmering. The bitter kinds hold it all the way through and need a full day's soak and then ten minutes or more in fresh water. Done right: sliced and fried, boiled, ground into flour, or worked into tapioca. The leaves are food too, boiled fifteen minutes, and they carry the protein the root does not.",
+  carried:"It came from the Amazon, where people worked out the soaking before anyone wrote anything down. Cassava crossed the whole tropics in three hundred years and the method travelled with it every mile, because a cassava without its method is a poison. The knowledge is the crop. Tam's own line is that the cassava can wait, and it can: it holds in the ground for a year, getting bigger, until somebody needs it." },
+
+{ id:"papaya", haw:"Mīkana", com:"Papaya", bin:"Carica papaya", str:"sub-canopy",
+  yt:"Fruit", food:6, rain:[60,100], rainTol:[40,120], elev:[0,3000],
+  frost:true, needsDry:false, setW:"3%", dot:"8%", end:"spent by yr 4", close:"58%",
+  prefs:[["rain","60–100 in","1,500–2,500mm preferred"],["temp","warm, no frost","70–86°F. Dies at 30°F."],["elev","coast to 3,000 ft","best below 900m"],["sun","sun, sheltered","The trunk is hollow and it goes over."]],
+  distil:"Fruit in six months from a seed, which nothing else here can say. It is also finished by year four. It is a fast bright thing that fills the gap while the trees are still coming.",
+  prep:["Deep, humus-rich soil, well-drained and well-aerated. Waterlogged, it dies within days.","60 to 100 inches a year preferred, 40 to 120 tolerated.","70 to 86°F. It dies at 30°F.","Best below 3,000 ft.","Sun, and shelter from strong wind."],
+  set:["Fresh seed, sown in indirect light, up in two to six weeks.","Plant more than you want. They come up male-only, female-only, or hermaphrodite, and one male serves six or more females.","Fruiting starts at six months."],
+  forget:["Year-round fruit. Yields peak in years two and three and fall off sharply by year four.","Do not nurse a spent papaya. Cut it and plant another.","150 days or more from flower to ripe fruit.","It is the gap crop. It is done before the ʻulu has fruited once."],
+  eat:"Ripe, it is a fruit. Green, it is a vegetable, and green is how it is eaten across most of Asia. The seeds are a spice and taste of mustard and cress. The male flowers cook as a bitter green. The old leaves carry carpaine and should be left alone. The latex in the green fruit is papain, which is why green papaya tenderises meat and why it stings a cut on your hand.",
+  carried:"Papaya shows up. It comes up in the compost, at the edge of the drive, behind the shed, from a seed nobody planted. A great deal of the fruit eaten on this island was never planted by anyone: it volunteered, someone let it stand, and it paid them back in six months. There is probably one in your yard now." },
+
+{ id:"kalo", haw:"Kalo", com:"Taro", bin:"Colocasia esculenta", str:"ground",
+  yt:"Corm — starch", food:8, rain:[70,105], rainTol:[39,161], elev:[0,8900],
+  frost:false, needsDry:false, setW:"3%", dot:"10%", end:"it does not stop", close:null,
+  prefs:[["rain","70–105 in","1,800–2,700mm preferred"],["temp","warm","70–82°F. Survives 50 to 95."],["elev","coast to 8,900 ft","up to 2,700m"],["sun","sun to light shade","Which is why it goes under the ʻulu."]],
+  distil:"Water and time. It takes seven to ten months and it wants the wet this coast already has, standing or running. Under a canopy that closes, it keeps going where the sun plants stop.",
+  prep:["Heavy, fertile, moisture-retentive ground, rich in old organic matter.","70 to 105 inches a year preferred. It will take 40 and it will take 160.","Standing water suits it. Flooded, it yields 37 tonnes a hectare against 4 to 6 dry.","Sun is best. Light shade is fine, which is why it goes under the ʻulu at year five.","70 to 82°F. It survives down to 50 and up to 95."],
+  set:["A corm of 60 to 150 grams, a piece of one, a side sucker, or the top of a corm with the stalks still on.","Two to three inches deep.","Plant into the wet."],
+  forget:["Seven to ten months to the corm. Six at the fastest, eighteen at the slowest.","Cut leaves the whole way through. The plant does not stop for it.","It is an evergreen perennial. It does not die and wait to be replanted.","When the canopy closes over it, that is when it starts."],
+  eat:"Never raw. Raw kalo puts needles in your mouth, and that is the calcium oxalate, and it does not negotiate. Cooking ends it. Cooking, drying, or a long soak all end it. The corm boils, bakes, and fries like a potato, or gets pounded into poi. The leaves are cooked and used as a wrap or as a spinach. The stems peel and boil into a stew and eat like celery.",
+  carried:"Kalo is the older brother. Hāloa was born and buried and came up as the first kalo, and the second child born to that family was the first person, which makes every Hawaiian the younger sibling of a plant. It is a genealogy, and the loʻi is a family relationship. The island fed itself on this plant for centuries and then filled the loʻi with cattle and cane. Most of them are still empty." },
+
+{ id:"olena", haw:"ʻŌlena", com:"Turmeric", bin:"Curcuma longa", str:"ground",
+  yt:"Rhizome — spice", food:10, rain:[39,79], rainTol:[31,118], elev:[0,6600],
+  frost:false, needsDry:false, setW:"3%", dot:"13%", end:"dormant, then back", close:null,
+  prefs:[["rain","40–80 in","1,000–2,000mm preferred"],["temp","warm","68–82°F"],["elev","coast to 6,600 ft","up to 2,000m"],["sun","shade to part sun","It prefers being under something."]],
+  distil:"It wants exactly the shade a young food forest is making by year three. It disappears into dormancy, comes back, and after nine months of doing nothing visible the ground under it is full.",
+  prep:["Fertile, well-drained soil in a shaded position. Full sun works. Light shade works better.","40 to 80 inches a year. It takes 30 and it takes 120.","68 to 82°F.","Under a canopy at year three, this is the plant that fills the floor."],
+  set:["Rhizome division, during dormancy.","Leaves emerge in about thirty days.","Seed exists and nobody bothers."],
+  forget:["270 to 365 days. Harvest when the foliage withers, not before.","The plant goes dormant and comes back. Dormancy is how it rests.","Nothing to prune. Nothing to feed."],
+  eat:"Dig it, boil it, dry it, grind it. The powder is the thing most people mean by turmeric. Fresh, it grates into anything and stains everything it touches. The young shoots and the tips of the rhizome are eaten raw or cooked.",
+  carried:"The dye came before the spice. It is what colours the robes of Buddhist monks, and it is what colours a hand that has handled it for the next three days. In Hawaiʻi ʻōlena was medicine and purification long before it was a curry, and the same rhizome does all three jobs without being asked which one it is." },
+
+{ id:"awapuhi", haw:"ʻAwapuhi", com:"Ginger", bin:"Zingiber officinale", str:"ground",
+  yt:"Rhizome — spice", food:10, rain:[55,118], rainTol:[28,157], elev:[0,6200],
+  frost:false, needsDry:false, setW:"3%", dot:"13%", end:"dormant, then back", close:null,
+  prefs:[["rain","55–120 in","1,400–3,000mm preferred"],["temp","warm","66–84°F. Cold puts it to sleep."],["elev","coast to 6,200 ft","up to 1,900m"],["sun","sun to part shade","The floor of a young forest suits it."]],
+  distil:"Wet ground and a shaded floor, which is what this coast is. Ten months in, the stalks wither, and that withering is the harvest telling you it is finished.",
+  prep:["Well-drained, humus-rich ground, neutral to alkaline.","55 to 120 inches a year preferred, and it takes 28 to 157.","66 to 84°F. Cold puts it to sleep.","Full sun or partial shade."],
+  set:["Rhizome division as new growth starts.","On a slope, never on its own. The erosion under a bare ginger patch is real and it is the one way this plant costs you something."],
+  forget:["Ten months from planting a root out.","Harvest when the stalks wither.","Young rhizomes come earlier and eat differently.","Dried, it stores. Fresh, it does not."],
+  eat:"Grated fresh, or dried and powdered, and dried is twice as sharp as fresh. The young rhizome is a different food: raw, pickled, or candied. The leaves and shoots go in as a potherb or a wrap. The flower heads are eaten raw.",
+  carried:"ʻAwapuhi came in the canoes, and the one growing wild in every wet gulch on this island is its cousin, the shampoo ginger, which is what most people here have actually met. That gulch ginger is what a canoe plant looks like after a thousand years of being left alone. This one stayed in the garden." },
+
+{ id:"maia", haw:"Maiʻa", com:"Banana", bin:"Musa spp.", str:"sub-canopy",
+  yt:"Fruit — starch", food:15, rain:[47,140], rainTol:[26,197], elev:[0,4000],
+  frost:true, needsDry:false, setW:"3%", dot:"18%", end:"the mat goes on", close:null,
+  prefs:[["rain","47–140 in","1,200–3,600mm preferred"],["temp","warm, no frost","73–91°F. Killed at 34°F. Nights under 64°F stop the fruit."],["elev","coast to 4,000 ft","up to 2,400m"],["sun","sun, sheltered","Wind shreds the leaves."]],
+  distil:"A windbreak that feeds you. The stem fruits once and dies, and the mat it stands in has already replaced it. What looks like one plant is a queue.",
+  prep:["Well-drained fertile soil. Sunny, sheltered.","47 to 140 inches a year preferred, 26 to 197 tolerated.","73 to 91°F optimal. Killed at 34°F. The fruit will not ripen if nights drop below 64°F.","Up to 4,000 ft in cultivation.","Wind is the enemy. The leaves shred and the plant stands there useless."],
+  set:["Suckers off a mat. Divide and plant.","Seed is for the wild ones and takes years under glass.","Give it room. It is ten feet of plant and it wants the light."],
+  forget:["Twelve to eighteen months, the stem fruits, and then that stem is dead. The plant works by dying in parts.","The mat is perennial. Keep two or three followers and cut the rest, or you get a thicket and no fruit.","Cut the spent stem down and leave it. It is 90% water and it rots into mulch in weeks.","It shades and breaks the wind while it does this, which is why it goes on the windward side of a young ʻulu."],
+  eat:"Ripe raw, or green and cooked as a starch, and the cooking ones are the ones that fed people. The flower is eaten raw or roasted. The young shoots go into sauces. The core of the stem eats like bamboo shoot. The leaf is the wrap and the plate and the lid of the imu.",
+  carried:"Maiʻa came in the canoes and there were dozens of kinds, and most of them were kapu to women for most of Hawaiian history. What is on this island now is mostly not those: it is apple banana and Williams and whatever survived the bunchy top. A few of the old ones are still held by people who kept them going on purpose. That is the whole reason they exist." },
+
+{ id:"lilikoi", haw:"Lilikoʻi", com:"Passion fruit", bin:"Passiflora edulis", str:"shrub",
+  yt:"Fruit", food:15, rain:[35,79], rainTol:[24,98], elev:[0,3000],
+  frost:true, needsDry:false, setW:"3%", dot:"18%", end:"spent by yr 6", close:"48%",
+  prefs:[["rain","35–80 in","900–2,000mm preferred"],["temp","warm","68–86°F. A mature vine takes 28°F; new growth does not."],["elev","coast to 3,000 ft","sea level to 900m in the subtropics"],["sun","dappled shade","It wants the edge of a forest, not a fence in the open."]],
+  distil:"A vine that wants dappled shade, which means the edge of a forest rather than a fence in the open. Fruit in a year from a cutting. It lives three to six years, hard and fast, and then it is done.",
+  prep:["Humus-rich, well-drained, moist through the growing season.","Moderate fertility only. High fertility means vine and no crop.","35 to 80 inches a year preferred, 24 to 98 tolerated.","68 to 86°F. A mature vine takes 28°F; new growth does not.","Dappled shade, sheltered from cold wind."],
+  set:["Cuttings from mature wood take three months and fruit the same year.","Seed: soak a day, sow with the pulp still on, and wait. It can take twelve months.","Layering is easy and nearly always works.","It needs a trellis, a fence, or a tree it is allowed to use."],
+  forget:["Two crops a year.","Three to six years and it is spent.","It can be cut to the ground and it will come back.","Ripe fruit wrinkles, sweetens, and drops. The ground is the harvest."],
+  eat:"Cut it and spoon it. The pulp and the seed go together. Juice, syrup, into anything baked. High in vitamin C. The seeds press for oil.",
+  carried:"The name comes from the place it escaped: Lilikoʻi Gulch on Maui, where the vine came over a fence, and the islands named a Brazilian plant after the ground it landed on. It is on every fence line on the Hilo side and a good half of it is feral. The purple one you find in the bushes is somebody's garden, still fruiting thirty years after the garden stopped." },
+
+{ id:"guava", haw:"Kuawa", com:"Guava", bin:"Psidium guajava", str:"sub-canopy",
+  yt:"Fruit", food:18, rain:[39,118], rainTol:[16,197], elev:[0,4900],
+  frost:false, needsDry:false, setW:"3%", dot:"21%", end:"40 years, and spreading", close:null,
+  prefs:[["rain","40–120 in","1,000–3,000mm preferred. Wants a dry spell to ripen."],["temp","warm","73–82°F. Dormant it takes 23°F."],["elev","coast to 4,900 ft","fruits to 1,500m"],["sun","sun","Drought-resistant, takes some salt."]],
+  distil:"It is on your land already and it fruits in a year or two. Cut it, and it comes back from the root. The question this plant asks is what you do with what showed up.",
+  prep:["Fertile, moisture-retentive soil, sunny position.","40 to 120 inches a year preferred, 16 to 197 tolerated.","It wants a dry period to ripen fruit.","73 to 82°F. Dormant it takes 23°F; young growth burns at 30.","Fruits to 4,900 ft and survives to 6,600. Ten to thirty feet."],
+  set:["Seed germinates in fifteen to twenty days and comes true.","Cuttings, air-layering, and grafting all work, and a clonal plant fruits in year one.","Mostly it is already standing. The work is choosing which stems to keep."],
+  forget:["First fruit at two years from seed, one from a cutting. Full bearing at five to eight.","30 to 40 kg at five years, 50 to 70 at seven and up.","Heavy production from year fifteen to twenty-five. Forty years of life.","It suckers from the roots and self-sows. Every fruit a bird eats is another guava somewhere."],
+  eat:"Raw, skin and all, and the vitamin C in one of them runs several times an orange. It is loaded with pectin, so it sets into jam and jelly without help. The seed presses for oil. The leaves go into cooking across Asia and into tea.",
+  carried:"Guava is the argument this whole project is having, standing in a field. It escaped, it took pasture across the tropics, and the state has spent decades and real money trying to kill it. It also fruits within a year on ground nobody amended, and every kid on this island has eaten one off a tree they did not plant. Its cousin the strawberry guava is worse and is eating the native forest. The honest position is narrow: what has already arrived and already fruits is worth harvesting and worth cutting back, and moving it into new ground is a decision with consequences that outlast the gardener." },
+
+{ id:"inga", haw:"Ice cream bean", com:"", bin:"Inga edulis", str:"canopy",
+  yt:"Pods — sweet · nitrogen", food:24, rain:[47,100], rainTol:[25,157], elev:[0,7200],
+  frost:true, needsDry:false, setW:"3%", dot:"26%", end:"cut it, it comes back", close:null,
+  prefs:[["rain","47–100 in","1,200–2,500mm preferred"],["temp","warm, no frost","73–86°F. Killed at 28°F."],["elev","coast to 7,200 ft","naturally 350–5,000 ft"],["sun","sun to dappled shade","Rare for a tree this size."]],
+  distil:"The nurse tree that fruits. It fixes nitrogen, drops high-nitrogen leaf, casts the shade cacao and coffee want, and hands you a three-foot pod full of something like vanilla ice cream. Cut it back and it comes back harder.",
+  prep:["Tolerant of nearly anything, including nutrient-depleted soil and limestone.","47 to 100 inches a year preferred, 25 to 157 tolerated.","73 to 86°F. Killed at 28°F, damaged at 32.","Sea level to 7,200 ft; naturally found from 350 to 5,000.","Sun, but it succeeds in dappled shade."],
+  set:["Seed, sown as soon as it is ripe. It germinates within days and it does not keep. This is the one plant here you cannot buy in a packet.","Ready to plant out four to five months after it germinates.","Greenwood cuttings work. Fast."],
+  forget:["First fruit at two years, and then year-round.","It responds well to coppicing. Cut it, it comes back, and the cutting is what feeds the cacao.","High-nitrogen leaf litter, constantly. It suppresses weeds and holds the soil while it does.","It is the standard shade tree over coffee and cacao from Mexico to Brazil, and it earned that on yield."],
+  eat:"Crack the pod. Inside is white, translucent, and jelly-like around each seed, sweet and perfumed, and it tastes near enough to vanilla ice cream that the name stuck in every language it has one in. The pods run to three feet.",
+  carried:"It grows fast on ruined ground, it makes nitrogen, and it takes being cut. Those three facts are why it turns up under coffee and cacao from Mexico to Brazil, and why the old Maya bean gardens were forty percent Inga, pruned hard, with the corn and beans going in underneath. Those gardens out-yielded slash-and-burn and took nothing from outside. The pods were what the children ate while the work happened." },
+
+{ id:"gliricidia", haw:"Gliricidia", com:"", bin:"Gliricidia sepium", str:"canopy",
+  yt:"No food — nitrogen, mulch, shade", food:26, rain:[47,90], rainTol:[24,138], elev:[0,5200],
+  frost:true, needsDry:false, setW:"3%", dot:null, end:"cut it, it comes back", close:null,
+  prefs:[["rain","47–90 in","1,200–2,300mm preferred"],["temp","warm, no frost","59–86°F. Killed at 28°F."],["elev","coast to 5,200 ft","sea level to 1,600m"],["sun","sun","Its own canopy is light and feathery."]],
+  distil:"It is here to work. A branch cut off it and pushed in the ground becomes a tree. Cut it twice a year and everything near it grows faster. Ten feet a year, on ground that has been given up on. Toxic to people, dogs, and horses.",
+  prep:["Grows on alkaline, acidic, low-fertility, and calcareous soils. Prefers free drainage and tolerates waterlogging anyway.","47 to 90 inches a year preferred, 24 to 138 tolerated.","59 to 86°F. Killed at 28°F.","Sea level to 5,200 ft. Establishes on slopes up to 40%.","Full sun. Its own canopy is light, so what is under it still gets light."],
+  set:["Cuttings, and unusually, large ones. A whole branch will root. This is why it is the standard living fence across the tropics.","Seed germinates 90 to 100% in seven days.","Slow for the first while, then ten feet a year."],
+  forget:["Coppice every two to three years. Pollard above head height for the most biomass.","It tolerates lopping, browsing, and fire, and resprouts vigorously from all of it.","Nitrogen from root nodules goes to whatever is next to it.","It sheds its leaves in the dry season, so it stops drinking exactly when water is short."],
+  eat:"The flowers, cooked. That is the whole list. Everything else on this plant is toxic to humans, dogs, and horses; cattle and goats eat it without harm. Fermented with grain it works as a rat poison. The wood is durable, termite-resistant, and burns hot.",
+  carried:"The name means mouse-killer. Across Central America it is the fence: cut posts, push them in, and the fence grows. Then the fence gets cut back every year and thrown at the base of the coffee. Everything this plant is worth, it hands to its neighbours, and the handing over is done with a knife." },
+
+{ id:"coffee", haw:"Kope", com:"Coffee", bin:"Coffea arabica", str:"sub-canopy",
+  yt:"Bean — beverage", food:30, rain:[55,90], rainTol:[30,165], elev:[1600,5000],
+  frost:false, needsDry:false, setW:"3%", dot:"28%", end:"thirty to forty years", close:null,
+  prefs:[["rain","55–90 in","1,400–2,300mm preferred"],["temp","mild","57–82°F. This is the mild band, not the hot coast."],["elev","1,600 to 5,000 ft","above ~500m at this latitude"],["sun","light shade","It evolved under a canopy and still wants one."]],
+  distil:"It wants light shade and the middle elevations, which is what the Kona belt is and why it is there. First crop at two to three years, full at six to eight, and it keeps going for thirty or forty.",
+  prep:["Deep, friable soil on undulating land. Unsuitable for stiff clay or sand.","Tolerates acid ground, which matters here.","55 to 90 inches a year preferred, 30 to 165 tolerated.","57 to 82°F.","Above about 1,600 ft at this latitude, up to 5,000.","Light shade."],
+  set:["Seed, planted within two months of harvest, germinated warm.","Six to twelve months before the seedling goes out.","Air layering, budding, and single leaf-bud cuttings all work."],
+  forget:["First bearing at two to three years. Full bearing at six to eight.","Thirty to forty years of economic life, and trees run from ten to seventy.","Intercrop corn or beans between the rows for the first few years. The ground is open and it will grow something.","It is the understory crop the whole syntropic system was worked out on, under Inga."],
+  eat:"Pick the cherry ripe and red. The seed inside is the bean, and it is dried, roasted, ground, and brewed. Nothing about the plant is quick and nothing about the processing is optional.",
+  carried:"Kona coffee is the one agricultural thing this island is known for, and it is grown on small parcels by families, which is unusual anywhere in the world. It arrived in 1828. The belt runs a few miles wide on the slope of Hualālai and Mauna Loa, between the morning sun and the afternoon cloud that rolls in like clockwork and shades it. The cloud is the shade tree." },
+
+{ id:"ulu", haw:"ʻUlu", com:"Breadfruit", bin:"Artocarpus altilis", str:"canopy",
+  yt:"Fruit — starch", food:36, rain:[60,157], rainTol:[40,180], elev:[0,2100],
+  frost:true, needsDry:false, setW:"3%", dot:"32%", end:"fifty years, still going", close:null,
+  prefs:[["rain","60–157 in","1,500–4,000mm"],["temp","warm, no frost","Below 41°F the leaves burn."],["elev","coast to 2,100 ft","Ferns says 650m; the nurseries say under 200m for a real crop."],["sun","sun","Shade for the first year or two, then open sun."]],
+  distil:"A tree that makes bread. One mature ʻulu drops more starch in a season than a family eats, on ground that gets no fertilizer and no tilling. It is slow for three years, and then it is the reason the rest of the garden works.",
+  prep:["Wet, warm, low. Best near the coast, and it thins out well before the mountain.","Ferns says up to 2,100 ft. The nursery sources say optimal production is under 650. Both are probably true and the gap between them is where most of this island sits.","No frost. Ever. Below about 41°F the leaves burn, and one cold night undoes a year.","Drainage is the one thing it will not forgive. Standing water rots the roots and a three-year tree goes over.","Thirty feet of room, and a shallow, fibrous root system that ends the digging under it."],
+  set:["Grafted or from a root shoot, not seed. Seed takes five to ten years and comes up a stranger; a vegetative tree fruits in two to five.","Plant in the rains. Set it slightly high so it drains.","Shade for the first year or two, then open sun.","Slow the first three years. Nothing is wrong."],
+  forget:["Fruits May to October, then again. Two crops most years.","Leaves the size of a doormat, dropping all year. That is the mulch. It stays where it falls.","Tip-prune the new growth once a year, after harvest. Left alone it goes sixty feet. Cut back it stays at twenty and the fruit stays in reach.","By year five the shade underneath is deep. That is not a problem. That is when the kalo and the cacao go in.","Fifty to a hundred years, sited well."],
+  eat:"Picked green and firm it cooks like a potato: floury, plain, takes on whatever it is cooked with. Left to ripen it turns sweet, nearly banana, and roasts to caramel. Two foods, one tree, and the difference is a week. Cut the stalk and watch the sap. Milky means wait, watery means now. Early morning, before the latex turns to glue. Never raw.",
+  carried:"ʻUlu came by canoe. Voyagers carried it across open ocean because a family with an ʻulu tree does not starve, and Kū turned himself into one to feed his own. The seedless trees here are cuttings of cuttings of cuttings, an unbroken line of hands back to New Guinea, and the genetics show it: the Polynesian ones are nearly identical, because every one of them was carried. The same tree was later loaded onto the Bounty to feed enslaved people cheaply in the Caribbean. It has fed people who chose it and people who were given no choice." },
+
+{ id:"mango", haw:"Manakō", com:"Mango", bin:"Mangifera indica", str:"canopy",
+  yt:"Fruit", food:42, rain:[24,60], rainTol:[12,102], elev:[0,2000],
+  frost:true, needsDry:true, setW:"2%", dot:"36%", end:"a hundred years", close:null,
+  prefs:[["rain","24–60 in","600–1,500mm preferred"],["temp","warm","75–86°F"],["elev","coast to 2,000 ft","up to 1,200m; commercial max 600m"],["sun","sun","Needs three months of dry to flower."]],
+  distil:"The leeward tree. It needs a dry season to set fruit, so it belongs on the Kona side and the low dry slopes. Grafted, it fruits at three to five years, peaks around twenty, and is still going at a hundred.",
+  prep:["Rich, deep, well-drained ground. Shallow or poor soil will not carry it.","24 to 60 inches a year preferred, 12 to 102 tolerated.","75 to 86°F, and it survives 46 to 118.","Up to 3,900 ft; under 2,000 for a real crop.","Three months of marked dry or cool triggers flowering. Without that season it stays vegetative.","Deep taproot to fifteen feet. Shelter from drying wind."],
+  set:["Grafted onto polyembryonic rootstock for a tree that fruits in three to five years.","Seed fresh, two inches deep, convex side up, up in three to four weeks. Five to eight years to fruit that way.","Polyembryonic kinds throw seedlings identical to the mother. That is why a good mango travels by seed here, hand to hand, and stays good."],
+  forget:["First fruit at three to five years grafted. Peak yield around year twenty. Decline after forty. A hundred years is ordinary.","Flowering is irregular. Some trees skip ten or twenty years between crops and then produce as if nothing happened.","The sap causes contact dermatitis in some people, and it reads like poison ivy."],
+  eat:"Anything from two ounces to three pounds. Raw when ripe. Green and hard it is a vegetable and a pickle across South Asia, and dried and powdered it is amchur. The seed carries starch and fat and has been famine food, boiled or roasted. The young leaves cook as a vegetable and the flowers are edible.",
+  carried:"Mango came late, in the 1800s, and took the island over anyway. The Hayden and the Rapoza and the ones with no name that people know by the tree and the road it stands on. Fruit falls on the pavement in July and rots there by the ton while the store sells mango from Mexico. That is the whole food system in one intersection." },
+
+{ id:"mtapple", haw:"ʻŌhiʻa ʻai", com:"Mountain apple", bin:"Syzygium malaccense", str:"canopy",
+  yt:"Fruit", food:54, rain:[47,63], rainTol:[39,87], elev:[0,3900],
+  frost:true, needsDry:false, setW:"2%", dot:"46%", end:"three crops a year", close:null,
+  prefs:[["rain","47–63 in","1,200–1,600mm preferred"],["temp","warm, no frost","72–82°F"],["elev","coast to 3,900 ft","sea level to 1,200m"],["sun","sun","Dislikes very acid ground."]],
+  distil:"Four to five years to the first fruit and ten to the real crop, and it flowers when the rain comes after a dry stretch. The tree reads the weather and decides.",
+  prep:["Well-drained, rich soil. It tolerates poor and coralline ground.","Dislikes very acid soils. Wants pH 5.5 to 6.5.","47 to 63 inches a year preferred, 39 to 87 tolerated. The wettest windward ground is past that.","72 to 82°F. Frost-intolerant.","Sea level to 3,900 ft. Fifty feet tall and spreading."],
+  set:["Air layering is the usual way.","Seed must be fresh; it does not stay viable. Shade the seedlings.","Young trees transplant easily, which is unusual for a tree this size."],
+  forget:["Four to five years to first flower from seed. Maximum yield around ten.","60 to 80 kg recorded off one tree.","Up to three fruiting cycles a year, and in some years it just keeps going.","Flowering is triggered by wet weather following a dry stretch. The tree reads the year and decides. The calendar belongs to the tree."],
+  eat:"Raw, mostly, and it is more water and crunch than sugar: a bell-shaped fruit, dark red to white, that you eat standing under the tree. Stewed with cloves it becomes something else. The flowers get preserved in syrup. The young red shoots are eaten raw with rice.",
+  carried:"ʻŌhiʻa ʻai came in the canoes. It shares a name with the ʻōhiʻa lehua and is a different tree entirely, which is worth saying out loud once. The wood went into house beams and bowls. The bark and root gave a reddish-brown dye for the patterns on kapa. When it drops, the ground under it goes red with fruit nobody collected." },
+
+{ id:"cherimoya", haw:"Cherimoya", com:"", bin:"Annona cherimola", str:"sub-canopy",
+  yt:"Fruit", food:54, rain:[39,67], rainTol:[24,90], elev:[2300,7900],
+  frost:false, needsDry:true, setW:"2%", dot:"46%", end:"peak at year ten", close:null,
+  prefs:[["rain","40–67 in","1,000–1,700mm ideal"],["temp","mild, light frost ok","It refuses the lowland tropics."],["elev","2,300 to 7,900 ft","native 1,400–2,000m"],["sun","sun","Pollinate it by hand or get a handful of fruit."]],
+  distil:"The upcountry tree: Waimea, the high slopes, where it gets the cool nights it wants. It takes four or five years, and then every fruit you get comes from a paintbrush and your own hand.",
+  prep:["Moist, sandy loam. Light to heavy soils both work. Medium fertility is best.","40 to 67 inches a year, and it manages on 24.","2,300 to 7,900 ft, and its home range is 4,600 to 6,600. It avoids the lowland tropics.","Occasional short light frost is fine."],
+  set:["Seed, sown an inch deep, warm. Up in three weeks with bottom heat, six without. It keeps two to three years and it usually breeds true.","Semi-ripe or mature cuttings root in about a month with heat.","Ten to thirty feet, fast."],
+  forget:["First fruit at three and a half to five years. Peak by year ten.","Twenty-five fruits a tree is normal. Well-tended trees run into the hundreds.","Pollination is the work. The male and female parts of a flower mature at different times and few insects bother with it. Hand-pollinate during the six to eight hours the stigmas are white and sticky, and go again every four or five days.","Pollen from a sugar apple will not do it."],
+  eat:"White flesh, sweet, heavily perfumed, eaten raw with a spoon. It runs to eight inches. Into ice cream, custard, cake. The seeds are toxic and carry alkaloids: a fraction of a gram of the resin brings on atropine-like poisoning, and the juice in an eye can blind. Spit the seeds.",
+  carried:"It comes from the Andes, which is why it wants Waimea and refuses Hilo. Mark Twain called it the most delicious fruit known to man, and then it stayed a rare fruit for a century because it needs a person with a brush to make a crop. The tree is a good argument against the idea that a food forest runs itself. Some of it wants your hands." }
+];
+
+// ── fit. temperature is hard, rain is medium, elevation murmurs. ─────────
+function fit(z, p){
+  var flags = {}, notes = [], level = "good";
+  if(p.frost && z.frost){ flags.temp="poor"; notes.push("frost will kill it here"); level="poor"; }
+  // Rain is asymmetric, and the asymmetry is the honest part. Too much water is a
+  // drainage problem, and a mound or young lava solves it — Puna grows papaya at 110 in.
+  // Too little water is not solvable without carrying it. So wet only ever cautions.
+  if(p.needsDry && z.rain > 70){ flags.rain="poor"; notes.push("wants three months of dry to flower, and this ground never gives it"); level="poor"; }
+  else if(z.rain < p.rainTol[0]){
+    flags.rain="poor"; notes.push("drier here than it will take"); level="poor";
+  } else if(z.rain > p.rainTol[1]){
+    flags.rain="caution"; notes.push("wetter than it will take — it needs sharp drainage, a mound, or lava under it");
+    if(level==="good") level="caution";
+  } else if(z.rain < p.rain[0] || z.rain > p.rain[1]){
+    flags.rain="caution";
+    notes.push(z.rain > p.rain[1] ? "wetter than it likes — give it sharp drainage, or a mound" : "drier than it likes — expect it slower");
+    if(level==="good") level="caution";
+  }
+  if(z.elev < p.elev[0] || z.elev > p.elev[1]){
+    var far = (z.elev > p.elev[1]*1.6) || (p.elev[0] && z.elev < p.elev[0]*0.55);
+    flags.elev = far ? "poor" : "caution";
+    notes.push(z.elev > p.elev[1] ? "higher here than it wants" : "lower here than it wants");
+    if(far) level="poor"; else if(level==="good") level="caution";
+  }
+  return { level:level, flags:flags, note:notes.join(". ") };
+}
+
+var ICON = {rain:"#i-rain",temp:"#i-temp",elev:"#i-elev",sun:"#i-sun"};
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function lifeHTML(p){
+  var f = ["--yr1","--yr3","--yr5","--yr10","--yr50"].map(function(v){
+    return '<i class="furrow" style="left:var('+v+')"></i>'; }).join("");
+  var span = p.close
+    ? '<span class="span span--closes" style="right:auto;width:'+p.close+'"></span>'
+    : '<span class="span span--open"></span>';
+  var dot = p.dot ? '<span class="yield-dot" style="left:'+p.dot+'"></span>' : "";
+  var evs = "";
+  if(p.dot) evs += '<span class="ev '+(parseFloat(p.dot)<10?"ev--left":"")+'" style="left:'+p.dot+'">first food</span>';
+  if(p.end) evs += '<span class="ev ev--end">'+esc(p.end)+'</span>';
+  return '<div class="life"><div class="life-events">'+evs+'</div>'+
+    '<div class="life-track">'+f+span+'<span class="span-set" style="width:'+p.setW+'"></span>'+dot+'</div>'+
+    '<div class="life-scale">'+
+      '<span class="sc--1" style="left:var(--yr1)">1</span><span class="sc--3" style="left:var(--yr3)">3</span>'+
+      '<span class="sc--5" style="left:var(--yr5)">5</span><span class="sc--10" style="left:var(--yr10)">10</span>'+
+      '<span class="sc--50" style="left:var(--yr50)">50</span></div></div>';
+}
+
+function entryHTML(p, v){
+  var prefs = p.prefs.map(function(pr){
+    var key = pr[0], flag = v.flags[key];
+    return '<span class="pref"'+(flag?' data-flag="'+flag+'"':'')+' title="'+esc(pr[2])+'">'+
+      '<svg><use href="'+ICON[key]+'"/></svg>'+esc(pr[1])+'</span>';
+  }).join("");
+  var names = '<h3 class="hawaiian">'+esc(p.haw)+'</h3>'+
+    (p.com ? '<h3 class="common">'+esc(p.com)+'</h3>' : '')+
+    '<p class="binomial">'+esc(p.bin)+'</p>';
+  var beats = [["Prep",p.prep],["Set",p.set],["Forget",p.forget]].map(function(b,i){
+    return '<div class="beat'+(i===2?' beat--forget':'')+'"><h4>'+b[0]+'</h4><ul>'+
+      b[1].map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul></div>';
+  }).join("");
+  return '<article class="entry" data-stratum="'+p.str+'" data-fit="'+v.level+'" data-open="false">'+
+    '<div class="naming">'+names+'</div>'+
+    '<div class="fit"><span class="yield-type">'+esc(p.yt)+'</span><span class="prefs">'+prefs+'</span></div>'+
+    (v.note ? '<p class="verdict">'+esc(v.note.charAt(0).toUpperCase()+v.note.slice(1))+'.</p>' : '')+
+    '<p class="distil">'+esc(p.distil)+'</p>'+
+    lifeHTML(p)+
+    '<div class="deep"><div class="beats">'+beats+'</div>'+
+      '<div class="ground"><div class="primary">'+
+        '<div><h4>The food</h4><p>'+esc(p.eat)+'</p></div>'+
+        '<p class="carried">'+esc(p.carried)+'</p></div>'+
+      '<aside class="placements"><p class="pending">The placements go here, and they get written last — once every card exists, from the whole set at once. A placement is a claim about two plants, so it can only be made consistent against all of them.</p></aside>'+
+      '</div></div>'+
+    '<button class="grow" type="button" aria-expanded="false">'+
+      '<span class="grow-label">Grow</span><svg class="sprout" aria-hidden="true"><use href="#i-sprout"/></svg></button>'+
+    '</article>';
+}
+
+// ── render ──────────────────────────────────────────────────────────────
+var SVGNS = 'http://www.w3.org/2000/svg';
+var svg = document.getElementById('map');
+svg.setAttribute('viewBox', '0 0 ' + MAP.W + ' ' + MAP.H);
+document.getElementById('clip-path').setAttribute('d', MAP.islandD);
+document.getElementById('coast').setAttribute('d', MAP.islandD);
+document.getElementById('sea').setAttribute('d', MAP.islandD);
+
+var CONTOURS = Object.keys(MAP.iso).map(Number).sort(function(a,b){return a-b;});
+
+// the blur filter the bands ride on
+var defs = svg.querySelector('defs');
+var flt = document.createElementNS(SVGNS,'filter');
+flt.setAttribute('id','soft'); flt.setAttribute('x','-30%'); flt.setAttribute('y','-30%');
+flt.setAttribute('width','160%'); flt.setAttribute('height','160%');
+var feb = document.createElementNS(SVGNS,'feGaussianBlur');
+feb.setAttribute('stdDeviation','12'); flt.appendChild(feb);
+defs.appendChild(flt);
+
+// Soft bands, clipped to the island. These are the real isohyets, widened and
+// blurred so the gradient reads at a glance. The crisp lines go on top.
+var bands = document.getElementById('bands');
+var base = document.createElementNS(SVGNS,'path');
+base.setAttribute('d', MAP.islandD);
+base.setAttribute('fill', 'var(--rain1)');
+bands.appendChild(base);
+CONTOURS.forEach(function(c){
+  MAP.iso[c].forEach(function(d){
+    var p = document.createElementNS(SVGNS,'path');
+    p.setAttribute('d', d);
+    p.setAttribute('fill','none');
+    p.setAttribute('stroke', rainFill(c));
+    p.setAttribute('stroke-width', 40);
+    p.setAttribute('stroke-linecap','round');
+    p.setAttribute('stroke-linejoin','round');
+    p.setAttribute('opacity', 0.7);
+    p.setAttribute('filter','url(#soft)');
+    bands.appendChild(p);
+  });
+});
+
+// crisp contour lines
+var iso = document.getElementById('isolines');
+CONTOURS.forEach(function(c){
+  MAP.iso[c].forEach(function(d){
+    var p = document.createElementNS(SVGNS,'path');
+    p.setAttribute('d', d);
+    p.setAttribute('fill','none');
+    p.setAttribute('stroke','rgba(26,22,19,0.28)');
+    p.setAttribute('stroke-width', c >= 100 ? 1.8 : 1.1);
+    p.setAttribute('pointer-events','none');
+    iso.appendChild(p);
+  });
+});
+
+// towns, at their real coordinates
+var tg = document.getElementById('towns');
+MAP.towns.forEach(function(t){
+  var xy = projXY(t.lon, t.lat);
+  var g = document.createElementNS(SVGNS,'g');
+  var c = document.createElementNS(SVGNS,'circle');
+  c.setAttribute('cx',xy[0]); c.setAttribute('cy',xy[1]); c.setAttribute('r',5);
+  c.setAttribute('class','townpin');
+  var tx = document.createElementNS(SVGNS,'text');
+  var right = xy[0] < MAP.W * 0.55;
+  tx.setAttribute('x', xy[0] + (right ? 13 : -13));
+  tx.setAttribute('y', xy[1] + 5);
+  tx.setAttribute('text-anchor', right ? 'start' : 'end');
+  tx.setAttribute('class','townlabel');
+  tx.textContent = t.n;
+  g.appendChild(c); g.appendChild(tx); tg.appendChild(g);
+});
+
+// the place-name door: the same towns, as buttons
+var pl = document.getElementById('places');
+MAP.towns.forEach(function(t){
+  var b = document.createElement('button');
+  b.className = 'place'; b.type = 'button'; b.textContent = t.n;
+  b.setAttribute('aria-pressed','false');
+  b.dataset.lon = t.lon; b.dataset.lat = t.lat;
+  pl.appendChild(b);
+});
+
+function setMarker(lon, lat){
+  var mg = document.getElementById('marker');
+  while(mg.firstChild) mg.removeChild(mg.firstChild);
+  var xy = projXY(lon, lat), x = xy[0], y = xy[1];
+  var outer = document.createElementNS(SVGNS,'circle');
+  outer.setAttribute('cx',x); outer.setAttribute('cy',y); outer.setAttribute('r',14);
+  outer.setAttribute('class','mark-outer');
+  var inner = document.createElementNS(SVGNS,'circle');
+  inner.setAttribute('cx',x); inner.setAttribute('cy',y); inner.setAttribute('r',5);
+  inner.setAttribute('class','mark-inner');
+  mg.appendChild(outer); mg.appendChild(inner);
+}
+
+var reading = document.getElementById('reading');
+var seq = 0;
+
+function ground(lon, lat){
+  var my = ++seq;
+  setMarker(lon, lat);
+  var near = nearestTown(lon, lat);
+  document.getElementById('place-name').textContent =
+    near.miles < 2.5 ? near.town.n : ('Near ' + near.town.n);
+  document.getElementById('ground-lines').textContent = 'Reading the ground…';
+  document.getElementById('results').innerHTML = '';
+  reading.setAttribute('data-shown','true');
+  reading.scrollIntoView({behavior:'smooth', block:'start'});
+
+  Promise.all([getRain(lon,lat), getElev(lon,lat)]).then(function(r){
+    if(my !== seq) return;
+    var rain = r[0], elev = r[1];
+    if(rain === null || elev === null){
+      document.getElementById('ground-lines').textContent =
+        'The rain and elevation services did not answer for this point. Try another spot, or a place below.';
+      return;
+    }
+    var g = { rain:rain, elev:elev, frost:frostFromElev(elev), temp:tempFromElev(elev) };
+    document.getElementById('ground-lines').textContent = describe(g);
+    render(g);
+  }).catch(function(){
+    if(my !== seq) return;
+    document.getElementById('ground-lines').textContent =
+      'Could not reach the rain and elevation services just now. Try again in a moment.';
+  });
+}
+
+function render(g){
+  var scored = P.map(function(p){ return {p:p, v:fit(g,p)}; });
+  var keep = scored.filter(function(s){ return s.v.level !== 'poor'; })
+                   .sort(function(a,b){ return a.p.food - b.p.food; });
+  var tail = scored.filter(function(s){ return s.v.level === 'poor'; })
+                   .sort(function(a,b){ return a.p.food - b.p.food; });
+  var html = '<p class="axis-title">years from the day you plant →</p>';
+  html += keep.map(function(s){ return entryHTML(s.p, s.v); }).join('');
+  if(!keep.length){
+    html += '<p class="tail-note">Nothing on this list will feed you here. That is a true answer about this ground, and it is worth knowing before you buy a tree.</p>';
+  }
+  if(tail.length){
+    html += '<p class="tail-note">Probably not here. Kept in case you know something this map does not.</p>';
+    html += tail.map(function(s){ return entryHTML(s.p, s.v); }).join('');
+  }
+  document.getElementById('results').innerHTML = html;
+}
+
+// clicking the map: pixel → lon/lat → the real numbers at that spot
+svg.addEventListener('click', function(e){
+  var pt = svg.createSVGPoint();
+  pt.x = e.clientX; pt.y = e.clientY;
+  var loc = pt.matrixTransform(svg.getScreenCTM().inverse());
+  var ll = unproject(loc.x, loc.y);
+  if(!onLand(ll[0], ll[1])){
+    document.getElementById('place-name').textContent = 'That is the ocean';
+    document.getElementById('ground-lines').textContent = 'Click somewhere on the island.';
+    document.getElementById('results').innerHTML = '';
+    reading.setAttribute('data-shown','true');
+    return;
+  }
+  document.querySelectorAll('.place').forEach(function(b){ b.setAttribute('aria-pressed','false'); });
+  ground(ll[0], ll[1]);
+});
+
+document.addEventListener('click', function(e){
+  var b = e.target.closest('.place');
+  if(b){
+    document.querySelectorAll('.place').forEach(function(x){ x.setAttribute('aria-pressed', String(x===b)); });
+    ground(parseFloat(b.dataset.lon), parseFloat(b.dataset.lat));
+    return;
+  }
+  var gbtn = e.target.closest('.grow');
+  if(gbtn){
+    var en = gbtn.closest('.entry');
+    var open = en.getAttribute('data-open') === 'true';
+    en.setAttribute('data-open', String(!open));
+    gbtn.setAttribute('aria-expanded', String(!open));
+    gbtn.querySelector('.grow-label').textContent = open ? 'Grow' : 'Close';
+  }
+});
+
+// the address door resolves to the same towns. no geocoder, nothing stored.
+var ALIAS = {'kamuela':'Waimea','keaau':'Keaʻau','hawi':'Kapaʻau','pahala':'Nāʻālehu',
+  'naalehu':'Nāʻālehu','kona':'Kailua-Kona','kailua':'Kailua-Kona','pahoa':'Pāhoa',
+  'honokaa':'Honokaʻa','pepeekeo':'Pepeʻekeo','honomu':'Pepeʻekeo','papaikou':'Pepeʻekeo',
+  'mountain view':'Keaʻau','kurtistown':'Keaʻau','laupahoehoe':'Honokaʻa'};
+function findAddr(){
+  var q = document.getElementById('addr').value.toLowerCase().trim();
+  if(!q) return;
+  var hit = null;
+  MAP.towns.forEach(function(t){
+    var n = t.n.toLowerCase().replace(/[ʻ‘ā]/g, function(m){ return m === 'ā' ? 'a' : ''; });
+    if(q.indexOf(n) > -1) hit = t;
+  });
+  if(!hit) Object.keys(ALIAS).forEach(function(k){
+    if(q.indexOf(k) > -1) hit = MAP.towns.filter(function(t){ return t.n === ALIAS[k]; })[0];
+  });
+  if(hit) ground(hit.lon, hit.lat);
+  else document.querySelector('.hint').textContent =
+    'That one is not in the list yet. Pick a place below, or click the map where you live.';
+}
+document.getElementById('addrgo').addEventListener('click', findAddr);
+document.getElementById('addr').addEventListener('keydown', function(e){ if(e.key === 'Enter') findAddr(); });
+</script>

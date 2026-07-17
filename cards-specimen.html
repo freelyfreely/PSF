@@ -1,0 +1,639 @@
+<title>Prep Set Forget — Card Specimen</title>
+<style>
+  :root {
+    --soil-ink:    #1a1613;
+    --earth-mid:   #8b7355;
+    --earth-faint: #d4c4a8;
+    --volcanic:    #c4704b;
+    --body-bg:     #f7f3ee;
+
+    --leaf-shrub:     #9fb375;
+    --leaf-subcanopy: #5d7148;
+    --leaf-canopy:    #2d3a28;
+
+    /* three faces, three jobs.
+       serif = the voice speaking. sans = the instruction. mono = anything measured. */
+    --serif: Literata, "Source Serif 4", Charter, "Iowan Old Style", Georgia, serif;
+    --sans:  "Source Sans 3", "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --mono:  "Iosevka", "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+
+    /* five sizes. no others. */
+    --t-mark: 0.75rem;
+    --t-aside: 0.875rem;
+    --t-body: 1rem;
+    --t-lead: 1.25rem;
+    --t-name: 2.375rem;
+
+    --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px;
+    --s6: 24px; --s8: 32px; --s12: 48px; --s16: 64px;
+
+    --measure: 62ch;
+    --pad: 48px;
+
+    /* the one clock. compressed after year five, where the decisions stop. */
+    --yr1:  14%;
+    --yr3:  32%;
+    --yr5:  44%;
+    --yr10: 62%;
+    --yr50: 92%;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--body-bg);
+    color: var(--soil-ink);
+    font-family: var(--sans);
+    font-size: var(--t-body);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sheet { max-width: 1120px; margin: 0 auto; padding: var(--s16) var(--s8) 128px; }
+
+  .specimen-head {
+    display: flex; flex-direction: column; gap: var(--s2);
+    padding-bottom: var(--s6);
+    border-bottom: 1px solid rgba(212, 196, 168, 0.55);
+    margin-bottom: var(--s12);
+  }
+  .specimen-head h1 { font-family: var(--serif); font-size: var(--t-lead); font-weight: 600; margin: 0; }
+  .specimen-head p { margin: 0; color: var(--earth-mid); max-width: var(--measure); font-size: var(--t-aside); }
+
+  .density { display: flex; flex-direction: column; gap: var(--s6); margin-bottom: 128px; }
+  .density-label {
+    font-family: var(--mono); font-size: var(--t-mark); font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--earth-mid);
+  }
+  .density-note {
+    font-size: var(--t-aside); color: var(--earth-mid);
+    max-width: var(--measure); margin: calc(var(--s4) * -1) 0 0;
+  }
+
+  .column { display: flex; flex-direction: column; }
+  .axis-title {
+    font-family: var(--mono); font-size: var(--t-mark);
+    color: var(--earth-mid); margin: 0 0 var(--s3); padding-left: var(--pad);
+  }
+
+  /* ── the entry. its ground is its layer in the forest. ─────────────── */
+  .entry {
+    --ent-bg:   var(--body-bg);
+    --ent-ink:  var(--soil-ink);
+    --ent-mid:  var(--earth-mid);
+    --ent-rule: rgba(26, 22, 19, 0.16);
+    --ent-act:  var(--volcanic);
+    --furrow:   rgba(26, 22, 19, 0.13);
+
+    --btn-bg:   #a85434;
+    --btn-ink:  #faf8f4;
+
+    position: relative;
+    background: var(--ent-bg);
+    color: var(--ent-ink);
+    padding: var(--s12) var(--pad);
+  }
+
+  .entry[data-stratum="shrub"] {
+    --ent-bg: color-mix(in srgb, var(--leaf-shrub) 34%, var(--body-bg));
+  }
+  .entry[data-stratum="sub-canopy"] {
+    --ent-bg: var(--leaf-subcanopy);
+    --ent-ink: #f2eee5; --ent-mid: #c3cdaf;
+    --ent-rule: rgba(242, 238, 229, 0.28);
+    --ent-act: #f0b298;
+    --furrow: rgba(242, 238, 229, 0.18);
+    --btn-bg: #f0b298; --btn-ink: #1a1613;
+  }
+  .entry[data-stratum="canopy"] {
+    --ent-bg: var(--leaf-canopy);
+    --ent-ink: #f2eee5; --ent-mid: #a8b39a;
+    --ent-rule: rgba(242, 238, 229, 0.24);
+    --ent-act: #f0b298;
+    --furrow: rgba(242, 238, 229, 0.17);
+    --btn-bg: #f0b298; --btn-ink: #1a1613;
+  }
+
+  /* ── naming ────────────────────────────────────────────────────────── */
+  .naming { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--s3); }
+  .naming .hawaiian, .naming .common {
+    font-family: var(--serif);
+    font-size: var(--t-name); font-weight: 600; line-height: 1.1;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .naming .common { color: var(--ent-mid); font-weight: 400; }
+  .naming .common::before { content: "· "; opacity: 0.45; }
+  .naming .binomial {
+    font-family: var(--serif); font-style: italic; font-size: var(--t-body);
+    color: var(--ent-mid); flex-basis: 100%; margin: var(--s2) 0 0;
+  }
+
+  /* ── the fit line. what it gives, left. what it wants, right. ──────── */
+  .fit {
+    display: flex; flex-wrap: wrap; align-items: center;
+    justify-content: space-between; gap: var(--s3) var(--s8);
+    margin-top: var(--s6);
+    padding-bottom: var(--s4);
+    border-bottom: 1px solid var(--ent-rule);
+    font-family: var(--mono); font-size: var(--t-mark); letter-spacing: 0.06em;
+  }
+  .fit .yield-type { font-weight: 600; text-transform: uppercase; color: var(--ent-ink); }
+  .fit .prefs { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s4); color: var(--ent-mid); }
+  .fit .pref { display: inline-flex; align-items: center; gap: var(--s2); cursor: help; }
+  .fit .pref svg { width: 15px; height: 15px; flex: none; opacity: 0.85; }
+
+  /* the voice. the hardest writing in the project. it gets the serif. */
+  .distil {
+    font-family: var(--serif);
+    font-size: var(--t-lead); line-height: 1.5;
+    margin: var(--s6) 0 0; max-width: var(--measure);
+  }
+
+  /* ── the life, on the shared clock, carrying its own scale ─────────── */
+  .life {
+    position: relative;
+    margin: var(--s8) calc(var(--pad) * -1) 0 0;
+    padding-right: var(--pad);
+    overflow: hidden;
+  }
+  .life-track { position: relative; height: 20px; }
+  .furrow { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--furrow); }
+  .span { position: absolute; top: 8px; height: 3px; left: 0; right: 0; background: var(--ent-ink); }
+  .span-set { position: absolute; top: 8px; height: 3px; left: 0; background: var(--ent-act); }
+  .span--open {
+    -webkit-mask-image: linear-gradient(to right, #000 74%, transparent 100%);
+            mask-image: linear-gradient(to right, #000 74%, transparent 100%);
+  }
+  .span--closes::after {
+    content: ""; position: absolute; right: 0; top: -5px; bottom: -5px;
+    width: 1px; background: var(--ent-ink);
+  }
+  .yield-dot {
+    position: absolute; top: 5px; width: 9px; height: 9px; border-radius: 50%;
+    background: var(--ent-act); transform: translateX(-50%);
+    box-shadow: 0 0 0 3px var(--ent-bg);
+  }
+  .life-scale, .life-events {
+    position: relative; height: 1.3em;
+    font-family: var(--mono); font-size: var(--t-mark);
+    color: var(--ent-mid); font-variant-numeric: tabular-nums;
+  }
+  .life-events { margin-bottom: var(--s1); }
+  .life-scale { margin-top: var(--s1); }
+  .life-scale span, .life-events span { position: absolute; top: 0; white-space: nowrap; }
+  .life-scale span { transform: translateX(-50%); }
+  .life-events .ev { transform: translateX(-50%); color: var(--ent-act); font-weight: 600; }
+  .life-events .ev--left { transform: none; }
+  .life-events .ev--end { transform: none; right: var(--pad); color: var(--ent-mid); font-weight: 400; }
+
+  /* ── grow. the one moment of action. it gets room and it gets the ink. ── */
+  .grow {
+    display: flex; align-items: center; justify-content: center; gap: var(--s3);
+    margin: var(--s16) auto var(--s2);
+    padding: var(--s4) var(--s12);
+    min-width: 260px;
+    background: var(--btn-bg); color: var(--btn-ink);
+    border: none; border-radius: 2px;
+    font-family: var(--sans); font-size: var(--t-body); font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    cursor: pointer;
+    transition: filter 200ms ease-out;
+  }
+  .grow:hover { filter: brightness(1.07); }
+  .grow:focus-visible { outline: 2px solid var(--ent-act); outline-offset: 3px; }
+  .grow .sprout { width: 18px; height: 18px; flex: none; transition: transform 240ms ease-out; }
+  .entry[data-open="true"] .grow .sprout { transform: rotate(180deg); }
+
+  .deep { display: none; }
+  .entry[data-open="true"] .deep {
+    display: block; margin-top: var(--s12);
+    animation: push-through 260ms ease-out both;
+  }
+  @keyframes push-through {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .entry[data-open="true"] .deep { animation: none; }
+    .grow, .grow .sprout { transition: none; }
+  }
+
+  /* ── the three beats ───────────────────────────────────────────────── */
+  .beats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s12); }
+  .beat h4, .ground h4 {
+    font-family: var(--serif);
+    font-size: var(--t-lead); font-weight: 600; line-height: 1.2;
+    color: var(--ent-ink);
+    margin: 0 0 var(--s4);
+  }
+  .beat ul {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-direction: column; gap: var(--s4);
+  }
+  .beat--forget { color: color-mix(in srgb, var(--ent-ink) 86%, var(--ent-bg)); }
+
+  /* ── the ground beneath the beats ──────────────────────────────────── */
+  .ground {
+    display: grid; grid-template-columns: minmax(0, 1fr) 14rem; gap: var(--s12);
+    margin-top: var(--s12); padding-top: var(--s8);
+    border-top: 1px solid var(--ent-rule);
+  }
+  .ground .primary { display: flex; flex-direction: column; gap: var(--s8); max-width: var(--measure); }
+  .ground p { margin: 0; }
+  .carried {
+    font-family: var(--serif); font-size: var(--t-lead); line-height: 1.6;
+    color: color-mix(in srgb, var(--ent-ink) 92%, var(--ent-bg));
+  }
+  .placements { display: flex; flex-direction: column; gap: var(--s6); font-size: var(--t-aside); color: var(--ent-mid); }
+  .placement { display: flex; flex-direction: column; gap: var(--s1); }
+  .placement .who {
+    font-family: var(--serif); font-style: italic; font-size: var(--t-body);
+    color: var(--ent-ink);
+  }
+  /* the guild is written last, from the whole set at once. this slot is
+     scaffolding, not content — it must not be mistaken for either. */
+  .pending {
+    border: 1px dashed var(--ent-rule);
+    padding: var(--s4);
+    font-family: var(--mono); font-size: var(--t-mark); line-height: 1.6;
+    color: var(--ent-mid);
+  }
+
+  /* ── the flyer ─────────────────────────────────────────────────────── */
+  .paper-ground { background: #211d18; padding: var(--s12) var(--s8); }
+  .paper { background: #faf8f4; padding: var(--pad); }
+  .paper .entry {
+    padding: 0;
+    --ent-bg: #faf8f4;
+    --ent-ink: var(--soil-ink); --ent-mid: var(--earth-mid);
+    --ent-rule: rgba(212, 196, 168, 0.7);
+    --ent-act: var(--volcanic);
+    --furrow: rgba(26, 22, 19, 0.13);
+  }
+  .paper .life { margin-right: calc(var(--pad) * -1); }
+  .paper .life-events .ev--end { right: var(--pad); }
+
+  .flyer-head {
+    border-bottom: 1px solid rgba(212,196,168,0.7);
+    padding-bottom: var(--s6); margin-bottom: var(--s8);
+  }
+  .flyer-head h2 {
+    font-family: var(--serif); font-size: var(--t-name); font-weight: 600;
+    margin: 0; letter-spacing: -0.02em; line-height: 1.1; text-wrap: balance;
+  }
+  .flyer-head .moment {
+    margin: var(--s3) 0 0; color: var(--earth-mid);
+    font-family: var(--serif); font-size: var(--t-lead);
+  }
+  .flyer-foot {
+    margin-top: var(--s12); padding-top: var(--s6);
+    border-top: 1px solid rgba(212,196,168,0.7);
+    display: flex; flex-wrap: wrap; gap: var(--s2) var(--s6); justify-content: space-between;
+    font-size: var(--t-aside); color: var(--earth-mid);
+  }
+  .flyer-foot .url { color: var(--soil-ink); font-weight: 600; font-family: var(--mono); }
+
+  @media (max-width: 860px) {
+    :root { --pad: 24px; --t-name: 1.75rem; --t-lead: 1.125rem; }
+    .sheet { padding: var(--s8) var(--s4) 80px; }
+    .beats { grid-template-columns: 1fr; gap: var(--s8); }
+    .ground { grid-template-columns: 1fr; gap: var(--s8); }
+    .paper-ground { padding: var(--s4) var(--s3); }
+    .paper { padding: var(--s6); }
+    .fit { justify-content: flex-start; }
+    .life-scale .sc--10, .life-scale .sc--50 { display: none; }
+  }
+</style>
+
+<!-- the project's own marks. no emoji. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-rain" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 1.8c0 0-4.3 5.2-4.3 8A4.3 4.3 0 0 0 12.3 9.8c0-2.8-4.3-8-4.3-8z"/>
+    </symbol>
+    <symbol id="i-temp" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9.6 9.1V3.9a1.6 1.6 0 1 0-3.2 0v5.2a3.1 3.1 0 1 0 3.2 0z"/>
+      <path d="M8 6.6v3.9"/>
+    </symbol>
+    <symbol id="i-elev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1.4 13.2 6 5.4l2.7 4.4 1.7-2.6 4.2 6z"/>
+    </symbol>
+    <symbol id="i-sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="8" cy="8" r="3.1"/>
+      <path d="M8 1.4v1.6M8 13v1.6M14.6 8H13M3 8H1.4M12.7 3.3l-1.1 1.1M4.4 11.6l-1.1 1.1M12.7 12.7l-1.1-1.1M4.4 4.4 3.3 3.3"/>
+    </symbol>
+    <symbol id="i-sprout" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10 17V8.5"/>
+      <path d="M10 9.4C10 6.6 12.1 4 15.4 3.5c.4 3.2-1.6 6-5.4 6.4z"/>
+      <path d="M10 11.6C10 9.4 8.3 7.3 5.6 6.9c-.3 2.6 1.3 4.8 4.4 5.1z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="sheet">
+
+  <div class="specimen-head">
+    <h1>Prep Set Forget — the card, at three densities</h1>
+    <p>Two plants on one clock. Every bar is measured against the same years, because that is the claim: four species planted in sequence thrive, and the same four planted at once struggle. Read down and the light goes. Watch where the pigeon pea ends.</p>
+  </div>
+
+  <!-- ══ THE COLUMN ══════════════════════════════════════════════════ -->
+  <section class="density">
+    <div class="density-label">The column</div>
+    <p class="density-note">Every plant gets the simple view. The reader decides which ones they'll live with.</p>
+
+    <div class="column">
+      <p class="axis-title">years from the day you plant →</p>
+
+      <!-- ── the pioneer ─────────────────────────────────────────────── -->
+      <article class="entry" data-stratum="shrub" data-open="false">
+        <div class="naming">
+          <h3 class="hawaiian">Pigeon pea</h3>
+          <p class="binomial">Cajanus cajan</p>
+        </div>
+
+        <div class="fit">
+          <span class="yield-type">Peas — protein</span>
+          <span class="prefs">
+            <span class="pref" title="30 to 80 inches a year. It does not mind either end."><svg><use href="#i-rain"/></svg>wet or dry</span>
+            <span class="pref" title="Warm. Frost kills it, but it costs almost nothing to replace."><svg><use href="#i-temp"/></svg>warm</span>
+            <span class="pref" title="Sea level to about 3,000 feet."><svg><use href="#i-elev"/></svg>coast to 3,000 ft</span>
+            <span class="pref" title="Full sun."><svg><use href="#i-sun"/></svg>sun</span>
+          </span>
+        </div>
+
+        <p class="distil">A bean bush that makes its own fertilizer, and yours. It gives peas in six months and gives the soil nitrogen the whole time it stands. You will cut it down in year five to feed the tree beside it. That was always the plan, and it is not a loss.</p>
+
+        <div class="life">
+          <div class="life-events">
+            <span class="ev ev--left" style="left: 6%;">first peas</span>
+          </div>
+          <div class="life-track">
+            <i class="furrow" style="left: var(--yr1);"></i>
+            <i class="furrow" style="left: var(--yr3);"></i>
+            <i class="furrow" style="left: var(--yr5);"></i>
+            <i class="furrow" style="left: var(--yr10);"></i>
+            <i class="furrow" style="left: var(--yr50);"></i>
+            <span class="span span--closes" style="right: auto; width: var(--yr5);"></span>
+            <span class="span-set" style="width: 4%;"></span>
+            <span class="yield-dot" style="left: 7%;"></span>
+          </div>
+          <div class="life-scale">
+            <span class="sc--1"  style="left: var(--yr1);">1</span>
+            <span class="sc--3"  style="left: var(--yr3);">3</span>
+            <span class="sc--5"  style="left: var(--yr5);">5</span>
+            <span class="sc--10" style="left: var(--yr10);">10</span>
+            <span class="sc--50" style="left: var(--yr50);">50</span>
+          </div>
+        </div>
+
+        <div class="deep">
+          <div class="beats">
+            <div class="beat">
+              <h4>Prep</h4>
+              <ul>
+                <li>Poor ground is fine. Poor ground is the point. It will not thank you for compost, and it does its best work where nothing else will start.</li>
+                <li>Full sun. It is the tallest thing here for about two years, and then it isn't.</li>
+                <li>Four feet apart, and closer than feels right. You are planting a stand, not a specimen.</li>
+                <li>Put it where a tree is going. It is not the crop. It is the ground the crop will stand in.</li>
+              </ul>
+            </div>
+            <div class="beat">
+              <h4>Set</h4>
+              <ul>
+                <li>Seed, straight into the ground, a handful at a time. It costs almost nothing and comes up in a week.</li>
+                <li>Plant it the same day as the tree it is nursing. Not before, not after. The whole method is in that sentence.</li>
+                <li>No water once it is up. Its roots go down further than yours can dig.</li>
+                <li>Fast. It is knee-high in two months and over your head by the end of the year.</li>
+              </ul>
+            </div>
+            <div class="beat beat--forget">
+              <h4>Forget</h4>
+              <ul>
+                <li>Peas from month six, and then whenever you want them. Take what you want. The plant is not counting.</li>
+                <li>Cut it back hard when it flowers. Half its height, and everything you cut stays on the ground where it lands. It is back within weeks, and it comes back stronger for it.</li>
+                <li>That cut is the whole transaction. It drops nitrogen from its roots at the same moment it drops leaves on the soil, and the tree beside it eats both. You are not maintaining a bush. You are feeding a tree with a knife.</li>
+                <li>By year five the ʻulu is over it and it starts to thin. Don't fight it and don't replace it. It leaves behind five years of mulch and a soil that can hold a tree, which is the only thing it was ever for.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ground">
+            <div class="primary">
+              <div>
+                <h4>The food</h4>
+                <p>Green, they are a fresh pea. Shell them and cook them like any other, five minutes, no more. Left on the bush they dry hard in the pod, and dry is how most of the world eats them: soaked overnight, simmered soft, into rice and into dal. A stand of six bushes will keep a household in protein without being asked. The young leaves go into soup. The old stems burn hot and clean, so the prunings you don't leave down become the fire you cook the peas on.</p>
+              </div>
+              <p class="carried">You have already seen this plant. It stands in the gravel at the edge of the highway, in the empty lot behind the store, on every piece of ground somebody stopped mowing. Most people here look at it and see scrub. Half the world looks at it and sees dinner: it is gandule in Puerto Rico, toor dal across India, rice and peas at Christmas in Jamaica. It went out of Africa four thousand years ago and it has been feeding people the whole way, on the worst ground available, without being planted, watered, or thanked.</p>
+            </div>
+
+            <aside class="placements">
+              <p class="pending">The placements go here, and they get written last — once every card exists, from the whole set at once. A placement is a claim about two plants, so it can only be made consistent against all of them.</p>
+            </aside>
+          </div>
+        </div>
+
+        <button class="grow" type="button" aria-expanded="false">
+          <span class="grow-label">Grow</span>
+          <svg class="sprout" aria-hidden="true"><use href="#i-sprout"/></svg>
+        </button>
+      </article>
+
+      <!-- ── the canopy ──────────────────────────────────────────────── -->
+      <article class="entry" data-stratum="canopy" data-open="false">
+        <div class="naming">
+          <h3 class="hawaiian">ʻUlu</h3>
+          <h3 class="common">Breadfruit</h3>
+          <p class="binomial">Artocarpus altilis</p>
+        </div>
+
+        <div class="fit">
+          <span class="yield-type">Fruit — starch</span>
+          <span class="prefs">
+            <span class="pref" title="60 to 157 inches a year."><svg><use href="#i-rain"/></svg>wet</span>
+            <span class="pref" title="No frost, ever. Below about 41°F the leaves burn."><svg><use href="#i-temp"/></svg>warm, no frost</span>
+            <span class="pref" title="Sea level to about 1,500 feet. Best near the coast."><svg><use href="#i-elev"/></svg>coast to 1,500 ft</span>
+            <span class="pref" title="Shade for the first year or two, then open sun."><svg><use href="#i-sun"/></svg>sun</span>
+          </span>
+        </div>
+
+        <p class="distil">A tree that makes bread. One mature ʻulu drops more starch in a season than a family eats, on ground that gets no fertilizer and no tilling. It is slow for three years, and then it is the reason the rest of the garden works.</p>
+
+        <div class="life">
+          <div class="life-events">
+            <span class="ev" style="left: var(--yr3);">first fruit</span>
+            <span class="ev ev--end">still going</span>
+          </div>
+          <div class="life-track">
+            <i class="furrow" style="left: var(--yr1);"></i>
+            <i class="furrow" style="left: var(--yr3);"></i>
+            <i class="furrow" style="left: var(--yr5);"></i>
+            <i class="furrow" style="left: var(--yr10);"></i>
+            <i class="furrow" style="left: var(--yr50);"></i>
+            <span class="span span--open"></span>
+            <span class="span-set" style="width: 3%;"></span>
+            <span class="yield-dot" style="left: var(--yr3);"></span>
+          </div>
+          <div class="life-scale">
+            <span class="sc--1"  style="left: var(--yr1);">1</span>
+            <span class="sc--3"  style="left: var(--yr3);">3</span>
+            <span class="sc--5"  style="left: var(--yr5);">5</span>
+            <span class="sc--10" style="left: var(--yr10);">10</span>
+            <span class="sc--50" style="left: var(--yr50);">50</span>
+          </div>
+        </div>
+
+        <div class="deep">
+          <div class="beats">
+            <div class="beat">
+              <h4>Prep</h4>
+              <ul>
+                <li>Wet ground, warm, low. Best under 2,000 feet, happiest near the coast, and it thins out well before the mountain.</li>
+                <li>No frost. Ever. Below about 41°F the leaves burn, and one cold night undoes a year.</li>
+                <li>Drainage is the one thing it won't forgive. Standing water rots the roots and a three-year tree goes over.</li>
+                <li>Thirty feet of room, and a shallow, wide root system that ends the digging under it.</li>
+              </ul>
+            </div>
+            <div class="beat">
+              <h4>Set</h4>
+              <ul>
+                <li>Grafted, not seed. Seed takes five to ten years and comes up a stranger. A grafted tree fruits in two to four.</li>
+                <li>Plant in the rains. Set it slightly high so it drains.</li>
+                <li>Shade for the first year or two, then open sun. A banana on the windward side does both jobs, shade and windbreak, and feeds the soil while it does.</li>
+                <li>Slow the first three years. Nothing is wrong.</li>
+              </ul>
+            </div>
+            <div class="beat beat--forget">
+              <h4>Forget</h4>
+              <ul>
+                <li>Fruits May to October, then again. Two crops most years, one big one some years.</li>
+                <li>Leaves the size of a doormat, dropping all year. That is the mulch. It stays where it falls.</li>
+                <li>Tip-prune the new growth once a year, after harvest. Left alone it goes eighty feet. Cut back it stays at twenty and the fruit stays in reach.</li>
+                <li>By year five the shade underneath is deep. That is not a problem. That is when the kalo and the cacao go in.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ground">
+            <div class="primary">
+              <div>
+                <h4>The food</h4>
+                <p>Picked green and firm it cooks like a potato: floury, plain, takes on whatever it is cooked with. Left to ripen it turns sweet, nearly banana, and roasts to caramel. Two foods, one tree, and the difference is a week. The skin goes dull yellow-green and a thumb-press gives just slightly. Cut the stalk and watch the sap. Milky means wait, watery means now. Early morning, before the latex turns to glue. Rinse it right away. Never raw: boil, roast, bake, or fry. Seeds, on the seeded kinds, cook up like chestnuts.</p>
+              </div>
+              <p class="carried">ʻUlu came by canoe. Voyagers carried it two and a half thousand miles across open ocean because a family with an ʻulu tree does not starve, and Kū turned himself into one to feed his own. Every seedless tree on this island is a cutting of a cutting of a cutting, an unbroken line of hands back to New Guinea. The same tree was later loaded onto the <em>Bounty</em> to feed enslaved people cheaply in the Caribbean. It has fed people who chose it and people who were given no choice. Here it is still the first one. The bark made cloth, the sap caulked the hull, the wood made the canoe it arrived in.</p>
+            </div>
+
+            <aside class="placements">
+              <p class="pending">The placements go here, and they get written last — once every card exists, from the whole set at once. A placement is a claim about two plants, so it can only be made consistent against all of them.</p>
+            </aside>
+          </div>
+        </div>
+
+        <button class="grow" type="button" aria-expanded="false">
+          <span class="grow-label">Grow</span>
+          <svg class="sprout" aria-hidden="true"><use href="#i-sprout"/></svg>
+        </button>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ══ FLYER ═══════════════════════════════════════════════════════ -->
+  <section class="density">
+    <div class="density-label">Flyer</div>
+    <p class="density-note">Same organism, one sheet, photocopy-safe: on paper the stratum is carried by the mark, not a field of ink. Same clock, same furrows — eight bars down a page are still one planting plan.</p>
+
+    <div class="paper-ground">
+      <div class="paper">
+        <div class="flyer-head">
+          <h2>The windward coast, when the rains come</h2>
+          <p class="moment">Eight plants that will feed you here, in the order you'd plant them.</p>
+        </div>
+
+        <article class="entry" data-stratum="canopy">
+          <div class="naming">
+            <h3 class="hawaiian">ʻUlu</h3>
+            <h3 class="common">Breadfruit</h3>
+            <p class="binomial">Artocarpus altilis</p>
+          </div>
+
+          <div class="fit">
+            <span class="yield-type">Fruit — starch</span>
+            <span class="prefs">
+              <span class="pref"><svg><use href="#i-rain"/></svg>wet</span>
+              <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+              <span class="pref"><svg><use href="#i-elev"/></svg>coast to 1,500 ft</span>
+              <span class="pref"><svg><use href="#i-sun"/></svg>sun</span>
+            </span>
+          </div>
+
+          <p class="distil">A tree that makes bread. Grafted, it starts fruiting around year three and keeps going past a person's lifetime: fifty to two hundred fruits a season, twice a year, from ground that gets nothing but its own fallen leaves.</p>
+
+          <div class="life">
+            <div class="life-events">
+              <span class="ev" style="left: var(--yr3);">first fruit</span>
+              <span class="ev ev--end">still going</span>
+            </div>
+            <div class="life-track">
+              <i class="furrow" style="left: var(--yr1);"></i>
+              <i class="furrow" style="left: var(--yr3);"></i>
+              <i class="furrow" style="left: var(--yr5);"></i>
+              <i class="furrow" style="left: var(--yr10);"></i>
+              <i class="furrow" style="left: var(--yr50);"></i>
+              <span class="span span--open"></span>
+              <span class="span-set" style="width: 3%;"></span>
+              <span class="yield-dot" style="left: var(--yr3);"></span>
+            </div>
+            <div class="life-scale">
+              <span class="sc--1"  style="left: var(--yr1);">1</span>
+              <span class="sc--3"  style="left: var(--yr3);">3</span>
+              <span class="sc--5"  style="left: var(--yr5);">5</span>
+              <span class="sc--10" style="left: var(--yr10);">10</span>
+              <span class="sc--50" style="left: var(--yr50);">50</span>
+            </div>
+          </div>
+
+          <div class="beats" style="margin-top: var(--s12);">
+            <div class="beat">
+              <h4>Prep</h4>
+              <ul>
+                <li>Wants the wet, warm, low ground, and no frost, ever. Drainage is the one thing it won't forgive. Thirty feet of room, because that is what it takes. Roots run shallow and wide, so nothing gets dug near it once it is in.</li>
+              </ul>
+            </div>
+            <div class="beat">
+              <h4>Set</h4>
+              <ul>
+                <li>Grafted, not seed: seed takes ten years and comes up a stranger. Goes in during the rains. Wants shade for its first year or two, and a banana on the windward side gives it that and takes the wind off it besides.</li>
+              </ul>
+            </div>
+            <div class="beat beat--forget">
+              <h4>Forget</h4>
+              <ul>
+                <li>Fruits May to October, and again. The leaves are the size of a doormat and fall all year. That is the mulch, and it stays where it lands. Tip-prune once a year and the fruit stays in reach. By year five the shade underneath is deep, and that is when the kalo goes in.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <div class="flyer-foot">
+          <span>Seven more overleaf. The ground has more in it than eight plants.</span>
+          <span class="url">prepsetforget.org</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  document.querySelectorAll(".grow").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var entry = btn.closest(".entry");
+      var open = entry.getAttribute("data-open") === "true";
+      entry.setAttribute("data-open", String(!open));
+      btn.setAttribute("aria-expanded", String(!open));
+      btn.querySelector(".grow-label").textContent = open ? "Grow" : "Close";
+    });
+  });
+</script>

@@ -1,0 +1,407 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prep · Set · Forget — On the Windward Coast</title>
+<style>
+  :root{
+    --soil-ink:#1a1613; --earth-mid:#8b7355; --earth-faint:#d4c4a8; --volcanic:#c4704b;
+    --paper:#faf8f4; --ground:#211d18;
+    --serif:Literata,"Source Serif 4",Charter,"Iowan Old Style",Georgia,serif;
+    --sans:"Source Sans 3","Nunito Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+    --mono:"Iosevka","JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace;
+    --t-mark:.75rem; --t-aside:.875rem; --t-body:1rem; --t-lead:1.25rem;
+    --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s6:24px; --s8:32px; --s12:48px; --s16:64px;
+    --pad:52px;
+    --yr1:14%; --yr3:32%; --yr5:44%; --yr10:62%; --yr50:92%;
+    --rule:rgba(212,196,168,.8); --furrow:rgba(26,22,19,.13);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--soil-ink);font-family:var(--sans);
+    font-size:var(--t-body);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .outer{padding:var(--s12) var(--s6)}
+  .sheet{max-width:820px;margin:0 auto;background:var(--paper);padding:var(--pad)}
+
+  /* ── the marquee: a place, at a moment, on the gradient ───────────── */
+  .head{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:var(--s8);
+    align-items:start;border-bottom:2px solid var(--soil-ink);padding-bottom:var(--s6)}
+  .head .kicker{font-family:var(--serif);font-size:1.6rem;font-weight:600;margin:0 0 var(--s2);
+    letter-spacing:.02em;line-height:1;color:var(--volcanic)}
+  .head .kicker span{color:var(--earth-faint);margin:0 .3em}
+  .head h1{font-family:var(--serif);font-size:2.9rem;font-weight:600;margin:0;
+    letter-spacing:-.025em;line-height:1.04;text-wrap:balance}
+  .head .moment{font-family:var(--serif);font-size:var(--t-lead);color:var(--earth-mid);
+    margin:var(--s3) 0 0;max-width:44ch}
+  .head .whereis{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);
+    margin:var(--s2) 0 0;text-align:center;line-height:1.4}
+  svg.mini{width:100%;height:auto;display:block}
+  .mini .off{fill:none;stroke:var(--earth-faint);stroke-width:2}
+  .mini .on{fill:var(--soil-ink);stroke:var(--paper);stroke-width:1.5}
+
+  .lede{font-family:var(--serif);font-size:var(--t-lead);margin:var(--s8) 0 0;max-width:62ch}
+  .lede strong{font-weight:600}
+
+  /* ── entries ──────────────────────────────────────────────────────── */
+  .col{margin-top:var(--s12)}
+  .axis{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);
+    margin:0 0 var(--s4)}
+  .entry{padding:var(--s8) 0;border-top:1px solid var(--rule);
+    break-inside:avoid;page-break-inside:avoid}
+  .entry:first-child{border-top:none;padding-top:0}
+
+  .naming{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 var(--s3)}
+  .naming h2,.naming .com{font-family:var(--serif);font-size:1.75rem;font-weight:600;
+    line-height:1.1;letter-spacing:-.02em;margin:0}
+  .naming .com{color:var(--earth-mid);font-weight:400}
+  .naming .com::before{content:"· ";opacity:.45}
+  .naming .bin{font-family:var(--serif);font-style:italic;font-size:var(--t-body);
+    color:var(--earth-mid);flex-basis:100%;margin:var(--s1) 0 0}
+
+  .fit{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+    gap:var(--s2) var(--s6);margin-top:var(--s4);padding-bottom:var(--s3);
+    border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:var(--t-mark);
+    letter-spacing:.06em}
+  .fit .yt{font-weight:600;text-transform:uppercase}
+  .prefs{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3);color:var(--earth-mid)}
+  .pref{display:inline-flex;align-items:center;gap:6px}
+  .pref svg{width:14px;height:14px;flex:none}
+  /* on paper the stratum is a mark, not a field of ink */
+  .stratum{display:inline-flex;align-items:center;gap:6px;color:var(--earth-mid)}
+  .stratum i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--soil-ink);display:block}
+  .stratum[data-s="ground"] i{background:none}
+  .stratum[data-s="shrub"] i{background:linear-gradient(to top,var(--soil-ink) 50%,transparent 50%)}
+  .stratum[data-s="sub-canopy"] i{background:linear-gradient(to top,var(--soil-ink) 75%,transparent 75%)}
+  .stratum[data-s="canopy"] i{background:var(--soil-ink)}
+
+  .distil{font-family:var(--serif);font-size:var(--t-lead);line-height:1.45;
+    margin:var(--s4) 0 0;max-width:62ch}
+
+  .life{position:relative;margin:var(--s6) 0 0}
+  .life-track{position:relative;height:18px}
+  .furrow{position:absolute;top:0;bottom:0;width:1px;background:var(--furrow)}
+  .span{position:absolute;top:7px;height:2.5px;left:0;right:0;background:var(--soil-ink)}
+  .span--open{-webkit-mask-image:linear-gradient(to right,#000 76%,transparent 100%);
+    mask-image:linear-gradient(to right,#000 76%,transparent 100%)}
+  .span--closes::after{content:"";position:absolute;right:0;top:-4px;bottom:-4px;width:1px;
+    background:var(--soil-ink)}
+  .span-set{position:absolute;top:7px;height:2.5px;left:0;background:var(--volcanic)}
+  .dot{position:absolute;top:4px;width:8px;height:8px;border-radius:50%;
+    background:var(--volcanic);transform:translateX(-50%);box-shadow:0 0 0 2.5px var(--paper)}
+  .scale{position:relative;height:1.3em;margin-top:var(--s1);font-family:var(--mono);
+    font-size:var(--t-mark);color:var(--earth-mid);font-variant-numeric:tabular-nums}
+  .scale span{position:absolute;top:0;transform:translateX(-50%)}
+
+  .beats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s8);
+    margin-top:var(--s6)}
+  .beat h3{font-family:var(--serif);font-size:var(--t-lead);font-weight:600;margin:0 0 var(--s2)}
+  .beat p{margin:0;font-size:var(--t-aside);line-height:1.55}
+  .beat--forget p{color:#3a3129}
+
+  /* ── the seam ─────────────────────────────────────────────────────── */
+  .foot{margin-top:var(--s12);padding-top:var(--s6);border-top:2px solid var(--soil-ink)}
+  .foot .say{font-family:var(--serif);font-size:var(--t-lead);margin:0;max-width:58ch}
+  .foot .url{font-family:var(--mono);font-size:1.5rem;font-weight:600;margin:var(--s4) 0 0;
+    letter-spacing:-.01em}
+  .foot .small{font-family:var(--mono);font-size:var(--t-mark);color:var(--earth-mid);
+    margin:var(--s3) 0 0}
+
+  @media (max-width:760px){
+    :root{--pad:24px}
+    .outer{padding:var(--s4) var(--s2)}
+    .head{grid-template-columns:1fr;gap:var(--s4)}
+    .head h1{font-size:1.9rem}
+    .beats{grid-template-columns:1fr;gap:var(--s4)}
+    .scale .s10,.scale .s50{display:none}
+  }
+
+  /* it is a flyer. it has to survive a photocopier. */
+  @media print{
+    @page{margin:14mm}
+    body{background:#fff}
+    .outer{padding:0}
+    .sheet{max-width:none;padding:0;background:#fff}
+    .entry{border-top:1px solid #bbb}
+    .fit,.naming .bin{border-color:#bbb}
+  }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="i-rain" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.8c0 0-4.3 5.2-4.3 8A4.3 4.3 0 0 0 12.3 9.8c0-2.8-4.3-8-4.3-8z"/></symbol>
+  <symbol id="i-temp" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 9.1V3.9a1.6 1.6 0 1 0-3.2 0v5.2a3.1 3.1 0 1 0 3.2 0z"/><path d="M8 6.6v3.9"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.4 13.2 6 5.4l2.7 4.4 1.7-2.6 4.2 6z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3.1"/><path d="M8 1.4v1.6M8 13v1.6M14.6 8H13M3 8H1.4M12.7 3.3l-1.1 1.1M4.4 11.6l-1.1 1.1M12.7 12.7l-1.1-1.1M4.4 4.4 3.3 3.3"/></symbol>
+</defs></svg>
+
+<div class="outer"><div class="sheet">
+
+  <div class="head">
+    <div>
+      <p class="kicker">Prep <span>|</span> Set <span>|</span> Forget</p>
+      <h1>On the Windward Coast</h1>
+      <p class="moment">Eight plants that will feed you here, in the order you would plant them.</p>
+    </div>
+    <div>
+      <svg class="mini" viewBox="90 10 280 370" aria-label="Hawaiʻi Island with the windward coast marked">
+        <polygon class="off" points="215,195 110,120 155,25"/>
+        <polygon class="off" points="215,195 300,290 215,362 150,290"/>
+        <polygon class="off" points="215,195 150,290 105,215 110,120"/>
+        <polygon class="on" points="215,195 155,25 250,95 320,165"/>
+        <polygon class="on" points="215,195 320,165 355,215"/>
+        <polygon class="on" points="215,195 355,215 300,290"/>
+      </svg>
+      <p class="whereis">Hāmākua, Hilo, Puna.<br>90 to 130 inches a year.</p>
+    </div>
+  </div>
+
+  <p class="lede">The rain that falls on this coast falls on almost nowhere else. Twenty miles over the mountain it is desert. <strong>Nothing here stops growing in winter.</strong> The plants below want that, and the order they are in is the order they go in the ground: what feeds you first is at the top, and what you will stand under in ten years is at the bottom.</p>
+
+  <div class="col">
+    <p class="axis">years from the day you plant →</p>
+
+    <!-- 1 ── papaya ─────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Mīkana</h2><span class="com">Papaya</span>
+        <p class="bin">Carica papaya</p></div>
+      <div class="fit"><span class="yt">Fruit</span>
+        <span class="prefs">
+          <span class="stratum" data-s="sub-canopy"><i></i>sub-canopy</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet, drained</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 3,000 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun, sheltered</span>
+        </span></div>
+      <p class="distil">Fruit in six months from a seed, which nothing else here can say. It is also finished by year four. A fast bright thing that fills the gap while the trees are still coming.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--closes" style="right:auto;width:58%"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:8%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Deep ground with humus, drained and aerated. Standing water kills it in days. Shelter from wind: the trunk is hollow and it goes over. Sun.</p></div>
+        <div class="beat"><h3>Set</h3><p>Fresh seed. Plant several. They come up male, female, or both, and one male covers six females. Fruit at six months.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>Fruits year-round and peaks in years two and three. By year four it is falling off. Take it green as a vegetable or ripe as a fruit. When it is spent, cut it down; the next one is already up.</p></div>
+      </div>
+    </article>
+
+    <!-- 2 ── kalo ───────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Kalo</h2><span class="com">Taro</span>
+        <p class="bin">Colocasia esculenta</p></div>
+      <div class="fit"><span class="yt">Corm — starch</span>
+        <span class="prefs">
+          <span class="stratum" data-s="ground"><i></i>ground</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet, standing</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 8,900 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun to light shade</span>
+        </span></div>
+      <p class="distil">Water and time. Seven to ten months, and it wants the wet this coast already has, standing or running. Under a canopy that closes, it keeps going where the sun plants stop.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:10%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Heavy, fertile ground that holds water. Flooded ground grows it best by a factor of six. Sun, or the light shade under something taller.</p></div>
+        <div class="beat"><h3>Set</h3><p>A corm, a corm piece, or a side sucker, two to three inches deep. Seed will not come true and nobody uses it.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>Corms at seven to ten months. The leaves come the whole way through and get cut as a green. Nothing on this plant is eaten raw, ever. Cook it, and it is the staple this island ran on.</p></div>
+      </div>
+    </article>
+
+    <!-- 3 ── ginger ─────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>ʻAwapuhi</h2><span class="com">Ginger</span>
+        <p class="bin">Zingiber officinale</p></div>
+      <div class="fit"><span class="yt">Rhizome — spice</span>
+        <span class="prefs">
+          <span class="stratum" data-s="ground"><i></i>ground</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 6,200 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun to part shade</span>
+        </span></div>
+      <p class="distil">Wet ground and a shaded floor, which is what this coast is. Ten months in, the stalks wither, and that withering is the harvest telling you it is finished.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:13%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Well-drained ground with humus in it. Sun or part shade. It wants the rain this coast already gets.</p></div>
+        <div class="beat"><h3>Set</h3><p>Split a rhizome at the first sign of new growth and plant the pieces.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>A ten-month season. Harvest when the stalks begin to wither. On any slope, plant something with it: bare ground under ginger erodes badly.</p></div>
+      </div>
+    </article>
+
+    <!-- 4 ── banana ─────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Maiʻa</h2><span class="com">Banana</span>
+        <p class="bin">Musa spp.</p></div>
+      <div class="fit"><span class="yt">Fruit — starch</span>
+        <span class="prefs">
+          <span class="stratum" data-s="sub-canopy"><i></i>sub-canopy</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 4,000 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun, sheltered</span>
+        </span></div>
+      <p class="distil">A windbreak that feeds you. The stem fruits once and dies, and the mat it stands in has already replaced it. What looks like one plant is a queue.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:18%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Fertile ground that drains, in sun, out of the wind. It wants the rain this coast gives.</p></div>
+        <div class="beat"><h3>Set</h3><p>A sucker off an established mat. Not seed. Somebody will give you one.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>A stem fruits at twelve to eighteen months, then dies, and the next sucker is already up. Cut the spent stem and drop it where it stands: that is the mulch. Keep two or three followers per mat and cut the rest.</p></div>
+      </div>
+    </article>
+
+    <!-- 5 ── lilikoi ────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Lilikoʻi</h2><span class="com">Passion fruit</span>
+        <p class="bin">Passiflora edulis</p></div>
+      <div class="fit"><span class="yt">Fruit</span>
+        <span class="prefs">
+          <span class="stratum" data-s="shrub"><i></i>vine</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet, drained</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 3,000 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>dappled shade</span>
+        </span></div>
+      <p class="distil">A vine that wants dappled shade, which means the edge of a forest rather than a fence in the open. Fruit in a year from a cutting. It lives three to six years, hard and fast, and then it is done.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--closes" style="right:auto;width:48%"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:18%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Humus-rich ground that drains. Do not feed it: rich ground makes leaf and no fruit. Dappled shade, sheltered from cold wind. It needs something to climb.</p></div>
+        <div class="beat"><h3>Set</h3><p>A cutting fruits the same year. Seed takes one to two years and can take twelve months just to germinate.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>Two crops a year. The fruit tells you it is ready by wrinkling and falling. Pick it off the ground. Cut the whole vine to the ground when it tires and it comes back.</p></div>
+      </div>
+    </article>
+
+    <!-- 6 ── inga ───────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Ice cream bean</h2>
+        <p class="bin">Inga edulis</p></div>
+      <div class="fit"><span class="yt">Pods — sweet · nitrogen</span>
+        <span class="prefs">
+          <span class="stratum" data-s="canopy"><i></i>canopy</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 7,200 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun to dappled shade</span>
+        </span></div>
+      <p class="distil">The nurse tree that fruits. It fixes nitrogen, drops high-nitrogen leaf, casts the shade cacao and coffee want, and hands you a three-foot pod full of something like vanilla ice cream. Cut it back and it comes back harder.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:26%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Almost any ground, including worn-out ground and limestone. Sun, or the dappled shade under something else.</p></div>
+        <div class="beat"><h3>Set</h3><p>Fresh seed, which germinates in days and cannot be stored. Plant out at four to five months.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>First pods at two years. It flowers and fruits year-round. Coppice it and it resprouts, and everything you cut off it becomes nitrogen on the ground for whatever it is nursing.</p></div>
+      </div>
+    </article>
+
+    <!-- 7 ── gliricidia ─────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>Gliricidia</h2>
+        <p class="bin">Gliricidia sepium</p></div>
+      <div class="fit"><span class="yt">No food — nitrogen, mulch, shade</span>
+        <span class="prefs">
+          <span class="stratum" data-s="canopy"><i></i>canopy</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>anything</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 5,200 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun</span>
+        </span></div>
+      <p class="distil">It is here to work. A branch cut off it and pushed in the ground becomes a tree. Cut it twice a year and everything near it grows faster. Toxic to people, dogs, and horses — this one is not dinner.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Any ground: acid, alkaline, worn out, waterlogged, or a 40% slope. Full sun.</p></div>
+        <div class="beat"><h3>Set</h3><p>A large cutting. A branch, pushed into the ground. It is the easiest living fence there is. Seed germinates in a week at nearly 100%.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>Ten feet a year once it starts. Pollard it above head height and cut it back every two to three years, or lop it as often as you like. It resprouts every time. The leaf you cut is the nitrogen. Keep it away from the dog.</p></div>
+      </div>
+    </article>
+
+    <!-- 8 ── ulu ────────────────────────────────────────────────────── -->
+    <article class="entry">
+      <div class="naming"><h2>ʻUlu</h2><span class="com">Breadfruit</span>
+        <p class="bin">Artocarpus altilis</p></div>
+      <div class="fit"><span class="yt">Fruit — starch</span>
+        <span class="prefs">
+          <span class="stratum" data-s="canopy"><i></i>canopy</span>
+          <span class="pref"><svg><use href="#i-rain"/></svg>wet</span>
+          <span class="pref"><svg><use href="#i-temp"/></svg>warm, no frost</span>
+          <span class="pref"><svg><use href="#i-elev"/></svg>to 2,100 ft</span>
+          <span class="pref"><svg><use href="#i-sun"/></svg>sun</span>
+        </span></div>
+      <p class="distil">A tree that makes bread. Grafted, it starts fruiting around year three and keeps going past a person's lifetime: fifty to two hundred fruits a season, twice a year, from ground that gets nothing but its own fallen leaves.</p>
+      <div class="life"><div class="life-track">
+        <i class="furrow" style="left:var(--yr1)"></i><i class="furrow" style="left:var(--yr3)"></i>
+        <i class="furrow" style="left:var(--yr5)"></i><i class="furrow" style="left:var(--yr10)"></i>
+        <i class="furrow" style="left:var(--yr50)"></i>
+        <span class="span span--open"></span>
+        <span class="span-set" style="width:3%"></span><span class="dot" style="left:var(--yr3)"></span>
+      </div><div class="scale">
+        <span style="left:var(--yr1)">1</span><span style="left:var(--yr3)">3</span>
+        <span style="left:var(--yr5)">5</span><span class="s10" style="left:var(--yr10)">10</span>
+        <span class="s50" style="left:var(--yr50)">50</span></div></div>
+      <div class="beats">
+        <div class="beat"><h3>Prep</h3><p>Wet, warm, low ground, and no frost, ever. Drainage is the one thing it will not forgive. Thirty feet of room. Roots run shallow and wide, so the digging under it stops once it is in.</p></div>
+        <div class="beat"><h3>Set</h3><p>Grafted, not seed: seed takes ten years and comes up a stranger. Goes in during the rains. Wants shade for its first year or two, and a banana on the windward side gives it that and takes the wind off besides.</p></div>
+        <div class="beat beat--forget"><h3>Forget</h3><p>Fruits May to October, and again. The leaves are the size of a doormat and fall all year. That is the mulch, and it stays where it lands. Tip-prune once a year and the fruit stays in reach. By year five the shade underneath is deep, and that is when the kalo goes in.</p></div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="foot">
+    <p class="say">Eight is what fits on a sheet of paper. Your ground has more in it than eight plants, and it is not the same as your neighbour's ground. The site reads the rain, the elevation and the heat where you actually stand, and tells you what that means.</p>
+    <p class="url">prepsetforget.org</p>
+    <p class="small">Nothing to sign up for. Take this off the board and pass it on.</p>
+  </div>
+
+</div></div>
