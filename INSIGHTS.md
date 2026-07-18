@@ -91,7 +91,23 @@ knowledge does exist: what guinea grass says that false staghorn fern does not, 
 albizia means about nitrogen, what strawberry guava says about a stalled succession, what bare ʻaʻā
 says about a succession that has not begun. This is ethnoecological knowledge the steward holds
 personally, and it is the exact input the second axis needs to be readable.
-→ Wants its own document or a `raw/`-style store. **The highest-value unwritten thing in the project.**
+→ **Started** as [INDICATORS.md](INDICATORS.md) — a confidence-tagged scaffold written ahead of its
+sourcing, awaiting the steward's ground-truth pass. The writing surfaced a category Götsch's list
+lacks entirely (§ below).
+
+### 2026-07-17 — Hawaiʻi's succession arrests; the Cerrado's mostly doesn't
+Writing [INDICATORS.md](INDICATORS.md) turned up the structural difference between Götsch's context
+and this one. His indicators mostly report *stages a system is passing through*. Several of the
+dominant covers here — albizia, strawberry guava, uluhe in its mat mode, christmasberry — are not
+stages passed through but **arrested states** that hold ground for decades. Read as "early, be
+patient" they give the opposite of the right advice. The correct move is Götsch's own stall remedy
+(the cecropia with no successor beneath it): introduce the missing successional class into a cut gap,
+don't wait and don't fertilize. This is *why* Hawaiʻi's succession needs a hand where a
+less-disturbed system needs only time — and albizia is the sharpest case, because the syntropic
+reading ("supply the successor, take the free nitrogen") directly contradicts removal-first invasive
+guidance. That contradiction is real and unresolved; it is the native/introduced tension of
+[SYNTROPY.md](SYNTROPY.md) VI wearing work boots.
+→ INDICATORS.md IV. Wants the steward's judgment and, eventually, a stated position.
 
 ### 2026-07-17 — The guild is where restoration and food production reconcile (strengthened)
 The māmaki note above gains a second leg. Götsch argues that a biome past its resilience often cannot

@@ -42,6 +42,10 @@ order — see [succession.md](succession.md)).
   engine the horizontal layer (companion / placement / difficulty) is compiled from.
 - **[PRAXIS.md](PRAXIS.md)** — *the doing.* The outer techniques (the living cutting, chop-and-drop,
   reading the harvest signal) and the inner succession that is the project's real product.
+- **[INDICATORS.md](INDICATORS.md)** — *the second axis.* What the plants already standing on a site
+  report about its consolidated life — the reading no raster carries and the conversational layer
+  exists to take. A confidence-tagged scaffold, written ahead of its sourcing, awaiting the lived
+  reading.
 - **[INSIGHTS.md](INSIGHTS.md)** — *the seedbed.* Whatever doesn't fit the others yet, date-stamped,
   periodically promoted or let go.
 
@@ -152,7 +156,9 @@ this input ("*and* what is already growing there") and it has never had an inter
 So the conversational / LLM layer is not an enrichment tier for the pioneer substrate. **It is the
 instrument's missing second axis**, and it exists to ask one question: *what is already growing
 there?* The input device it needs is a Hawaiʻi indicator-plant set, which does not exist in any
-database and is the highest-value unwritten thing in the project.
+database. A first-pass scaffold — [INDICATORS.md](INDICATORS.md) — is now written, confidence-tagged
+and awaiting the steward's ground-truth; it is the one document in the layer written *ahead of* its
+sourcing, and marked so.
 
 ## Deliberately unfinished
 
@@ -173,7 +179,10 @@ database and is the highest-value unwritten thing in the project.
 - **The senescence audit:** re-read every "Forget" beat in the copy against the finding that flowering
   broadcasts aging to the whole system. Some beats may imply a plant can be left to seed when it
   should not be.
-- **The Hawaiʻi indicator-plant set** — the input device for the second axis, above.
+- **The Hawaiʻi indicator-plant set** — [INDICATORS.md](INDICATORS.md) is a first-pass scaffold;
+  what is owed is the steward's ground-truth pass (ratifying or overturning each `[inferred]` /
+  `[needs ground-truth]` tag), the CTAHR/DLNR sourcing for the `[established]` entries, and the
+  missing entries (wet-forest natives, upcountry and dry-side weeds, everything above the frost line).
 - **The 19/59 selection.** `site.html` carries nineteen plants; the corpus carries fifty-nine. The
   shipped set is currently bounded by where day 1 stopped rather than by a decision about which
   plants earn the display. Making the nineteen a *chosen* nineteen is owed — and the Minimum Viable

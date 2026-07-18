@@ -149,7 +149,11 @@ not an enrichment, it is **the second axis of the instrument**, and the question
 Cerrado list, where each common volunteer reports a soil condition. What does guinea grass say that
 false staghorn fern does not? What does a stand of albizia mean about nitrogen, and strawberry guava
 about a site's stalled state, and bare ʻaʻā about where the succession has not started? That is
-ethnoecological knowledge the steward holds and no database carries.
+ethnoecological knowledge the steward holds and no database carries. **A first-pass scaffold now
+exists — [INDICATORS.md](INDICATORS.md)** — written ahead of its sourcing, every entry confidence-
+tagged, awaiting the lived reading. It also adds a category Götsch's list lacks: the *arrested
+states* (albizia, strawberry guava, uluhe, christmasberry) that hold ground for decades instead of
+progressing, and so demand the successor-into-a-gap move rather than patience.
 
 ---
 
