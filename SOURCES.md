@@ -30,6 +30,15 @@ Where two tiers disagree on a decidable fact, the higher tier wins. Where they d
 holistic judgment — *is this a good plant for this person's ground?* — no source wins; that is
 handed back to the living, per the gate's own boundary (below).
 
+**The wisdom base is a separate axis, not a higher tier** (added session 3, 2026-07-17). Götsch's
+syntropic method and Freely's own writings — collected in [SYNTROPY.md](SYNTROPY.md) — are authority
+over *mechanism, stance, and purpose*: what succession is, why pruning works, what difficulty
+actually measures, what the tool is for. They are **not** authority over any number in a record. A
+band comes from tier 1–5 above or it does not ship. This firewall matters because the wisdom base is
+persuasive, general, and would otherwise quietly start supplying facts it does not hold: Götsch's
+species are Brazilian, his soils are not ours, and the English text in hand is an unofficial machine
+translation. Take the apparatus; leave the numbers.
+
 ## The databases, and what each is good for
 
 | Source | Reach | Good for | Watch |
@@ -44,6 +53,8 @@ handed back to the living, per the gate's own boundary (below).
 | **Grower and cooperative practice** (e.g. Hawaiʻi ʻUlu Cooperative) | Working Hawaiʻi farms | Propagation, spacing, guild companions the databases omit — how a plant is actually put in the ground here | Practice, not a controlled trial; corroborate the numbers, trust the placement |
 | **Peer-reviewed medical / nephrology literature** | Specific human-health cautions | The load-bearing hazard facts (star-fruit caramboxin and renal risk; the raw-katuk-juice lung injury) | Used only to state a plain caution, never as horticulture |
 | **permacultureplants.com** | Long bylined secondary articles | Soft, anecdotal colour only | 403 to plain fetch, reachable only through a real browser; footnoted secondary, never a primary source. Only ʻulu has been cross-read against it |
+| **Rebello & Ghiringhello, *Agricultura Sintrópica segundo Ernst Götsch*** (2021) | Götsch's syntropic method, 40 yr of Bahia fieldwork | The **mechanism** layer: strata, successional classes, the colonization→accumulation→abundance reading, the crutch, pruning physiology, indicator plants | Brazilian biomes and species throughout; the *apparatus* transfers, the *species lists* do not. Read via an unofficial machine translation — quote cautiously, and treat any single number as indicative. See [SYNTROPY.md](SYNTROPY.md) |
+| **Freely's own writings** (*Boundless Garden* 2019; *Gardens, Borders, Syntropy* 2024; *Syntropy & Technology* 2025) | The project's philosophical spine | Why succession is the product; the syntropy/entropy distinction; the garden-wall critique; fermentation and seed dispersal; the design criteria the tool is judged against | **Not a horticultural source.** Authority over *stance, voice, and what the tool is for* — never over a climate band or a plant fact |
 
 All numeric bands in the records are converted to **inches and feet** — what a person here actually
 uses — regardless of the source's units.
@@ -76,6 +87,13 @@ importing the wrong frame's certainty.
   vector is established in Hawaiʻi, the disease itself has never been found here, and the orchard's
   fear is held lightly for the dooryard tree. More targeted research could sharpen this distinction
   later; until then it is stated as a caution, not a verdict.
+  **This judgment now has a stated mechanism** (session 3): in Götsch's reading, pest and weed
+  pressure is proportional to the *crutch* — the gap between the fertility a species needs and the
+  life the site has actually consolidated. Insects, fungi, and weeds are "the department for the
+  optimization of life processes," reporting the true successional state of the ground. So a pest is
+  literally a measurement of mismatch, which is why its weight in a monoculture is not its weight in
+  a diverse dooryard planting. Held-lightly was the right instinct; [SYNTROPY.md](SYNTROPY.md) IV is
+  the reason.
 - **"Difficulty" is contextual, not intrinsic.** Any plant not bred into dependence can be a
   level-one prep-set-forget in the right community. The companion — often a pioneer already growing,
   strongly pruned to stimulate rather than overpower — is the largest difficulty reducer there is,

@@ -31,6 +31,12 @@ order — see [succession.md](succession.md)).
   is distilled from, and the store [gate.py](gate.py) checks against (the revived `spine.jsonl`).
 - **[SOURCES.md](SOURCES.md)** — *the method.* Authority order, databases, conventions (units,
   lived-band labeling), the judgments held lightly.
+- **[SYNTROPY.md](SYNTROPY.md)** — *the ground.* The deepest layer: what succession is *for*, and the
+  apparatus the physics is expressed in. Götsch's syntropic method (strata × successional class, the
+  colonization→accumulation→abundance reading, the crutch, pruning physiology) and Freely's own
+  writings (syntropy vs. entropy, the garden wall, abundance as origin, the design criteria the tool
+  is judged against). Authority over mechanism and stance; **never over a number** — see
+  [SOURCES.md](SOURCES.md).
 - **[succession.md](succession.md)** — *the physics.* Broad to specific: succession theory, the
   guild mechanics (traceable to `raw/`), and the site-logic that derives the planting order. The
   engine the horizontal layer (companion / placement / difficulty) is compiled from.
@@ -135,6 +141,19 @@ against the whole set at once, when the records are integrated. Placement, diffi
 planting order are one derived quantity (all functions of the site's state + available companions),
 compiled from [succession.md](succession.md) — not three separate columns.
 
+## The second axis (the standing architectural gap)
+
+Added session 3. The fit logic above reads **climate** — it answers *can this species survive here*.
+The syntropic reading says the variable that decides cost, pest pressure, and planting order is
+orthogonal to climate: where the ground sits between raw substrate and consolidated abundance. That
+is not in any raster; it is read off what is already growing. `succession.md` III has always assumed
+this input ("*and* what is already growing there") and it has never had an interface.
+
+So the conversational / LLM layer is not an enrichment tier for the pioneer substrate. **It is the
+instrument's missing second axis**, and it exists to ask one question: *what is already growing
+there?* The input device it needs is a Hawaiʻi indicator-plant set, which does not exist in any
+database and is the highest-value unwritten thing in the project.
+
 ## Deliberately unfinished
 
 - **The recrystallization pass:** cross-read every `raw/` record against a second source
@@ -148,3 +167,15 @@ compiled from [succession.md](succession.md) — not three separate columns.
   not a wider-palette footnote.
 - Flyers for the other coasts (leeward, upcountry) — same records, same map, new planting orders.
 - The lived bands standing beside the published bands in the UI.
+- **Successional class has no field.** Every record carries a stratum (`str:`) — axis 1 — and nothing
+  for axis 2 (placenta 1/2 · secondary 1/2 · climax, with lifespan). Both are needed before placement
+  can be compiled. See [succession.md](succession.md) I-b.
+- **The senescence audit:** re-read every "Forget" beat in the copy against the finding that flowering
+  broadcasts aging to the whole system. Some beats may imply a plant can be left to seed when it
+  should not be.
+- **The Hawaiʻi indicator-plant set** — the input device for the second axis, above.
+- **The 19/59 selection.** `site.html` carries nineteen plants; the corpus carries fifty-nine. The
+  shipped set is currently bounded by where day 1 stopped rather than by a decision about which
+  plants earn the display. Making the nineteen a *chosen* nineteen is owed — and the Minimum Viable
+  Seed test ([SYNTROPY.md](SYNTROPY.md) VII) is the criterion: does the shipped set contain every
+  organ of the whole system, or is it a slice of a larger one?

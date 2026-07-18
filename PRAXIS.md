@@ -29,6 +29,16 @@ Praxis is where that move is made concrete, because it is made by doing, not by 
 - **Recognition as a practice.** Hōʻiʻo (#42), the wild fern already growing in the wet ditch, is
   food you did not plant — "waiting only to be recognised. The succession got there first." A core
   praxis is *seeing what is already there* before adding anything.
+- **The body already knows this** (from [SYNTROPY.md](SYNTROPY.md) II). The inner succession is not
+  the installation of a new attitude; it is the removal of an interference. Primate cognition was
+  shaped *by* abundance and symbiosis with fruiting plants — color vision, the smell of ripeness, the
+  grasping hand, the map of what fruits when. Scarcity is what we fell into, not what produced us. A
+  person is not being asked to believe something unlikely about land. They are being asked to stop
+  disbelieving something their body assumes.
+- **The wall is the diagnostic.** A garden is walled because the outside is hostile; the more hostile
+  the outside, the more the walls must extract from it to keep the inside nice. So the honest measure
+  of this work is not how good the garden gets — it is whether the need for the wall is falling. The
+  practice succeeds when it starts spreading past its own edge.
 
 ## II. The outer techniques — the repeatable acts
 
@@ -43,7 +53,29 @@ and the copy.
 - **Chop-and-drop (the transaction).** Cut a nitrogen-fixer or pioneer and leave everything you cut
   on the ground: leaf becomes mulch, roots shed nitrogen, the neighbour eats both *at the same
   moment*. Pigeon pea (#6), ice cream bean (#10), gliricidia, kukui (#39). The cut is not tidying;
-  it is feeding.
+  it is feeding. There is a fourth effect, easily missed: the prunings release growth hormones that
+  travel the root network and stimulate **the whole system**, not only the plant that was cut.
+  - **The test that keeps this honest: did this grow here?** Soil is built underground, by roots and
+    exudates; leaf litter creates the conditions for that, but does not substitute for it. Biomass
+    the system grew and dropped where it stands is the system feeding itself. Biomass trucked in and
+    spread over ground with no roots working under it is a wall in disguise — order imported from
+    outside to keep this patch nice. Same material, opposite direction of flow.
+- **Prune before it flowers.** Flowering is information, and it is contagious: a plant that flowers
+  and seeds tells the whole community it is time to age, and growth slows *system-wide*, not just in
+  that plant. So the weed cut before it flowers keeps everything young, and the weed left to seed
+  costs more than its own patch. This is why timing outranks quantity in pruning, and why a companion
+  with a long vegetative cycle is worth more than a vigorous one. (Mechanism in
+  [SYNTROPY.md](SYNTROPY.md) V.)
+- **Ferment; do not compost.** Food scraps, peels, rinds, cores — seal them raw in a bucket with
+  their seeds and let them ferment. No inoculant is needed; the microbes are already in the food.
+  Composting burns off most of the value; fermentation keeps it, kills pathogens, ends the smell, and
+  makes ideal worm food. Add charcoal from a cooking fire and this is the pre-Columbian *terra preta*
+  process, which built ten feet of soil that is still fertile after a thousand years on some of the
+  poorest ground on earth. It is the cheapest intervention in the whole project and needs no land.
+- **Disperse the seed.** Ferment and scatter the seed of everything that grows well here, rather than
+  planting one at a time. A little soil from mature forest pre-seeds the mycorrhizae that matter
+  later. This is the frugivore's actual work — the niche left open by the dispersers that are gone —
+  and it is free. (See [SYNTROPY.md](SYNTROPY.md) II, VI.)
 - **Pruning to keep food in reach.** Many plants go to the sky if left (moringa to 25 ft, aibika to
   16, chaya, katuk). Cutting them low is not restraint of the plant but service to the harvest —
   keep the food where the hands are.
