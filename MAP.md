@@ -162,9 +162,27 @@ sourcing, and marked so.
 
 ## Deliberately unfinished
 
-- **The recrystallization pass:** cross-read every `raw/` record against a second source
-  (Elevitch / Morton), then re-distil the copy. Acerola (#27) is the worked example done; abiu (#57,
-  no rainfall band) is first in line. ~48 records remain.
+- **The `raw/` store now covers the whole corpus** (session 5, 2026-07-18): all 56 copy entries have a
+  one-file-per-plant `raw/` record (57 files — the citrus trio share one), each band traced to Ferns in
+  the source's units with the conversion kept, or labelled lived/general where Ferns is silent. The
+  session-4 gap (the Part III fruit #20–37, the Part IV annuals #45–47, the citrus) is closed.
+- **The recrystallization pass** (advanced session 5): the copy has been reconciled against the now-
+  complete `raw/` store. Corrections applied to [plant-copy.md](plant-copy.md): ʻulu rain 157→120 in;
+  ice-cream-bean natural range 350–5,000 ft → 360–1,770 ft (110–540 m); **poha altitude "above 800 ft"
+  → "above ~2,600 ft (800 m)", a metres→feet unit slip the store caught**; pumpkin + ipu gained their
+  Ferns rain bands (the Part IV "Ferns is thin for the annuals" framing was wrong — only the currant
+  tomato is genuinely band-less). **Still owed:** the same ʻulu + ice-cream-bean fixes in `site.html`'s
+  `P` array (the shipped tool still shows the old numbers); and unsourced reader-facing figures now
+  flagged in the store — chaya altitude 4,300 ft, cempedak "best under 450", citrus rainfall 40–60 in
+  and altitude 3,000 ft — owed a source or a relabel. Deeper cross-reads (Elevitch/Morton for the
+  fruit) continue; abiu (#57, still no rainfall band) remains first in line.
+- **Axis 2 is now complete across the corpus** (session 5): every `raw/` record carries the
+  *Succession (axis 2)* line — class + lifespan. What remains is the derived `succ:` field in
+  `site.html` (compiled from `raw/`), still owed.
+- **Numbering "gap" #48–50 resolved** (session 5): the citrus entry *is* #48–50 (orange · grapefruit ·
+  lemon, one entry across three species). The copy does not skip — it collapses three numbers into one
+  heading. The corpus is 56 entries across a 1–59 numbering because the citrus triple and the true
+  absence of any #-labels between #47 and #51 net out; the count is honest.
 - **The horizontal layer** — placement / companion / difficulty — compiled from
   [succession.md](succession.md) once its cross-claims are reconciled.
 - Consolidating the scattered field techniques from copy "Set/Forget" beats into
@@ -173,9 +191,11 @@ sourcing, and marked so.
   not a wider-palette footnote.
 - Flyers for the other coasts (leeward, upcountry) — same records, same map, new planting orders.
 - The lived bands standing beside the published bands in the UI.
-- **Successional class has no field.** Every record carries a stratum (`str:`) — axis 1 — and nothing
-  for axis 2 (placenta 1/2 · secondary 1/2 · climax, with lifespan). Both are needed before placement
-  can be compiled. See [succession.md](succession.md) I-b.
+- **Successional class — now in the store, not yet in the ship.** Every `raw/` record for the shipped
+  19 now carries a *Succession (axis 2)* line (class + lifespan) alongside the stratum (`str:`, axis 1)
+  — done session 4 (2026-07-17). What remains: a derived `succ:` field in `site.html`, compiled from
+  `raw/`, so both axes are visible in the tool and available to the placement pass. See
+  [succession.md](succession.md) I-b.
 - **The senescence audit:** re-read every "Forget" beat in the copy against the finding that flowering
   broadcasts aging to the whole system. Some beats may imply a plant can be left to seed when it
   should not be.

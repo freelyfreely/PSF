@@ -3,6 +3,10 @@
 **Identity:** vanilla. Orchidaceae — the only orchid the world eats. PSF role: understory vine
 (epiphyte), spice. Copy entry #53.
 
+**Succession (axis 2):** **secondary 1 · understory epiphytic vine** · lifespan long (a perennial vine
+cropping for years; long cuttings fruit 1–2 yr, short 3–5 yr). Same shaded vertical niche as black
+pepper and ʻawa.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 2,000–2,500 mm, tol 1,500–3,000 mm → **79–98 in pref, 59–118 in tol**.
 - **Temperature** — Ferns: pref 21–30 °C, tol 10–33 °C → **70–86 °F pref, 50–91 °F tol**. No frost.

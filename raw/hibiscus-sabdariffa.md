@@ -4,6 +4,9 @@
 (drink/tart) + leaf. Copy entry #56. Kin to *Abelmoschus manihot* (aibika, #20) — another generous
 hibiscus grown for a soft edible part.
 
+**Succession (axis 2):** **placenta 1** · lifespan: grown as an annual (calyx 3–5 mo, short-day
+trigger). A maximum-density fast shrub that says goodbye — the hibiscus placenta beside its kin aibika.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: opt 1,500–2,000 mm, tol 640–4,290 mm → **59–79 in opt, 25–169 in tol**.
 - **Temperature** — Ferns: 12.5–27.5 °C annual → **55–82 °F**.

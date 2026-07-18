@@ -3,6 +3,10 @@
 **Identity:** katuk, sweetleaf, star gooseberry. Phyllanthaceae. PSF role: shrub, leaf/protein.
 Copy entry #54. (Also placed in *Breynia androgyna* in recent taxonomy — note for cross-read.)
 
+**Succession (axis 2):** **secondary 1 · understory leaf shrub** · lifespan years (plant once, cut for
+years; first leaf 55–70 d). The chaya / aibika pattern in a third family — a long-cropping perennial
+green, not a placenta annual.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 900–1,200 mm, tol 600–4,000 mm → **35–47 in pref, 24–157 in tol**.
 - **Temperature** — Ferns: optimal 26–35 °C, tol 5–38 °C → **79–95 °F opt, 41–100 °F tol**.

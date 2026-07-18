@@ -3,6 +3,9 @@
 **Identity:** abiu. Sapotaceae. PSF role: sub-canopy to canopy fruit. Copy entry #57. Kin to
 canistel and lucuma (same genus).
 
+**Succession (axis 2):** **secondary 2 · sub-canopy/canopy fruit tree** · lifespan long (decades;
+grafted 3–4 yr, seedling to 8 yr). A slower-arriving canopy fruit that wants accumulated life beneath it.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: **not specified (GAP)**. Wants year-round moist, warm, no dry stress.
 - **Temperature** — Ferns: frost-intolerant; year-round moist and warm required.

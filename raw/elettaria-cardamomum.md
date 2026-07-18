@@ -4,6 +4,10 @@
 Kin to *Curcuma longa* (ʻōlena, #3) and *Zingiber officinale* (ʻawapuhi, #4) — same family, wants
 what they want turned up: more shade, more cool, more height.
 
+**Succession (axis 2):** **secondary 1 · understory clumping perennial** · lifespan ~10–15 yr economic
+(bearing from ~3 yr, 4–5 from seed). A long-cropping shade herb of the coffee-belt understory — nearer
+its kin ʻawa (Piper) than the annual-cycle placenta of its ginger-family kin ʻōlena / ʻawapuhi.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 2,500–3,800 mm, tol 1,500–5,800 mm → **98–150 in pref, 59–228 in tol**.
   Drought reckoned < 125 mm/month.

@@ -3,6 +3,10 @@
 **Identity:** winged bean, goa bean, four-angled bean. Fabaceae. PSF role: legume vine,
 nitrogen-fixer, whole-plant food. Copy entry #55.
 
+**Succession (axis 2):** **placenta 1 · nitrogen-fixing legume vine** · lifespan: grown annual (pods
+60–80 d, tubers 120–240 d, seed 6–9 mo). A maximum-density placenta that fixes nitrogen while it feeds
+— the legume organ of the placenta layer, kin in role to pigeon pea but shorter and climbing.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 1,000–2,500 mm, tol 500–4,100 mm → **39–98 in pref, 20–161 in tol**.
 - **Temperature** — Ferns: optimal 18–30 °C, tol 14–40 °C, survives ~3 °C → **64–86 °F opt,

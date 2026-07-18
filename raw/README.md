@@ -14,6 +14,12 @@ See [SOURCES.md](../SOURCES.md) for the authority order and conventions these fi
 Each `<genus-species>.md` carries, in order:
 
 - **Identity** — binomial, family, common names, PSF role, copy entry number.
+- **Succession (axis 2)** — the successional class (placenta 1/2 · secondary 1/2 · climax) and the
+  lifespan, added 2026-07-17 (session 4). Axis 1 (stratum) is the PSF `str:` field, already shipped;
+  this is the second, independent axis from [SYNTROPY.md](../SYNTROPY.md) III / [succession.md](../succession.md)
+  I-b. **The lifespan is the datum; the class is the label** — where a plant sits between two classes
+  (the 3–6 yr fruits, pigeon pea), the file says so rather than forcing a bin. `site.html` does not yet
+  carry a derived `succ:` field; when it does, it compiles from here.
 - **Climate & site — by source** — rainfall, temperature, altitude, soil/pH, light. Each line
   gives the raw value *in the source's own units* and the conversion to inches / feet / °F. Every
   contributing source is named inline (Ferns, Morton, CTAHR, lived Puna, …).

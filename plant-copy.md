@@ -549,7 +549,7 @@ resprouts, and everything you cut off becomes nitrogen on the ground for whateve
 - Tolerant of nearly anything, including nutrient-depleted soil and limestone.
 - 47 to 100 inches a year preferred, 25 to 157 tolerated. This coast sits comfortably inside.
 - 73 to 86°F. Killed at 28°F, damaged at 32.
-- Sea level to 7,200 ft; naturally found 350 to 5,000.
+- Sea level to 7,200 ft in cultivation; naturally found 360 to 1,770 ft (110–540 m), per Ferns/PFAF.
 - Sun, but succeeds in dappled shade, rare for a tree this size.
 
 **Set**
@@ -643,7 +643,7 @@ with a knife.
 *Artocarpus altilis* · canopy · first food year 3
 
 ### Simple
-**FRUIT — STARCH.** 60–157 in · warm, no frost · coast to 2,100 ft · sun
+**FRUIT — STARCH.** 60–120 in · warm, no frost · coast to 2,100 ft · sun
 
 > A tree that makes bread. One mature ʻulu drops more starch in a season than a family eats, on
 > ground that gets no fertilizer and no tilling. It is slow for three years, and then it is the
@@ -1638,14 +1638,14 @@ else.
 *Physalis peruviana* · shrub · first food month 3
 
 ### Simple
-**FRUIT.** 30–90 in · mild · above 800 ft · sun to light shade
+**FRUIT.** 30–90 in · mild · above ~2,600 ft · sun to light shade
 
 > A short-lived berry bush that fruits in three months and wraps each fruit in its own paper
 > husk. It does better up out of the hot lowland, and it is the poha of poha jam.
 
 ### Flyer
 **Prep** — Well-drained ground, not too rich — fat soil makes leaves and few berries. Sun or light
-shade. It fruits better above 800 feet.
+shade. It fruits better above about 2,600 feet (800 m).
 
 **Set** — Seed, up and out like a tomato. Plant out at four inches.
 
@@ -1658,7 +1658,7 @@ dropping in its husk; you pick it off the ground. The husk itself is not eaten.
 - Well-drained ground, humus-rich loam preferred but it takes poor soil; dislikes clay. pH wide,
   4.5 to 8.2. Excess richness cuts fruiting.
 - 30 to 90 inches a year preferred, tolerates 30 to 170. 61 to 77°F, takes light frost. Yields
-  better above 800 ft in the tropics — the upland, not the hot coast.
+  better above ~2,600 ft (800 m) in the tropics — the upland, not the hot coast.
 
 **Set**
 - Seed, helped by day-night temperature swing, planted out at three to four inches. Division also
@@ -2439,9 +2439,13 @@ becomes chocolate.
 # IV. Kitchen-door annuals and the citrus
 
 The annuals here — the tropical squash, the ipu, the currant tomato — are grown and proven on the
-ground in Puna, and their numbers come from that lived experience where the Ferns entries are thin.
-The citrus sits beside them on its own footing: its climate from Ferns, its pest picture from the
-extension record — the psyllid vector is established statewide, the disease itself never found here.
+ground in Puna. Their placement is lived, but the numbers now sort by source: Ferns carries full
+climate bands for the tropical squash (*Cucurbita moschata*) and the ipu (*Lagenaria siceraria*), so
+those are Ferns-backed; only the currant tomato (*Solanum pimpinellifolium*) is genuinely absent from
+Ferns and rides on lived ground-truth, labelled as such. The citrus sits beside them on its own
+footing: its temperature and soil from Ferns, its rainfall and altitude still owed a source, its pest
+picture from the extension record — the psyllid vector is established statewide, the disease itself
+never found here.
 
 ---
 
@@ -2449,11 +2453,11 @@ extension record — the psyllid vector is established statewide, the disease it
 *Cucurbita moschata* · ground vine · first food month 3–4
 
 ### Simple
-**FRUIT — STARCH.** warm · coast to 5,000 ft · sun
+**FRUIT — STARCH.** 24–63 in · warm · coast to 5,000 ft · sun
 
 > The squash that actually handles tropical heat and humidity, where the thin-skinned kinds rot.
-> A sprawling vine that gives you keeping pumpkins in three to four months, and edible shoots the
-> whole time.
+> A sprawling vine that gives you keeping pumpkins in about five months — young fruit and edible
+> shoots along the way.
 
 ### Flyer
 **Prep** — Rich, well-drained ground and a lot of room. Full sun. It runs and it will cover a
@@ -2468,13 +2472,16 @@ mature fruit stores for months on a shelf, which is the point of it.
 
 **Prep**
 - Rich, well-drained soil, full sun, plenty of space. *C. moschata* is the tropical-adapted squash
-  species, more disease- and heat-tolerant than most. Up to about 5,000 ft.
+  species, more disease- and heat-tolerant than most. 24 to 63 inches a year preferred (Ferns), 12 to
+  110 tolerated; best in fairly low humidity. Up to 2,400 m (~7,870 ft); the copy holds it to a
+  conservative 5,000 ft.
 
 **Set**
 - Seed in mounds, thinned. Give it a long run of ground or something to sprawl over.
 
 **Forget**
-- Immature fruit and shoots earlier; mature keeping fruit at three to four months.
+- Immature fruit and shoots earlier; mature keeping fruit wants a longer run — Ferns puts the warm
+  season near 150 days, about five months.
 - Butternut and the Hawaiian field pumpkins are this species. The mature fruit stores for months.
 
 **The food**
@@ -2493,7 +2500,7 @@ homesteads much like the chayote — a sprawling, forgiving, keeping crop that a
 *Lagenaria siceraria* · ground/climbing vine · first food month 3
 
 ### Simple
-**FRUIT — VEGETABLE + VESSEL.** warm · coast to 5,000 ft · sun
+**FRUIT — VEGETABLE + VESSEL.** 47–71 in · warm · coast to 5,000 ft · sun
 
 > Food when young, a container when old. The ipu of hula and of the water gourd, and, picked small
 > and green, a mild summer vegetable. A vigorous vine you grow up an arbour so the fruit hangs
@@ -2512,7 +2519,8 @@ for months, then dry them for months more into bowls, bottles, and drums.
 
 **Prep**
 - Rich, moisture-retentive, well-drained soil, full sun, an arbour or fence. A vigorous climber.
-  Warm-season, frost-tender. Up to about 5,000 ft.
+  Warm-season, frost-tender. 47 to 71 inches a year preferred (Ferns), 28 to 110 tolerated. Grown to
+  1,600 m (~5,250 ft); the copy holds it to about 5,000 ft.
 
 **Set**
 - Seed, pre-soaked, sown in warm ground; night-flowering and moth-pollinated.

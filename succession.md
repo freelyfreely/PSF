@@ -51,8 +51,14 @@ opening, and a weed will take it.**
 
 **Axis 2 — successional class.** When the plant belongs in the life of the system, by lifespan and
 by how much accumulated life it needs beneath it: **placenta 1/2** (≤2 yr) → **secondary 1**
-(~10–20 yr) → **secondary 2** (~60–80 yr) → **climax** (80–350 yr). PSF does not currently carry
-this field. It should.
+(~10–20 yr) → **secondary 2** (~60–80 yr) → **climax** (80–350 yr). **The store now carries this
+across the whole corpus** (begun session 4, completed session 5, 2026-07-18): every record in
+[raw/](raw) — all 56 entries — has a *Succession (axis 2)* line, class + lifespan, so every plant is
+placed on both axes. `site.html` still lacks a derived `succ:` field; when added it compiles from
+`raw/`. The reading confirmed the theory's own edge cases:
+the 3–6 yr fruits (papaya, lilikoʻi) and the short-lived pioneer legume (pigeon pea) sit *between*
+placenta and secondary 1, and the records name the ambiguity rather than forcing a bin — lifespan is
+the datum, class is the label.
 
 The axes are independent, and that independence is the mechanism. Three plants can share a stratum
 and differ only in class, and their handover over time *is* the succession — prune the short-lived

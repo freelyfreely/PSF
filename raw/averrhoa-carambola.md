@@ -3,6 +3,10 @@
 **Identity:** star fruit, carambola. Oxalidaceae (wood-sorrel family). PSF role: sub-canopy fruit.
 Copy entry #58.
 
+**Succession (axis 2):** **secondary 1/2 · sub-canopy fruit tree** · lifespan long (decades; grafted
+fruit 1–2 yr, seedling 3–8 yr). Fruits young for a tree yet persists — the secondary-1/2 seam the
+mid-canopy fruits share.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 1,200–2,000 mm, tol 600–3,000 mm → **47–79 in pref, 24–118 in tol**.
 - **Temperature** — Ferns: opt 24–30 °C, tol 5–39 °C, killed ≤ −2 °C → **75–86 °F opt, 41–102 °F tol,

@@ -3,6 +3,9 @@
 **Identity:** black pepper. Piperaceae. PSF role: understory vine, spice. Copy entry #51.
 Kin to *Piper methysticum* (ʻawa, #43) — same genus, same shade.
 
+**Succession (axis 2):** **secondary 1 · understory vine** · lifespan 12–20 yr economic (first crop
+3–4 yr, full ~7). A perennial climbing spice of the wet-shade understory — ʻawa's niche, kin by genus.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: pref 2,500–4,000 mm, tol 2,000–5,500 mm → **98–157 in pref, 79–217 in tol**.
 - **Temperature** — Ferns: best 22–35 °C, tol 10–40 °C → **72–95 °F best, 50–104 °F tol**. No frost.

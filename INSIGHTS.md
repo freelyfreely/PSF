@@ -12,6 +12,33 @@ Format: `### YYYY-MM-DD — hook` · a paragraph · then `→ where it wants to 
 
 ---
 
+### 2026-07-18 — The corpus is fully backed, and the backfill caught meta-drift
+Session 5 wrote `raw/` records for the last ~20 entries and completed axis 2 across all 56, so the
+whole corpus is now sourced one file per plant. As with the session-4 backfill, demanding a source for
+every field caught what prose alone hid — but this time the sharpest catch was not a stray number, it
+was a *stray rationale*. The Part IV copy explained that the annuals' bands are lived "where the Ferns
+entries are thin." Fetching Ferns showed it carries full bands for the tropical squash and the ipu;
+only the currant tomato is genuinely band-less. So the store catches **meta-drift** — a documented
+reason that is itself wrong — not just numeric drift. A stated justification is a claim like any other,
+and the firewall applies to it too. (Also caught: poha's "above 800 ft" was a metres→feet unit slip —
+Ferns' optimum is 800 m ≈ 2,600 ft, which is why the copy's own "the upland, not the hot coast" logic
+never fit the number it was attached to.)
+→ Structured into the store, [SOURCES.md](SOURCES.md), and [MAP.md](MAP.md) this session. The general
+form — *back-filling provenance audits the reasons, not only the figures* — sharpens the session-4
+"drift detector" note below.
+
+### 2026-07-18 — The firewall runs the same for hazards as for bands
+Writing the soursop (#26) record, the pull was to add the annonacin / atypical-parkinsonism caution
+that circulates around *Annona* — it feels responsible to warn. But I have no source in hand, only
+memory of Caribbean studies. Star fruit's caramboxin earned its flat statement because it was cross-read
+against the nephrology literature; annonacin has not been, here. So it goes into the raw record as a
+*flagged cross-read target*, explicitly kept out of reader copy until sourced. The lesson: the
+temptation to fabricate is strongest exactly where the stakes feel highest (a health warning), and that
+is precisely where the firewall matters most. An unsourced hazard is still unsourced, however
+well-intentioned.
+→ Flag recorded in [raw/annona-muricata.md](raw/annona-muricata.md) and [SOURCES.md](SOURCES.md). A
+candidate for a stated rule: *hazards get sourced to the same tier as bands before they ship.*
+
 ### 2026-07-17 — Store vs. story: the architecture that unlocked the rest
 The strain across the project (the retired `*(light sourcing)*` marker, single-sourced bands,
 provisional cross-plant claims stuck inside one plant's beats, the "planting order" fiction) was one
@@ -143,6 +170,23 @@ recommendations are the ones the tool must **withhold** until the reader has shi
 crank advice and burn trust. The bounded display isn't only a scope decision; it's a readiness-
 sequencing decision. What you don't say yet is part of the method.
 → Belongs with [PRAXIS.md](PRAXIS.md) I and the eventual conversational-layer design.
+
+### 2026-07-17 — Back-filling raw/ after the copy is a drift detector, not just bookkeeping
+The shipped 19 were written from Ferns during day 1, but the `raw/` provenance files never existed —
+copy *was* the store. Writing the store back underneath the finished prose (this session) was expected
+to be clerical: record the mm/°C/m, keep the conversion, point at the copy entry. It wasn't. The act
+of demanding a source for every shipped number surfaced three deciding fields that **do not trace to
+Ferns at all** — ʻulu's 157-in rain upper (Ferns caps at 118), banana's 4,000 ft ceiling (a lived
+narrowing of 2,400 m) and its unsourced year-1 first-food, ice cream bean's 350–5,000 ft "natural
+range" (Ferns: 110–540 m). None are necessarily *wrong* — breadfruit really is wet-tolerant — but each
+is currently a number with no paper behind it, which is precisely the necrosis [gate.py](gate.py) is
+built to catch. The lesson generalizes: the store/story split isn't only tidiness, it is a *test*. As
+long as copy is its own store, drift is invisible; the moment you force each field to name a source,
+the unsourced ones fall out. This is the strongest practical vindication yet of the derived-not-authored
+architecture — and it means the recrystallization pass has a natural first target list (the three
+flags) rather than a vague "cross-read everything."
+→ Flags recorded in [SOURCES.md](SOURCES.md) "open sourcing work" and in the individual `raw/` files.
+The Elevitch cross-read (already owed) is where they resolve.
 
 ---
 

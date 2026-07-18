@@ -166,7 +166,54 @@ criteria are applied by hand to the prose in [plant-copy.md](plant-copy.md).
 
 ## The open sourcing work
 
-The proposed list is now written (Part V of [plant-copy.md](plant-copy.md): black pepper, cardamom,
+**The whole corpus now has `raw/` backing** (session 5, 2026-07-18). Every one of the 56 copy entries
+has a provenance record; axis 2 (successional class + lifespan) is complete corpus-wide. Backfilling
+the last ~20 records surfaced new flags — the same drift-detection the store exists for:
+
+- **Poha (#30) — CORRECTED in copy.** "Above 800 ft" was a metres→feet slip; Ferns' optimum is 800 m
+  (~2,600 ft). Fixed in [plant-copy.md](plant-copy.md); poha is an upcountry crop, not a lowland one.
+- **Pumpkin (#45) + ipu (#46) — Ferns is NOT thin for these.** Ferns carries full rainfall/temperature/
+  altitude bands for *Cucurbita moschata* and *Lagenaria siceraria*; the Part IV "lived where Ferns is
+  thin" framing overstated the gap. Bands added to copy; only the currant tomato (#47) is genuinely
+  band-less in Ferns and rides on lived ground-truth.
+- **Unsourced reader-facing figures, flagged, not yet resolved** (do not harden into fake numbers):
+  chaya (#21) altitude 4,300 ft is not a Ferns figure; cempedak (#29) "best under 450" reads as an
+  m/ft ambiguity against Ferns' 1,200 m ceiling; citrus (#48–50) rainfall 40–60 in and altitude
+  3,000 ft are not in Ferns (which gives no annual rainfall band for citrus, only a seasonality rule).
+- **Annonacin (soursop #26) — an unsourced hazard flag.** *Annona* spp. carry annonacin, linked in
+  Caribbean studies to atypical parkinsonism in heavy consumers. Held in the raw record as a cross-read
+  target (nephrology/neurology literature, as star fruit's caramboxin was) — **not** in reader copy
+  until sourced. The firewall runs the same for hazards as for bands.
+
+**The shipped 19 have `raw/` backing** (session of 2026-07-17). Every plant the tool actually
+ships (#1–19) has a one-file-per-plant provenance record in [raw/](raw), each shipped band traced to
+its Ferns source in the source's own units with the conversion kept — the store the gate's
+necrosis-check reads against. The backfill surfaced three **deciding fields that did not cleanly trace
+to Ferns** (the exact defect the gate exists to catch); all three have now been **cross-read and
+resolved** — what remains is applying the corrections to the shipped artifacts (`site.html` `P` array
+and [plant-copy.md](plant-copy.md)):
+
+- **ʻUlu (#12) — CORRECTION.** The shipped 157-in rainfall upper is unsupported. Ferns caps at
+  3,000 mm/118 in; **Elevitch/Ragone** (*Specialty Crops for Pacific Island Agroforestry*) gives
+  *"1,500–3,000 mm (60–120 in)."* Both agree at ~120 in. 157 in (≈4,000 mm) is ginger's *and* ice-cream
+  -bean's tolerated upper — it **bled from a neighbouring record** during day 1 (cross-plant necrosis).
+  Fix the shipped upper to **~120 in**. The Elevitch read also *added* the pH Ferns lacked (6.1–7.4).
+- **Banana (#9) — FIRMED.** First-food now **CTAHR-sourced at 15–18 months** (shipped year-1 low end is
+  optimistic → ~15 mo). The 4,000 ft ceiling stays a **labelled lived narrowing** of Ferns' 2,400 m
+  (conservative, not an error). Bands read from *M. acuminata* as the proxy for shipped *Musa* spp.
+- **Ice cream bean (#10) — NARROW.** Elevitch has **no *Inga* profile** (non-Pacific tree); Ferns and
+  PFAF both put the natural range at 110–540 m. The shipped "350–5,000 ft natural range" is unsourced —
+  narrow copy to Ferns' 110–540 m natural / 2,200 m cultivation.
+
+One softer flag: **ʻōlena (#3)** is leaned shadeward of Ferns (which rates it full-sun-*or*-light-shade);
+the copy's shade preference is a *succession-placement* claim, not a climate reading, and is marked so
+it is never cited as a Ferns fact.
+
+**Two shipped-artifact corrections are therefore owed** (`site.html` + copy): ʻulu rain upper
+157 → ~120 in, and ice-cream-bean natural range → 110–540 m. Neither is edited silently here — both
+live in the shipped `P` array, which is handed to the steward as the finding.
+
+The proposed Part V list is also written ([plant-copy.md](plant-copy.md): black pepper, cardamom,
 vanilla, katuk, winged bean, roselle, abiu, star fruit, and the native māmaki). What remains is
 depth, not breadth:
 

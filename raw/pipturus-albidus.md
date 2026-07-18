@@ -3,6 +3,10 @@
 **Identity:** māmaki. Urticaceae (nettle family, stingless). **Endemic to the Hawaiian archipelago —
 the only native plant in the PSF set.** Role: native understory shrub, leaf (tea). Copy entry #59.
 
+**Succession (axis 2):** **secondary 1 · native understory shrub** · lifespan years–decades (evergreen
+6–15 ft; leaf crop from ~1–2 yr, ongoing). The endemic understory member of the guild — the class is a
+label on a native holding its own forest-floor niche.
+
 ## Climate & site — by source
 - **Rainfall** — **no published horticultural band.** Read by forest type, not a raster: a plant of
   coastal mesic, mixed mesic, and wet forest. (Native range, not a reading.)

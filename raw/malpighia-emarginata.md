@@ -4,6 +4,10 @@
 (vitamin C). Copy entry #27. **The worked example of the recrystallization pass** — Ferns thin,
 resolved against Morton.
 
+**Succession (axis 2):** **secondary 1 · dryland fruiting shrub** · lifespan decades (fruit 2–3 yr,
+then successive flushes for years). Small (2–8 ft) and shear-tolerant but long-lived — a hedge-scale
+secondary, not a placenta.
+
 ## Climate & site — by source
 - **Rainfall** — Ferns: thin/unstated. **Morton (*Fruits of Warm Climates*): adapted to medium- and
   low-rainfall regions; tolerates long drought; may not fruit until the rains come.** → repositions
