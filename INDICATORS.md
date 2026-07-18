@@ -24,7 +24,9 @@ Every entry carries a confidence tag:
 
 - **[established]** — the species identity, its ecology, and its behaviour in Hawaiʻi are
   well-documented and I hold them with confidence. Still owed a citation to CTAHR / DLNR / the
-  invasive-species literature before it ships anywhere reader-facing.
+  invasive-species literature before it ships anywhere reader-facing. **Entries marked "lived
+  ground-truth" are the highest tier there is** (per [SOURCES.md](SOURCES.md) authority order) — the
+  steward's own field observation — and are labeled as lived, never dressed up as a raster reading.
 - **[inferred]** — reasoned from the plant's ecology and from Götsch's framework. Plausible, not
   observed. Flagged per the `raw/` **Inferences** convention.
 - **[needs ground-truth]** — the reading that matters most is precisely the one only lived Puna
@@ -63,23 +65,51 @@ Ground where the succession has not begun, or has been returned to zero.
 **Bare ʻaʻā and pāhoehoe** · **[established]**
 No soil, no water retention, extreme surface heat, all nutrients locked in unweathered rock. ʻAʻā
 (broken, clinkery) offers root pockets and shade at depth; pāhoehoe (smooth, sheeted) offers almost
-nothing until it cracks. The distinction is practical, not cosmetic — ʻaʻā is plantable far sooner.
-*Reports:* the true zero. *Crutch:* total for anything demanding; near-zero for the right pioneer.
+nothing until it cracks — but where it cracks, it *channels rain*, and the cracks become linear
+oases. The distinction is practical, not cosmetic — ʻaʻā is plantable sooner, but a rain-fed
+pāhoehoe crack is where the first food actually grows.
+*Reports:* the true zero, except along the water-channeling cracks. *Crutch:* total for anything
+demanding; near-zero for the right pioneer in a crack.
 *Suggests:* this is where noni (#38) belongs, and the standing recommendation to promote it toward
-the front of the wet-coast succession is exactly right. Also ʻuala (#1) into pockets with any pocket
-of ash or organic catch.
+the front of the wet-coast succession is exactly right. Also ʻuala (#1) into any pocket of ash or
+organic catch.
+
+**What actually colonizes bare lava here** · **[established — lived ground-truth, not a raster]**
+From five days (2024) walking 30+ miles of bare lava west of Kalapana, foraging the whole subsistence
+— which came down to **coconut, noni, and roughly a thousand tiny wild *Passiflora foetida* fruits.**
+The two happiest, most abundant colonizers in the rain-channeled pāhoehoe cracks:
+- **ʻuhaloa** (*Waltheria indica*) — indigenous, drought-hardy, medicinal (the sore-throat root).
+- **love-in-a-mist / wild passionfruit** (*Passiflora foetida*) — naturalized, and on this ground a
+  genuine forage crop, not a weed: thousands of small fruits.
+With, less densely: **noni** (#38) here and there, and **rattlepods** (*Crotalaria* sp., naturalized,
+nitrogen-fixing — a pioneer legume doing the haole-koa job on rawer ground).
+*Reports:* that the colonization story on bare pāhoehoe is **crack-hydrology first, species second** —
+the plants mark where rain concentrates. *Suggests:* the earliest edible layer on new lava is real
+and is mostly *already there to be recognised* (a [PRAXIS.md](PRAXIS.md) recognition case) rather than
+planted; the plantable additions are noni and, into caught pockets, ʻuala.
 
 **ʻŌhiʻa lehua** (*Metrosideros polymorpha*) · **[established]**
-The primary colonizer of new lava, and Götsch's own illustration of a colonization system — his book
-uses a photograph of ʻōhiʻa taking a 1960 flow south of Kona. Endemic, enormously variable in form
+The primary native colonizer of new lava, and Götsch's own illustration of a colonization system —
+his book uses a photograph of ʻōhiʻa taking a 1960 flow south of Kona. Endemic, enormously variable
 across moisture and elevation.
-*Reports:* the succession has started, and started natively. On young substrate, the earliest
-consolidated life there is.
-*Crutch:* still large for food crops, but the ground is no longer inert.
-*Suggests:* do not clear it. It is the free head start, and under Rapid ʻŌhiʻa Death (ROD, *Ceratocystis*)
-it is also a plant not to wound — sap-flow wounds are an infection route. **Any praxis note involving
-cutting ʻōhiʻa must carry the ROD caution.** *[needs ground-truth: current ROD guidance for the
-specific district.]*
+*Reports:* the succession has started, and started natively.
+*Suggests:* **leave it be.** (Steward's instruction, 2026-07-17.) ʻŌhiʻa was here long before people
+and has already suffered much; it is not a plant to cut into, gap, or manage as substrate. On Rapid
+ʻŌhiʻa Death: the wound-infection pathway is real but the wounds are **almost entirely feral-ungulate
+bark-scraping**, not a reason to frame ʻōhiʻa as a plant one prunes — the opposite. Any earlier
+implication that ʻōhiʻa is a clearable head-start is withdrawn. It is a neighbour, not a resource.
+
+**The coastal strand on new lava** · **[established — lived ground-truth]**
+At the ocean edge of the same walk, a distinct and *happy* community on very young rock: **naupaka
+kahakai** (*Scaevola taccada*, indigenous strand shrub), a **pickleweed-like succulent** (salicornia-
+form — likely ʻākulikuli, *Sesuvium portulacastrum*, or a true pickleweed; *[needs ID]*), **beach
+morning glory / pōhuehue** (*Ipomoea pes-caprae*, the great sand-and-lava binder), and a **thriving
+swath of aloe** (naturalized, and thriving is the word). Coconut throughout.
+*Reports:* salt, wind, and drought are the binding constraints here, not fertility or succession
+stage — this is a *halophyte* zone, a different axis than the inland colonization one. *Suggests:*
+the tool should probably recognise a coastal-strand condition as its own answer rather than forcing
+it onto the rain/elevation fit — the plants that work here are salt-selected, and most of the food
+list will honestly read "not here." Worth its own thought later.
 
 **Lichens, mosses, ferns in cracks** · **[established]**
 The first biology. Where these are thickening, weathering is under way.
@@ -115,13 +145,16 @@ stratum, and cut **before it flowers** (§V).
 *[needs ground-truth: does guinea grass behave this tractably in Puna, or does the regrowth rate
 outrun a person with a machete?]*
 
-**Cane grass / California grass** (*Urochloa mutica* and kin) · **[inferred, identity needs confirming]**
-Coarse sprawling grasses of wet lowland ground, often where water sits.
-*Reports:* wet, frequently a drainage problem; accumulation.
-*Crutch:* moderate; the limit is more likely water sitting than fertility.
-*Suggests:* the mound-and-plant logic already in the fit engine's rain asymmetry — too much water is
-a drainage problem a mound solves. Kalo (#2) is the plant that wants what everything else is
-complaining about. *[needs ground-truth: which of these grasses is actually the common one, and where.]*
+**Cane grass** (*Pennisetum purpureum* / *Cenchrus purpureus*, elephant / napier grass) · **[established — identity corrected by steward, 2026-07-17]**
+Tall (to 10+ ft), dense, high-biomass cane grass of wet lowland ground. **Not** *Urochloa* — that was
+my error; the common cane grass here is Pennisetum.
+*Reports:* wet, fertile, vigorous accumulation — this is high-productivity ground, and a huge standing
+biomass source.
+*Crutch:* small on fertility, real on the labour of getting through the stand.
+*Suggests:* Götsch flags exactly this species-class as *high* stratum — pair it only with trees that
+out-top it or with crops of a very different stratum, never with a same-stratum cultivar, because its
+cut material resprouts readily and takes the line back. Cut before flower (§V); the biomass is the
+gift. Where water also stands, the kalo (#2) drainage logic applies.
 
 **Haole koa / leucaena** (*Leucaena leucocephala*) · **[established]**
 Dry and mesic lowland thickets, especially leeward and on disturbed roadside ground. Nitrogen-fixing
@@ -133,6 +166,11 @@ at least not strongly acidic ground.
 drop everything, plant into the strip. Pigeon pea (#6) is doing the same job on the shipped list;
 where haole koa is already present, the pigeon-pea step may be **skippable** — the site supplies it.
 This is the clearest single example of an indicator shortening the crutch to zero for a whole step.
+*Also — it is itself food* **[established, steward 2026-07-17]:** the seeds, soaked and sprouted to
+leach the mimosine, are the **third most popular tempeh substrate in Indonesia.** Not a reason to
+*plant* it (it needs no help), but a clear candidate for a future **"utilization of existing
+naturalized plants"** track — the same move as albizia-for-mushrooms below. The naturalized substrate
+is already an unharvested larder; that is a whole expansion the bounded display doesn't touch yet.
 
 **Fountain grass** (*Cenchrus setaceus*) · **[established]**
 Leeward and Kona-side lava and dry ground; fine bunchgrass that carries fire readily.
@@ -166,6 +204,12 @@ ground is Götsch's first named error.
 *Suggests:* go straight to the demanding entries. This is where the understory spices (Part V), cacao
 (#44), and the fussier fruit belong. It is also the ground where the tool currently over-recommends
 pioneers, because it cannot see it.
+*Caveat — purslane is not a clean abundance signal here* **[corrected, steward 2026-07-17]:** the
+steward has seen purslane happy on **new oceanside lava.** So on Hawaiʻi it reads as opportunistic and
+salt/heat-tolerant, not specifically as best-soil the way Götsch's Cerrado reading has it. Treat
+purslane as *ambiguous* — corroborate abundance with the litter/structure reading below, never on
+purslane alone. A clean instance of the firewall in action: Götsch's indicator does not transfer
+unchecked.
 
 **Deep leaf litter, worm casts, mycelium in the litter, dark friable soil** · **[established]**
 Not a plant, but the reading that outranks the plants.
@@ -194,14 +238,26 @@ Enormous fast nitrogen-fixing canopy tree, brittle, storm-dangerous, dominant ac
 *Reports:* nitrogen in abundance — arguably the largest free fertility input on the island — over
 ground that may otherwise be young. Also reports real hazard: these limbs fall and kill.
 *Crutch:* nitrogen is solved. Light is the constraint, and safety is a genuine cost.
-*Suggests:* the most interesting entry on this list. In Götsch's frame albizia is a secondary-1
-emergent doing its job magnificently with nothing beneath it to hand over to. The syntropic reading
-is not "remove the invasive" but "supply the successor and take the nitrogen" — plant the canopy and
-sub-canopy classes into managed gaps, let the albizia feed them, and let it retire as they rise.
-**This directly contradicts standard Hawaiʻi invasive-species guidance**, which is removal-first.
-That tension is real, it is not mine to resolve, and it must be argued rather than assumed — see the
-native/introduced discussion in [SYNTROPY.md](SYNTROPY.md) VI. *[needs ground-truth: what does the
-steward actually do with albizia, and what does the district's practice say?]*
+*Suggests:* the most interesting entry on this list, and the steward confirms the scale — "truly an
+enormous ecosystem-pump." In Götsch's frame albizia is a secondary-1 emergent doing its job
+magnificently with nothing beneath it to hand over to. Two utilization paths, both **later down the
+line**, not near-term display:
+- **Mushrooms.** Its high-nitrogen wood is ideal substrate for mushroom cultivation — which would
+  make this "invasive" an *extraordinary* food source. (Steward, 2026-07-17. Same track as haole-koa
+  tempeh: harvesting the naturalized larder.)
+- **Coppice, don't fell-and-replace.** In principle the syntropic "supply the successor, take the
+  nitrogen" move works, and chopping young trunks occasionally to keep the pump running is not
+  impractical.
+
+**But the overriding consideration is the falling-limb hazard** — these limbs kill, and that outranks
+the cleverness. And a real, non-botanical constraint the steward names and the tool must respect:
+*most people here (perhaps everywhere) are rigid and mechanical in their thinking, slow to change
+unless an embodied insight arises.* A recommendation that asks someone to see their dangerous invasive
+as an ecosystem-pump is asking for exactly that shift — so it cannot be *told*, only *occasioned.*
+This is the [PRAXIS.md](PRAXIS.md) inner-succession point with teeth: the albizia reframe is
+downstream of a change in the person, not upstream of it. Keep it out of the first contact; it is for
+someone already moving. The native/introduced tension stands, unresolved by design —
+[SYNTROPY.md](SYNTROPY.md) VI.
 
 **Uluhe, in its arresting mode** · **[established]**
 The same fern as §II. Its mats can suppress woody regeneration for a very long time, holding a slope

@@ -119,6 +119,31 @@ better than either source's: build the guild to hold the native web *inside* it.
 stated position rather than leaving as two unreconciled halves.
 → [SYNTROPY.md](SYNTROPY.md) VI holds the tension explicitly. A fuller statement is owed.
 
+### 2026-07-17 — The naturalized larder: a utilization track distinct from planting
+Two of the steward's corrections rhyme. Haole koa seed, soaked and sprouted to leach mimosine, is the
+third most popular tempeh substrate in Indonesia. Albizia's high-N wood is ideal mushroom substrate.
+Neither is a plant to *recommend planting* — both are already everywhere. They point at a whole track
+PSF doesn't have yet: **utilization of existing naturalized plants** — turning the "invasive problem"
+into a standing, unharvested food supply. This is distinct from the plant-recommendation spine (what
+to put in) and distinct from the indicator reading (what the ground reports). It is a third question:
+*what is already growing here that you could already be eating?* It sits close to the PRAXIS
+recognition practice (hōʻiʻo, the passiflora on the lava) but scaled to the naturalized-invasive
+biomass. Explicitly a **later** expansion, past the bounded display — but a large one, and it may be
+where the tool's food-sovereignty weight (Tam's campaign horizon) actually concentrates: the fastest
+calories are the ones already standing.
+→ Its own future layer. Not near-term. Noted so it isn't re-discovered from scratch.
+
+### 2026-07-17 — The albizia reframe is downstream of the person, not upstream
+Sharpest instance so far of why PSF's real product is the inner succession. The syntropically
+"correct" albizia move (coppice it, take the nitrogen and the mushrooms, supply a successor) is
+blocked less by botany than by cognition: people are rigid and mechanical about a dangerous invasive,
+and slow to change without an embodied insight (steward's words). So the reframe cannot be *told* in
+first contact — only *occasioned* for someone already moving. Design consequence: some of the truest
+recommendations are the ones the tool must **withhold** until the reader has shifted, or they read as
+crank advice and burn trust. The bounded display isn't only a scope decision; it's a readiness-
+sequencing decision. What you don't say yet is part of the method.
+→ Belongs with [PRAXIS.md](PRAXIS.md) I and the eventual conversational-layer design.
+
 ---
 
 *Open: seed more freely here. The cost of a stray idea kept and later dropped is low; the cost of a
