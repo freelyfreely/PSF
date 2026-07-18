@@ -15,6 +15,9 @@ Update it when a decision changes, not when a pixel does.
   More coasts get their own flyers later, derived the same way from the same records.
 - **[plant-copy.md](plant-copy.md)** — the written plant records the site's `P` array
   and the flyer entries are drawn from.
+- **[SOURCES.md](SOURCES.md)** — where the records come from: the authority order, the
+  databases and what each is good for, the conventions (units, lived-band labeling), and the
+  judgments held lightly (pest-in-monoculture, contextual difficulty).
 - **[deliverables/](deliverables)**, **[cards-specimen.html](cards-specimen.html)** —
   specimens and outputs.
 

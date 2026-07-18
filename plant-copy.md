@@ -8,9 +8,9 @@ the fit lines are honest about which of these actually want that much water.
 permacultureplants.com is 403 to plain fetch, reachable only through a real browser, and
 its pages are ~5,000-word bylined articles ("Written by Timothee Mendez") — footnoted
 secondary content, good for soft/anecdotal colour, not a primary source. Only ʻulu has
-been cross-read against it. Plants marked *(light sourcing)* are common kitchen crops with
-thin or absent Ferns entries, written from general horticultural knowledge — verify before
-they ship.
+been cross-read against it. Nothing here still carries a *(light sourcing)* mark: the
+kitchen-door annuals are grounded in lived Puna experience, and the citrus pest picture is
+cross-read against the extension record — the psyllid vector is here, the disease is not.
 
 **Not yet written:** the placements/guild. They come last, from the whole set at once, so
 they stay mutually consistent. Cross-plant claims that currently sit inside a plant's own
@@ -561,7 +561,9 @@ resprouts, and everything you cut off becomes nitrogen on the ground for whateve
 **The food**
 Crack the pod. Inside is white, translucent, and jelly-like around each seed, sweet and perfumed,
 and it tastes near enough to vanilla ice cream that the name stuck in every language it has one
-in. The pods run to three feet. A handful is a snack on the walk back.
+in. The pods run to three feet, and the large-fruited kinds carry enough pulp to be a real
+crop, not just a trail nibble — reason to start a named, big-podded seedling over a chance
+one. The nurse work and the fruit come off the same tree.
 
 **Carried**
 It grows fast on ruined ground, it makes nitrogen, and it takes being cut. Those three facts are
@@ -1253,7 +1255,110 @@ temperate greens give up.
 
 ---
 
-## 23. Avocado · Pea
+## 23. Longevity spinach
+*Gynura procumbens* · ground layer · first food month 2–3
+
+### Simple
+**LEAF — GREEN.** warm, no frost · coast to mid-elevation · sun to part shade
+
+> A cutting pushed in the ground becomes a low, sprawling perennial you pick from for years. It
+> shrugs off the wet, asks for nothing, and hands you a thick mild leaf week after week. Nearly
+> impossible to kill once it takes.
+
+### Flyer
+**Prep** — Almost any ground with some drainage and organic matter. Sun, or part shade for a
+bigger, softer leaf. It wants warmth and steady moisture and no dry season — which is Puna.
+
+**Set** — A cutting. Strip the lower leaves, push it into moist ground, and it roots in a week or
+two. Seed is possible and pointless when the cutting is this easy.
+
+**Forget** — Leaves and tips within a couple of months, then continuously. It sprawls and roots as
+it goes; cut it back to hold it and it returns thicker. Years of green off one planting.
+
+### Detailed
+
+**Prep**
+- Well-drained ground with some organic matter; tolerant of poor soil. Sun to about 50% shade.
+  Warm and frost-free — wants nights above roughly 50°F and stalls in the cold. Lowland to
+  mid-elevation in the wet tropics.
+- No published rainfall band for this crop; in lived Puna conditions it thrives in the wet, sun or
+  shade, and never asks for a dry season. (Ground-truth, not a raster reading — the published
+  record is thin here.)
+
+**Set**
+- Cuttings of half-ripe wood, rooted in moist soil or in water. Very easy.
+
+**Forget**
+- First leaves in six to eight weeks, then cut-and-come-again for years.
+- A low, semi-succulent sprawler that layers where stems meet ground. Prune to keep it in bounds.
+
+**The food**
+The young leaves and tips, raw or lightly cooked — thick, mild, faintly bitter, a little
+succulent. Eaten fresh by the handful or dropped into a stir-fry or soup near the end. Across
+Southeast Asia it is as much folk medicine as vegetable: leaves chewed or brewed in the home for
+fever and for the blood, which is where the names — sabuṅgai, sambung nyawa, "to join the soul
+back to the body" — come from. No hazards reported as a food.
+
+**Carried**
+Gynura is a Southeast Asian dooryard plant, kept by the kitchen for the leaf and the folk-medicine
+both. It is the archetype this project keeps returning to: not a field crop and not a thing you
+drive to, but the living green by the door you pick from on the way past, for years, having planted
+it once.
+
+---
+
+## 24. Sissoo spinach · Brazilian spinach
+*Alternanthera sissoo* · ground cover · first food month 2
+
+### Simple
+**LEAF — GREEN + GROUND COVER.** warm, no frost · coast to mid-elevation · sun to deep shade
+
+> A living green carpet you eat. It roots as it spreads, mats a foot thick, and smothers the weeds
+> it grows through — then hands you a crisp, un-slimy leaf every week. One of the easiest greens
+> there is, and it never sets seed to get away from you.
+
+### Flyer
+**Prep** — Well-drained ground with organic matter. Sun to heavy shade — it takes more shade than
+almost any green here. Wet is fine.
+
+**Set** — A cutting, four to six inches, lower leaves off, pushed into moist ground. It roots
+almost without trying.
+
+**Forget** — Shoots to pick at about two months, cut at six to ten inches, and cutting harder
+gives more. It spreads into a dense mat and holds the soil, and it will not run off by seed because
+it makes none.
+
+### Detailed
+
+**Prep**
+- Well-drained soil, high in organic matter. Thrives in 50% or more shade — unusual for a leaf
+  crop — and also takes sun. Frost-tender; warm, wet tropics. Lowland to mid-elevation.
+- No published climate band; in lived Puna it grows effortlessly year-round, sun or shade, wet
+  ground included. (Ground-truth, not a raster.)
+
+**Set**
+- Cuttings — very easy. It roots at the nodes as it runs.
+
+**Forget**
+- Shoots at fifteen to twenty-five centimetres, picked regularly; harder cutting raises the yield.
+- A spreading perennial ground cover, a foot and a half tall at most, matting and weed-excluding.
+  It can take insect damage to the leaf in some spots.
+
+**The food**
+Leaves and tender shoots, raw or cooked — crunchy, not mucilaginous, a clean mild spinach. Raw in
+a salad the Brazilian way with tomato and onion, or steamed and boiled like any spinach. A steady
+everyday green off a plant that doubles as the mulch layer under everything else.
+
+**Carried**
+Sissoo is a sterile cultivar of *Alternanthera sessilis* — and that parent is a serious weed across
+Hawaiʻi, so the distinction is the whole point: sissoo sets no seed and stays where it is put,
+which is why it is grown here without the worry its wild cousin has earned. It came through the
+tropical-permaculture world as the near-perfect edible ground cover: it feeds you, shades the soil,
+and keeps the weeds down — three jobs from one low green mat.
+
+---
+
+## 25. Avocado · Pea
 *Persea americana* · canopy · first food year 2–3
 
 ### Simple
@@ -1310,7 +1415,7 @@ the good wild ones by the tree, the same way they know the good mangoes.
 
 ---
 
-## 24. Soursop
+## 26. Soursop
 *Annona muricata* · sub-canopy · first food year 2
 
 ### Simple
@@ -1357,7 +1462,7 @@ on this island right now.
 
 ---
 
-## 25. Acerola · Barbados cherry
+## 27. Acerola · Barbados cherry
 *Malpighia emarginata* · shrub · first food year 2–3
 
 ### Simple
@@ -1403,7 +1508,7 @@ person who grows it, which is the argument the tool is making, in fruit form.
 
 ---
 
-## 26. Jackfruit
+## 28. Jackfruit
 *Artocarpus heterophyllus* · canopy · first food year 3–8
 
 ### Simple
@@ -1458,7 +1563,7 @@ to use, which is a jackfruit problem the whole tropics shares.
 
 ---
 
-## 27. Cempedak
+## 29. Cempedak
 *Artocarpus integer* · canopy · first food year 3–6
 
 ### Simple
@@ -1509,7 +1614,7 @@ else.
 
 ---
 
-## 28. Poha · Cape gooseberry
+## 30. Poha · Cape gooseberry
 *Physalis peruviana* · shrub · first food month 3
 
 ### Simple
@@ -1557,7 +1662,7 @@ volunteer, not a planted crop.
 
 ---
 
-## 29. Chayote · Pipinola
+## 31. Chayote · Pipinola
 *Sechium edule* · vine · first food month 3–4
 
 ### Simple
@@ -1608,7 +1713,7 @@ fence and walk away, and in a season there is more chayote than a family can eat
 
 ---
 
-## 30. Dragon fruit · Pitaya
+## 32. Dragon fruit · Pitaya
 *Hylocereus undatus* · vine (cactus) · first food year 1–2
 
 ### Simple
@@ -1659,7 +1764,7 @@ price of the fruit, which is a different motive from most of this list.
 
 ---
 
-## 31. Surinam cherry
+## 33. Surinam cherry
 *Eugenia uniflora* · shrub · first food year 2–5
 
 ### Simple
@@ -1710,7 +1815,7 @@ the plant for its fruit, keep it clipped, and pull what the birds start.
 
 ---
 
-## 32. Jamun · Java plum
+## 34. Jamun · Java plum
 *Syzygium cumini* · canopy · first food year 4–6
 
 ### Simple
@@ -1763,7 +1868,7 @@ is the recurring shape of the introduced fruit on this island.
 
 ---
 
-## 33. Rose apple
+## 35. Rose apple
 *Syzygium jambos* · sub-canopy · first food year 4
 
 ### Simple
@@ -1816,7 +1921,7 @@ a genuine threat to native ground, so enjoy the ones already here and think hard
 
 ---
 
-## 34. Wampi
+## 36. Wampi
 *Clausena lansium* · sub-canopy · first food year 5–8
 
 ### Simple
@@ -1863,7 +1968,7 @@ food-bearing trees that came with a community and stayed inside it.
 
 ---
 
-## 35. Grumichama · Brazilian cherry
+## 37. Grumichama · Brazilian cherry
 *Eugenia brasiliensis* · sub-canopy · first food year 4
 
 ### Simple
@@ -1914,62 +2019,413 @@ keeps running into invasives, it is worth noting the ones that are simply well-b
 
 ---
 
-# IV. Kitchen-door annuals and the citrus  *(light sourcing)*
-
-Common crops with thin or no Ferns entries, written from general horticultural knowledge. These
-need a verification pass before they ship — treat the numbers as directional.
-
----
-
-## 36. Kale (tropical) *(light sourcing)*
-*Brassica oleracea* var. *acephala* · ground layer · first food month 2
+## 38. Noni
+*Morinda citrifolia* · shrub to small tree · first food year 1
 
 ### Simple
-**LEAF — GREEN.** cool-preferring · coast to 6,600 ft · sun to part shade
-*A temperate green; it does best up out of the hot lowland, in the cooler uplands or the cool
-season.*
+**FRUIT — MEDICINE, FAMINE FOOD.** 10–150 in · warm, no frost · coast to 1,300 ft · sun to part shade
+*The smell is the honest part: ripe, it reeks of blue cheese and worse. It is eaten and drunk for
+that reek, not despite it.*
 
-> A cut-and-come-again green in eight to ten weeks. On this island it belongs upcountry or in the
-> cooler months — down on the hot coast it bolts and the leaf turns bitter.
+> The plant that grows where nothing else will — bare ʻaʻā, salt spray, drought or downpour. A canoe
+> plant carried the length of the Pacific for medicine, it fruits within the year and never really
+> stops. Nothing you do to it seems to matter.
 
 ### Flyer
-**Prep** — Fertile, moisture-holding ground, in sun to part shade. Cooler is better; it is a
-temperate plant working in the tropics.
+**Prep** — Any ground at all: fresh lava, sand, salt, drought, or standing wet. Sun, and it takes
+shade. The one true prep-set-forget on ruined ground.
 
-**Set** — Seed, or a small transplant. Space a foot and a half apart.
+**Set** — Seed or a cutting; both take easily. Plant it and walk away.
 
-**Forget** — Leaves from the bottom up in about two months, picked continuously for months. Heat
-and long dry make it bolt and bitter, so grow it cool.
+**Forget** — First fruit inside a year, then continuously, all sizes at once on the same bush. It
+asks for no water, no feed, no prune. Pick the fruit as it pales and softens.
 
 ### Detailed
 
 **Prep**
-- Fertile, moisture-retentive soil, pH near neutral. Sun, part shade in the heat. Prefers cool:
-  the uplands, or the cooler season on the coast. Up to 6,600 ft.
+- Grows on nearly anything — fresh ʻaʻā and pāhoehoe, beach sand, saline soil, wet ground and dry.
+  One of the most tolerant food plants there is.
+- Very wide rainfall tolerance, drought- and flood-hardy both. Warm and frost-free. Coast to about
+  1,300 ft, occasionally higher.
+- Full sun to fairly deep shade, though it fruits best in the open.
 
 **Set**
-- Seed or transplant, plants about eighteen inches apart. Up in a week or so.
+- Seed germinates readily; cuttings root easily. No special treatment.
+- Fast — a fruiting bush in a year or so.
 
 **Forget**
-- First leaves in fifty to seventy days. Pick outer leaves upward and it keeps producing for
-  months.
-- Heat, drought, and age turn it bitter and push it to bolt. In the tropics it is effectively a
-  cool-season or upland crop.
+- First fruit within about a year, then year-round; a plant that always carries fruit at every stage.
+- No irrigation, no feeding, no pruning needed. Cut it back only to keep it in reach.
+- Effectively permanent on the ground; it self-seeds and persists.
 
 **The food**
-Leaves, cooked or raw, and they sweeten after cool nights. The most productive temperate green a
-gardener already knows, which is why it is on the list — a bridge crop for people not yet used to
-aibika and chaya.
+The ripe fruit is eaten and, more often, juiced or fermented — sharp, bitter, and famously
+foul-smelling, high in potassium and long taken as a tonic (a real reason for caution with kidney
+trouble). The young leaves are wrapped around fish and baked, or cooked as a green, mild and nothing
+like the fruit. Green fruit cooks into a curry. It was famine food when nothing else bore, and daily
+medicine the rest of the time.
 
 **Carried**
-Kale is the plant on this list most people already recognise, and that is its job here: the
-familiar foot in the door. It carries no local story — it is a supermarket green — but it grows
-upcountry, and it is often the first thing a new gardener plants before they meet the tropical
-greens that will out-produce it.
+Noni is one of the canoe plants, carried deliberately island to island across the Pacific — not for
+the table but for the medicine chest, the dye pot (the root gives yellow, the bark red), and the
+years the breadfruit failed. It is the plant that proves the project's whole claim about ruined
+ground: press a cutting into raw lava and within a year it feeds you, having asked for nothing.
+Where noni grows, the succession has already begun.
 
 ---
 
-## 37. Pumpkin / tropical squash *(light sourcing)*
+## 39. Kukui · Candlenut
+*Aleurites moluccanus* · canopy · first food year 4
+
+### Simple
+**NUT — OIL, RELISH, LIGHT.** 40–170 in · warm, no frost · coast to 2,000 ft · sun
+*The raw nut is a strong purge — a nut or two will empty you. Roasted and pounded with salt it
+becomes ʻinamona, the relish on the plate.*
+
+> The silver-green tree that marks an old Hawaiian valley from a mile off. A fast pioneer that nurses
+> the ground and the plants under it, and hands down oil, light, dye, medicine, and the roasted-nut
+> relish that seasons the food. The state tree, and the sign of enlightenment.
+
+### Flyer
+**Prep** — Almost any ground, wet to mesic; it colonises disturbed slopes and gulches on its own.
+Sun. It grows fast and wide.
+
+**Set** — The whole nut, planted; it comes up readily. Give it room — this is a real tree.
+
+**Forget** — A canopy in a few years, nuts by about year four, then heavily for decades. It drops
+leaf and nut constantly, feeding the ground; coppice or pollard to hold its size and drop mulch on
+what grows below.
+
+### Detailed
+
+**Prep**
+- Undemanding — wet to moderately dry ground, disturbed slopes, gulches, old lava carrying some
+  soil. A natural coloniser of cleared land.
+- 40 to 170 inches a year, warm and frost-free. Coast to about 2,000 ft; naturalised through the
+  lower Hawaiian valleys.
+- Full sun; a fast, spreading pioneer canopy.
+
+**Set**
+- Plant the whole nut. Germination is reliable if slow. Space it wide.
+- Grows quickly into a broad tree, thirty to sixty feet.
+
+**Forget**
+- Nuts from about the fourth year, then abundantly for decades.
+- Constant leaf and nut fall builds soil and mulch, and it shades and nurses slower plants beneath
+  it. Prune hard to keep it low and to drop biomass where you want it.
+- Long-lived and self-seeding; a permanent part of the canopy once in.
+
+**The food**
+The nut is the food, and only roasted — raw it is a violent purgative. Roasted, shelled, and pounded
+with salt (often with a little kukui bark or seaweed) it becomes ʻinamona, the classic Hawaiian
+relish stirred into poke and rice and poi. The oil presses out for cooking and for light. Everything
+else the tree gives is not food: the burning nuts were the household lamp, the soot a tattoo ink and
+paint, the bark and flower a medicine, the leaves and nuts a dye.
+
+**Carried**
+Kukui is a canoe plant and the tree of light — nuts strung on a coconut midrib and burned one after
+another were the lamp and the clock of the evening, and kukui came to stand for learning, insight,
+and protection. It is the state tree of Hawaiʻi. In the working forest it is the generous pioneer:
+fast, soft, self-sowing, it takes bare ground, throws shade and mulch, and asks nothing — exactly
+the nurse the slower food trees want over them while they climb. Yield and succession service from
+the same silver crown.
+
+---
+
+## 40. Kō · Sugarcane
+*Saccharum officinarum* · tall grass · first food year 1
+
+### Simple
+**CANE — SWEET; WINDBREAK, MULCH.** 60+ in · warm · coast to 3,000 ft · sun
+
+> A joint of cane laid in the ground becomes a wall of green taller than a person inside a year. A
+> canoe plant with dozens of named Hawaiian kinds, it is a windbreak, a living fence, a mulch
+> factory, and a sweet cane to chew, all at once.
+
+### Flyer
+**Prep** — Rich, moist ground and sun, though it grows in far less. It likes the wet Puna coast and
+gives most on good ground.
+
+**Set** — A cane cutting, one or two joints, laid on its side and just covered. It roots from every
+node. This is how every kō was ever grown.
+
+**Forget** — Mature cane in a year to eighteen months, then ratooning from the same stool for years.
+Cut what you want; the rest is windbreak, and chopped down it is a heavy mulch. It suckers into a
+dense clump.
+
+### Detailed
+
+**Prep**
+- Deep, moist, fertile ground gives the most, but it is forgiving; full sun. A heavy feeder that
+  pays it back as biomass.
+- Wants warmth and plenty of water — 60 inches a year and up, and the wet windward coast is ideal.
+  Coast to about 3,000 ft.
+- No frost. It is a grass, and it grows like one.
+
+**Set**
+- Lay a cane cutting of one or two nodes horizontally, barely covered. It roots and shoots from the
+  joints within weeks.
+- Plant a line for a windbreak or a living fence; a clump for the chew and the mulch.
+
+**Forget**
+- Cut mature cane from about twelve to eighteen months; it ratoons from the stool for several
+  harvests before replanting.
+- Between harvests it is structure: a windbreak that shelters young trees, a screen, a trellis for a
+  yam or a bean. Chopped and dropped, the tops and trash are a thick, potassium-rich mulch.
+- It spreads into a dense stand; cut it back to hold its line.
+
+**The food**
+The cane is chewed — split a joint and work the sweet fibre — or crushed for juice. The named
+Hawaiian kinds run from pale yellow to near black, striped and soft-rinded, bred over centuries for
+the chew and for ceremony and medicine rather than for a mill. It is sugar you grow and eat with
+your hands, the sweet that stood in for every dessert.
+
+**Carried**
+Kō came in the canoes, and Hawaiians selected it into dozens of named varieties — some for chewing,
+some for medicine, some tied to specific prayers and to love magic, kept and traded like the kalo.
+Plantation cane later grew the same species into a monoculture that reshaped the islands and their
+water; the dooryard kō is the older, gentler relationship with the same grass — a few stools by the
+house doing five jobs and taking nothing from away. The plantation is the cautionary twin of the
+canoe plant: one grass held two ways.
+
+---
+
+## 41. ʻUhi · Yam
+*Dioscorea alata* · climbing vine · first food year 1
+
+### Simple
+**TUBER — STARCH.** 40+ in · warm, no frost · coast to 2,600 ft · sun to part shade
+*The cultivated food yam — not the wild hoi (*Dioscorea bulbifera*), which is bitter and toxic
+until long-leached. Plant the named ʻuhi, not the volunteer.*
+
+> A canoe-plant staple that climbs a pole or a tree and lays down a heavy tuber underground. Plant a
+> piece of tuber, give it something to climb, and dig a season's starch from one vine. It keeps for
+> months out of the ground.
+
+### Flyer
+**Prep** — Deep, loose, well-drained ground so the tuber can run, and a stake, fence, or tree for
+the vine. Sun to part shade.
+
+**Set** — A tuber piece (a sett) with an eye, or the aerial bulbils some kinds throw. Up and
+climbing fast in warm ground.
+
+**Forget** — The vine climbs to fifteen feet and more, then dies back — that is when you dig.
+Harvest at eight to ten months. Leave a piece in the ground and it comes again.
+
+### Detailed
+
+**Prep**
+- Deep, friable, well-drained soil for a clean heavy tuber; it will still crop in less. Needs
+  support to climb — a stake, a living fence, the kō, or a tree.
+- Warm and frost-free; wants steady moisture through the season and a drier spell to finish. Coast
+  to about 2,600 ft.
+- Sun to part shade.
+
+**Set**
+- Plant setts — tuber pieces with an eye — or bulbils. Presprout in warmth and they run.
+- One vine per stake; give it room underground.
+
+**Forget**
+- A vigorous climber for the season, to fifteen-plus feet, then it yellows and dies back to signal
+  harvest.
+- Tubers at eight to ten months, single tubers running to several pounds, some kinds far more.
+- Leave a tuber or a sett in the ground and it regrows; it stores for months cool and dry.
+
+**The food**
+The tuber is the food — boiled, baked, steamed, or pounded — dense, starchy, and mild, the staff of
+a meal the way kalo and ʻuala are. The named kinds vary from white to deep purple flesh, the purple
+ones prized. Always cooked, never raw. It is the keeping starch: dug, cured, and stored against the
+lean months.
+
+**Carried**
+ʻUhi is a canoe plant, one of the yams Polynesians carried and bred into named cultivars, and in
+Hawaiʻi it was the third starch beside kalo and ʻuala — planted at the field's edge to climb the
+trees, dug and stored to carry a household through winter. The distinction that matters: ʻuhi is the
+food yam, while the wild hoi that volunteers on disturbed ground is bitter and toxic until long
+leached. Plant the one with the name.
+
+---
+
+## 42. Hōʻiʻo · Warabi
+*Diplazium esculentum* · ground layer, wet shade · gathered wild
+
+### Simple
+**FROND — GREEN.** wet · warm, no frost · shaded streamsides, coast to ~4,000 ft · shade to part sun
+*The widely-eaten edible fern — not bracken (*Pteridium*), the tough hillside fern, which carries a
+real toxin. Know the difference before you gather.*
+
+> The fern you gather, not plant — it already grows wild along every wet Puna ditch and stream. The
+> young curled fronds are the classic local warabi, crisp and green, picked by the handful for the
+> price of a walk. Zero input, because you did not put it there.
+
+### Flyer
+**Prep** — Wet, shaded, mucky ground — streambanks, ditches, the damp low spots. It wants shade and
+constant moisture, the places nothing else will crop.
+
+**Set** — Mostly you find it. To move it, lift a rooted clump into similar wet shade; it spreads by
+spore and rhizome on its own.
+
+**Forget** — Pick the young unfurling fronds and the tender tips continuously. Cutting only makes it
+push more. It needs nothing from you but wet shade.
+
+### Detailed
+
+**Prep**
+- Permanently moist to wet, shaded ground — streamsides, seeps, ditch banks, taro-patch edges. It
+  thrives exactly where drainage is worst and sun is least.
+- Warm, frost-free, and wet. Common in the lowlands, up shaded gulches to a few thousand feet.
+- Shade to dappled sun.
+
+**Set**
+- Chiefly gathered from where it already grows. To establish a patch, transplant a rooted clump into
+  wet shade; it naturalises and spreads by spore.
+
+**Forget**
+- Harvest the young coiled fronds and tender tips year-round; regular picking encourages new growth.
+- No feeding, no watering, no pruning — a genuinely wild crop you only visit.
+
+**The food**
+The young fronds — the fiddleheads and the tender stem below — are the food, raw in the local warabi
+salad (blanched, with tomato, onion, sometimes dried shrimp) or stir-fried, crisp and mild with a
+clean green snap. It is one of the few tropical ferns eaten freely across Asia and the Pacific; the
+caution is not this fern but its lookalikes — bracken especially, tough and hairy and carrying a
+carcinogen, a different plant. Gather what you can name.
+
+**Carried**
+Hōʻiʻo — pohole on Maui, warabi in the plantation-camp kitchens — is the gathered green of wet
+Hawaiʻi, never farmed because it never needed to be: it grows thick along every stream and
+irrigation ditch, free for the picking. It is the purest form of this project's whole idea — food
+you do not plant, tend, or buy, already growing in the wettest, shadiest, "useless" corner of the
+land, waiting only to be recognised. The succession got there first.
+
+---
+
+## 43. ʻAwa · Kava
+*Piper methysticum* · understory shrub · **not food** · harvest year 3–4
+
+### Simple
+**NO FOOD — DRINK, MEDICINE, CEREMONY.** 60+ in · warm, no frost · coast to 2,000 ft · shade to part sun
+*Not eaten. The root is pounded and steeped into a calming drink; heavy prolonged use dries and
+scales the skin, and eases off when the use does.*
+
+> The canoe plant of the evening cup. A soft understory shrub grown from a cutting in the shade of
+> taller trees, its root pounded and strained into the drink that settles a body and opens a
+> conversation. On this island, Puna is one of its homes.
+
+### Flyer
+**Prep** — Warm, wet, well-drained shade under a canopy — it is an understory plant and scorches in
+full sun. Rich, mulched ground.
+
+**Set** — A stem cutting with a node or two, laid in shaded moist ground. It is the only way it is
+grown: ʻawa sets no seed, and every plant is a carried cutting.
+
+**Forget** — Little to do but let it thicken in the shade for three to four years, then dig the
+root. Replant a cutting from the same plant and the line continues.
+
+### Detailed
+
+**Prep**
+- Filtered shade to part sun — a true understory shrub, happiest beneath the food trees. Warm,
+  frost-free, wet, on rich, well-drained, mulched ground.
+- 60 inches a year and up. Coast to about 2,000 ft.
+- Shelter from strong wind; the jointed stems are brittle.
+
+**Set**
+- Stem cuttings only — ʻawa is sterile and ancient, propagated by hand for three thousand years. Lay
+  a node in moist shade.
+- Slow and steady; no feeding beyond mulch.
+
+**Forget**
+- Three to four years to a harvestable root, longer for a stronger one.
+- Dig the whole root, take what you want, replant a cutting. A patch renews itself indefinitely.
+- Few pests in a healthy shaded planting.
+
+**The drink**
+Not food. The root — fresh or dried — is pounded, kneaded in water, and strained into an earthy,
+peppery, tongue-numbing drink taken for calm, sleep, sociability, and ceremony across the Pacific.
+The named Hawaiian cultivars, many still kept on this island, each carry their own strength and
+character. The one honest caution is heavy, prolonged use, which can dry and scale the skin — a
+condition that reverses when use eases; the traditional water preparation has a long record of safe
+use.
+
+**Carried**
+ʻAwa is a canoe plant and a sacred one — sterile, seedless, carried and multiplied by human hands
+alone for thousands of years, which is why every plant is a cutting of an unbroken line. It is drunk
+to open a meeting, seal an agreement, honour a god, and end a day, from Hawaiʻi to Vanuatu. Puna is
+kava country, its wet shaded ground exactly what the plant wants — a reminder that the understory,
+the layer beneath the food canopy, is itself a place that yields.
+
+---
+
+## 44. Cacao
+*Theobroma cacao* · understory tree · first food year 3–4
+
+### Simple
+**POD — SEED (CHOCOLATE) + PULP.** 50–120 in · warm, no frost · coast to 2,000 ft · shade
+*A tender understory tree: it wants shade, wind shelter, and no cold. Plant it under the nurses, not
+in the open.*
+
+> The chocolate tree, and it grows here — a small understory tree that fruits on its own trunk in
+> the shade of taller ones. The ice cream bean and the gliricidia on this list are exactly what it
+> wants over it. Sweet pulp to suck fresh, and beans to ferment for chocolate.
+
+### Flyer
+**Prep** — Deep, rich, well-drained ground, constant warmth and moisture, wind shelter, and shade —
+it grows *under* a canopy, which is the point of pairing it with the nurse trees.
+
+**Set** — Fresh seed (it does not keep) or a grafted plant. Start it in the shade it will live in.
+
+**Forget** — Pods on the trunk and branches from year three or four, then year-round on a mature
+tree. Keep the canopy over it, a mulch layer under it, and the wind off it; little else.
+
+### Detailed
+
+**Prep**
+- Deep, fertile, well-drained soil, high and steady moisture, no dry stress, and shelter from wind.
+  Grows as an understory tree beneath roughly 50% shade.
+- 50 to 120 inches a year, warm and frost-free — genuinely tender, unhappy below about 60°F. Best
+  under 1,000 ft, to about 2,000.
+- Shade, especially when young.
+
+**Set**
+- Fresh seed germinates fast and cannot be stored; grafted plants fruit sooner and truer. Establish
+  it in shade.
+- Plant it into a canopy already there — the Inga, the gliricidia, a banana — not into open ground.
+
+**Forget**
+- Cauliflorous: the pods grow straight from the trunk and old wood, from year three or four, then
+  continuously.
+- Keep the shade over it, the mulch under it, the wind off it. Prune to a low open frame for easy
+  picking.
+- Long-lived and productive for decades in the right shaded pocket.
+
+**The food**
+Two foods in one pod. Split it fresh and the white pulp around each seed is sweet, floral, and tart —
+sucked straight off the seed, or juiced. The seeds are cacao: scooped out, fermented a week under
+leaves, dried, roasted, and ground into chocolate. Hawaiʻi is the only US state that grows it as a
+crop, and lower Puna and Hilo sit within its range. The pulp is the immediate reward; the beans are
+the long one.
+
+**Carried**
+Cacao is Mesoamerican — *Theobroma*, "food of the gods," a currency and a sacred drink of the Maya
+and Aztec long before it was a bar. It came to Hawaiʻi late and found a home in the wet lowland
+shade. It belongs on this list as the guild-closer: it is the understory fruit the nitrogen-fixing
+nurses were planted for, the reason the ice cream bean and the gliricidia earn their "a snack" and
+"no crop" lines — they are working so this can fruit. Plant them, wait, and the shade you built
+becomes chocolate.
+
+---
+
+# IV. Kitchen-door annuals and the citrus
+
+The annuals here — the tropical squash, the ipu, the currant tomato — are grown and proven on the
+ground in Puna, and their numbers come from that lived experience where the Ferns entries are thin.
+The citrus sits beside them on its own footing: its climate from Ferns, its pest picture from the
+extension record — the psyllid vector is established statewide, the disease itself never found here.
+
+---
+
+## 45. Pumpkin / tropical squash
 *Cucurbita moschata* · ground vine · first food month 3–4
 
 ### Simple
@@ -2013,7 +2469,7 @@ homesteads much like the chayote — a sprawling, forgiving, keeping crop that a
 
 ---
 
-## 38. Bottle gourd · Ipu *(light sourcing)*
+## 46. Bottle gourd · Ipu
 *Lagenaria siceraria* · ground/climbing vine · first food month 3
 
 ### Simple
@@ -2058,7 +2514,7 @@ culture as for calories: a plant that made daily life possible, still grown for 
 
 ---
 
-## 39. Currant tomato *(light sourcing)*
+## 47. Currant tomato
 *Solanum pimpinellifolium* · ground/sprawling · first food month 2–3
 
 ### Simple
@@ -2103,13 +2559,13 @@ sometimes beat the improved.
 
 ---
 
-## 40–42. The citrus: orange, grapefruit, lemon *(light sourcing)*
+## 48–50. The citrus: orange, grapefruit, lemon
 *Citrus sinensis · Citrus × paradisi · Citrus limon* · sub-canopy · first food year 3–5
 
 ### Simple
 **FRUIT.** 40–60 in · warm, some cool · coast to 3,000 ft · sun
-*Greening disease (huanglongbing) and the usual pests are the real question for citrus here now,
-more than climate.*
+*The insect that can carry greening disease lives here; the disease itself has never been found in
+Hawaiʻi. Buy clean grafted stock — in a mixed, healthy planting it is a watch, not a scare.*
 
 > Familiar, reliable, and grafted onto rootstock for a tree that fruits in a few years. They want a
 > touch of seasonal change to sweeten, so they do a little better off the wettest, warmest coast.
@@ -2124,7 +2580,8 @@ variable, though some kinds come true.
 
 **Forget** — Three to five years to fruit, decades of life. Lemon is the most forgiving and most
 everbearing; orange wants the most warmth and sweetens with a cool spell; grapefruit wants the most
-heat and the longest season. Watch for greening disease.
+heat and the longest season. Buy clean grafted stock: the insect that could carry greening disease
+is here, though the disease itself is not.
 
 ### Detailed
 
@@ -2142,8 +2599,11 @@ heat and the longest season. Watch for greening disease.
 - First fruit three to five years, single trees to a hundred years, orchards economic about thirty.
 - Lemon is everbearing and the most cold- and neglect-tolerant; orange needs warmth and a cool spell
   to colour and sweeten; grapefruit needs the most heat and the longest hang time.
-- The live threat here is huanglongbing (citrus greening) and its psyllid vector, plus the usual
-  scale and mites — the reason to source clean grafted stock.
+- The psyllid that can carry huanglongbing (citrus greening) has been established statewide since
+  2003, but the disease itself has never been found in Hawaiʻi, and surveillance works to keep it
+  out — so clean grafted stock is the sensible care, not alarm. And a pest's weight in a
+  monoculture orchard is not its weight in a diverse, healthy dooryard: hold the orchard's fear
+  lightly here. The everyday nuisances are the usual scale and mites.
 
 **The food**
 Eaten fresh and juiced; the peel candies and flavours; the flowers brew as tea and scent things.
