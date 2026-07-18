@@ -9,13 +9,20 @@ permacultureplants.com is 403 to plain fetch, reachable only through a real brow
 its pages are ~5,000-word bylined articles ("Written by Timothee Mendez") — footnoted
 secondary content, good for soft/anecdotal colour, not a primary source. Only ʻulu has
 been cross-read against it. Nothing here still carries a *(light sourcing)* mark: the
-kitchen-door annuals are grounded in lived Puna experience, and the citrus pest picture is
-cross-read against the extension record — the psyllid vector is here, the disease is not.
+kitchen-door annuals are grounded in lived Puna experience, the citrus pest picture is
+cross-read against the extension record — the psyllid vector is here, the disease is not — and
+the native māmaki's band is read from its wet-forest range and elevation rather than a raster.
 
-**Not yet written:** the placements/guild. They come last, from the whole set at once, so
-they stay mutually consistent. Cross-plant claims that currently sit inside a plant's own
-beats (e.g. pigeon pea "by year five the ʻulu is over it") are load-bearing but provisional
-and must be reconciled in that pass.
+**The corpus is no longer capped to the shipped display.** The windward flyer and the site's
+first screen stay bounded; the written corpus behind them may grow, be enriched, and be
+recrystallized. Part V (the understory spices, more greens and a protein legume, two wet-lowland
+gap-fruits, and the one native leaf) is the first growth past that line.
+
+**Not yet written:** the placements/guild — they come last, from the whole set at once, so they
+stay mutually consistent. Cross-plant claims that currently sit inside a plant's own beats (e.g.
+pigeon pea "by year five the ʻulu is over it") are load-bearing but provisional and must be
+reconciled in that pass. Still open too: the record-by-record recrystallization (Elevitch/Morton
+cross-reads for the fruit, firming the canoe/native bands).
 
 ---
 
@@ -2617,3 +2624,539 @@ Hawaiʻi early — Kona oranges were a real export before coffee took the slope.
 quiet warning too: a monoculture export that a disease and a market can undo, which is the whole
 reason this project argues for the dooryard tree and the mixed planting over the orchard of one
 thing.
+
+---
+
+# V. The understory spices, more greens, and the gap-fillers
+
+The first pass named these layers and did not write them. Here they are: the spices that live in
+the shade *under* the food canopy — the same shade the cacao and the ʻawa wanted — then a superb
+protein legume and two more everyday greens, two fruits for the wet low ground the earlier list
+left thin, and the one native leaf. The display stays bounded; the corpus it draws from does not,
+and this is where it deepens.
+
+---
+
+## 51. Black pepper
+*Piper nigrum* · understory vine · first crop year 3–4
+
+### Simple
+**BERRY — SPICE.** 98–157 in · warm, no frost · coast to 1,650 ft · semi-shade, sheltered
+
+> A vine that climbs a tree you give it and hangs the world's most-traded spice off the trunk. It
+> wants exactly the wet, warm, shaded low ground the windward coast already is, and it is close kin
+> to the ʻawa growing in that same shade.
+
+### Flyer
+**Prep** — Rich ground with organic matter, well-drained, in the shelter and semi-shade of a
+canopy. A living post to climb: a tree, or a stout stake it can throw its clinging roots against.
+It wants the rain the coast gives.
+
+**Set** — A woody cutting, about eighteen inches, off a fruiting vine — that is how pepper is
+grown. It roots in a couple of months. Seed works and is slower.
+
+**Forget** — First peppercorns at three to four years, full crop by seven, then a dozen years and
+more. It climbs on its own roots up whatever it is given. Pick the spikes as the first berries
+redden.
+
+### Detailed
+
+**Prep**
+- Neutral, humus-rich, well-drained soil, pH 6 to 7. Semi-shade and shelter — it evolved as a
+  forest-floor climber and scorches in hard open sun.
+- 98 to 157 inches a year preferred, 79 to 217 tolerated. 72 to 95°F best, takes 50 to 104. Best
+  below 1,650 ft, to about 6,600. No frost.
+- Give it a support that lives: a rough-barked tree, the kō, or a post it can root into.
+
+**Set**
+- Cuttings of woody shoots, roughly eighteen inches, root within two months — the standard method.
+- Seed germinates in two to three weeks from fresh, ripe, shade-dried berries.
+- Sucker division works but sets the flowering back about two years.
+
+**Forget**
+- First bearing at three to four years, full production at seven, an economic life of twelve to
+  twenty years.
+- It hauls itself up the support on short clinging roots; little to do but keep the support sound
+  and the base mulched.
+- Pick each spike when the first fruits turn from green toward red.
+
+**The food**
+One vine, several peppers. Green berries picked and dried in the sun turn to black peppercorns;
+the same berries left to ripen, soaked, and skinned become white pepper; picked green and brined,
+they are the soft peppercorn. It is spice and little else in bulk, but it is the spice — the one
+that moved fleets and drew ships across oceans. Used whole or ground, and a light medicine for the
+gut besides. No hazards known.
+
+**Carried**
+Pepper is South Indian, off the Malabar Coast, and for most of recorded history it was money —
+rents paid in it, cities grown rich forwarding it, the whole Age of Exploration set in motion by
+Europe's wish to cut out the middlemen between itself and this vine. It is a *Piper*, the same
+genus as the ʻawa already on this list, and it wants the identical spot: the warm wet shade below
+the canopy. Where a food forest has closed over and made that shade, it has also made a place for
+the most valuable spice on earth, asking only a tree to climb.
+
+---
+
+## 52. Cardamom
+*Elettaria cardamomum* · understory · first crop year 3–4
+
+### Simple
+**POD — SPICE.** 98–150 in · mild · 2,000 to 4,900 ft · half shade
+
+> The queen of spices, and a shade-demanding one: a ginger relative that wants the cool middle
+> elevations and about half shade — which is to say the coffee belt, under a canopy. Three years to
+> the first pods, then a decade and more of them.
+
+### Flyer
+**Prep** — Rich, moist, well-drained ground under roughly fifty percent shade. The cool mid-slope,
+not the hot coast — it belongs in the same band as the coffee and wants a canopy over it.
+
+**Set** — Seed, slow and irregular to come up, or divide a clump — division is faster and truer.
+
+**Forget** — First pods at three years from a division, four to five from seed, then ten to fifteen
+years of cropping. Pick the pods just before they split. Little else, in the right shaded spot.
+
+### Detailed
+
+**Prep**
+- Rich, moist, well-drained forest loam; drainage essential. About 50% shade is optimal, and it
+  cannot take prolonged direct sun.
+- 98 to 150 inches a year preferred, 59 to 228 tolerated. A diurnal range around 50 to 95°F, mean
+  near 72°F; it wants an annual mean above about 63°F.
+- 2,000 to 4,900 ft — the cool middle elevations, the coffee band, not the lowland.
+
+**Set**
+- Seed germinates in five to seven weeks, irregular and sometimes taking a year.
+- Division of an established clump is quicker and keeps the type. Above 75°F it is propagated
+  vegetatively regardless.
+
+**Forget**
+- Bearing from three years after planting a division, four to five from seed; economic life ten to
+  fifteen years.
+- The flowering shoots sprawl along the ground at the base of the leafy stems, and the pods form
+  there — harvest just before they split, cut a little green.
+- Keep the shade over it and the ground mulched; it asks little more.
+
+**The food**
+The pods are the spice, each holding a cluster of intensely aromatic black seeds — sweet, resinous,
+the flavour of chai and of a hundred curries and sweets across South Asia and the Arab world, and
+by weight one of the costliest spices there is. The young shoots and the rhizome are eaten too, and
+the big leaves wrap food for cooking, exactly as its cousins the ginger and the ʻōlena are used. No
+hazards known.
+
+**Carried**
+Cardamom is from the same Western Ghats forests as pepper, and it is a *Zingiberaceae* — kin to the
+ginger and the turmeric already on this list, and it wants what they want turned up: more shade,
+more height, more cool. It grew wild in the forest understory long before anyone planted it, which
+is the instruction for growing it now: give it the standing shade of a canopy at the coffee
+elevations and it will behave as though it were still in the forest it came from.
+
+---
+
+## 53. Vanilla
+*Vanilla planifolia* · understory vine (orchid) · first crop year 1–3
+
+### Simple
+**POD — SPICE.** 79–118 in · warm, no frost · coast to 2,000 ft · semi-shade
+*Every flower opens for one morning and, here, must be hand-pollinated — its wild pollinator does
+not live in Hawaiʻi. No hand, no pod.*
+
+> A climbing orchid that runs up a tree and, once a year, opens a flower you must pollinate by hand
+> before noon. Do that, and nine months later comes the cured black pod that is vanilla. It wants
+> warm wet shade and a living post — and it wants your hand.
+
+### Flyer
+**Prep** — Warm, sheltered semi-shade and a living tree or post to climb; it is an epiphyte and
+roots into bark and mulch, not deep soil. A thick leaf-litter mulch at the base is its ground.
+
+**Set** — A long cutting, three to six feet with several nodes, laid against the support. A long
+cutting fruits in one to two years; a short one takes three to five.
+
+**Forget** — The work is the flower. Each bloom opens a single morning; press the pollen home by
+hand that morning or lose the pod. Beans set then hang and ripen for eight or nine months, and the
+black vanilla you know only appears after weeks of curing.
+
+### Detailed
+
+**Prep**
+- Epiphytic: it climbs and roots into bark, growing from humus pockets rather than deep soil.
+  Semi-shade, sheltered from wind. pH 5.5 to 7, tolerant 4.3 to 8.
+- 79 to 98 inches a year preferred, 59 to 118 tolerated. 70 to 86°F, takes 50 to 91. Sea level to
+  about 2,000 ft. No frost.
+- A living post — a rough-barked tree it can climb while staying in shade — and a deep mulch at the
+  foot.
+
+**Set**
+- Cuttings of 3 to 4 feet with three or more nodes root readily; a longer cutting, up to six feet,
+  fruits soonest.
+- Seed needs a fungal partner and is essentially never used by growers.
+
+**Forget**
+- Long cuttings fruit in one to two years, short cuttings in three to five.
+- Pollination is the whole labour: the flower opens for a single morning, its wild bee is absent
+  here, and someone must lift the flap and press anther to stigma by hand, flower by flower, or no
+  pod forms.
+- A pollinated flower sets a green bean that hangs eight to nine months, then is picked and cured —
+  killed, sweated, and slow-dried over weeks — before it smells of anything.
+
+**The food**
+The cured pod and its tiny seeds are the second-most-costly spice after saffron, and the labour
+above is why. The flavour goes into everything sweet and into perfume and soap; traditionally the
+pod was also a stimulant and carminative. The one caution is for the hands: the fresh sap carries
+calcium oxalate and can irritate skin, so growers who pollinate and pick daily wear gloves.
+
+**Carried**
+Vanilla is the only orchid the world eats, a Mesoamerican vine the Totonac and then the Aztec grew,
+and for three hundred years after Europe carried it off it refused to fruit anywhere — because the
+bee that pollinates it stayed home in Mexico. Then in 1841 a twelve-year-old enslaved boy on
+Réunion, Edmond Albius, worked out the hand-pollination that every grower on earth still uses, and
+vanilla became a crop of the whole tropics. It is the cherimoya's lesson again, sharper: a food
+forest does not run itself, and some of the best things in it want a person's hand, on a schedule
+the plant sets.
+
+---
+
+## 54. Katuk · Sweetleaf
+*Sauropus androgynus* · shrub · first food month 2
+
+### Simple
+**LEAF — PROTEIN.** 35–157 in · warm · coast to upland · sun to semi-shade
+*Cook it, and eat it as a vegetable, not by the glassful. Raw katuk juice drunk in quantity has
+harmed lungs; a normal cooked serving has fed Southeast Asia forever.*
+
+> One of the highest-yielding, highest-protein leaves there is — a shrub you plant once and pick
+> from for years, the tips as mild as garden peas. Grows almost anywhere on the island, in sun or
+> half shade, and gives a green within two months.
+
+### Flyer
+**Prep** — Almost any decent ground with some drainage; it does not need rich soil. Sun or up to
+half shade. It prefers things a touch drier than the wettest coast but takes the wet where the water
+moves.
+
+**Set** — Seed, which comes up readily, or a woody cutting eight to twelve inches long. Both root
+easily.
+
+**Forget** — First leaves in under two months, then cut-and-come-again for years. Keep it pruned to
+waist or chest height for a bushier plant and tender tips in reach. Cook what you pick.
+
+### Detailed
+
+**Prep**
+- Tolerant of heavy soils, does not require rich ground, prefers well-drained; pH 6 to 7, takes 5.5
+  to 7.5. Full sun to semi-shade.
+- Prefers 35 to 47 inches a year but tolerates 24 to 157 — so on the wet coast, as with the pigeon
+  pea, give it drainage. 79 to 95°F ideal, takes 41 to 100. Grows from the coast well up into the
+  uplands.
+
+**Set**
+- Seed germinates readily; cuttings of somewhat woody shoots, eight to twelve inches, establish
+  easily.
+
+**Forget**
+- First harvest in fifty-five to seventy days, then continuous.
+- Prune it low and bushy; left alone it goes to a lanky ten feet and the leaves climb out of reach.
+
+**The food**
+The leaves and the asparagus-flavoured young shoots are the crop — a mild, sweet, pea-like green
+running six to ten percent protein, among the most nutritious leaves grown, cooked into everything
+from soup to stir-fry across Southeast Asia. The ripe fruits are made into sweets, and the leaf
+yields a green food dye. The honest caution is dose and preparation: a slimming fad in 1990s Taiwan
+had people drinking large amounts of *raw* katuk juice daily, and it caused lasting lung damage. As
+a cooked vegetable in normal amounts — how it has always been eaten — it has a long, safe record.
+Cook it, and eat it, do not juice it by the pitcher.
+
+**Carried**
+Katuk is a dooryard green from Borneo and the Malay world through South India, kept by the kitchen
+for the same reason the chaya and the aibika are: a few plants by the door hand a family a
+protein-rich green every week, for years, off one planting. It is the same archetype in a third
+botanical family — the leaf you walk past and pick, not the crop you drive to — and the caution on
+the raw juice is the exception that proves how mild the ordinary use is.
+
+---
+
+## 55. Winged bean
+*Psophocarpus tetragonolobus* · legume vine · nitrogen · first food month 2–3
+
+### Simple
+**POD, SEED, TUBER, LEAF — PROTEIN.** 39–161 in · warm · coast to 6,600 ft · sun
+*Dislikes wet feet: on this coast it wants a mound or a slope where the water leaves.*
+
+> The whole plant is food — pod, seed, leaf, flower, and a protein-rich tuber underground — and it
+> fixes more nitrogen than any other bean. A climbing legume that feeds you six ways and feeds the
+> soil while it does it. "A supermarket on a stalk."
+
+### Flyer
+**Prep** — Well-drained loam, slightly acid, in full sun, with a trellis or fence to climb. It
+dislikes both drought and waterlogging, so on the wet coast give it sharp drainage.
+
+**Set** — Seed, soaked twelve hours in warm water, sown straight in the ground. Up in under a week.
+
+**Forget** — Young pods at sixty to eighty days, then continuously; the tubers swell by four to
+eight months. Pick the pods young and tender. It climbs to twelve feet — give it support and the
+crop stays in reach.
+
+### Detailed
+
+**Prep**
+- Well-drained loamy, slightly acid soil preferred; tolerates heavy ground; pH 5.5 to 7, takes 4.3
+  to 8.5. Dislikes wet soils and drought both — steady moisture with drainage.
+- 39 to 98 inches a year preferred, 20 to 161 tolerated. 64 to 86°F ideal, takes 57 to 104. Up to
+  6,600 ft in the tropics. Full sun.
+- Most kinds flower on a daylength near twelve hours, which this latitude gives.
+
+**Set**
+- Pre-soak seed twelve hours; sow direct. Emergence in five to seven days at about 77°F.
+- An exceptional nitrogen-fixer — it carries a greater weight of root nodules than any other legume
+  — so it feeds its neighbours as it grows.
+
+**Forget**
+- Young pods at sixty to eighty days; mature seed at six to nine months; tubers at four to eight.
+- Give it a strong trellis; the vine runs to twelve feet and more.
+
+**The food**
+Almost nothing is wasted. The young winged pods cook like a green bean; the mature seeds cook and
+roast like a soybean and carry as much protein and oil; the leaves and shoots eat like spinach; the
+flowers colour and sweeten a dish; and the tuber — the rare part — is a firm, nutty root running to
+twenty percent protein, several times a cassava or a yam. It is one of the most complete single
+food plants on the list, which earned it a long look from agronomists as a tropical answer to the
+soybean. No hazards known.
+
+**Carried**
+The winged bean is a New Guinea and Southeast Asian dooryard climber, grown up the fence and the
+house-post for centuries, and in the 1970s it had a burst of fame when researchers realised a single
+plant could supply a family's protein — grain, green, and root — while enriching the soil under it.
+The fame faded and the plant did not: it is exactly the kind of generous, forgotten, everything-crop
+this list exists to bring back to the fence line.
+
+---
+
+## 56. Roselle · Jamaica sorrel
+*Hibiscus sabdariffa* · shrub · first food month 3–5
+
+### Simple
+**CALYX — DRINK, TART.** 59–169 in · warm · coast to 2,000 ft · sun
+*It flowers as the days shorten — a short-day plant, so the crop comes in the fall and winter, not
+midsummer.*
+
+> A hibiscus you grow for the deep-red fleshy cups behind the flower — the "flor de Jamaica" of the
+> cold sweet-tart drink, and a lemony green from the young leaves besides. One season from seed to
+> a shrub full of ruby calyces.
+
+### Flyer
+**Prep** — Well-drained, humus-rich ground in full sun; it is not shade-tolerant. It takes a wide
+range of soil and wants the sun the coast's brighter pockets give.
+
+**Set** — Seed, sown straight in warm ground and up fast, or a half-ripe cutting. An easy annual.
+
+**Forget** — The calyces come three to five months from sowing, and here the flowering waits for the
+shortening days of fall. Snap off the fleshy red cups behind each spent flower, fresh and tender,
+before they turn woody. The young leaves are a crop the whole time.
+
+### Detailed
+
+**Prep**
+- Well-drained, humus-rich fertile soil, best a friable sandy loam; adapts widely, pH 4.5 to 8.
+  Full sun — it will not crop in shade.
+- 59 to 79 inches a year preferred, 25 to 169 tolerated. 55 to 82°F. Sea level to about 2,000 ft.
+- A short-day plant: it will not flower under more than about thirteen hours of daylight and flowers
+  near an eleven-hour day, so the calyx crop comes as the year darkens.
+
+**Set**
+- Seed germinates rapidly, faster for a soak or a nick; sow direct or in containers. Half-ripe
+  cuttings strike readily.
+
+**Forget**
+- First calyces three to five months from sowing; picked over several weeks as they form.
+- Grown as an annual here — cut the calyces young and tender, because they toughen and fibre up as
+  they age.
+
+**The food**
+The crop is the calyx — the swollen red cup left behind when the hibiscus flower drops — sharp and
+cranberry-tart, steeped fresh or dried into the crimson iced drink known as *agua de Jamaica*,
+*bissap*, or roselle tea across the Caribbean, Mexico, and West Africa, and cooked down into jam,
+sauce, and a filling for pastry. The young leaves and stems are a lemony potherb, raw or cooked, and
+the seeds are edible roasted. The calyx, leaves, and seed are the food; the pressed seed oil is not
+eaten.
+
+**Carried**
+Roselle is an African hibiscus that travelled the whole tropical belt as a dooryard drink-and-relish
+plant, and it is a *Malvaceae* — kin to the aibika already on this list, another generous hibiscus
+grown for a soft edible part. On this island it has quietly become a small-farm and homestead
+favourite; the ʻUlu Cooperative plants it right in among the māmaki and the breadfruit, which is
+exactly the company it keeps best — a bright tart note tucked into the food guild.
+
+---
+
+## 57. Abiu
+*Pouteria caimito* · sub-canopy to canopy · first food year 3–4
+
+### Simple
+**FRUIT — CARAMEL.** warm, no frost · coast to 4,900 ft · sun to dappled shade
+*Eat it fully ripe. Under-ripe, a milky latex glues the lips — the ripe fruit is clean, sweet, and
+custard-smooth.*
+
+> An Amazon fruit with clear jelly flesh that tastes of caramel flan — smooth, sweet, and low in
+> acid. Grafted, it fruits in three or four years on the warm wet low ground the coast has, and it
+> takes some shade, so it slots under the taller trees.
+
+### Flyer
+**Prep** — Moist, acid ground; it grows well even in wet soils, unusual for a good fruit tree. Warm
+and frost-free. Full sun or dappled shade.
+
+**Set** — Fresh seed, which germinates in a month or so but throws a variable tree, or a grafted
+plant for a known fruit in less time.
+
+**Forget** — Grafted trees fruit in three to four years, seedlings up to eight. Pick only when fully
+ripe — the skin yellows and gives slightly. The thin skin bruises and the fruit keeps only a few
+days, so it is a fresh, local crop.
+
+### Detailed
+
+**Prep**
+- Prefers acid soil and grows well in wet ground; frost-intolerant, wanting year-round warmth and
+  moisture. Sea level to about 4,900 ft.
+- (Ferns carries no firm rainfall band for it; treat the numbers as unverified. It is an Amazon
+  rainforest tree and behaves like one — it wants the wet, warm, low ground and no dry stress.)
+- Succeeds in full sun and in dappled shade, so it can go under the canopy edge.
+
+**Set**
+- Seed germinates in four to six weeks when fresh; side-grafting and air-layering both work.
+- Grafted trees fruit in three to four years, seedlings up to eight, and come less true.
+
+**Forget**
+- A medium tree that begins bearing young when grafted, then crops for decades.
+- Harvest strictly at full ripeness: the skin turns from green to yellow and softens.
+
+**The food**
+A round yellow fruit up to four inches, its translucent white flesh clear and jelly-like, sweet and
+mild with almost no acid — the flavour is caramel custard, close to crème brûlée, which is why it is
+prized fresh with a spoon. The one rule is ripeness: an under-ripe abiu bleeds a sticky white latex
+that clings to the lips and mouth, while the fully ripe fruit is clean and smooth. It does not
+travel — thin-skinned, quick to bruise, a few days' keeping — so, like the acerola, it is a fruit
+you essentially only meet if you grow it.
+
+**Carried**
+Abiu is from the western Amazon, a *Pouteria* — the same genus as the canistel and the lucuma — and
+it is one of the sapote-family fruits slowly spreading through Hawaiʻi's collector and
+rare-fruit orchards. It belongs on this list as a gap-filler for the wet low ground: a
+shade-tolerant, wet-tolerant, low-acid dessert fruit for exactly the warm rainy pocket where the
+mango and the cherimoya refuse to fruit.
+
+---
+
+## 58. Starfruit · Carambola
+*Averrhoa carambola* · sub-canopy · first food year 1–3
+
+### Simple
+**FRUIT.** 47–118 in · warm · coast to 3,900 ft · sun to part shade
+*Dangerous to people with kidney disease — it carries a neurotoxin (caramboxin) that healthy
+kidneys clear and failing ones cannot. Sound kidneys, no problem; kidney trouble, avoid it.*
+
+> The five-ribbed fruit that cuts into stars — crisp, juicy, sweet-tart, and ornamental on the
+> tree. Grafted, it fruits in a year or two and then flowers almost year-round, several crops a
+> year, on the warm wet low ground.
+
+### Flyer
+**Prep** — Well-drained, slightly acid ground; it will not take waterlogging. Some shade suits it.
+Warm and frost-free — a light frost kills a mature tree.
+
+**Set** — Seed, or better a grafted tree for a known sweet strain and fruit in a year or two.
+
+**Forget** — Grafted trees fruit in one to two years, then flower on and off all year for up to
+three crops. Pick when the ribs turn from green to gold. It is a heavy, reliable bearer once
+established.
+
+### Detailed
+
+**Prep**
+- Well-drained, slightly acid soil, pH 5.5 to 6.5, tolerant 5 to 8.5; intolerant of waterlogging.
+  Prefers a position with some shade.
+- 47 to 79 inches a year preferred, 24 to 118 tolerated. 75 to 86°F ideal, takes 41 to 102; a
+  mature tree is killed at 28°F. Up to about 3,900 ft.
+
+**Set**
+- Seed, greenwood cuttings, budding, grafting, and layering all work. Grafted varieties fruit in
+  one to two years, seedlings in three to eight and come variable.
+
+**Forget**
+- Flowers continue through the year; up to three crops annually once mature.
+- Pick as the ribs colour up from green to yellow-gold; tree-ripened fruit is sweetest.
+
+**The food**
+A waxy, five-angled yellow fruit eaten fresh and sliced into stars, ranging from tart to honey-sweet
+by strain, juiced or dropped into salads and preserves; the flowers and young leaves are eaten too.
+It is high in oxalic acid — enough that the fruit is mildly laxative and that the sour kinds sting a
+sore mouth — and, more seriously, it carries **caramboxin**, a neurotoxin that healthy kidneys
+filter out harmlessly but that builds up dangerously in anyone with kidney disease, causing hiccups,
+confusion, and worse. For sound kidneys it is a fine everyday fruit; for anyone with renal trouble
+it is one to leave alone. This is worth saying plainly rather than burying.
+
+**Carried**
+Carambola is Southeast Asian, an *Averrhoa* in the wood-sorrel family, spread everywhere warm as a
+handsome dooryard fruit tree. It is on this list as the other wet-lowland gap-filler beside the
+abiu — easy, ornamental, forgiving of shade, and generous with fruit — carried with the honest
+kidney caution attached, because the tool's whole habit is to name a plant's real edge instead of
+selling past it.
+
+---
+
+## 59. Māmaki
+*Pipturus albidus* · native understory shrub · first tea year 1–2
+
+### Simple
+**LEAF — TEA (and small fruit).** wet to mesic · warm · 200 to 6,000 ft · part shade
+*A nettle with no sting. The only native plant on the list — endemic to these islands and nowhere
+else on earth — and the food plant of the native Kamehameha butterfly.*
+
+> The Hawaiian tea plant: a soft, stingless nettle of the wet-forest understory whose leaves make
+> the earthy brew of lāʻau lapaʻau, Hawaiian healing. It grows in the shaded, moist ground under
+> taller trees across a huge elevation range, and it belongs to this place alone.
+
+### Flyer
+**Prep** — Moist, well-drained ground in part shade, under or beside taller trees — its natural
+place is the wet-forest understory. Not the hot dry coast. The red-veined kinds take more sun than
+the green.
+
+**Set** — Seed, washed out of the small white fruit and raised in shade, is the usual way; it is
+slow to start but not hard. Plant it out at about a foot tall.
+
+**Forget** — Leaves to pick for tea within a year or two, then for years off an evergreen shrub.
+Harvest the mature leaves, dry them, and steep. It wants shade and steady moisture and almost
+nothing else.
+
+### Detailed
+
+**Prep**
+- An understory shrub of coastal mesic, mixed mesic, and wet forest; wants moist, well-drained
+  ground and part shade, with the red-veined forms handling open sun better than the green.
+- 200 to 6,000 ft — an unusually wide native range — and warm, frost-free. Not suited to hot, dry
+  coastal ground.
+- No published rainfall band; it is a wet-to-mesic forest plant read by forest type and elevation
+  rather than a raster line. (Native range, not a database reading.)
+
+**Set**
+- Soak the ripe white fruit a couple of days and shake the tiny seeds free; germinate under mist,
+  about three months, then grow on in part sun to a foot tall before planting out.
+- A stingless member of the nettle family — no gloves needed, unlike its mainland cousins.
+
+**Forget**
+- Leaves for tea within a year or two, then continuously off a long-lived evergreen shrub six to
+  fifteen feet tall.
+- Pick and dry the mature leaves; cut it back to keep it bushy and in reach.
+- Co-plants happily in the food guild — the ʻUlu Cooperative sets it a few feet off the breadfruit,
+  with roselle and lemongrass alongside.
+
+**The food**
+The leaves are the crop, dried and steeped into māmaki tea — mild, earthy, faintly grassy, caffeine-
+free — long central to lāʻau lapaʻau, traditional Hawaiian medicine, and now a real small-farm
+product. The small white mulberry-like fruits are edible, sweet and mild, and eaten in quantity are
+a gentle laxative. Leaf and fruit both; the leaf is the reason to grow it.
+
+**Carried**
+Māmaki is endemic to the Hawaiian Islands — it grows wild nowhere else on the planet — and it is a
+nettle that lost its sting on islands that had no browsing mammals to defend against, the same
+disarming these islands worked on so many of their plants. It is the host plant of the pulelehua,
+the Kamehameha butterfly, one of only two butterflies native to Hawaiʻi, which lays its eggs on
+these leaves and on almost nothing else. To plant māmaki is to feed a brew, a healing tradition, and
+a native butterfly at once — the list's one truly indigenous member, and a reminder that the food
+guild can be built to hold the native web inside it, not just the carried crops.

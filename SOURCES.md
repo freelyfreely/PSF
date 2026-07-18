@@ -40,6 +40,9 @@ handed back to the living, per the gate's own boundary (below).
 | **CTAHR / UH Mānoa extension** (ctahr.hawaii.edu) | Hawaiʻi-specific | The real local pest, disease, and climate picture | The authoritative word on anything Hawaiʻi-particular |
 | **USDA APHIS / HDOA** | US / Hawaiʻi pest status | Current pest and disease establishment (e.g. the citrus psyllid and HLB status) | — |
 | **Morton, Fruits of Warm Climates** | Tropical fruit | The tropical fruit trees where the temperate databases run thin | Older; cross-check current names and pests |
+| **Native Plants Hawaiʻi / CTAHR / DLNR Forestry** (nativeplants.hawaii.edu, dlnr.hawaii.gov) | The endemic and indigenous flora | The one place the databases above cannot help: native plants like the māmaki, read by forest type and elevation, not a raster band | The authority for anything endemic — range, ecology, the native web it sits in |
+| **Grower and cooperative practice** (e.g. Hawaiʻi ʻUlu Cooperative) | Working Hawaiʻi farms | Propagation, spacing, guild companions the databases omit — how a plant is actually put in the ground here | Practice, not a controlled trial; corroborate the numbers, trust the placement |
+| **Peer-reviewed medical / nephrology literature** | Specific human-health cautions | The load-bearing hazard facts (star-fruit caramboxin and renal risk; the raw-katuk-juice lung injury) | Used only to state a plain caution, never as horticulture |
 | **permacultureplants.com** | Long bylined secondary articles | Soft, anecdotal colour only | 403 to plain fetch, reachable only through a real browser; footnoted secondary, never a primary source. Only ʻulu has been cross-read against it |
 
 All numeric bands in the records are converted to **inches and feet** — what a person here actually
@@ -104,13 +107,42 @@ criteria are applied by hand to the prose in [plant-copy.md](plant-copy.md).
 - **The canoe and native plants** (noni, kukui, kō, ʻuhi, hōʻiʻo, ʻawa) lean on the ethnobotanical
   and extension record and on lived knowledge; Elevitch's Pacific agroforestry profiles are the
   recommended cross-read to firm their bands.
+- **The Part V understory spices** (black pepper, cardamom, vanilla) are Ferns bands, converted.
+  Cardamom's are the tell: it wants 2,000–4,900 ft and 50% shade, i.e. the coffee band under a
+  canopy, not the coast — the record places it, not a wish. Vanilla's one-morning flower and
+  obligate hand-pollination (its wild bee absent here) are horticultural fact, and the Edmond
+  Albius history is well documented.
+- **Katuk** carries a real, narrow hazard held at its true size: Ferns says "none known," but the
+  medical record shows heavy daily consumption of *raw* katuk juice (a 1990s Taiwan slimming fad)
+  caused bronchiolitis obliterans. The record states it as *dose and preparation* — cook it, eat
+  it as a vegetable, do not juice it by the pitcher — not as a blanket alarm on an everyday
+  Southeast Asian green. This is the [[psf-project]] held-lightly discipline applied to a food
+  hazard rather than a pest.
+- **Star fruit (carambola)** carries a genuine, non-negotiable caution: caramboxin, a neurotoxin
+  that sound kidneys clear and failing kidneys cannot. Unlike the monoculture-pest judgments, this
+  one is *not* held lightly — it is stated plainly, because the frame does not change the fact.
+  Named early, per the hazards convention.
+- **Abiu** ships with an explicit gap: Ferns carries no firm rainfall band, so the record labels
+  the number unverified (as acerola's is) and reasons from the plant's Amazon-rainforest ecology.
+- **Māmaki** is the one endemic on the list and does not belong to the horticultural databases at
+  all. Its band is read from Native Plants Hawaiʻi / CTAHR / DLNR (wet-to-mesic forest understory,
+  200–6,000 ft), its propagation from ʻUlu Cooperative practice, and its ecological weight — a
+  stingless island nettle, sole host of the Kamehameha butterfly (pulelehua) — from the native
+  record. It is labeled *native range, not a raster*, the endemic sibling of the lived-band rule.
 
 ## The open sourcing work
 
-- Cross-read the tropical-fruit entries against **Elevitch** and **Morton** where Ferns is thin.
-- Firm the new canoe/native bands (noni, kukui, kō, ʻuhi, hōʻiʻo, ʻawa, cacao) against Elevitch
-  and CTAHR.
+The proposed list is now written (Part V of [plant-copy.md](plant-copy.md): black pepper, cardamom,
+vanilla, katuk, winged bean, roselle, abiu, star fruit, and the native māmaki). What remains is
+depth, not breadth:
+
+- Cross-read the tropical-fruit entries against **Elevitch** and **Morton** where Ferns is thin —
+  this is the core of the record-by-record **recrystallization** pass. The abiu (no rainfall band)
+  and the acerola (thin bands) are first in line.
+- Firm the canoe/native bands (noni, kukui, kō, ʻuhi, hōʻiʻo, ʻawa, cacao) and the māmaki against
+  Elevitch, CTAHR, and the native record.
+- Firm the two lived-band greens (longevity, sissoo) and the Part V bands where they were converted
+  from a single database — cardamom, vanilla, and katuk especially — against a second source.
 - Resolve the citrus HLB note against a clean, current CTAHR / HDOA reading when one parses.
-- The remaining proposed plants not yet written — ʻawa's kin in the understory (black pepper,
-  cardamom, vanilla), the greens and legumes (katuk, winged bean, roselle), and the gap-filling
-  fruit (abiu, starfruit) — inherit these same conventions when they are written.
+- Reconcile the cross-plant guild claims (the provisional "by year five the ʻulu is over it" beats)
+  in the placements/guild pass, which is written last against the whole integrated set.
