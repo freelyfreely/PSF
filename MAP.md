@@ -14,12 +14,30 @@ Update it when a decision changes, not when a pixel does.
   Hāmākua–Hilo–Puna, in planting order. Print-first; it has to survive a photocopier.
   More coasts get their own flyers later, derived the same way from the same records.
 - **[plant-copy.md](plant-copy.md)** — the written plant records the site's `P` array
-  and the flyer entries are drawn from.
-- **[SOURCES.md](SOURCES.md)** — where the records come from: the authority order, the
-  databases and what each is good for, the conventions (units, lived-band labeling), and the
-  judgments held lightly (pest-in-monoculture, contextual difficulty).
+  and the flyer entries are drawn from. **The refined story, distilled from `raw/`** — not
+  the store itself.
 - **[deliverables/](deliverables)**, **[cards-specimen.html](cards-specimen.html)** —
   specimens and outputs.
+
+### The knowledge layer (store vs. story)
+
+Added session 2 (2026-07-17): the plant copy was doing two jobs — data of record *and* finished
+prose. These split them apart. The governing move is **separate the store from the story**; order,
+placement, and difficulty are **derived per site**, never authored once (there is no fixed planting
+order — see [succession.md](succession.md)).
+
+- **[raw/](raw)** — *the ore.* One file per plant: every source's numbers side by side (units kept
+  and converted), plus inferences and anecdotes. The source of truth [plant-copy.md](plant-copy.md)
+  is distilled from, and the store [gate.py](gate.py) checks against (the revived `spine.jsonl`).
+- **[SOURCES.md](SOURCES.md)** — *the method.* Authority order, databases, conventions (units,
+  lived-band labeling), the judgments held lightly.
+- **[succession.md](succession.md)** — *the physics.* Broad to specific: succession theory, the
+  guild mechanics (traceable to `raw/`), and the site-logic that derives the planting order. The
+  engine the horizontal layer (companion / placement / difficulty) is compiled from.
+- **[PRAXIS.md](PRAXIS.md)** — *the doing.* The outer techniques (the living cutting, chop-and-drop,
+  reading the harvest signal) and the inner succession that is the project's real product.
+- **[INSIGHTS.md](INSIGHTS.md)** — *the seedbed.* Whatever doesn't fit the others yet, date-stamped,
+  periodically promoted or let go.
 
 ## The strokes (tooling)
 
@@ -53,7 +71,7 @@ Nothing on the map is drawn by hand.
 | Elevation at a point | USGS 3DEP, live | EPQS call per click |
 | Temperature | **derived**, not measured | lapse rate from elevation, labeled derived everywhere it appears |
 | Address → point | Nominatim, bounded to the island | falls back to town/subdivision alias matching offline |
-| Plant facts | Ferns Tropical Plants Database + the records | units converted to inches and feet — what a person here actually uses |
+| Plant facts | [raw/](raw) store (Ferns + Morton + CTAHR/native + lived), distilled to the records | units converted to inches and feet — what a person here actually uses |
 
 Nothing is stored, no account, no tracking. Failure states speak plainly: the ocean
 click, the unreachable service, and "nothing on this list will feed you here" are
@@ -113,11 +131,20 @@ the tooltip), the three beats (**Prep / Set / Forget**), **the food** (how it is
 eaten, including the hazards, plainly), and **carried** (the story the plant brought
 with it). The **placements** — which plant stands with which — are deliberately
 unwritten: a placement is a claim about two plants, so it can only be written last,
-against the whole set at once, when the records are integrated.
+against the whole set at once, when the records are integrated. Placement, difficulty, and the
+planting order are one derived quantity (all functions of the site's state + available companions),
+compiled from [succession.md](succession.md) — not three separate columns.
 
 ## Deliberately unfinished
 
-- The placements / companion column (waiting on record integration).
-- Flyers for the other coasts (leeward, upcountry) — same records, same map, new
-  planting orders.
+- **The recrystallization pass:** cross-read every `raw/` record against a second source
+  (Elevitch / Morton), then re-distil the copy. Acerola (#27) is the worked example done; abiu (#57,
+  no rainfall band) is first in line. ~48 records remain.
+- **The horizontal layer** — placement / companion / difficulty — compiled from
+  [succession.md](succession.md) once its cross-claims are reconciled.
+- Consolidating the scattered field techniques from copy "Set/Forget" beats into
+  [PRAXIS.md](PRAXIS.md).
+- Promote noni (#38) toward the front of the wet-coast succession — it is the pioneer for raw lava,
+  not a wider-palette footnote.
+- Flyers for the other coasts (leeward, upcountry) — same records, same map, new planting orders.
 - The lived bands standing beside the published bands in the UI.

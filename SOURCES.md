@@ -81,7 +81,15 @@ importing the wrong frame's certainty.
   strongly pruned to stimulate rather than overpower — is the largest difficulty reducer there is,
   and it is free and in place. This is why the companion/placement layer and any future
   "difficulty" reading are the same feature, and why they are written last, against the whole
-  integrated set.
+  integrated set. (The engine that derives it: [succession.md](succession.md).)
+- **Food hazards sort the same way pests do — frame-dependent vs. frame-independent.** The
+  monoculture-word test above has a food-hazard corollary. A hazard that depends on *dose or
+  preparation* is held at its true size: katuk caused lung injury only as *raw juice drunk by the
+  glassful* (a Taiwan slimming fad), so the record says cook it and eat it, not avoid it. A hazard
+  that is *frame-independent* — a real toxin against real physiology — is stated flat, no matter the
+  frame: star fruit's caramboxin is dangerous to anyone with kidney disease, full stop. Ask of every
+  hazard: does the frame change the fact? If yes, hold it lightly; if no, state it plainly. Both,
+  always, named early.
 
 ## The gate, and its boundary
 
