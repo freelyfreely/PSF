@@ -123,7 +123,15 @@ criteria are applied by hand to the prose in [plant-copy.md](plant-copy.md).
   one is *not* held lightly — it is stated plainly, because the frame does not change the fact.
   Named early, per the hazards convention.
 - **Abiu** ships with an explicit gap: Ferns carries no firm rainfall band, so the record labels
-  the number unverified (as acerola's is) and reasons from the plant's Amazon-rainforest ecology.
+  the number unverified and reasons from the plant's Amazon-rainforest ecology. It is now first in
+  line for the Elevitch/Morton cross-read (the same move that resolved acerola below).
+- **Acerola** is the worked example of the recrystallization pass: its bands were flagged
+  "unverified" against a thin Ferns entry, and are now cross-read against Morton, *Fruits of Warm
+  Climates* — real cold tolerance (mature to 28°F), a drought-adapted low/medium-rainfall habit
+  (it may hold fruiting until the rain returns, which repositions it toward the drier ground), the
+  Hawaiʻi cropping pattern (a May flush, then small ones to December), and the counterintuitive
+  vitamin-C curve (highest green, falling as it ripens). The pattern for the rest: replace the
+  hedge-word "unverified" with a sourced band and a named cross-read.
 - **Māmaki** is the one endemic on the list and does not belong to the horticultural databases at
   all. Its band is read from Native Plants Hawaiʻi / CTAHR / DLNR (wet-to-mesic forest understory,
   200–6,000 ft), its propagation from ʻUlu Cooperative practice, and its ecological weight — a

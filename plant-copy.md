@@ -1473,39 +1473,52 @@ on this island right now.
 *Malpighia emarginata* · shrub · first food year 2–3
 
 ### Simple
-**FRUIT — VITAMIN C.** warm · coast to 3,300 ft · sun
+**FRUIT — VITAMIN C.** low–moderate rain · warm to 28°F · coast to 3,300 ft · sun
+*It takes real drought and may hold its fruiting until the rain returns — so a dry pocket suits it,
+and a dry spell is not a failure.*
 
 > A hedge-sized shrub with a small red cherry that carries more vitamin C than almost any food
-> known. Two to three years to fruit, several crops a year, and it doubles as a trimmed hedge.
+> known. Two to three years to fruit, then flush after flush from spring into winter, and it doubles
+> as a trimmed hedge.
 
 ### Flyer
-**Prep** — A decent, well-drained soil, sunny. Not fussy. It takes trimming and grows as a hedge.
+**Prep** — A good, well-drained soil — it takes limestone, marl, and clay alike as long as the water
+leaves — in full sun. It is drought-hardy and not fussy, and it takes trimming into a hedge.
 
 **Set** — Seed, or a half-ripe cutting with bottom heat. Fruit in two to three years.
 
-**Forget** — Two or three crops a year. The fruit is soft and bruises the moment it is ripe, so it
-is picked and used the same day. Trim it to shape and it thickens into a hedge.
+**Forget** — In Hawaiʻi a spring crop ripens about May, then small flushes come off and on until
+about December — several bloomings, not one. The fruit is soft and bruises the moment it is ripe,
+so it is picked and used the same day. Trim it to shape and it thickens into a hedge.
 
 ### Detailed
 
 **Prep**
-- Grows easily in a good, well-drained soil. Sunny position. Up to 3,300 ft. Two to eight feet.
-- (Ferns is thin on its rainfall and temperature range; treat those as unverified. It is a warm-
-  climate American shrub and behaves like one here.)
+- Grows on limestone, marl, and clay as readily as good ground, provided it drains; pH 5.5, better
+  6.5 for root development. Full sun. Two to eight feet.
+- Naturally adapted to medium- and low-rainfall country and long drought; it may not fruit until
+  the rain comes, so a somewhat dry pocket and a wet-dry rhythm suit it better than constant
+  soaking — a leeward or drier-Puna plant more than a wettest-coast one.
+- Warm-climate: a mature bush takes a brief 28°F, young plants die below 30°F. To about 3,300 ft;
+  its home range runs to 1,000 m in southern Mexico. (Rainfall and cold bands cross-read against
+  Morton, *Fruits of Warm Climates* — the earlier record left them unverified.)
 
 **Set**
-- Seed, or half-ripe wood cuttings struck with bottom heat. First fruit in two to three years.
+- Seed, or half-ripe wood cuttings with entire leaves struck under bottom heat. First fruit in two
+  to three years.
 
 **Forget**
-- Two to three crops a year.
+- Successive flushes rather than distinct annual crops — a spring flowering, then repeated small
+  ones through the warm season into December.
 - Grows as a hedge and tolerates shearing.
 - The ripe fruit is fragile: it bruises at a touch and does not keep, so it is a same-day crop.
 
 **The food**
 A small bright cherry, sweet to slightly tart, raw or stewed into juice, jam, jelly, or wine. The
-vitamin C is the headline: one to four grams per hundred grams of juice, many times an orange,
-enough that it is grown industrially just for the extract. Because the fruit will not travel, the
-only way most people meet it is off the bush.
+vitamin C is the headline — but it is highest in the *green* fruit and falls as the cherry ripens:
+around 4,500 mg per hundred grams green, 3,300 medium-ripe, 2,000 fully ripe, still many times an
+orange at every stage, and enough that acerola is grown industrially just for the extract. Because
+the fruit will not travel, the only way most people meet it is off the bush.
 
 **Carried**
 Acerola is West Indian and northern South American, and it moved through the tropics as a dooryard
