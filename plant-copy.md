@@ -1,15 +1,27 @@
 # Prep Set Forget — plant copy, three densities
 
-Thirteen plants, sorted by when you'd plant them and how long you wait. Every number
-converted from Ferns (tropical.theferns.info). Windward coast runs 60–100+ in/yr, so the
-fit lines below are honest about which of these actually want that much water.
+Plants sorted by role and by when you'd plant them. Every number converted from Ferns
+(tropical.theferns.info): inches a year, °F, feet. Windward coast runs 60–100+ in/yr, so
+the fit lines are honest about which of these actually want that much water.
 
-**Sourcing note:** botanical spine is Ferns for all thirteen. permacultureplants.com is
-403 to plain fetch and reachable only through a real browser; its pages are ~5,000-word
-bylined articles ("Written by Timothee Mendez") — footnoted secondary content, not a
-primary source. Only ʻulu has been cross-read against it so far.
+**Sourcing.** Botanical spine is Ferns for every plant with a real entry.
+permacultureplants.com is 403 to plain fetch, reachable only through a real browser, and
+its pages are ~5,000-word bylined articles ("Written by Timothee Mendez") — footnoted
+secondary content, good for soft/anecdotal colour, not a primary source. Only ʻulu has
+been cross-read against it. Plants marked *(light sourcing)* are common kitchen crops with
+thin or absent Ferns entries, written from general horticultural knowledge — verify before
+they ship.
 
-**Not yet written:** the placements. They come last, from the whole set at once.
+**Not yet written:** the placements/guild. They come last, from the whole set at once, so
+they stay mutually consistent. Cross-plant claims that currently sit inside a plant's own
+beats (e.g. pigeon pea "by year five the ʻulu is over it") are load-bearing but provisional
+and must be reconciled in that pass.
+
+---
+
+# I. The wet coast — a planting order
+
+The thirteen the windward flyer is built from, in the order you'd put them in the ground.
 
 ---
 
@@ -33,32 +45,32 @@ in every direction.
 the ground. It roots in a week and costs nothing.
 
 **Forget** — Tubers at three months, and it keeps making them. The shoot tips are a green
-you can cut every week and it does not mind. When the shade closes over it, it stops. It
-was never going to be a forest plant.
+you can cut every week. When the shade closes over it, it stops, and it was only ever a
+plant for the open ground.
 
 ### Detailed
 
 **Prep**
-- Sandy, well-drained ground. It stores starch early, and it rots late if the water sits.
+- Sandy, well-drained ground. It stores starch early and rots late if the water sits.
 - 30 to 80 inches a year suits it. On the wet coast, mound it up.
 - Full sun. Shade turns it into a vine that makes leaves and no tuber.
-- Needs potassium. Ash from the pigeon pea prunings does this.
+- Wants potassium. Ash from pigeon pea prunings does this.
 
 **Set**
 - Cuttings from vine tips. Vegetative shoots out-yield anything grown from seed.
 - Straight into the ground, wet season or not.
-- Six feet of run per plant, and it will fill the gaps you did not plan for.
+- Six feet of run per plant, and it fills gaps you did not plan for.
 
 **Forget**
-- Two to three months to the first tuber in the tropics. It does not wait.
+- Two to three months to the first tuber in the tropics.
 - Cut the shoot tips as a green all the way through. It regrows from the cut.
 - Dig the whole plant when the vines yellow. Cure the roots warm for a week before storing.
 - Once anything closes over it, it is done. Move it to the next open ground.
 
 **The food**
 Sweet or barely sweet, depending which one you were given. Boil, roast, or bury it in the
-coals. The young shoot tips cook like spinach and are the part most people here throw
-away. Nothing on it is hazardous, cooked or raw.
+coals. The young shoot tips cook like spinach and are the part most people here throw away.
+Nothing on it is hazardous, cooked or raw.
 
 **Carried**
 ʻUala arrived by canoe and then did something strange: it turns up in Polynesia centuries
@@ -79,8 +91,8 @@ those slopes were farmed at all. It is still the plant you get handed over a fen
 > sun plants stop.
 
 ### Flyer
-**Prep** — Heavy, fertile ground that holds water. Flooded ground grows it best by a
-factor of six. Sun, or the light shade under something taller.
+**Prep** — Heavy, fertile ground that holds water. Flooded ground grows it best by a factor
+of six. Sun, or the light shade under something taller.
 
 **Set** — A corm, a corm piece, or a side sucker. Two to three inches deep. Seed will not
 come true and nobody uses it.
@@ -94,34 +106,32 @@ this island ran on.
 **Prep**
 - Heavy, fertile, moisture-retentive ground, rich in old organic matter.
 - 70 to 105 inches a year preferred. It will take 40 and it will take 160.
-- Standing water is not a problem. Flooded, it yields 37 tonnes a hectare against 4 to 6 dry.
+- Standing water is welcome. Flooded, it yields 37 tonnes a hectare against 4 to 6 dry.
 - Sun is best. Light shade is fine, which is why it goes under the ʻulu at year five.
-- 70 to 82°F. It survives down to 50 and up to 95.
+- 70 to 82°F. Survives 50 to 95.
 
 **Set**
 - A corm of 60 to 150 grams, a piece of one, a side sucker, or the top of a corm with the
-  stalks still on.
-- Two to three inches deep.
-- Plant into the wet.
+  stalks still on. Two to three inches deep. Plant into the wet.
 
 **Forget**
 - Seven to ten months to the corm. Six at the fastest, eighteen at the slowest.
 - Cut leaves the whole way through. The plant does not stop for it.
-- It is an evergreen perennial. It does not die and wait to be replanted.
+- An evergreen perennial. It does not die and wait to be replanted.
 - When the canopy closes over it, that is when it starts.
 
 **The food**
-Never raw. Raw kalo puts needles in your mouth, and that is the calcium oxalate, and it
-does not negotiate. Cooking ends it. Cooking, drying, or a long soak all end it. The corm
-boils, bakes, and fries like a potato, or gets pounded into poi. The leaves are cooked and
-used as a wrap or as a spinach. The stems peel and boil into a stew and eat like celery.
+Never raw. Raw kalo puts needles in your mouth — the calcium oxalate — and it does not
+negotiate. Cooking ends it. So does drying, so does a long soak. The corm boils, bakes, and
+fries like a potato, or gets pounded into poi. The leaves are cooked and used as a wrap or
+a spinach. The stems peel and boil into a stew and eat like celery.
 
 **Carried**
-Kalo is the older brother. Hāloa was born and buried and came up as the first kalo, and
-the second child born to that family was the first person, which makes every Hawaiian the
+Kalo is the older brother. Hāloa was born and buried and came up as the first kalo, and the
+second child born to that family was the first person, which makes every Hawaiian the
 younger sibling of a plant. It is a genealogy, and the loʻi is a family relationship. The
-island fed itself on this plant for centuries and then filled the loʻi with cattle and
-cane. Most of them are still empty.
+island fed itself on this plant for centuries and then filled the loʻi with cattle and cane.
+Most of them are still empty.
 
 ---
 
@@ -136,8 +146,8 @@ cane. Most of them are still empty.
 > it is full.
 
 ### Flyer
-**Prep** — Fertile, well-drained ground in shade. It is one of the few things on this list
-that prefers being under something.
+**Prep** — Fertile, well-drained ground in shade. One of the few things here that prefers
+being under something.
 
 **Set** — Split a rhizome while it is dormant and bury the pieces. Leaves show in a month.
 
@@ -147,25 +157,24 @@ keeps its own clock and it will not be hurried.
 ### Detailed
 
 **Prep**
-- Fertile, well-drained soil in a shaded position. Full sun works. Light shade works better.
-- 40 to 80 inches a year. It takes 30 and it takes 120.
+- Fertile, well-drained soil, shaded. Full sun works; light shade works better.
+- 40 to 80 inches a year. Takes 30 and takes 120.
 - 68 to 82°F.
 - Under a canopy at year three, this is the plant that fills the floor.
 
 **Set**
-- Rhizome division, during dormancy.
-- Leaves emerge in about thirty days.
+- Rhizome division, during dormancy. Leaves emerge in about thirty days.
 - Seed exists and nobody bothers.
 
 **Forget**
 - 270 to 365 days. Harvest when the foliage withers, not before.
-- The plant goes dormant and comes back. Dormancy is not death.
+- Goes dormant and comes back. Dormancy is not death.
 - Nothing to prune. Nothing to feed.
 
 **The food**
 Dig it, boil it, dry it, grind it. The powder is the thing most people mean by turmeric.
-Fresh, it grates into anything and stains everything it touches. The young shoots and the
-tips of the rhizome are eaten raw or cooked.
+Fresh, it grates into anything and stains everything it touches. The young shoots and rhizome
+tips are eaten raw or cooked.
 
 **Carried**
 The dye came before the spice. It is what colours the robes of Buddhist monks, and it is
@@ -181,8 +190,8 @@ jobs without being asked which one it is.
 ### Simple
 **RHIZOME — SPICE.** 55–120 in · warm · coast to 6,200 ft · sun to part shade
 
-> Wet ground and a shaded floor, which is what the windward coast is. Ten months in and
-> the stalks wither, and that withering is the harvest telling you it is finished.
+> Wet ground and a shaded floor, which is what the windward coast is. Ten months in, the
+> stalks wither, and that withering is the harvest telling you it is finished.
 
 ### Flyer
 **Prep** — Well-drained ground with humus in it. Sun or part shade. It wants the rain the
@@ -197,31 +206,30 @@ plant something with it: bare ground under ginger erodes badly.
 
 **Prep**
 - Well-drained, humus-rich ground, neutral to alkaline.
-- 55 to 120 inches a year preferred, and it takes 28 to 157.
+- 55 to 120 inches a year preferred; takes 28 to 157.
 - 66 to 84°F. Cold puts it to sleep.
 - Full sun or partial shade. The floor of a young forest suits it.
 
 **Set**
 - Rhizome division as new growth starts.
-- On a slope, never on its own. The erosion under a ginger patch is real and it is the one
+- On a slope, never on its own. The erosion under a ginger patch is real, and it is the one
   way this plant costs you something.
 
 **Forget**
-- Ten months from planting a root out.
-- Harvest when the stalks wither.
+- Ten months from planting a root out. Harvest when the stalks wither.
 - Young rhizomes come earlier and eat differently.
 - Dried, it stores. Fresh, it does not.
 
 **The food**
-Grated fresh, or dried and powdered, and dried is twice as sharp as fresh. The young
-rhizome is a different food: raw, pickled, or candied. The leaves and shoots go in as a
-potherb or a wrap. The flower heads are eaten raw.
+Grated fresh, or dried and powdered, and dried is twice as sharp. The young rhizome is
+another food: raw, pickled, or candied. The leaves and shoots go in as a potherb or a wrap.
+The flower heads are eaten raw.
 
 **Carried**
 ʻAwapuhi came in the canoes, and the one growing wild in every wet gulch on this island is
-its cousin, the shampoo ginger, which is not this plant and is what most people here have
-actually met. That gulch ginger is what a canoe plant looks like after a thousand years of
-being left alone. This one stayed in the garden.
+its cousin, the shampoo ginger, which is a different plant and is what most people here have
+actually met. That gulch ginger is what a canoe plant looks like after a thousand years left
+alone. This one stayed in the garden.
 
 ---
 
@@ -231,55 +239,54 @@ being left alone. This one stayed in the garden.
 ### Simple
 **TUBER — STARCH.** 20–100 in · warm · coast to 5,600 ft · sun, sheltered
 
-> A stick pushed into the ground becomes a bush becomes six months of starch. It grows
-> where the soil has nothing left, which is the whole reason to have it. It is also the
-> one plant here that will hurt you if you cook it carelessly.
+> A stick pushed into the ground becomes a bush becomes six months of starch. It grows where
+> the soil has nothing left, which is why to have it. It is also the one plant here that will
+> hurt you if you cook it carelessly.
 
 ### Flyer
-**Prep** — Sandy ground that drains. Poor is fine. Some shelter from hard sun, because
-the leaves burn.
+**Prep** — Sandy ground that drains. Poor is fine. Some shelter from hard sun, because the
+leaves burn.
 
-**Set** — A woody cutting, a foot long, pushed in. It roots without being asked. Seed
-reverts to the bitter kind and nobody plants it.
+**Set** — A woody cutting, a foot long, pushed in. It roots without being asked. Seed reverts
+to the bitter kind and nobody plants it.
 
-**Forget** — Roots at six months, two crops a year, and it waits in the ground until you
-want it. Never eat it raw. Sweet kinds simmer ten minutes. Bitter kinds soak a day first.
+**Forget** — Roots at six months, two crops a year, and it waits in the ground until you want
+it. Never eat it raw. Sweet kinds simmer ten minutes; bitter kinds soak a day first.
 
 ### Detailed
 
 **Prep**
-- Sandy or sandy loam, well drained. It handles poor ground that has been farmed out.
+- Sandy or sandy loam, well drained. Handles poor ground that has been farmed out.
 - 20 to 100 inches a year.
-- Above 61°F, and it does best under 86.
-- Below 5,600 ft.
+- Above 61°F, best under 86. Below 5,600 ft.
 - Shelter from intense sun. The leaves burn.
 
 **Set**
-- Cuttings, twelve inches of woody stem, half an inch thick, leaves off. Root in water or
+- Cuttings: twelve inches of woody stem, half an inch thick, leaves off. Root in water or
   straight in the ground.
 - Not seed. Seed comes up bitter.
-- Keep it at about waist to chest height and it stays workable.
+- Keep it at waist to chest height and it stays workable.
 
 **Forget**
 - Six months to the root. Two crops a year if you want them.
 - It tolerates heavy harvesting. Take what you need and leave the rest standing.
-- The tubers keep in the ground better than in a shed. This is the famine plant: it waits.
+- The tubers keep in the ground better than in a shed. The famine plant waits.
 - Watch for termites in the roots.
 
 **The food**
-Cassava carries hydrocyanic acid. The sweet kinds hold it in
-the outer layer and need ten minutes of simmering. The bitter kinds hold it all the way
-through and need a full day's soak and then ten minutes or more in fresh water. Done
-right: sliced and fried, boiled, ground into flour, or worked into tapioca. The leaves are
-food too, boiled fifteen minutes, and they carry the protein the root does not. The root
-is carbohydrate and little else, and a diet of it alone is a deficiency.
+Cassava carries hydrocyanic acid. The sweet kinds hold it in the outer layer and need ten
+minutes of simmering. The bitter kinds hold it all the way through and need a full day's soak
+and then ten minutes or more in fresh water. Done right: sliced and fried, boiled, ground into
+flour, or worked into tapioca. The leaves are food too, boiled fifteen minutes, and they carry
+the protein the root does not. The root is carbohydrate and little else; a diet of it alone is
+a deficiency.
 
 **Carried**
 It came from the Amazon, where people worked out the soaking before anyone wrote anything
-down. Cassava crossed the whole tropics in three hundred years and the method travelled
-with it every mile, because a cassava without its method is a poison. The knowledge is the
-crop. Tam's own line is that the cassava can wait, and it can: it holds in the ground for
-a year, getting bigger, until somebody needs it.
+down. Cassava crossed the whole tropics in three hundred years and the method travelled with
+it every mile, because a cassava without its method is a poison. The knowledge is the crop.
+Tam's own line is that the cassava can wait, and it can: it holds in the ground for a year,
+getting bigger, until somebody needs it.
 
 ---
 
@@ -291,61 +298,57 @@ a year, getting bigger, until somebody needs it.
 *Windward caveat: wants it drier than this coast. Needs sharp drainage to sit here at all.*
 
 > A bush that makes its own fertiliser and yours. Peas in five months, nitrogen the whole
-> time it stands, on ground nothing else will start on. It dies at five years, and the
-> dying is the point.
+> time it stands, on ground nothing else will start on. It dies at five years, and the dying
+> is the point.
 
 ### Flyer
-**Prep** — Poor ground is fine and poor ground is the point. It wants less rain than the
-wet coast gives, so it goes on a slope or a mound where the water leaves. Not on sour
-ground: below pH 5.5 it sulks.
+**Prep** — Poor ground is fine and poor ground is the point. It wants less rain than the wet
+coast gives, so it goes on a slope or a mound where the water leaves. Not on sour ground: below
+pH 5.5 it sulks.
 
 **Set** — Seed, two to a hole, thinned to one. An inch deep, wet season. It costs almost
 nothing.
 
-**Forget** — Peas from month five. Cut it back hard and everything you cut stays on the
-ground. It lives one to five years and then it goes, and it leaves behind the soil a tree
-can stand in.
+**Forget** — Peas from month five. Cut it back hard and everything you cut stays on the ground.
+It lives one to five years and then it goes, and it leaves behind the soil a tree can stand in.
 
 ### Detailed
 
 **Prep**
-- Poor ground, well drained. It is drought-resistant once up and it does its work where
-  nothing else starts.
-- 20 to 40 inches a year is what it wants. This coast gives more. Mound it, slope it, or
-  pick a cultivar bred for the wet tropics, and even then only if the water leaves.
-- Sour ground is the real limit. It wants pH 5.5 to 6.5 and dislikes very acid soil, which
-  is a live question on young volcanic ground.
-- 68 to 86°F. It yields up to 95.
-- Full sun. Four feet apart, closer than feels right.
+- Poor ground, well drained. Drought-resistant once up; does its work where nothing else starts.
+- 20 to 40 inches a year is what it wants. This coast gives more. Mound it, slope it, or pick a
+  cultivar bred for the wet tropics, and even then only if the water leaves.
+- Sour ground is the real limit. It wants pH 5.5 to 6.5 and dislikes very acid soil — a live
+  question on young volcanic ground.
+- 68 to 86°F, yields to 95. Full sun. Four feet apart, closer than feels right.
 
 **Set**
-- Seed, an inch deep, two per station, thinned to the strongest. Wet season.
-- Up in two to three weeks.
+- Seed, an inch deep, two per station, thinned to the strongest. Wet season. Up in two to three
+  weeks.
 - Slow at the start, which is why it does not fight a cereal or a seedling tree.
 - Plant it the same day as the tree it is nursing.
 
 **Forget**
 - Peas from month five on a dwarf, month eight to twelve on a tall one.
-- Cut it back hard. It resprouts, and the cut is the transaction: it drops leaf on the
-  soil and nitrogen off its roots at the same moment, and what is beside it eats both.
+- Cut it back hard. It resprouts, and the cut is the transaction: it drops leaf on the soil and
+  nitrogen off its roots at the same moment, and what is beside it eats both.
 - Its roots break the pan under the soil. Water starts going down again.
-- One to five years and it dies. Leave it to. It leaves behind mulch and a soil that will
-  hold a tree, which is what it was for.
+- One to five years and it dies. Leave it to. It leaves behind mulch and a soil that will hold
+  a tree, which is what it was for.
 
 **The food**
 Green, they shell and cook like any pea, five minutes. Dry, they are how most of the world
-actually eats them: soaked overnight, simmered soft, into rice and into dal. Up to 5
-tonnes a hectare of pods. The leaves are edible and honest people admit they are a strong,
-spicy, not-for-everyone flavour, and they go fibrous fast. The dry stalks burn at about
-half the heat of coal, so the prunings you do not leave down are the fire you cook the
-peas on.
+actually eats them: soaked overnight, simmered soft, into rice and into dal. Up to 5 tonnes a
+hectare of pods. The leaves are edible, a strong spicy not-for-everyone flavour, and they go
+fibrous fast. The dry stalks burn at about half the heat of coal, so the prunings you do not
+leave down are the fire you cook the peas on.
 
 **Carried**
-Half the world eats this plant and most people here walk past it. It is gandule in Puerto
-Rico, toor dal across India, rice and peas at Christmas in Jamaica. It went out of Africa
-and India thousands of years ago and has been feeding people the whole way, on the worst
-ground available. There is no wild pigeon pea anywhere. It has only ever existed in the
-company of people, and it has never once been the plant anyone came for.
+Half the world eats this plant and most people here walk past it. It is gandule in Puerto Rico,
+toor dal across India, rice and peas at Christmas in Jamaica. It went out of Africa and India
+thousands of years ago and has been feeding people the whole way, on the worst ground available.
+There is no wild pigeon pea anywhere. It has only ever existed in the company of people, and it
+has never once been the plant anyone came for.
 
 ---
 
@@ -355,54 +358,52 @@ company of people, and it has never once been the plant anyone came for.
 ### Simple
 **FRUIT.** 60–100 in · warm, no frost · coast to 3,000 ft · sun, sheltered
 
-> Fruit in six months from a seed, which nothing else here can say. It is also finished by
-> year four. Plant it knowing that: it is a fast bright thing that fills the gap while the
-> trees are still coming.
+> Fruit in six months from a seed, which nothing else here can say. It is also finished by year
+> four. Plant it knowing that: a fast bright thing that fills the gap while the trees are still
+> coming.
 
 ### Flyer
-**Prep** — Deep ground with humus, drained and aerated. Standing water kills it in days,
-not seasons. Shelter from wind. Sun.
+**Prep** — Deep ground with humus, drained and aerated. Standing water kills it in days, not
+seasons. Shelter from wind. Sun.
 
-**Set** — Fresh seed. Plant several: they come up male, female, or both, and one male
-covers six females. Fruit at six months.
+**Set** — Fresh seed. Plant several: they come up male, female, or both, and one male covers six
+females. Fruit at six months.
 
-**Forget** — It fruits year-round and peaks in years two and three. By year four it is
-falling off. Take the fruit green as a vegetable or ripe as a fruit. When it is spent, cut
-it down and the next one is already up.
+**Forget** — It fruits year-round and peaks in years two and three. By year four it is falling
+off. Take the fruit green as a vegetable or ripe as a fruit. When it is spent, cut it down and
+the next one is already up.
 
 ### Detailed
 
 **Prep**
 - Deep, humus-rich soil, well-drained and well-aerated. Waterlogged, it dies within days.
 - 60 to 100 inches a year preferred, 40 to 120 tolerated.
-- 70 to 86°F. It dies at 30°F.
-- Best below 3,000 ft.
+- 70 to 86°F. Dies at 30°F. Best below 3,000 ft.
 - Sun, and shelter from strong wind. The trunk is hollow and it goes over.
 
 **Set**
 - Fresh seed, sown in indirect light, up in two to six weeks.
-- Plant more than you want. They come up male-only, female-only, or hermaphrodite, and one
-  male serves six or more females.
+- Plant more than you want. They come up male-only, female-only, or hermaphrodite, and one male
+  serves six or more females.
 - Fruiting starts at six months.
 
 **Forget**
 - Year-round fruit. Yields peak in years two and three and fall off sharply by year four.
 - Do not nurse a spent papaya. Cut it and plant another.
 - 150 days or more from flower to ripe fruit.
-- It is the gap crop. It is done before the ʻulu has fruited once.
+- The gap crop. Done before the ʻulu has fruited once.
 
 **The food**
-Ripe, it is a fruit. Green, it is a vegetable, and green is how it is eaten across most of
-Asia. The seeds are a spice and taste of mustard and cress. The male flowers cook as a
-bitter green. The young leaves cook too, but the old leaves carry carpaine and should be
-left alone. The latex in the green fruit is papain, which is why green papaya tenderises
-meat and why it stings a cut on your hand.
+Ripe, it is a fruit. Green, it is a vegetable, and green is how it is eaten across most of Asia.
+The seeds are a spice and taste of mustard and cress. The male flowers cook as a bitter green.
+Young leaves cook too, but the old leaves carry carpaine and are left alone. The latex in the
+green fruit is papain, which is why green papaya tenderises meat and why it stings a cut.
 
 **Carried**
-Papaya shows up. It comes up in the compost, at the edge of the drive, behind the shed,
-from a seed nobody planted. A great deal of the fruit eaten on this island was never
-planted by anyone: it volunteered, someone let it stand, and it paid them back in six
-months. There is probably one in your yard now.
+Papaya shows up. It comes up in the compost, at the edge of the drive, behind the shed, from a
+seed nobody planted. A great deal of the fruit eaten on this island was never planted by anyone:
+it volunteered, someone let it stand, and it paid them back in six months. There is probably one
+in your yard now.
 
 ---
 
@@ -413,19 +414,18 @@ months. There is probably one in your yard now.
 **FRUIT.** 35–80 in · warm · coast to 3,000 ft · dappled shade, sheltered
 *Windward caveat: at the wet end of this coast it wants sharp drainage.*
 
-> A vine that wants dappled shade, which means it wants the edge of a forest rather than a
-> fence in the open. Fruit in a year from a cutting. It lives three to six years, hard and
-> fast, and then it is done.
+> A vine that wants dappled shade — the edge of a forest, not a fence in the open. Fruit in a
+> year from a cutting. It lives three to six years, hard and fast, and then it is done.
 
 ### Flyer
-**Prep** — Humus-rich ground that drains. Do not feed it: rich ground makes leaf and no
-fruit. Dappled shade, sheltered from cold wind. It needs something to climb.
+**Prep** — Humus-rich ground that drains. Do not feed it: rich ground makes leaf and no fruit.
+Dappled shade, sheltered from cold wind. It needs something to climb.
 
-**Set** — A cutting fruits the same year. Seed takes one to two years and can take twelve
-months just to germinate.
+**Set** — A cutting fruits the same year. Seed takes one to two years and can take twelve months
+just to germinate.
 
-**Forget** — Two crops a year. The fruit tells you it is ready by wrinkling and falling.
-Pick it off the ground. Cut the whole vine to the ground when it tires and it comes back.
+**Forget** — Two crops a year. The fruit tells you it is ready by wrinkling and falling. Pick it
+off the ground. Cut the whole vine to the ground when it tires and it comes back.
 
 ### Detailed
 
@@ -434,31 +434,30 @@ Pick it off the ground. Cut the whole vine to the ground when it tires and it co
 - Moderate fertility only. High fertility means vine and no crop.
 - 35 to 80 inches a year preferred, 24 to 98 tolerated.
 - 68 to 86°F. A mature vine takes 28°F; new growth does not.
-- Dappled shade. Sheltered from cold wind.
-- Sea level to 3,000 ft in the subtropics.
+- Dappled shade, sheltered from cold wind. Sea level to 3,000 ft in the subtropics.
 
 **Set**
 - Cuttings from mature wood take three months and fruit the same year.
-- Seed: soak a day, sow with the pulp still on, and wait. It can take twelve months.
+- Seed: soak a day, sow with the pulp on, and wait. It can take twelve months.
 - Layering is easy and nearly always works.
-- It needs a trellis, a fence, or a tree it is allowed to use.
+- Needs a trellis, a fence, or a tree it is allowed to use.
 
 **Forget**
 - Two crops a year. 8 to 15 tonnes a hectare.
 - Three to six years and it is spent.
-- It can be cut to the ground and it will come back.
+- It can be cut to the ground and it comes back.
 - Ripe fruit wrinkles, sweetens, and drops. The ground is the harvest.
 
 **The food**
-Cut it and spoon it. The pulp and seed go together and the seed is not a problem. Juice,
-syrup, into anything baked. High in vitamin C. The seeds press for oil. The leaves are
-cooked as a vegetable occasionally and nobody does it twice.
+Cut it and spoon it. Pulp and seed go together and the seed is fine. Juice, syrup, into anything
+baked. High in vitamin C. The seeds press for oil. The leaves are cooked as a vegetable
+occasionally and nobody does it twice.
 
 **Carried**
-The name comes from the place it escaped: Lilikoʻi Gulch on Maui, where the vine came over
-a fence, and the islands named a Brazilian plant after the ground it landed on. It is on
-every fence line on the Hilo side and a good half of it is feral. The purple one you find
-in the bushes is somebody's garden, still fruiting thirty years after the garden stopped.
+The name comes from the place it escaped: Lilikoʻi Gulch on Maui, where the vine came over a
+fence, and the islands named a Brazilian plant after the ground it landed on. It is on every
+fence line on the Hilo side and a good half of it is feral. The purple one you find in the bushes
+is somebody's garden, still fruiting thirty years after the garden stopped.
 
 ---
 
@@ -468,53 +467,52 @@ in the bushes is somebody's garden, still fruiting thirty years after the garden
 ### Simple
 **FRUIT — STARCH.** 47–140 in · warm, no frost · coast to 4,000 ft · sun, sheltered
 
-> The best windbreak on this list that also feeds you. The stem fruits once and dies, and
-> the mat it stands in has already replaced it. What looks like one plant is a queue.
+> The best windbreak here that also feeds you. The stem fruits once and dies, and the mat it
+> stands in has already replaced it. What looks like one plant is a queue.
 
 ### Flyer
-**Prep** — Fertile ground that drains, in sun, out of the wind. It wants the rain this
-coast gives.
+**Prep** — Fertile ground that drains, in sun, out of the wind. It wants the rain this coast
+gives.
 
 **Set** — A sucker off an established mat. Not seed. Somebody will give you one.
 
 **Forget** — A stem fruits at twelve to eighteen months, then dies, and the next sucker is
-already up. Cut the spent stem and drop it where it stands: that is the mulch. Keep two or
-three followers per mat and cut the rest.
+already up. Cut the spent stem and drop it where it stands: that is the mulch. Keep two or three
+followers per mat and cut the rest.
 
 ### Detailed
 
 **Prep**
 - Well-drained fertile soil. Sunny, sheltered.
 - 47 to 140 inches a year preferred, 26 to 197 tolerated. This coast is inside that.
-- 73 to 91°F optimal. Killed at 34°F. The fruit will not ripen if nights drop below 64°F.
+- 73 to 91°F optimal. Killed at 34°F. Fruit will not ripen if nights drop below 64°F.
 - Up to 4,000 ft in cultivation.
 - Wind is the enemy. The leaves shred and the plant stands there useless.
 
 **Set**
 - Suckers off a mat. Divide and plant.
 - Seed is for the wild ones and takes years under glass.
-- Give it room. It is three metres of plant and it wants the light.
+- Give it room. Three metres of plant, and it wants the light.
 
 **Forget**
-- Twelve to eighteen months, the stem fruits, and then that stem is dead. The plant works
-  by dying in parts.
-- The mat is perennial. Keep two or three followers and cut the rest, or you get a thicket
-  and no fruit.
+- Twelve to eighteen months, the stem fruits, and then that stem is dead. The plant works by
+  dying in parts.
+- The mat is perennial. Keep two or three followers and cut the rest, or you get a thicket and
+  no fruit.
 - Cut the spent stem down and leave it. It is 90% water and it rots into mulch in weeks.
-- It shades and it breaks the wind while it does this, which is why it goes on the
-  windward side of a young ʻulu.
+- It shades and breaks the wind while it does this, which is why it goes on the windward side
+  of a young ʻulu.
 
 **The food**
-Ripe raw, or green and cooked as a starch, and the cooking ones are the ones that fed
-people. The flower is eaten raw or roasted. The young shoots go into sauces. The core of
-the stem eats like bamboo shoot. The leaf is the wrap and the plate and the lid of the
-imu.
+Ripe raw, or green and cooked as a starch, and the cooking ones are the ones that fed people.
+The flower is eaten raw or roasted. The young shoots go into sauces. The core of the stem eats
+like bamboo shoot. The leaf is the wrap and the plate and the lid of the imu.
 
 **Carried**
-Maiʻa came in the canoes and there were dozens of kinds, and most of them were kapu to
-women for most of Hawaiian history. What is on this island now is mostly not those: it is
-apple banana and Williams and whatever survived the bunchy top. A few of the old ones are
-still held by people who kept them going on purpose. That is the whole reason they exist.
+Maiʻa came in the canoes, dozens of kinds, and most of them were kapu to women for most of
+Hawaiian history. What is on this island now is mostly not those: apple banana, Williams, and
+whatever survived the bunchy top. A few of the old ones are still held by people who kept them
+going on purpose. That is the whole reason they exist.
 
 ---
 
@@ -524,57 +522,53 @@ still held by people who kept them going on purpose. That is the whole reason th
 ### Simple
 **PODS — SWEET.** 47–100 in · warm, no frost · coast to 5,000 ft · sun to dappled shade
 
-> The nurse tree that fruits. It fixes nitrogen, drops high-nitrogen leaf, casts shade for
-> cacao and coffee, and hands you a three-foot pod full of something like vanilla ice
-> cream. Cut it back and it comes back harder.
+> The nurse tree that fruits. It fixes nitrogen, drops high-nitrogen leaf, casts shade for cacao
+> and coffee, and hands you a three-foot pod full of something like vanilla ice cream. Cut it
+> back and it comes back harder.
 
 ### Flyer
-**Prep** — Almost any ground, including worn-out ground and limestone. Sun, or the dappled
-shade under something else.
+**Prep** — Almost any ground, including worn-out ground and limestone. Sun, or the dappled shade
+under something else.
 
-**Set** — Fresh seed, which germinates in days and cannot be stored. Plant out at four to
-five months.
+**Set** — Fresh seed, which germinates in days and cannot be stored. Plant out at four to five
+months.
 
 **Forget** — First pods at two years. It flowers and fruits year-round. Coppice it and it
-resprouts, and everything you cut off it becomes nitrogen on the ground for whatever it is
-nursing.
+resprouts, and everything you cut off becomes nitrogen on the ground for whatever it is nursing.
 
 ### Detailed
 
 **Prep**
 - Tolerant of nearly anything, including nutrient-depleted soil and limestone.
-- 47 to 100 inches a year preferred, 25 to 157 tolerated. This coast is comfortably inside.
+- 47 to 100 inches a year preferred, 25 to 157 tolerated. This coast sits comfortably inside.
 - 73 to 86°F. Killed at 28°F, damaged at 32.
-- Sea level to 7,200 ft; it is naturally found from 350 to 5,000.
-- Sun, but it succeeds in dappled shade, which is rare for a tree this size.
+- Sea level to 7,200 ft; naturally found 350 to 5,000.
+- Sun, but succeeds in dappled shade, rare for a tree this size.
 
 **Set**
-- Seed, sown as soon as it is ripe. It germinates within days and it does not keep. This
-  is the one plant here you cannot buy in a packet.
-- Ready to plant out four to five months after it germinates.
-- Greenwood cuttings work.
-- Fast.
+- Seed, sown as soon as it is ripe. Germinates within days and does not keep — the one plant
+  here you cannot buy in a packet.
+- Ready to plant out four to five months after germinating.
+- Greenwood cuttings work. Fast.
 
 **Forget**
-- First fruit at two years, and then year-round.
-- It responds well to coppicing. This is the whole point of it: cut it, it comes back, and
-  the cutting is what feeds the cacao.
-- High-nitrogen leaf litter, constantly. It suppresses weeds and holds the soil while it
-  does.
-- It is the standard shade tree over coffee and cacao from Mexico to Brazil, and it earned
-  that on yield.
+- First fruit at two years, then year-round.
+- Responds well to coppicing — the whole point of it. Cut it, it comes back, and the cutting is
+  what feeds the cacao.
+- High-nitrogen leaf litter, constantly. It suppresses weeds and holds the soil while it does.
+- Standard shade tree over coffee and cacao from Mexico to Brazil, and it earned that on yield.
 
 **The food**
-Crack the pod. Inside is white, translucent, and jelly-like around each seed, sweet and
-perfumed, and it tastes near enough to vanilla ice cream that the name stuck in every
-language it has one in. The pods run to three feet. A handful is a snack on the walk back.
+Crack the pod. Inside is white, translucent, and jelly-like around each seed, sweet and perfumed,
+and it tastes near enough to vanilla ice cream that the name stuck in every language it has one
+in. The pods run to three feet. A handful is a snack on the walk back.
 
 **Carried**
-It grows fast on ruined ground, it makes nitrogen, and it takes being cut. Those three
-facts are why it turns up under coffee and cacao from Mexico to Brazil, and why the old
-Maya bean gardens were forty percent Inga, pruned hard, with the corn and beans going in
-underneath. Those gardens out-yielded slash-and-burn and took nothing from outside. The
-pods were what the children ate while the work happened.
+It grows fast on ruined ground, it makes nitrogen, and it takes being cut. Those three facts are
+why it turns up under coffee and cacao from Mexico to Brazil, and why the old Maya bean gardens
+were forty percent Inga, pruned hard, with the corn and beans going in underneath. Those gardens
+out-yielded slash-and-burn and took nothing from outside. The pods were what the children ate
+while the work happened.
 
 ---
 
@@ -585,55 +579,54 @@ pods were what the children ate while the work happened.
 **NO FOOD — NITROGEN, MULCH, SHADE.** 47–90 in · warm, no frost · coast to 5,200 ft · sun
 *Toxic to people, dogs, and horses. This one is not dinner.*
 
-> It is here to work, not to feed you. A branch cut off it and pushed in the ground becomes
-> a tree. Cut it twice a year and everything near it grows faster. Ten feet a year, on
-> ground that has been given up on.
+> Here to work, not to feed you. A branch cut off it and pushed in the ground becomes a tree.
+> Cut it twice a year and everything near it grows faster. Ten feet a year, on ground that has
+> been given up on.
 
 ### Flyer
-**Prep** — Any ground: acid, alkaline, worn out, calcareous, waterlogged, or a 40% slope.
-Full sun.
+**Prep** — Any ground: acid, alkaline, worn out, calcareous, waterlogged, or a 40% slope. Full
+sun.
 
-**Set** — A large cutting. A branch, pushed into the ground. It is the easiest living
-fence there is. Seed germinates in a week at nearly 100%.
+**Set** — A large cutting. A branch, pushed into the ground. The easiest living fence there is.
+Seed germinates in a week at nearly 100%.
 
-**Forget** — Ten feet a year once it starts. Pollard it above head height and cut it back
-every two to three years, or lop it as often as you like. It resprouts vigorously every
-time. The leaf you cut is the nitrogen. Do not eat it, and keep it away from the dog.
+**Forget** — Ten feet a year once it starts. Pollard it above head height and cut it back every
+two to three years, or lop it as often as you like. It resprouts vigorously every time. The leaf
+you cut is the nitrogen. Do not eat it, and keep it away from the dog.
 
 ### Detailed
 
 **Prep**
-- Grows on alkaline, acidic, low-fertility, and calcareous soils. Prefers free drainage
-  and tolerates waterlogging anyway.
+- Grows on alkaline, acidic, low-fertility, and calcareous soils. Prefers free drainage and
+  tolerates waterlogging anyway.
 - 47 to 90 inches a year preferred, 24 to 138 tolerated.
-- 59 to 86°F, and it takes 12 to 44°C. Killed at 28°F.
-- Sea level to 5,200 ft.
+- 59 to 86°F, takes 54 to 111. Killed at 28°F. Sea level to 5,200 ft.
 - Establishes on slopes up to 40%.
 - Full sun. Its own canopy is light and feathery, so what is under it still gets light.
 
 **Set**
-- Cuttings, and unusually, large ones. A whole branch will root. This is why it is the
-  standard living fence across the tropics.
+- Cuttings, and unusually, large ones. A whole branch roots. This is why it is the standard
+  living fence across the tropics.
 - Seed germinates 90 to 100% in seven days.
 - Slow for the first while, then three metres a year.
 
 **Forget**
 - Coppice every two to three years. Pollard above two metres for the most biomass.
-- It tolerates lopping, browsing, and fire, and resprouts vigorously from all of it.
+- Tolerates lopping, browsing, and fire, and resprouts vigorously from all of it.
 - Nitrogen from root nodules goes to whatever is next to it.
-- It sheds its leaves in the dry season, so it stops drinking exactly when water is short.
+- Sheds its leaves in the dry season, so it stops drinking exactly when water is short.
 - Pioneer for degraded ground and for land taken over by aggressive grass.
 
 **The food**
-The flowers, cooked. That is the whole list. Everything else on this plant is toxic to
-humans, dogs, and horses; cattle and goats eat it without harm. Fermented with grain it
-works as a rat poison. The wood is durable, termite-resistant, and burns hot.
+The flowers, cooked. That is the whole list. Everything else on this plant is toxic to humans,
+dogs, and horses; cattle and goats eat it without harm. Fermented with grain it works as a rat
+poison. The wood is durable, termite-resistant, and burns hot.
 
 **Carried**
-The name means mouse-killer. Across Central America it is the fence: cut posts, push them
-in, and the fence grows. Then the fence gets cut back every year and thrown at the base of
-the coffee. Everything this plant is worth, it hands to its neighbours, and the handing
-over is done with a knife.
+The name means mouse-killer. Across Central America it is the fence: cut posts, push them in,
+and the fence grows. Then the fence gets cut back every year and thrown at the base of the
+coffee. Everything this plant is worth, it hands to its neighbours, and the handing over is done
+with a knife.
 
 ---
 
@@ -643,68 +636,64 @@ over is done with a knife.
 ### Simple
 **FRUIT — STARCH.** 60–157 in · warm, no frost · coast to 2,100 ft · sun
 
-> A tree that makes bread. One mature ʻulu drops more starch in a season than a family
-> eats, on ground that gets no fertilizer and no tilling. It is slow for three years, and
-> then it is the reason the rest of the garden works.
+> A tree that makes bread. One mature ʻulu drops more starch in a season than a family eats, on
+> ground that gets no fertilizer and no tilling. It is slow for three years, and then it is the
+> reason the rest of the garden works.
 
 ### Flyer
-**Prep** — Wet, warm, low ground, and no frost, ever. Drainage is the one thing it will
-not forgive. Thirty feet of room. The roots run shallow and wide, so the digging under it
-stops once it is in.
+**Prep** — Wet, warm, low ground, and no frost, ever. Drainage is the one thing it will not
+forgive. Thirty feet of room. The roots run shallow and wide, so the digging under it stops once
+it is in.
 
-**Set** — Grafted, not seed. Seed takes five to ten years and comes up a stranger. Goes in
-during the rains. Wants shade for its first year or two, and a banana on the windward side
-gives it that and takes the wind off besides.
+**Set** — Grafted, not seed. Seed takes five to ten years and comes up a stranger. Goes in during
+the rains. Wants shade for its first year or two, and a banana on the windward side gives it that
+and takes the wind off besides.
 
-**Forget** — Fruits May to October, and again. The leaves are the size of a doormat and
-fall all year. That is the mulch, and it stays where it lands. Tip-prune once a year and
-the fruit stays in reach. By year five the shade underneath is deep, and that is when the
-kalo goes in.
+**Forget** — Fruits May to October, and again. The leaves are the size of a doormat and fall all
+year. That is the mulch, and it stays where it lands. Tip-prune once a year and the fruit stays
+in reach. By year five the shade underneath is deep, and that is when the kalo goes in.
 
 ### Detailed
 
 **Prep**
-- Wet, warm, low. Best near the coast, and it thins out well before the mountain.
-- Ferns says up to 2,100 ft. The nursery sources say optimal production is under 650. Both
-  are probably true and the gap between them is where most of this island sits.
+- Wet, warm, low. Best near the coast; it thins out well before the mountain.
+- Ferns says up to 2,100 ft. The nursery sources say optimal production is under 650. Both are
+  probably true and the gap between them is where most of this island sits.
 - No frost. Ever. Below about 41°F the leaves burn, and one cold night undoes a year.
-- Drainage is the one thing it will not forgive. Standing water rots the roots and a
-  three-year tree goes over.
+- Drainage is the one thing it will not forgive. Standing water rots the roots and a three-year
+  tree goes over.
 - Thirty feet of room, and a shallow, fibrous root system that ends the digging under it.
 
 **Set**
-- Grafted or from a root shoot, not seed. Seed takes five to ten years and comes up a
-  stranger; a vegetative tree fruits in two to five.
+- Grafted or from a root shoot, not seed. Seed takes five to ten years and comes up a stranger;
+  a vegetative tree fruits in two to five.
 - Plant in the rains. Set it slightly high so it drains.
 - Shade for the first year or two, then open sun.
 - Slow the first three years. Nothing is wrong.
 
 **Forget**
 - Fruits May to October, then again. Two crops most years.
-- Leaves the size of a doormat, dropping all year. That is the mulch. It stays where it
-  falls.
-- Tip-prune the new growth once a year, after harvest. Left alone it goes sixty feet. Cut
-  back it stays at twenty and the fruit stays in reach.
-- By year five the shade underneath is deep. That is not a problem. That is when the kalo
-  and the cacao go in.
+- Leaves the size of a doormat, dropping all year. That is the mulch. It stays where it falls.
+- Tip-prune the new growth once a year, after harvest. Left alone it goes sixty feet. Cut back
+  it stays at twenty and the fruit stays in reach.
+- By year five the shade underneath is deep. That is not a problem. That is when the kalo and the
+  cacao go in.
 - Fifty to a hundred years, sited well.
 
 **The food**
-Picked green and firm it cooks like a potato: floury, plain, takes on whatever it is
-cooked with. Left to ripen it turns sweet, nearly banana, and roasts to caramel. Two foods,
-one tree, and the difference is a week. The skin goes dull and a thumb-press gives just
-slightly. Cut the stalk and watch the sap. Milky means wait, watery means now. Early
-morning, before the latex turns to glue. Never raw: boil, roast, bake, or fry. Seeds, on
-the seeded kinds, cook up like chestnuts.
+Picked green and firm it cooks like a potato: floury, plain, takes on whatever it is cooked with.
+Left to ripen it turns sweet, nearly banana, and roasts to caramel. Two foods, one tree, and the
+difference is a week. The skin goes dull and a thumb-press gives just slightly. Cut the stalk and
+watch the sap: milky means wait, watery means now. Early morning, before the latex turns to glue.
+Never raw: boil, roast, bake, or fry. Seeds, on the seeded kinds, cook up like chestnuts.
 
 **Carried**
-ʻUlu came by canoe. Voyagers carried it across open ocean because a family with an ʻulu
-tree does not starve, and Kū turned himself into one to feed his own. The seedless trees
-here are cuttings of cuttings of cuttings, an unbroken line of hands back to New Guinea,
-and the genetics show it: the Polynesian ones are a bottleneck, nearly identical, because
-every one of them was carried. The same tree was later loaded onto the *Bounty* to feed
-enslaved people cheaply in the Caribbean. It has fed people who chose it and people who
-were given no choice.
+ʻUlu came by canoe. Voyagers carried it across open ocean because a family with an ʻulu tree does
+not starve, and Kū turned himself into one to feed his own. The seedless trees here are cuttings
+of cuttings of cuttings, an unbroken line of hands back to New Guinea, and the genetics show it:
+the Polynesian ones are a bottleneck, nearly identical, because every one was carried. The same
+tree was later loaded onto the *Bounty* to feed enslaved people cheaply in the Caribbean. It has
+fed people who chose it and people who were given no choice.
 
 ---
 
@@ -713,64 +702,61 @@ were given no choice.
 
 ### Simple
 **FRUIT.** 47–63 in · warm, no frost · coast to 3,900 ft · sun
-*Windward caveat: the wet end of this coast is wetter than it prefers. It also dislikes
-sour ground.*
+*Windward caveat: the wet end of this coast is wetter than it prefers, and it dislikes sour
+ground.*
 
-> Four to five years to the first fruit and ten to the real crop, and it flowers when the
-> rain comes after a dry stretch. The tree reads the weather and decides. You do not.
+> Four to five years to the first fruit and ten to the real crop, and it flowers when the rain
+> comes after a dry stretch. The tree reads the weather and decides. You do not.
 
 ### Flyer
-**Prep** — Rich ground that drains. It dislikes very acid soil, which rules out a lot of
-young lava. Full sun. Fifty feet of tree.
+**Prep** — Rich ground that drains. It dislikes very acid soil, which rules out a lot of young
+lava. Full sun. Fifty feet of tree.
 
 **Set** — Air layer, or fresh seed which does not keep. Young trees move easily.
 
-**Forget** — Four to five years to first flower, ten to full yield, and then up to three
-fruitings a year. The flowers come after wet follows dry. Nothing to do but pick it up.
+**Forget** — Four to five years to first flower, ten to full yield, then up to three fruitings a
+year. The flowers come after wet follows dry. Nothing to do but pick it up.
 
 ### Detailed
 
 **Prep**
-- Well-drained, rich soil. It tolerates poor and coralline ground.
+- Well-drained, rich soil. Tolerates poor and coralline ground.
 - Dislikes very acid soils. Wants pH 5.5 to 6.5.
-- 47 to 63 inches a year preferred, 39 to 87 tolerated. The wettest windward ground is
-  past that.
-- 72 to 82°F. Frost-intolerant.
-- Sea level to 3,900 ft.
+- 47 to 63 inches a year preferred, 39 to 87 tolerated. The wettest windward ground is past that.
+- 72 to 82°F. Frost-intolerant. Sea level to 3,900 ft.
 - Full sun. Fifty feet tall and spreading, sometimes a hundred.
 
 **Set**
 - Air layering is the usual way.
 - Seed must be fresh; it does not stay viable. Shade the seedlings.
 - Cuttings, grafting, and budding all work.
-- Young trees transplant easily, which is unusual for a tree this size.
+- Young trees transplant easily, unusual for a tree this size.
 
 **Forget**
-- Four to five years to first flower from seed. Maximum yield around ten.
-- 60 to 80 kg recorded off one tree.
+- Four to five years to first flower from seed. Maximum yield around ten. 60 to 80 kg off one
+  tree.
 - Up to three fruiting cycles a year, and in some years it just keeps going.
-- Flowering is triggered by wet weather following a dry stretch. The tree reads the year
-  and decides. The calendar belongs to the tree.
+- Flowering is triggered by wet weather following a dry stretch. The tree reads the year and
+  decides. The calendar belongs to the tree.
 
 **The food**
-Raw, mostly, and it is more water and crunch than sugar: a bell-shaped fruit, dark red to
-white, that you eat standing under the tree. Stewed with cloves it becomes something else.
-It bakes into pies. The flowers get preserved in syrup or thrown in a salad. The stamens
-are slightly sour and go in raw. The young red shoots are eaten raw with rice.
+Raw, mostly, and more water and crunch than sugar: a bell-shaped fruit, dark red to white, eaten
+standing under the tree. Stewed with cloves it becomes something else. It bakes into pies. The
+flowers get preserved in syrup or thrown in a salad. The stamens are slightly sour and go in raw.
+The young red shoots are eaten raw with rice.
 
 **Carried**
-ʻŌhiʻa ʻai came in the canoes. It shares a name with the ʻōhiʻa lehua and is a different
-tree entirely, which is worth saying out loud once. The wood went into house beams and
-bowls. The bark and root gave a reddish-brown dye for the patterns on kapa. When it drops,
-the ground under it goes red with fruit nobody collected.
+ʻŌhiʻa ʻai came in the canoes. It shares a name with the ʻōhiʻa lehua and is a different tree
+entirely, which is worth saying out loud once. The wood went into house beams and bowls. The bark
+and root gave a reddish-brown dye for the patterns on kapa. When it drops, the ground under it
+goes red with fruit nobody collected.
 
 ---
 
-# The other zones
+# II. The other zones
 
-The thirteen above are the wet coast. These six are the rest of the island: the leeward
-slope that wants a dry season, the coffee belt, the upland, and the plants that will grow
-almost anywhere and are worth having near the door.
+The wet coast is one island among many on one island. These are the leeward slope, the coffee
+belt, and the upland.
 
 ---
 
@@ -781,59 +767,57 @@ almost anywhere and are worth having near the door.
 **FRUIT.** 24–60 in · warm · coast to 2,000 ft · sun
 *Wants three months of dry to flower. The windward coast never gives it that.*
 
-> The leeward tree. It needs a dry season to set fruit, so it belongs on the Kona side and
-> the low dry slopes. Grafted, it fruits at three to five years, peaks around twenty, and
-> is still going at a hundred.
+> The leeward tree. It needs a dry season to set fruit, so it belongs on the Kona side and the
+> low dry slopes. Grafted, it fruits at three to five years, peaks around twenty, and is still
+> going at a hundred.
 
 ### Flyer
-**Prep** — Rich ground that drains deep. A taproot goes down fifteen feet. Full sun,
-sheltered from drying wind. It needs three months of dry or cool each year, or it makes
-leaves and no mangoes.
+**Prep** — Rich ground that drains deep; a taproot goes down fifteen feet. Full sun, sheltered
+from drying wind. It needs three months of dry or cool each year, or it makes leaves and no
+mangoes.
 
-**Set** — Grafted. Seed takes five to eight years. Some kinds come true from seed because
-the seed carries clones of the mother, and those are the ones people here hand around.
+**Set** — Grafted. Seed takes five to eight years. Some kinds come true from seed because the
+seed carries clones of the mother, and those are the ones people here hand around.
 
-**Forget** — Three to five years to the first fruit. Twenty to the peak. Forty before it
-slows and a hundred is ordinary. Flowering is irregular by nature; some trees skip years.
-The sap raises a rash like poison ivy on some people.
+**Forget** — Three to five years to the first fruit, twenty to the peak, forty before it slows,
+a hundred is ordinary. Flowering is irregular; some trees skip years. The sap raises a rash like
+poison ivy on some people.
 
 ### Detailed
 
 **Prep**
 - Rich, deep, well-drained ground. Shallow or poor soil will not carry it.
 - 24 to 60 inches a year preferred, 12 to 102 tolerated.
-- 75 to 86°F, and it survives 46 to 118.
-- Up to 3,900 ft; under 2,000 for a real crop.
-- Three months of marked dry or cool triggers flowering. Without that season it stays
-  vegetative. This is what puts it on the leeward side of the island.
+- 75 to 86°F, survives 46 to 118. Up to 3,900 ft; under 2,000 for a real crop.
+- Three months of marked dry or cool triggers flowering. Without that season it stays vegetative
+  — this is what puts it on the leeward side of the island.
 - Deep taproot to fifteen feet. Shelter from drying wind.
 
 **Set**
 - Grafted onto polyembryonic rootstock for a tree that fruits in three to five years.
-- Seed fresh, two inches deep, convex side up, and up in three to four weeks. Five to
-  eight years to fruit that way.
-- Polyembryonic kinds throw seedlings identical to the mother. That is why a good mango
-  travels by seed here, hand to hand, and stays good.
-- Grow it in a container that protects the taproot, or plant it where it will stay.
+- Seed fresh, two inches deep, convex side up, up in three to four weeks; five to eight years to
+  fruit that way.
+- Polyembryonic kinds throw seedlings identical to the mother. That is why a good mango travels
+  by seed here, hand to hand, and stays good.
 
 **Forget**
-- First fruit at three to five years grafted. Peak yield around year twenty. Decline after
-  forty. A hundred years is ordinary.
-- Flowering is irregular. Some trees skip ten or twenty years between crops and then
-  produce as if nothing happened.
+- First fruit at three to five years grafted. Peak around year twenty. Decline after forty. A
+  hundred years is ordinary.
+- Flowering is irregular. Some trees skip ten or twenty years and then produce as if nothing
+  happened.
 - The sap causes contact dermatitis in some people, and it reads like poison ivy.
 
 **The food**
-Anything from two ounces to three pounds. Raw when ripe. Green and hard it is a vegetable
-and a pickle across South Asia, and dried and powdered it is amchur. The seed carries
-starch and fat and has been famine food, boiled or roasted to take the astringency out.
-The young leaves cook as a vegetable and the flowers are edible.
+Anything from two ounces to three pounds. Raw when ripe. Green and hard it is a vegetable and a
+pickle across South Asia, and dried and powdered it is amchur. The seed carries starch and fat
+and has been famine food, boiled or roasted to take the astringency out. The young leaves cook
+as a vegetable and the flowers are edible.
 
 **Carried**
-Mango came late, in the 1800s, and took the island over anyway. The Hayden and the
-Rapoza and the ones with no name that people know by the tree and the road it stands on.
-Fruit falls on the pavement in July and rots there by the ton while the store sells mango
-from Mexico. That is the whole food system in one intersection.
+Mango came late, in the 1800s, and took the island over anyway. The Hayden and the Rapoza and the
+ones with no name that people know by the tree and the road it stands on. Fruit falls on the
+pavement in July and rots there by the ton while the store sells mango from Mexico. That is the
+whole food system in one intersection.
 
 ---
 
@@ -843,54 +827,50 @@ from Mexico. That is the whole food system in one intersection.
 ### Simple
 **BEAN — BEVERAGE.** 55–90 in · mild · 1,600 to 5,000 ft · light shade
 
-> It wants light shade and the middle elevations, which is what the Kona belt is and why
-> it is there. First crop at two to three years, full at six to eight, and it keeps going
-> for thirty or forty.
+> It wants light shade and the middle elevations, which is what the Kona belt is and why it is
+> there. First crop at two to three years, full at six to eight, and thirty or forty years of
+> life.
 
 ### Flyer
-**Prep** — Deep, friable ground on a slope. It tolerates acid soil. Light shade, which
-means it goes under something. Not in stiff clay and not in sand.
+**Prep** — Deep, friable ground on a slope. It tolerates acid soil. Light shade, so it goes under
+something. Not in stiff clay and not in sand.
 
-**Set** — Seed, planted within two months of harvest. Six to twelve months in the nursery
-before it goes out.
+**Set** — Seed, planted within two months of harvest. Six to twelve months in the nursery before
+it goes out.
 
-**Forget** — First bearing at two to three years, full bearing at six to eight, and thirty
-to forty years of economic life. Grow corn or beans between the rows for the first few
-years while it is small.
+**Forget** — First bearing at two to three years, full at six to eight, thirty to forty years of
+economic life. Grow corn or beans between the rows for the first few years while it is small.
 
 ### Detailed
 
 **Prep**
-- Deep, friable soil on undulating land. Unsuitable for stiff clay or sand.
-- Tolerates acid ground, which matters here.
+- Deep, friable soil on undulating land. Unsuitable for stiff clay or sand. Tolerates acid ground.
 - 55 to 90 inches a year preferred, 30 to 165 tolerated.
-- 57 to 82°F. This is the mild band, not the hot coast.
+- 57 to 82°F — the mild band, not the hot coast.
 - Above about 1,600 ft at this latitude, up to 5,000.
-- Light shade. It evolved under a canopy and it still wants one.
+- Light shade. It evolved under a canopy and still wants one.
 
 **Set**
-- Seed, planted within two months of harvest, germinated warm.
-- Six to twelve months before the seedling goes out.
+- Seed, planted within two months of harvest, germinated warm. Six to twelve months before the
+  seedling goes out.
 - Air layering, budding, and single leaf-bud cuttings all work.
 
 **Forget**
-- First bearing at two to three years. Full bearing at six to eight.
-- Thirty to forty years of economic life, and trees run from ten to seventy.
-- Intercrop corn, beans, or rice between the rows for the first few years. The ground is
-  open and it will grow something.
-- It is the understory crop the whole Gotsch system was worked out on, under Inga.
+- First bearing at two to three years, full at six to eight. Thirty to forty years of economic
+  life, and trees run from ten to seventy.
+- Intercrop corn, beans, or rice between the rows for the first few years. The ground is open and
+  it will grow something.
+- The understory crop the whole Gotsch system was worked out on, under Inga.
 
 **The food**
-Pick the cherry ripe and red. The seed inside is the bean, and it is dried, roasted,
-ground, and brewed. Nothing about the plant is quick and nothing about the processing is
-optional.
+Pick the cherry ripe and red. The seed inside is the bean, dried, roasted, ground, and brewed.
+Nothing about the plant is quick and nothing about the processing is optional.
 
 **Carried**
-Kona coffee is the one agricultural thing this island is known for, and it is grown on
-small parcels by families, which is unusual anywhere in the world. It arrived in 1828.
-The belt runs a few miles wide on the slope of Hualālai and Mauna Loa, between the
-morning sun and the afternoon cloud that rolls in like clockwork and shades it. The cloud
-is the shade tree.
+Kona coffee is the one agricultural thing this island is known for, and it is grown on small
+parcels by families, unusual anywhere in the world. It arrived in 1828. The belt runs a few miles
+wide on the slope of Hualālai and Mauna Loa, between the morning sun and the afternoon cloud that
+rolls in like clockwork and shades it. The cloud is the shade tree.
 
 ---
 
@@ -899,58 +879,56 @@ is the shade tree.
 
 ### Simple
 **FRUIT.** 40–120 in · warm · coast to 4,900 ft · sun
-*Already here, everywhere. It self-seeds and suckers, and pastures across the tropics
-list it as a noxious weed.*
+*Already here, everywhere. It self-seeds and suckers, and pastures across the tropics list it as
+a noxious weed.*
 
-> It is on your land already and it fruits in a year or two. Cut it, and it comes back
-> from the root. The question this plant asks is what you do with what showed up.
+> It is on your land already and it fruits in a year or two. Cut it, and it comes back from the
+> root. The question this plant asks is what you do with what showed up.
 
 ### Flyer
-**Prep** — Fertile ground that holds moisture, in sun. It wants a dry stretch to ripen.
-It is drought-resistant and takes some salt.
+**Prep** — Fertile ground that holds moisture, in sun. It wants a dry stretch to ripen. It is
+drought-resistant and takes some salt.
 
-**Set** — Nothing, usually. Birds have already set it. From a cutting it fruits in a year;
-from seed, two, and the seedlings come true.
+**Set** — Nothing, usually. Birds have already set it. From a cutting it fruits in a year; from
+seed, two, and the seedlings come true.
 
-**Forget** — 30 to 40 kg off a five-year tree. Heavy production from fifteen to
-twenty-five years, forty years of life. It suckers from the root and it self-sows freely,
-so it spreads whether or not that was the plan.
+**Forget** — 30 to 40 kg off a five-year tree. Heavy production from fifteen to twenty-five years,
+forty years of life. It suckers from the root and self-sows freely, so it spreads whether or not
+that was the plan.
 
 ### Detailed
 
 **Prep**
 - Fertile, moisture-retentive soil, sunny position.
-- 40 to 120 inches a year preferred, 16 to 197 tolerated.
-- It wants a dry period to ripen fruit.
-- 73 to 82°F. Dormant it takes 23°F; young growth burns at 30.
-- Fruits to 4,900 ft and survives to 6,600.
+- 40 to 120 inches a year preferred, 16 to 197 tolerated. It wants a dry period to ripen.
+- 73 to 82°F. Dormant it takes 23°F; young growth burns at 30. Fruits to 4,900 ft, survives to
+  6,600.
 - Drought-resistant, moderately salt-tolerant. Ten to thirty feet.
 
 **Set**
 - Seed germinates in fifteen to twenty days and comes true.
-- Cuttings, air-layering, and grafting all work, and a clonal plant fruits in year one.
+- Cuttings, air-layering, and grafting all work; a clonal plant fruits in year one.
 - Mostly it is already standing. The work is choosing which stems to keep.
 
 **Forget**
 - First fruit at two years from seed, one from a cutting. Full bearing at five to eight.
-- 30 to 40 kg at five years, 50 to 70 at seven and up.
-- Heavy production from year fifteen to twenty-five. Forty years of life.
-- It suckers from the roots and self-sows. Every fruit a bird eats is another guava
-  somewhere.
+- 30 to 40 kg at five years, 50 to 70 at seven and up. Heavy production year fifteen to
+  twenty-five. Forty years of life.
+- It suckers from the roots and self-sows. Every fruit a bird eats is another guava somewhere.
 
 **The food**
-Raw, skin and all, and the vitamin C in one of them runs several times an orange. It is
-loaded with pectin, so it sets into jam and jelly without help. The seed presses for oil.
-The leaves go into cooking across Asia and into tea.
+Raw, skin and all, and the vitamin C in one runs several times an orange. Loaded with pectin, so
+it sets into jam without help. The seed presses for oil. The leaves go into cooking across Asia
+and into tea.
 
 **Carried**
-Guava is the argument this whole project is having, standing in a field. It escaped, it
-took pasture across the tropics, and the state has spent decades and real money trying to
-kill it. It also fruits within a year on ground nobody amended, and every kid on this
-island has eaten one off a tree they did not plant. Its cousin the strawberry guava is
-worse and is eating the native forest. The honest position is narrow: what has already
-arrived and already fruits is worth harvesting and worth cutting back, and moving it into
-new ground is a decision with consequences that outlast the gardener.
+Guava is the argument this whole project is having, standing in a field. It escaped, it took
+pasture across the tropics, and the state has spent decades and real money trying to kill it. It
+also fruits within a year on ground nobody amended, and every kid on this island has eaten one off
+a tree they did not plant. Its cousin the strawberry guava is worse and is eating the native
+forest. The honest position is narrow: what has already arrived and already fruits is worth
+harvesting and worth cutting back, and moving it into new ground is a decision with consequences
+that outlast the gardener.
 
 ---
 
@@ -961,56 +939,59 @@ new ground is a decision with consequences that outlast the gardener.
 **FRUIT.** 40–67 in · mild, light frost ok · 2,300 to 7,900 ft · sun
 *Upland only. It refuses the lowland tropics. Needs pollinating by hand.*
 
-> The upcountry tree: Waimea, the high slopes, where it gets the cool nights it wants. It
-> takes four or five years, and then every fruit you get comes from a paintbrush and your
-> own hand.
+> The upcountry tree: Waimea, the high slopes, where it gets the cool nights it wants. It takes
+> four or five years, and then every fruit you get comes from a paintbrush and your own hand.
 
 ### Flyer
-**Prep** — Moist sandy loam of middling fertility. Cool. It takes an occasional light
-frost and refuses the hot lowland.
+**Prep** — Moist sandy loam of middling fertility. Cool. It takes an occasional light frost and
+refuses the hot lowland.
 
 **Set** — Seed, which breeds true and keeps two or three years.
 
-**Forget** — Four to five years to the first fruit, ten to the peak. The flowers open
-female then male at different hours and almost nothing visits them, so a tree left alone
-sets a handful of fruit. Hand-pollinate in the six to eight hours the stigmas are white
-and sticky, every four or five days. The seeds are poisonous.
+**Forget** — Four to five years to the first fruit, ten to the peak. The flowers open female then
+male at different hours and almost nothing visits them, so a tree left alone sets a handful of
+fruit. Hand-pollinate in the six to eight hours the stigmas are white and sticky, every four or
+five days. The seeds are poisonous.
 
 ### Detailed
 
 **Prep**
 - Moist, sandy loam. Light to heavy soils both work. Medium fertility is best.
-- 40 to 67 inches a year, and it manages on 24.
-- pH 6 to 7.6.
-- 2,300 to 7,900 ft, and its home range is 4,600 to 6,600. It avoids the lowland tropics.
+- 40 to 67 inches a year, manages on 24. pH 6 to 7.6.
+- 2,300 to 7,900 ft; home range 4,600 to 6,600. It avoids the lowland tropics.
 - Occasional short light frost is fine.
 
 **Set**
-- Seed, sown an inch deep, warm. Up in three weeks with bottom heat, six without. It keeps
-  two to three years and it usually breeds true.
-- Semi-ripe or mature cuttings root in about a month with heat.
-- Ten to thirty feet, fast.
+- Seed, sown an inch deep, warm. Up in three weeks with bottom heat, six without. Keeps two to
+  three years and usually breeds true.
+- Semi-ripe or mature cuttings root in about a month with heat. Ten to thirty feet, fast.
 
 **Forget**
-- First fruit at three and a half to five years. Peak by year ten.
-- Twenty-five fruits a tree is normal. Well-tended trees run into the hundreds.
-- Pollination is the work. The male and female parts of a flower mature at different
-  times and few insects bother with it. Hand-pollinate during the six to eight hours the
-  stigmas are white and sticky, and go again every four or five days. Hand-pollinated
-  fruit comes bigger and better shaped.
+- First fruit at three and a half to five years. Peak by year ten. Twenty-five fruits a tree is
+  normal; well-tended trees run into the hundreds.
+- Pollination is the work. The male and female parts of a flower mature at different times and few
+  insects bother. Hand-pollinate during the six to eight hours the stigmas are white and sticky,
+  and go again every four or five days. Hand-pollinated fruit comes bigger and better shaped.
 - Pollen from a sugar apple will not do it.
 
 **The food**
-White flesh, sweet, heavily perfumed, eaten raw with a spoon. It runs to eight inches. Into
-ice cream, custard, cake. The seeds are toxic and carry alkaloids: a fraction of a gram
-of the resin brings on atropine-like poisoning, and the juice in an eye can blind. Spit
-the seeds.
+White flesh, sweet, heavily perfumed, eaten raw with a spoon. Runs to eight inches. Into ice
+cream, custard, cake. The seeds are toxic and carry alkaloids: a fraction of a gram of the resin
+brings on atropine-like poisoning, and the juice in an eye can blind. Spit the seeds.
 
 **Carried**
-It comes from the Andes, which is why it wants Waimea and refuses Hilo. Mark Twain called
-it the most delicious fruit known to man, and then it stayed a rare fruit for a century
-because it needs a person with a brush to make a crop. The tree is a good argument against
-the idea that a food forest runs itself. Some of it wants your hands.
+It comes from the Andes, which is why it wants Waimea and refuses Hilo. Mark Twain called it the
+most delicious fruit known to man, and then it stayed a rare fruit for a century because it needs
+a person with a brush to make a crop. The tree is a good argument against the idea that a food
+forest runs itself. Some of it wants your hands.
+
+---
+
+# III. The wider palette
+
+Everything else on the list, grouped by what it is and where it goes. Fruit trees for the wet
+low ground, the two proprietary greens, the vines, the annuals by the kitchen door, and the
+plants that need your hands or a warning.
 
 ---
 
@@ -1020,50 +1001,47 @@ the idea that a food forest runs itself. Some of it wants your hands.
 ### Simple
 **FRUIT — SPICE.** 24–47 in · warm · coast to 6,600 ft · sun
 
-> Three months from seed to the first pepper, on almost any ground, at almost any
-> elevation on this island. It lives for years if the frost stays off it. This is the one
-> that goes by the kitchen door.
+> Three months from seed to the first pepper, on almost any ground, at almost any elevation on
+> this island. It lives for years if the frost stays off it. This is the one that goes by the
+> kitchen door.
 
 ### Flyer
-**Prep** — Humus-rich, well-drained loam, on the light side. A very warm sunny spot. It
-sulks over 90°F and dies at frost.
+**Prep** — Humus-rich, well-drained loam, on the light side. A very warm sunny spot. It sulks over
+90°F and dies at frost.
 
 **Set** — Seed in a tray, three to four weeks to come up, out when it is four inches.
 
-**Forget** — Peppers at three months and then continuously. It is a perennial that most
-people treat as an annual, and left standing it makes a waist-high bush that fruits for
-years. Pick them and it makes more.
+**Forget** — Peppers at three months, then continuously. A perennial most people treat as an
+annual; left standing it makes a waist-high bush that fruits for years. Pick them and it makes
+more.
 
 ### Detailed
 
 **Prep**
 - Humus-rich, fertile, well-drained loam. Light sandy ground suits it.
-- 24 to 47 inches a year.
-- 70 to 77°F. Above 90 it stops setting. Frost ends it.
-- Up to 6,600 ft, which puts it almost anywhere on this island.
-- A very warm, sunny position.
+- 24 to 47 inches a year. 70 to 77°F; above 90 it stops setting; frost ends it.
+- Up to 6,600 ft, which puts it almost anywhere on this island. A very warm, sunny position.
 
 **Set**
-- Seed in a seedbed or a container, up in three to four weeks at 68°F.
-- Transplant at three or four inches.
-- Self-fertile, and the insects handle it.
+- Seed in a seedbed or container, up in three to four weeks at 68°F. Transplant at three or four
+  inches. Self-fertile, and the insects handle it.
 
 **Forget**
 - First harvest about three months from sowing.
 - Perennial, three to six feet, usually grown as an annual by people who do not know that.
 - Picking is the pruning. Take fruit and it sets more.
-- It is a decent neighbour and it seems to keep some insects off what is beside it.
+- A decent neighbour that seems to keep some insects off what is beside it.
 
 **The food**
-Very hot. Three inches long and a finger wide. Raw, cooked, dried, or ground. The seed
-dries and grinds as pepper too. The leaves cook as a potherb, carefully.
+Very hot. Three inches long and a finger wide. Raw, cooked, dried, or ground. The seed dries and
+grinds as pepper too. The leaves cook as a potherb, carefully.
 
 **Carried**
-Tam's line is that the chili peppers by the kitchen door are enough to start. Not because
-a pepper feeds anybody, but because you walk past it every day and one afternoon you pick
-one and put it in the pot, and something has changed in the relationship that no amount of
-reading does. The nīoi is on half the porches on this island already, in a coffee can. It
-is the smallest possible version of the whole idea.
+Tam's line is that the chili peppers by the kitchen door are enough to start. Not because a pepper
+feeds anybody, but because you walk past it every day and one afternoon you pick one and put it in
+the pot, and something has changed in the relationship that no amount of reading does. The nīoi is
+on half the porches on this island already, in a coffee can. It is the smallest possible version
+of the whole idea.
 
 ---
 
@@ -1073,53 +1051,1109 @@ is the smallest possible version of the whole idea.
 ### Simple
 **LEAF — PROTEIN.** 28–87 in · warm · coast to 3,300 ft · sun
 
-> A stick pushed in the ground puts out edible leaves within months and stands eight feet
-> by the end of the year. It grows on shallow, poor, dry ground. Cut it back to keep the
-> leaves in reach.
+> A stick pushed in the ground puts out edible leaves within months and stands eight feet by the
+> end of the year. It grows on shallow, poor, dry ground. Cut it back to keep the leaves in reach.
 
 ### Flyer
-**Prep** — Well-drained sand, clay, or loam. Shallow ground is fine, poor ground is fine,
-salt is not. Sun. It wants the dry side.
+**Prep** — Well-drained sand, clay, or loam. Shallow ground is fine, poor ground is fine, salt is
+not. Sun. It wants the dry side.
 
-**Set** — A branch, four feet long and an inch and a half thick, pushed into the ground.
-It roots in months. Seed works and loses viability in two years.
+**Set** — A branch, four feet long and an inch and a half thick, pushed into the ground. It roots
+in months. Seed works and loses viability in two years.
 
-**Forget** — Leaves within months of planting. Ten to thirteen feet a year. A cutting
-fruits in six to twelve months, a seedling in two years. Cut it hard and it comes back;
-left alone it goes over your head and the leaves go with it.
+**Forget** — Leaves within months of planting. Ten to thirteen feet a year. A cutting fruits in
+six to twelve months, a seedling in two years. Cut it hard and it comes back; left alone it goes
+over your head and the leaves go with it.
 
 ### Detailed
 
 **Prep**
-- Well-drained sandy soil, clay, or clay loam. It handles shallow ground and low fertility.
-- Not saline.
-- 28 to 87 inches a year preferred, 16 to 102 tolerated.
-- 68 to 95°F, and it takes 45 to 118.
-- Sea level to 3,300 ft.
+- Well-drained sandy soil, clay, or clay loam. Handles shallow ground and low fertility. Not
+  saline.
+- 28 to 87 inches a year preferred, 16 to 102 tolerated. 68 to 95°F, takes 45 to 118. Sea level
+  to 3,300 ft.
 - Light frost sets it back and it resprouts. A hard freeze kills it.
 
 **Set**
-- Cuttings: a branch three to five feet long and an inch and a half thick, straight into
-  the ground. It roots within months. Same trick as the gliricidia.
-- Seed germinates 80% fresh, in one to two weeks, and is dead after two years.
+- Cuttings: a branch three to five feet long and an inch and a half thick, straight into the
+  ground. Roots within months — the same trick as the gliricidia.
+- Seed germinates 80% fresh, in one to two weeks, dead after two years.
 - Budded trees produce in six months and keep going thirteen years.
 
 **Forget**
-- Leaf harvest starts within months.
-- Ten to thirteen feet a year, and eight feet in the first one to three months.
-- Cut it to keep the leaves where your hands are. It is going to twenty-five feet otherwise
-  and the food will be in the sky.
+- Leaf harvest starts within months. Ten to thirteen feet a year, eight feet in the first one to
+  three months.
+- Cut it to keep the leaves where your hands are. It is going to twenty-five feet otherwise and
+  the food will be in the sky.
 - Cutting-grown plants pod at six to twelve months. Seed-grown flower at two years.
 
 **The food**
-The leaves are the crop: seven to ten percent protein dried, a mustard note, raw or
-cooked. The flowers eat raw or cooked and go into tea. The young pods run six to eighteen
-inches and cook like asparagus, or pickle. Immature seeds eat like peas; mature ones roast
-up like peanuts. The root is a horseradish, pungent enough that too much of it is a
-problem. The seed presses an oil close to olive.
+The leaves are the crop: seven to ten percent protein dried, a mustard note, raw or cooked. The
+flowers eat raw or cooked and go into tea. The young pods run six to eighteen inches and cook like
+asparagus, or pickle. Immature seeds eat like peas; mature ones roast up like peanuts. The root is
+a horseradish, pungent enough that too much of it is a problem. The seed presses an oil close to
+olive.
 
 **Carried**
-Ground moringa seed clears muddy water. The powder pulls the silt together and drops it
-out, and the water above runs clean. It is used across South Asia and East Africa where
-that is the difference between the river and a drink. The tree does that as a side effect
-of being a tree.
+Ground moringa seed clears muddy water. The powder pulls the silt together and drops it out, and
+the water above runs clean. It is used across South Asia and East Africa where that is the
+difference between the river and a drink. The tree does that as a side effect of being a tree.
+
+---
+
+## 20. Aibika · Tongan spinach
+*Abelmoschus manihot* · shrub · first food month 3
+
+### Simple
+**LEAF — GREEN.** 40+ in · warm · coast to 1,600 ft · sun
+
+> The best-yielding leaf on the list and the one that grew all over the Pacific before anyone
+> called it a vegetable. A hibiscus relative that gives you a mild, slightly slippery green from a
+> cutting, week after week.
+
+### Flyer
+**Prep** — Fertile, well-drained ground with organic matter. Sun. It wants the wet low coast and
+tails off above 1,600 feet.
+
+**Set** — A cutting off a young shoot, or seed straight in the ground. Up in two weeks.
+
+**Forget** — Leaves within three months and then continuously, picked at about six inches. It runs
+to sixteen feet if you let it; cut it to keep the leaves down where you can reach.
+
+### Detailed
+
+**Prep**
+- Fertile, organic-rich, well-drained soil. Most productive on good ground; sunny position.
+- Wants 40 inches a year and up, evenly spread. Best below 1,600 ft; yields drop above that and it
+  may turn annual at the edges.
+- Above 77°F, humid. Needs long days to flower, which here it gets.
+
+**Set**
+- Seed in situ, up within two weeks, or cuttings from young shoots.
+- Fast. It is a five-metre shrub if nothing stops it.
+
+**Forget**
+- Young leaves at about six inches, raw or cooked, continuously.
+- Cut it back to keep the harvest in reach and the plant bushy.
+- Flower buds are edible too.
+
+**The food**
+The young leaves are the crop: sweet and a little mucilaginous, so they thicken a soup the way okra
+does, and they stand in for lettuce raw. Up to 40 to 60 tonnes a hectare kept well, which is a
+serious amount of green off one shrub. The flower buds cook or go in raw. No hazards reported.
+
+**Carried**
+Aibika is the everyday green of the Pacific — Papua New Guinea, Fiji, Tonga, Vanuatu — grown in
+dooryards for so long nobody is sure where it started or what its wild ancestor was. It is one of
+those plants that only exists in cultivation, carried and kept by people, the leaf equivalent of
+breadfruit. It came through the same island networks and never got the same fame.
+
+---
+
+## 21. Chaya · Tree spinach
+*Cnidoscolus aconitifolius* · shrub · first food month 3–4
+
+### Simple
+**LEAF — PROTEIN.** 40–80 in · warm · coast to 4,300 ft · sun or deep shade
+*Never eat it raw. Raw leaves carry cyanide; five minutes of cooking ends it.*
+
+> A leaf you plant once and cut for years, on almost any ground, in sun or deep shade. It gives
+> more protein than most greens and it will make you sick if you skip the cooking.
+
+### Flyer
+**Prep** — Almost any soil. Sun to deep shade, which few greens tolerate. It wants some water but
+handles dry once established.
+
+**Set** — A cutting, sixteen inches long, dried a few days first, then pushed in. Seed rarely sets
+and rarely comes up.
+
+**Forget** — Leaves in three to four months, then for years. Keep it under six feet or the wind
+breaks it. Cook every leaf at least five minutes. Wear gloves picking it: the sap stings some
+people.
+
+### Detailed
+
+**Prep**
+- Diverse soils, pH 5.5 to 6.5 best. 40 to 80 inches preferred, 20 to 100 tolerated. Sea level to
+  4,300 ft.
+- 68 to 90°F. Sun, but it succeeds in deep shade, unusual for a plant this productive. Drought-
+  resistant once up.
+
+**Set**
+- Stem cuttings, about sixteen inches, dried one to fourteen days before planting so the cut seals.
+- Seed is unreliable. This is a cutting plant.
+
+**Forget**
+- First harvest 90 to 120 days. Up to 12 tonnes a hectare of dry leaf on good ground.
+- Keep it below six feet — taller and the wind snaps it.
+- Cultivated forms are mostly spineless; wild forms sting. Long sap contact irritates skin, so
+  wear gloves.
+
+**The food**
+Cook it. Raw chaya carries cyanogenic glycosides and needs about fifteen minutes' boil to be
+fully safe — a five-minute cook handles a normal serving, and nobody eats it raw. Cooked, the
+young leaves and shoots are a spinach carrying around 25% protein dry, with real iron and calcium
+in them. Do not cook it in aluminium; it can turn the pot and the food.
+
+**Carried**
+Chaya is a Maya dooryard plant from the Yucatán, grown beside the house for two thousand years and
+almost never as a field crop, because you do not need a field of it — a few plants by the door
+feed a family a green every week without being replanted. It is the same pattern as the chili and
+the aibika: the plant you walk past, not the plant you drive to.
+
+---
+
+## 22. Malabar spinach
+*Basella alba* · vine · first food month 2–3
+
+### Simple
+**LEAF — GREEN.** 28–100 in · hot · coast to 4,900 ft · sun to light shade
+
+> The green that likes the heat that makes lettuce bolt. A climbing vine you grow up a string,
+> picking the tips every week, all through the hottest part of the year.
+
+### Flyer
+**Prep** — Rich, well-drained ground that holds moisture. Sun, or light shade for bigger, softer
+leaves. It wants a trellis.
+
+**Set** — Seed, soaked a day, or a cutting that roots in water any time of year.
+
+**Forget** — Tips ready at seventy days, then cut weekly. It climbs to thirty feet and it will run
+over whatever is next to it if you let it.
+
+### Detailed
+
+**Prep**
+- Sandy loam, well-drained, moisture-retentive, rich in organic matter. pH 5.5 to 7.
+- 28 to 100 inches a year, wants warmth: 73 to 81°F, minimum 59 for real growth. Not frost-hardy.
+  Sea level to 4,900 ft.
+- Light shade makes larger, more succulent leaves. Long days keep it from flowering, so it stays
+  leafy.
+
+**Set**
+- Seed, pre-soaked a day, up in ten to twenty-one days in warmth.
+- Cuttings, eight inches, root readily any time of year.
+- Needs support; the stems run to thirty feet.
+
+**Forget**
+- Crop at about seventy days. Pick three-to-five-inch shoots weekly once established.
+- Short-lived perennial here, treated as a cut-and-come-again green.
+- 40 tonnes a hectare in seventy-five days is on record.
+
+**The food**
+Leaves and tips, raw or cooked, a mild spinach flavour and mucilaginous, so it thickens a stew the
+way okra does. Vitamins A and C, iron, calcium. It handles the summer heat that ends most leafy
+greens, which is its whole reason for being on a tropical list.
+
+**Carried**
+Malabar spinach is the hot-season green across South and Southeast Asia, grown up the side of a
+house or a fence, and the red-stemmed one is half ornamental. It is the answer to a specific
+problem — a leafy green in ninety-degree heat — and it is on this list for the months when the
+temperate greens give up.
+
+---
+
+## 23. Avocado · Pea
+*Persea americana* · canopy · first food year 2–3
+
+### Simple
+**FRUIT — FAT.** 20–80 in · warm to mild · coast to 9,000 ft · sun
+*Root rot is the killer here. It needs sharp drainage and dies in wet feet.*
+
+> Grafted, it fruits in a couple of years and grows into a real tree. The three races cover this
+> whole island, sea level to the cool uplands — the trick is matching the race to your ground and
+> never letting the roots sit wet.
+
+### Flyer
+**Prep** — Rich, well-drained ground, and drainage is not negotiable: standing water rots the
+roots and kills it. Full sun. Plant two different trees so they set fruit.
+
+**Set** — Grafted for fruit in the second year; seed takes six to eight and may not come true.
+
+**Forget** — Fruit hangs on the tree for weeks without spoiling, so the tree is the storage.
+Ripens off the tree, never on it. Choose a race for your elevation: West Indian low and hot,
+Guatemalan the middle, Mexican for the cool uplands.
+
+### Detailed
+
+**Prep**
+- Rich, neutral-to-slightly-acid soil, well drained. It will not tolerate waterlogging, and
+  root rot from wet ground is the main way it dies here.
+- 20 to 80 inches a year preferred, 12 to 98 tolerated. Full sun. Up to 9,000 ft depending on race.
+- Three races by cold-hardiness: West Indian (warm lowland), Guatemalan (mid), Mexican (down to
+  21°F, the uplands).
+
+**Set**
+- Grafted trees fruit in the second year and stay eight to ten metres; seedlings go to twenty and
+  take six to eight years.
+- Self-sterile: plant at least two different trees, and ideally an A-type and a B-type, because
+  the flowers open female and male at different times of day.
+- Seed germinates in about a month.
+
+**Forget**
+- Mature fruit holds on the tree for weeks, so you pick as you need it.
+- It ripens only after picking, never on the branch. That is the harvest signal: pick hard, ripen
+  on the counter.
+- Oil content runs 20 to 30% in the Mexican race down to 3 to 10% in the West Indian — the rich,
+  buttery ones are the cool-climate types.
+
+**The food**
+Fat, which almost nothing else on this list gives you. Eaten raw, out of the skin. A tree feeds a
+household and then some, and the surplus is the thing everyone on this island has too much of at
+once and gives away in bags.
+
+**Carried**
+Avocado is Central American and old — the name comes through Spanish from Nahuatl. On this island
+it is half orchard crop and half feral: the seedling avocados along the roads, each one different,
+some watery and some perfect, are what happens when a grafted crop escapes into seed. People know
+the good wild ones by the tree, the same way they know the good mangoes.
+
+---
+
+## 24. Soursop
+*Annona muricata* · sub-canopy · first food year 2
+
+### Simple
+**FRUIT.** 40–100 in · warm, no frost · coast to 3,300 ft · sun
+
+> A low-elevation cousin of the cherimoya that does not need the cold — but it does want your hand
+> at flowering. Big soft green fruit, two years to the first, on the warm wet ground the coast has.
+
+### Flyer
+**Prep** — Moist, well-drained sandy loam. Warm and frost-free. Sun. It tolerates poorer ground
+than most fruit trees.
+
+**Set** — Seed, which comes true, or a semi-ripe cutting. Fruit at two years.
+
+**Forget** — Ten to fifty fruits off a five-year tree. The flowers set poorly on their own, so
+hand-pollination lifts the crop. The seeds are toxic and the stems have an irritant sap.
+
+### Detailed
+
+**Prep**
+- Moist but well-drained sandy loam, pH 5.5 to 6.5. Tolerates poor and light alkaline soils;
+  established trees take some drought.
+- 40 to 100 inches a year. Around 77 to 86°F. Frost-intolerant. Up to 3,300 ft. Full sun.
+
+**Set**
+- Seed breeds true; semi-ripe cuttings also work. First fruit in the second year.
+- A small fast tree, about twenty-three feet.
+
+**Forget**
+- Ten to fifty fruits on a five-year tree, and it can flower year-round in fits.
+- The flowers are protandrous and set badly alone. Hand-pollination improves yield and fruit shape.
+- Harvest when fully ripe and slightly soft for dessert; hard green fruit is cooked as a vegetable.
+
+**The food**
+A big fruit, over two pounds, white fibrous pulp, sweet-sour, mostly juiced or blended because the
+texture is soft. Immature green ones are cooked as a vegetable. The seeds are toxic — do not blend
+them into the juice — and the stems carry an irritant sap.
+
+**Carried**
+Soursop, guanábana, is the lowland Annona of the whole tropical Americas and now the whole tropics,
+grown for the juice more than the raw fruit. The leaves carry a large folk-medicine reputation,
+some of it now being chased by researchers, and that reputation is most of why the tree is spreading
+on this island right now.
+
+---
+
+## 25. Acerola · Barbados cherry
+*Malpighia emarginata* · shrub · first food year 2–3
+
+### Simple
+**FRUIT — VITAMIN C.** warm · coast to 3,300 ft · sun
+
+> A hedge-sized shrub with a small red cherry that carries more vitamin C than almost any food
+> known. Two to three years to fruit, several crops a year, and it doubles as a trimmed hedge.
+
+### Flyer
+**Prep** — A decent, well-drained soil, sunny. Not fussy. It takes trimming and grows as a hedge.
+
+**Set** — Seed, or a half-ripe cutting with bottom heat. Fruit in two to three years.
+
+**Forget** — Two or three crops a year. The fruit is soft and bruises the moment it is ripe, so it
+is picked and used the same day. Trim it to shape and it thickens into a hedge.
+
+### Detailed
+
+**Prep**
+- Grows easily in a good, well-drained soil. Sunny position. Up to 3,300 ft. Two to eight feet.
+- (Ferns is thin on its rainfall and temperature range; treat those as unverified. It is a warm-
+  climate American shrub and behaves like one here.)
+
+**Set**
+- Seed, or half-ripe wood cuttings struck with bottom heat. First fruit in two to three years.
+
+**Forget**
+- Two to three crops a year.
+- Grows as a hedge and tolerates shearing.
+- The ripe fruit is fragile: it bruises at a touch and does not keep, so it is a same-day crop.
+
+**The food**
+A small bright cherry, sweet to slightly tart, raw or stewed into juice, jam, jelly, or wine. The
+vitamin C is the headline: one to four grams per hundred grams of juice, many times an orange,
+enough that it is grown industrially just for the extract. Because the fruit will not travel, the
+only way most people meet it is off the bush.
+
+**Carried**
+Acerola is West Indian and northern South American, and it moved through the tropics as a dooryard
+vitamin bush more than an orchard crop. It is on this list precisely because it does not ship: a
+plant whose whole value — a soft, perishable, absurdly nutritious cherry — can only be had by the
+person who grows it, which is the argument the tool is making, in fruit form.
+
+---
+
+## 26. Jackfruit
+*Artocarpus heterophyllus* · canopy · first food year 3–8
+
+### Simple
+**FRUIT / STARCH.** 35–157 in · warm, no frost · coast to 3,300 ft · sun (shade when young)
+
+> The biggest fruit that grows on a tree, on the same wet low ground as its cousin the ʻulu. Green,
+> it is the vegetable everyone now calls pulled-pork; ripe, it is a heavy sweet fruit; and the
+> seeds cook like chestnuts.
+
+### Flyer
+**Prep** — Deep, well-drained ground. A taproot that hates being moved, so plant it where it stays.
+Shade when young, full sun grown. No frost.
+
+**Set** — Fresh seed, which does not keep, straight into a deep pot or its final spot. Grafted trees
+fruit sooner.
+
+**Forget** — Three to eight years to fruit, and then it carries the largest fruit of any tree —
+up to forty-five pounds each. Young plants want shade; mature ones want light. The latex gets on
+everything, so oil your hands and blade before you cut one.
+
+### Detailed
+
+**Prep**
+- Deep, well-drained alluvial soil, pH 5.5 to 7.5. 35 to 157 inches a year, evenly spread; it
+  prefers no dry season. Below 3,300 ft.
+- 75 to 82°F; minimum 61 to 68. Young plants need shade, mature plants increasing light. Mature
+  trees take some drought.
+
+**Set**
+- Seed germinates 80 to 100% in about five to six weeks but loses viability fast, so sow it fresh.
+  Deep taproot: pot deep and plant early, because it transplants badly.
+- Root cuttings and air layering also work; grafted trees fruit sooner and stay smaller.
+
+**Forget**
+- First crop three to eight years, eight typical from seed. Around twenty-five fruits at peak,
+  which comes at five to six years and after.
+- The tree goes to eighty feet if left; the fruit hangs off the trunk and the big limbs.
+
+**The food**
+Two foods in one tree. Green and unripe, the flesh is cooked as a vegetable — bland, meaty, the
+thing sold everywhere now as a pork substitute. Ripe, it is intensely sweet and aromatic, eaten
+raw or cooked, each fruit holding up to five hundred pods of flesh. The seeds boil or roast like
+chestnuts and carry real starch and protein. The latex is copious and glues everything, so oil
+your hands and knife.
+
+**Carried**
+Jackfruit is South Indian, ancient, and central: a single tree can carry three tonnes of fruit in
+a year and feed a family through a season. It came to Hawaiʻi with plantation-era migration and
+mostly sat as a curiosity until the pulled-jackfruit trend gave the green fruit a market. On this
+island the ripe ones still mostly fall and rot, too big and too strong-smelling for one household
+to use, which is a jackfruit problem the whole tropics shares.
+
+---
+
+## 27. Cempedak
+*Artocarpus integer* · canopy · first food year 3–6
+
+### Simple
+**FRUIT.** 50–138 in · hot, no frost · coast to 1,500 ft · sun (shade when young)
+
+> The jackfruit's smaller, richer relative — a strong durian-and-mango fruit for the hottest,
+> wettest, lowest ground. Fussier about frost and cold than the ʻulu, and worth it to the people
+> who grew up on it.
+
+### Flyer
+**Prep** — Deep, fertile, well-drained ground, and it will even take a high water table and short
+floods. Hot and wet, no dry season, low elevation. Shade young, sun grown.
+
+**Set** — Fresh seed, sown warm, or a clonal tree for fruit sooner.
+
+**Forget** — Three to six years from seed, two to four grafted. Strongly scented ripe fruit, eaten
+out of the hand or fried; the seeds roast up nutty.
+
+### Detailed
+
+**Prep**
+- Deep, well-drained fertile soil, pH 4.5 to 6, and unusually it takes a high water table and
+  periodic flooding, even acid swamp water.
+- 50 to 138 inches a year preferred; wants no distinct dry season. Below 1,500 ft, best under 450.
+- 72 to 100°F. Young plants need shade, mature ones light.
+
+**Set**
+- Seed sown fresh, warm, about 75% up. Direct-sown or in deep containers.
+- Root cuttings and air layering work; clonal trees fruit in two to four years against three to
+  six from seed.
+
+**Forget**
+- First fruit three to six years from seed. The fruit is smaller than a jackfruit, a foot or so
+  long.
+- The tree runs thirty to eighty feet.
+
+**The food**
+Golden, soft, strongly fragrant pulp, sweet, tasting of durian crossed with mango — a fruit people
+either love outright or keep at arm's length for the smell. Raw, cooked, fried, or into pudding;
+the unripe fruit goes into soup as a vegetable. The seeds roast or boil to a nutty snack.
+
+**Carried**
+Cempedak is a Malay and Bornean fruit, a dooryard and forest-edge tree across insular Southeast
+Asia, and it came to Hawaiʻi with Southeast Asian growers and collectors. It is rarer here than
+jackfruit and lives mostly in the yards of people who knew it before they came, which is a common
+shape on this island: a fruit that is precious to a specific community and invisible to everyone
+else.
+
+---
+
+## 28. Poha · Cape gooseberry
+*Physalis peruviana* · shrub · first food month 3
+
+### Simple
+**FRUIT.** 30–90 in · mild · above 800 ft · sun to light shade
+
+> A short-lived berry bush that fruits in three months and wraps each fruit in its own paper
+> husk. It does better up out of the hot lowland, and it is the poha of poha jam.
+
+### Flyer
+**Prep** — Well-drained ground, not too rich — fat soil makes leaves and few berries. Sun or light
+shade. It fruits better above 800 feet.
+
+**Set** — Seed, up and out like a tomato. Plant out at four inches.
+
+**Forget** — Berries at three months, and on for three years. The fruit tells you it is ripe by
+dropping in its husk; you pick it off the ground. The husk itself is not eaten.
+
+### Detailed
+
+**Prep**
+- Well-drained ground, humus-rich loam preferred but it takes poor soil; dislikes clay. pH wide,
+  4.5 to 8.2. Excess richness cuts fruiting.
+- 30 to 90 inches a year preferred, tolerates 30 to 170. 61 to 77°F, takes light frost. Yields
+  better above 800 ft in the tropics — the upland, not the hot coast.
+
+**Set**
+- Seed, helped by day-night temperature swing, planted out at three to four inches. Division also
+  works.
+
+**Forget**
+- First berries about three months from sowing, then harvestable for at least three years.
+- An evergreen perennial that may die back in cold and resprout. Two to six feet.
+- Picked with the husk on, it keeps for months.
+
+**The food**
+A small golden berry in a papery lantern, sweet-tart, raw or cooked into the pie and jam that carry
+the name here. Dried, it stands in for a raisin. Rich in vitamins A and C and unusually high in
+protein for a fruit. The papery calyx is toxic — do not eat the wrapper.
+
+**Carried**
+Poha is Andean, a relative of the tomatillo, and it naturalised in Hawaiʻi early enough and
+thoroughly enough that it took a Hawaiian name and became a local flavour — poha jam is a Hilo and
+Volcano thing. It grows half-wild along the upland roads, and the plant most people meet is a
+volunteer, not a planted crop.
+
+---
+
+## 29. Chayote · Pipinola
+*Sechium edule* · vine · first food month 3–4
+
+### Simple
+**FRUIT — STARCH.** 30–100 in · warm · coast to 6,600 ft · sun to light shade
+
+> One planted fruit becomes a vine that buries a fence and hands you a hundred more. It grows over
+> almost the whole island, and the whole plant is food: fruit, shoots, and after a year, a big
+> starchy root.
+
+### Flyer
+**Prep** — Fertile, well-drained ground with humus. Sun, or light shade for some kinds. It needs
+something big to climb — a fence, an arbour, a dead tree.
+
+**Set** — Plant the whole sprouting fruit, wide end down, two-thirds buried. That is the seed.
+
+**Forget** — Fruit in three to four months, up to a hundred a plant, then a starchy root in the
+second year. The vine runs thirty to a hundred feet; give it a structure or it takes the yard.
+
+### Detailed
+
+**Prep**
+- Well-drained, fertile, humus-rich soil, pH 5.5 to 7. 30 to 100 inches a year. 66 to 86°F; frost
+  kills it, cold below 55°F damages young fruit. Up to 6,600 ft, and it yields better above 1,600.
+- Full sun, though some kinds crop more in light shade.
+
+**Set**
+- Plant a whole mature fruit with the seed sprouting inside, widest end down, buried to two-thirds.
+  Stem cuttings also root in shade.
+- It must have strong support; the annual stems run nine to thirty metres.
+
+**Forget**
+- Immature fruit at three to four months; mature at four to six. Root tubers only form in the
+  second year.
+- A perennial climber where there is no frost. One plant: eighty to a hundred fruits and forty to
+  fifty pounds of root a year.
+
+**The food**
+The whole plant. The pale fruit is mild, cooked like a squash or grated raw into a slaw. The young
+shoots and leaf tips cook as a green. The seed inside is edible, cooked. In the second year the
+roots swell into a starchy tuber you boil, bake, or fry. Little flavour of its own, which is why it
+carries everything else in the pot.
+
+**Carried**
+Chayote is Mesoamerican and its Hawaiian name, pīpīnola, marks how long it has been naturalised
+here — it runs wild over old homesteads and gulch fences on the wet side, a plant so easy it turned
+into scenery. It is the definition of set-and-forget: put one sprouting fruit at the base of a
+fence and walk away, and in a season there is more chayote than a family can eat.
+
+---
+
+## 30. Dragon fruit · Pitaya
+*Hylocereus undatus* · vine (cactus) · first food year 1–2
+
+### Simple
+**FRUIT.** 12–138 in · warm · coast to 6,600 ft · sun
+*It grows well in the wet but often will not set fruit there; the drier leeward side suits it
+better.*
+
+> A climbing cactus that flowers one night a year to the bats and hands you a fuchsia fruit. It
+> wants a post to climb and sharp drainage, and it fruits within a year or two of a cutting.
+
+### Flyer
+**Prep** — Well-drained ground, on the acid side, in full sun. It rots in heavy wet soil. Give it
+a post, a wall, or a tree to climb, and it will haul itself up on aerial roots.
+
+**Set** — A cutting, a length of stem, laid or stood and left to root. No seed needed.
+
+**Forget** — Fruit in a year or two. The flowers open for one night; in the wetter areas it flowers
+and does not set, so hand-pollinating at night lifts the crop. It fruits several times a warm
+season.
+
+### Detailed
+
+**Prep**
+- Well-drained soil, pH 6 or lower, full sun. 12 to 138 inches a year — enormous range, but the
+  fruit sets poorly in the wettest areas. 64 to 82°F. Up to 6,600 ft.
+- Climbing epiphytic cactus that throws aerial roots and needs a support: a living post, a wall,
+  an old tree.
+
+**Set**
+- Stem cuttings root readily; that is the standard way. Seed is viable but slow and off-type.
+
+**Forget**
+- First fruit in one to two years. Masses of stems.
+- Night-blooming, bat-pollinated flowers open a single night. In wet areas it grows lush and fruits
+  little, so growers hand-pollinate after dark.
+- Considered invasive in some regions — the stems root wherever they touch down.
+
+**The food**
+Red or pink skin over white or magenta flesh flecked with tiny black seeds, mild and sweet, eaten
+raw and chilled. The unopened flower buds cook as a vegetable. Mostly water and texture, so it is
+about refreshment more than calories.
+
+**Carried**
+Dragon fruit is a Central American climbing cactus turned global supermarket fruit, and on this
+island it is a leeward and backyard crop — the dry Kona side and Puna's drier pockets suit it
+better than the rain. It is a recent arrival as a crop and mostly grown by people chasing the high
+price of the fruit, which is a different motive from most of this list.
+
+---
+
+## 31. Surinam cherry
+*Eugenia uniflora* · shrub · first food year 2–5
+
+### Simple
+**FRUIT.** 28–108 in · warm · coast to 5,900 ft · sun to part shade
+*Suckers into thickets and is bird-spread; a weed in some places. Manage it as a hedge.*
+
+> A ribbed little cherry off a dense shrub that most people here meet as a clipped hedge. Fruits in
+> a few years, several crops, and it wants watching because it seeds itself into the bush.
+
+### Flyer
+**Prep** — Fertile, moist, high-organic ground; it dislikes lime. Sun to part shade. It tolerates
+drought once its deep roots are down.
+
+**Set** — Fresh seed, up in a few weeks, or layering. Fruit in two years at best, five or six
+usually.
+
+**Forget** — Multiple short crops a year. It suckers and forms thickets and birds carry the seed,
+so keep it clipped as a hedge and pull the volunteers. The fruit ranges from sweet to frankly
+resinous depending on the plant.
+
+### Detailed
+
+**Prep**
+- Fertile, moist, organic soil; intolerant of alkaline ground. pH on the acid side. Sun or partial
+  shade. Deep-rooted and drought-tolerant once established.
+- 28 to 108 inches a year, optimal 47 to 80. 70 to 81°F, takes a few degrees of frost. Up to
+  5,900 ft. Slow-growing, six to forty feet.
+
+**Set**
+- Seed viable about a month; sow fresh, 80% up in twenty to fifty days. Layering and grafting work.
+
+**Forget**
+- First fruit in two years at best, more often five to six. Fruit crops run six to eight weeks,
+  several times a year.
+- It suckers and can form dense thickets, and it self-sows via birds — a listed weed in some
+  regions. Tolerates shearing and makes a tight hedge, which is the usual way to hold it in check.
+
+**The food**
+A small ribbed red-to-black cherry, one seed, flavour swinging from sweet-spicy to peppery and
+resinous depending on the individual plant, so taste before you plant a hedge of it. Fresh, or into
+jam, and one fruit covers a day's vitamin C. The seeds are resinous and bitter and not eaten.
+
+**Carried**
+Surinam cherry is Brazilian, spread worldwide as an ornamental hedge, and that is mostly what it is
+in Hawaiʻi — a fruiting hedge people prune without always knowing the fruit is good. Its weediness
+is the same double edge as the guava: easy, generous, and it does not stay where it is put. Choose
+the plant for its fruit, keep it clipped, and pull what the birds start.
+
+---
+
+## 32. Jamun · Java plum
+*Syzygium cumini* · canopy · first food year 4–6
+
+### Simple
+**FRUIT.** 60–235 in · warm · coast to 6,600 ft · sun (shade when young)
+*Bird-spread and a listed pasture weed. Fast, tough, and it seeds itself widely.*
+
+> A big fast tough tree that takes flood and drought and long dry, and drops an astringent purple
+> plum that stains everything. Common, generous, and weedy — you likely know it as the tree that
+> purples the sidewalk.
+
+### Flyer
+**Prep** — Almost any soil, even shallow and rocky, and it takes both flooding and drought once
+grown. Sun, some shade when young. Frost-free.
+
+**Set** — Fresh seed, up in a few weeks, or grafting for better fruit.
+
+**Forget** — Four to six years to fruit. Astringent until dead ripe; a soak in salt water tames it.
+The seed lowers blood sugar and is a real diabetes remedy across South Asia. It self-sows freely —
+a pasture weed in Florida and elsewhere.
+
+### Detailed
+
+**Prep**
+- Versatile on soil, grows on shallow rocky ground with enough rain, pH 5.5 to 7. Flood-tolerant
+  and drought-tolerant once established.
+- 60 to 235 inches a year preferred, enormous tolerance; takes six to seven months of dry. 68 to
+  90°F, killed at 28°F. Up to 6,600 ft. Fast: seedlings hit thirteen feet in two years, thirty to
+  fifty feet grown.
+
+**Set**
+- Seed sown an inch deep in the rains, up in two to four weeks. Air-layering and grafting for
+  known fruit. Plant seedlings out at one to three years.
+
+**Forget**
+- First fruit four to six years. It self-sows freely and is a listed pasture pest in some places —
+  manage the seedlings.
+- Moderately shade-tolerant young, wants sun grown.
+
+**The food**
+An olive-shaped purple fruit, juicy and astringent, better after a soak in salt water, into jam,
+juice, tarts, and a vinegar. Quality is variable tree to tree. The stain is legendary — it marks
+hands, clothes, and pavement. The seed, dried and powdered, measurably lowers blood sugar and is a
+standard traditional diabetes treatment across India.
+
+**Carried**
+Jamun is South Asian, venerated, planted by temples, and it came to Hawaiʻi with Indian and
+plantation-era migration and then spread on its own. It is the tree that lines some old roads and
+stains them purple every summer, fruit nobody harvests underfoot. Weed and blessing at once, which
+is the recurring shape of the introduced fruit on this island.
+
+---
+
+## 33. Rose apple
+*Syzygium jambos* · sub-canopy · first food year 4
+
+### Simple
+**FRUIT.** 28–157 in · warm · coast to 3,900 ft · sun to part shade
+*A listed invasive in wet areas; it forms dense stands along streams. Manage with intent.*
+
+> A hollow, crisp fruit that smells and tastes of roses, off a tree that coppices back the moment
+> you cut it. Generous and pretty, and aggressive enough in the wet that it is a real forest weed.
+
+### Flyer
+**Prep** — Takes poor, sandy, even alkaline ground, though it grows slowly there. It likes moist
+ground and dislikes a dry season. Sun to part shade; young plants want shade.
+
+**Set** — Fresh seed — one seed throws several seedlings — or air layering. Fruit in about four
+years.
+
+**Forget** — Sporadic fruit through the year. Cut it and it resprouts hard, twelve feet in a year.
+That vigour is also why it takes over streambanks in the wet, so plant it where you will keep after
+it, not near intact forest. The roots are considered poisonous.
+
+### Detailed
+
+**Prep**
+- Tolerates poor, sandy, alkaline soils but grows and fruits poorly there; prefers moisture and
+  dislikes drought. pH 5.5 to 7. Sun to part shade, shade when young.
+- 28 to 157 inches a year, optimal 47 to 63. 64 to 100°F, mature trees to 27°F. Below 3,900 ft.
+  Twenty to thirty-three feet, medium rate, fast once older; coppices vigorously.
+
+**Set**
+- Seed short-lived; one seed makes three to eight mostly true seedlings. Air layering works.
+  Transplants poorly, so pot early. First fruit about four years.
+
+**Forget**
+- Fruits sporadically year-round or seasonally. Coppices hard — three-metre sprouts within a year
+  of cutting — which is the trait that makes it both useful and invasive.
+- Naturalised and weedy in wet regions; it forms dense stands along water. Site it where you will
+  manage it.
+
+**The food**
+A pale, hollow, crisp fruit up to two inches, sweet and faintly perfumed, tasting distinctly of
+roses; it bruises fast so it is eaten fresh or made into jelly and even distilled for rosewater.
+The flowers are candied. Note the roots, bark, and leaves carry an alkaloid and trace cyanide; the
+roots are considered poisonous. It is the fruit that is safe and eaten.
+
+**Carried**
+Rose apple is Southeast Asian, carried everywhere as an ornamental and dooryard fruit, and in
+Hawaiʻi it slipped into the wet forest and became a manager's problem — it lines streams in Puna
+and Hilo in near-solid stands. The honest note is the guava note again: lovely, easy, edible, and
+a genuine threat to native ground, so enjoy the ones already here and think hard before adding more.
+
+---
+
+## 34. Wampi
+*Clausena lansium* · sub-canopy · first food year 5–8
+
+### Simple
+**FRUIT.** 40–157 in · warm · coast to 8,000 ft · sun
+
+> A citrus relative that hangs grape-like clusters of a sweet-sour fruit, a well-behaved small tree
+> for the wet low ground. Slower to start than most here — five years or more — and then reliable.
+
+### Flyer
+**Prep** — Rich loam that drains, though it takes deep sand and limestone too. Sun. It wants the
+rain the wet coast gives.
+
+**Set** — Seed, up in days, or grafting and layering for a known fruit. First crop at five to eight
+years.
+
+**Forget** — Up to a hundred pounds of fruit off a mature tree. Eaten fresh out of the cluster, or
+preserved and juiced. Little fuss once it is established.
+
+### Detailed
+
+**Prep**
+- Rich loams best; tolerates deep sand and oolitic limestone. Well-drained, pH 5 to 6. Sun.
+- 40 to 157 inches a year preferred; wide tolerance. 72 to 86°F, survives 28°F, killed below 19°F.
+  Up to 8,000 ft. Fast-growing evergreen, ten to forty feet.
+
+**Set**
+- Seed germinates in days; greenwood and semi-ripe cuttings, air layering, and veneer grafting all
+  work. First flowering and fruit at five to eight years from seed.
+
+**Forget**
+- Up to 45 kg of fruit a season on a mature tree.
+- Low-maintenance once established.
+
+**The food**
+Grape-sized yellow fruit in loose clusters, juicy and aromatic, sweet to sour depending on the
+tree, eaten fresh, dried, preserved, or juiced into a drink. A common companion to heavy meals in
+southern China, where it is said to cut the richness.
+
+**Carried**
+Wampi is southern Chinese and Southeast Asian, brought to Hawaiʻi with Chinese migration, and it is
+one of the quiet plantation-era fruits — grown in Chinese dooryards, sold at the odd farmers'
+market, unknown to most of the island. It is a good example of the buried diversity already here:
+food-bearing trees that came with a community and stayed inside it.
+
+---
+
+## 35. Grumichama · Brazilian cherry
+*Eugenia brasiliensis* · sub-canopy · first food year 4
+
+### Simple
+**FRUIT.** 30–138 in · warm · coast to 300 ft · sun to part shade
+*A true lowland plant — it wants to be near the coast, and it dislikes lime.*
+
+> A slow, well-mannered small tree that drops a dark cherry tasting close to the real thing. No
+> weediness, no toxicity, no fuss — just four years of patience and then a brief sweet crop.
+
+### Flyer
+**Prep** — Acid, high-organic ground near the coast; it will not take lime. Sun or part shade,
+sheltered from wind. It hates a long drought.
+
+**Set** — Fresh seed, which dies within six weeks, or easy cuttings and layering. Fruit at four
+years.
+
+**Forget** — A short, concentrated crop — in the subtropics the fruit ripens about a month after
+flowering and comes in over a few days. Slow-growing and tidy, a good tree for a small yard.
+
+### Detailed
+
+**Prep**
+- Medium-acid, high-organic soil; intolerant of alkaline ground. Shelter from strong wind. Sun or
+  partial shade. Adverse to prolonged drought.
+- 30 to 138 inches a year, optimal 47 to 100. 59 to 100°F, mature trees to 27°F briefly. Below
+  about 300 ft — a genuinely lowland tree. Slow-growing, twenty-five to fifty feet, usually less.
+
+**Set**
+- Seed loses viability in six weeks and germinates slowly; cuttings and air layering are easy.
+  First fruit about four years from seed.
+
+**Forget**
+- In the subtropics: spring flowers, fruit a month later, harvest over a few days. In the tropics
+  it spreads flowering and fruiting over months.
+- Slow and undemanding once placed.
+
+**The food**
+A dark crimson to near-black cherry, an inch or so across, with soft melting pulp tasting much like
+a true cherry; the flavour sits mostly in the skin. Raw, or into jam and jelly. There are red and
+yellow forms; the red is the sweetest. The persistent little sepals on the fruit are the only
+nuisance.
+
+**Carried**
+Grumichama is from the Brazilian Atlantic coast, a Eugenia like the Surinam cherry but without the
+weedy streak — it stays where it is planted. It is a collector's and dooryard fruit in Hawaiʻi,
+uncommon, grown by people who want a cherry that will actually fruit in the tropics. On a list that
+keeps running into invasives, it is worth noting the ones that are simply well-behaved.
+
+---
+
+# IV. Kitchen-door annuals and the citrus  *(light sourcing)*
+
+Common crops with thin or no Ferns entries, written from general horticultural knowledge. These
+need a verification pass before they ship — treat the numbers as directional.
+
+---
+
+## 36. Kale (tropical) *(light sourcing)*
+*Brassica oleracea* var. *acephala* · ground layer · first food month 2
+
+### Simple
+**LEAF — GREEN.** cool-preferring · coast to 6,600 ft · sun to part shade
+*A temperate green; it does best up out of the hot lowland, in the cooler uplands or the cool
+season.*
+
+> A cut-and-come-again green in eight to ten weeks. On this island it belongs upcountry or in the
+> cooler months — down on the hot coast it bolts and the leaf turns bitter.
+
+### Flyer
+**Prep** — Fertile, moisture-holding ground, in sun to part shade. Cooler is better; it is a
+temperate plant working in the tropics.
+
+**Set** — Seed, or a small transplant. Space a foot and a half apart.
+
+**Forget** — Leaves from the bottom up in about two months, picked continuously for months. Heat
+and long dry make it bolt and bitter, so grow it cool.
+
+### Detailed
+
+**Prep**
+- Fertile, moisture-retentive soil, pH near neutral. Sun, part shade in the heat. Prefers cool:
+  the uplands, or the cooler season on the coast. Up to 6,600 ft.
+
+**Set**
+- Seed or transplant, plants about eighteen inches apart. Up in a week or so.
+
+**Forget**
+- First leaves in fifty to seventy days. Pick outer leaves upward and it keeps producing for
+  months.
+- Heat, drought, and age turn it bitter and push it to bolt. In the tropics it is effectively a
+  cool-season or upland crop.
+
+**The food**
+Leaves, cooked or raw, and they sweeten after cool nights. The most productive temperate green a
+gardener already knows, which is why it is on the list — a bridge crop for people not yet used to
+aibika and chaya.
+
+**Carried**
+Kale is the plant on this list most people already recognise, and that is its job here: the
+familiar foot in the door. It carries no local story — it is a supermarket green — but it grows
+upcountry, and it is often the first thing a new gardener plants before they meet the tropical
+greens that will out-produce it.
+
+---
+
+## 37. Pumpkin / tropical squash *(light sourcing)*
+*Cucurbita moschata* · ground vine · first food month 3–4
+
+### Simple
+**FRUIT — STARCH.** warm · coast to 5,000 ft · sun
+
+> The squash that actually handles tropical heat and humidity, where the thin-skinned kinds rot.
+> A sprawling vine that gives you keeping pumpkins in three to four months, and edible shoots the
+> whole time.
+
+### Flyer
+**Prep** — Rich, well-drained ground and a lot of room. Full sun. It runs and it will cover a
+compost heap or a fence.
+
+**Set** — Seed straight in the ground, a few to a mound, thinned to the strongest.
+
+**Forget** — Fruit in three to four months. The shoot tips and flowers are food along the way. The
+mature fruit stores for months on a shelf, which is the point of it.
+
+### Detailed
+
+**Prep**
+- Rich, well-drained soil, full sun, plenty of space. *C. moschata* is the tropical-adapted squash
+  species, more disease- and heat-tolerant than most. Up to about 5,000 ft.
+
+**Set**
+- Seed in mounds, thinned. Give it a long run of ground or something to sprawl over.
+
+**Forget**
+- Immature fruit and shoots earlier; mature keeping fruit at three to four months.
+- Butternut and the Hawaiian field pumpkins are this species. The mature fruit stores for months.
+
+**The food**
+Mature flesh baked, boiled, or in soup; the young fruit cooked like a summer squash; the shoot tips
+and flowers as a green. The seeds roast. A starchy fruit that keeps without a fridge, which on a
+list about food security matters as much as the calories.
+
+**Carried**
+The tropical pumpkins are American and old, and *moschata* is the one that took to the wet tropics
+where other squashes fail to fungus. In Hawaiʻi the field pumpkin grows half-wild over old
+homesteads much like the chayote — a sprawling, forgiving, keeping crop that asks almost nothing.
+
+---
+
+## 38. Bottle gourd · Ipu *(light sourcing)*
+*Lagenaria siceraria* · ground/climbing vine · first food month 3
+
+### Simple
+**FRUIT — VEGETABLE + VESSEL.** warm · coast to 5,000 ft · sun
+
+> Food when young, a container when old. The ipu of hula and of the water gourd, and, picked small
+> and green, a mild summer vegetable. A vigorous vine you grow up an arbour so the fruit hangs
+> straight.
+
+### Flyer
+**Prep** — Rich, well-drained ground, full sun, and a strong arbour — hung, the gourds grow long
+and straight. It is a heavy vigorous vine.
+
+**Set** — Seed, soaked and sown in warm ground.
+
+**Forget** — Young fruit as a vegetable in about three months. Leave the rest to harden on the vine
+for months, then dry them for months more into bowls, bottles, and drums.
+
+### Detailed
+
+**Prep**
+- Rich, moisture-retentive, well-drained soil, full sun, an arbour or fence. A vigorous climber.
+  Warm-season, frost-tender. Up to about 5,000 ft.
+
+**Set**
+- Seed, pre-soaked, sown in warm ground; night-flowering and moth-pollinated.
+
+**Forget**
+- Tender young fruit at about three months. For vessels, leave fruit to mature and harden on the
+  vine, then cure them dry for weeks to months until the shell is hard and the seeds rattle.
+
+**The food**
+Picked young and green, a mild watery vegetable, cooked in stir-fries, soups, and curries across
+Asia — never eaten if it tastes bitter, as an occasional bitter fruit carries a real toxin. Left to
+mature it is not food at all but the hard-shelled ipu.
+
+**Carried**
+The ipu is a canoe plant carried for the vessel, not the meal — the water gourd, the ipu heke of
+hula, the container a household ran on before there was pottery. That it is also food is almost
+beside the point of why it crossed the ocean, and it earns its place on this list as much for
+culture as for calories: a plant that made daily life possible, still grown for the drum.
+
+---
+
+## 39. Currant tomato *(light sourcing)*
+*Solanum pimpinellifolium* · ground/sprawling · first food month 2–3
+
+### Simple
+**FRUIT.** warm · coast to 5,000 ft · sun
+
+> The wild ancestor of the tomato, tiny-fruited and nearly unkillable, that shrugs off the disease
+> and humidity that flatten a garden tomato here. Once you have it, you have it — it self-seeds
+> forever.
+
+### Flyer
+**Prep** — Any decent sunny ground. It is tougher and more disease-resistant than a cultivated
+tomato and needs far less coddling.
+
+**Set** — Seed. Or let last year's dropped fruit do it, because it will.
+
+**Forget** — Fruit in two to three months, then constantly. It sprawls, self-seeds, and comes back
+on its own year after year. Pick the tiny sweet fruit by the handful.
+
+### Detailed
+
+**Prep**
+- Ordinary well-drained soil, full sun. Notably resistant to the late blight and humidity problems
+  that make full-sized tomatoes hard in the wet tropics. Up to about 5,000 ft.
+
+**Set**
+- Seed, started or direct. Self-seeds readily and volunteers thereafter.
+
+**Forget**
+- First fruit in two to three months, then continuously in warm weather.
+- A sprawling short-lived perennial here; it reseeds and effectively becomes permanent.
+
+**The food**
+Currant-sized red fruit, intensely sweet, eaten by the handful raw or cooked down into a sauce. The
+yield is in numbers, not size. It is the tomato that actually works in a wet tropical yard, which is
+why it earns a place over the beefsteak everyone wishes would grow.
+
+**Carried**
+This is the wild tomato from coastal Peru and Ecuador, the species all cultivated tomatoes descend
+from, and it kept the toughness that breeding traded away for size. On a humid island where garden
+tomatoes struggle, the ancestor thrives — a small lesson in why the wild and the naturalised
+sometimes beat the improved.
+
+---
+
+## 40–42. The citrus: orange, grapefruit, lemon *(light sourcing)*
+*Citrus sinensis · Citrus × paradisi · Citrus limon* · sub-canopy · first food year 3–5
+
+### Simple
+**FRUIT.** 40–60 in · warm, some cool · coast to 3,000 ft · sun
+*Greening disease (huanglongbing) and the usual pests are the real question for citrus here now,
+more than climate.*
+
+> Familiar, reliable, and grafted onto rootstock for a tree that fruits in a few years. They want a
+> touch of seasonal change to sweeten, so they do a little better off the wettest, warmest coast.
+> Treated as one crop with three flavours.
+
+### Flyer
+**Prep** — Deep, well-drained, moisture-holding loam, full sun. They are shallow-rooted and dislike
+waterlogging and dislike manure at the trunk. A little dry or cool season helps the fruit sweeten.
+
+**Set** — A grafted tree on a suited rootstock — that is how citrus is grown. Seedlings are slow and
+variable, though some kinds come true.
+
+**Forget** — Three to five years to fruit, decades of life. Lemon is the most forgiving and most
+everbearing; orange wants the most warmth and sweetens with a cool spell; grapefruit wants the most
+heat and the longest season. Watch for greening disease.
+
+### Detailed
+
+**Prep**
+- Deep, well-drained, moisture-retentive loam, pH 5 to 6, full sun. Shallow-rooted; intolerant of
+  waterlogging; dislikes manure. Prominent seasonal change improves the fruit, and a dry spell over
+  three months means it wants irrigation. Growth stalls below 55°F and above 100°F. Up to 3,000 ft.
+
+**Set**
+- Grafted onto rootstock is the standard, for disease resistance and a known fruit. Some kinds are
+  polyembryonic and come true from seed; half-ripe cuttings and layering also work. Six to thirteen
+  metres, fruit four to twelve centimetres.
+
+**Forget**
+- First fruit three to five years, single trees to a hundred years, orchards economic about thirty.
+- Lemon is everbearing and the most cold- and neglect-tolerant; orange needs warmth and a cool spell
+  to colour and sweeten; grapefruit needs the most heat and the longest hang time.
+- The live threat here is huanglongbing (citrus greening) and its psyllid vector, plus the usual
+  scale and mites — the reason to source clean grafted stock.
+
+**The food**
+Eaten fresh and juiced; the peel candies and flavours; the flowers brew as tea and scent things.
+Vitamin C and, as much, brightness — the acid note a diet of starch and greens is short on. A lemon
+by the door does for citrus what the chili does for spice: small, constant, and it changes how
+everything else tastes.
+
+**Carried**
+Citrus is Southeast Asian, spread through the Mediterranean and then the Americas, and it came to
+Hawaiʻi early — Kona oranges were a real export before coffee took the slope. That history is a
+quiet warning too: a monoculture export that a disease and a market can undo, which is the whole
+reason this project argues for the dooryard tree and the mixed planting over the orchard of one
+thing.

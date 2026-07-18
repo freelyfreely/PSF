@@ -1,0 +1,9 @@
+The forest is a cycle, not a monument. In the worldview of forest-dwelling peoples like the Benuaq Dayak, the forest has no beginning and no end; their lives are interwoven with its regeneration following swidden cultivation. This understanding is not simplistic: they recognize that the speed of the return is shaped by soil, rain, and slope, and they possess indicators to gauge a site's readiness. This knowledge, part of their cultural fabric for millennia, provides a model of adaptive management built on a partnership with the forest's intrinsic resilience.
+
+This cycle is what is meant by resilience. The forest's fragility lies not in its destruction, but in the interference with this cycle—the point where the clearing cannot return to the forest. When a system's regenerative capacity is broken, as when the Dayaks were forced by land shortages to shorten their fallow cycles, the partnership becomes unsustainable. Weeds take hold, and the cycle stalls. This reveals the true vulnerability: not the forest itself, but its relationship with the people who depend on it.
+
+Therefore, a forest should not be understood by its current state alone, but by its potential for regeneration. A plot regrowing from abandoned pasture is not "degraded goods" in a state of permanent failure; it is a system actively in a process. To label all human-impacted forests as degraded is to ignore the most powerful conservation tool available. This book is an argument against that static view, and for the recognition of this regenerative power. If we can understand what breaks the cycle, we can begin to learn how to mend it.
+
+---
+
+*roots: digested from "Robin L. Chazdon - Second Growth_ The Promise of Tropical Forest Regeneration in an Age of Deforestation-University Of Chicago Press (2014).pdf" · source 3a7634cb-b062-4451-844a-afdbd27cb1fe · by mimo-v2.5-pro · 2026-07-14*
