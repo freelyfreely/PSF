@@ -8,15 +8,21 @@ needs accumulated life beneath it — the canopy the guild is built around, not 
 
 ## Climate & site — by source
 - **Rainfall** — Ferns: preferred **1,500–2,500 mm → 59–98 in**; tolerated **exceptionally to 3,000 mm
-  → 118 in**. **Elevitch/Ragone (cross-read, resolved):** *"Mean annual rainfall 1,500–3,000 mm
-  (60–120 in), but trees can yield regularly on Pacific atolls that receive 1,000 mm (40 in)."*
-  (*Specialty Crops for Pacific Island Agroforestry*, Ragone.) **Finding — the shipped 157-in upper is
-  wrong.** Both authorities cap at **3,000 mm ≈ 120 in**; nothing sources 157 in (≈4,000 mm). That
-  exact figure is ginger's *and* ice-cream-bean's tolerated upper (both `→ 157 in`), so it almost
-  certainly **bled from a neighboring record during day 1** — the cross-plant necrosis `gate.py`'s
-  byte-copy check exists to catch. **Correction owed:** the shipped upper should read **~120 in**, on
-  which Ferns and Elevitch agree. (Band lives in `site.html`'s `P` array and copy #12 Simple line —
-  flagged here, not silently edited, because it is a shipped artifact.)
+  → 118 in**. Elevitch/Ragone: *"1,500–3,000 mm (60–120 in), but yields on atolls at 1,000 mm (40 in)."*
+  **Highest-tier for THIS island — Mausio, Miura & Lincoln (2020), *PLoS ONE* 15(5):e0228552**, an
+  EcoCrop suitability model **empirically re-calibrated against 1,200 naturalized breadfruit trees mapped
+  in Hawaiʻi.** Table 1 refined precipitation parameters: **optimal 1,500–4,000 mm (59–157 in), absolute
+  750–8,000 mm (30–315 in).** The paper explicitly found the generic EcoCrop bounds *"highly restrictive
+  compared to the distribution of naturalized trees surveyed in Hawaiʻi, especially in terms of rainfall"*
+  and **expanded the upper threshold** (its prior absolute max was 3,500 mm). **Finding — resolved, and
+  it inverts the earlier one.** The shipped **157 in was correct after all** — it matches Mausio's optimal
+  upper (4,000 mm) exactly. The day-1 flag was right that it was *unsourced* (and it did coincide with
+  ginger's/inga's 157), but the resolution is to **source it, not delete it**: a Hawaiʻi-calibrated
+  empirical model outranks generic tropical profiles for this island's bands (see SOURCES.md). **Applied
+  to `site.html`/copy #12 (session 6):** preferred `rain:[60,157]` (Mausio optimal), tolerance
+  `rainTol:[30,315]` (Mausio absolute) — an *expansion* past the old unsourced `[40,180]`, per the
+  expand-when-justifiable rule. Ferns/Elevitch remain the lower-rainfall corroboration (atoll yields at
+  40 in sit inside the new absolute floor of 30 in).
 - **Temperature** — Ferns: preferred **21–32 °C → 70–90 °F**; tolerated **12–40 °C → 54–104 °F**;
   **injured below 5 °C → 41 °F**. **Elevitch/Ragone** agrees closely: mean annual 15–40 °C (59–104 °F),
   best 21–32 °C (70–90 °F); minimum tolerated 5–10 °C (41–50 °F). (Shipped "below about 41°F the leaves
@@ -54,9 +60,12 @@ needs accumulated life beneath it — the canopy the guild is built around, not 
   *[Ethnohistorical — texture.]*
 
 ## Distilled to
-- Copy #12. **Recrystallized against Elevitch/Ragone (2026-07-17).** Temperature, altitude, and the
-  previously-missing soil pH now double-sourced (Ferns + Elevitch agree). **One correction owed to the
-  shipped artifact: the 157-in rainfall upper is unsupported by both authorities (cap ≈120 in) and
-  looks bled from ginger / ice-cream-bean — fix `site.html` `P` and copy #12 to ~120 in.** This is the
-  first record carried through the full recrystallization pass to a *correction*, not just a confirmation.
-  (Also the only cross-read against permacultureplants.com so far — secondary colour only.)
+- Copy #12. **Recrystallized against Elevitch/Ragone (2026-07-17), then Mausio et al. 2020 (session 6,
+  2026-07-18).** Temperature, altitude, soil pH double-sourced (Ferns + Elevitch). **Rainfall resolved by
+  a Hawaiʻi-calibrated source and *expanded*, not contracted:** shipped `rain:[60,157]` / `rainTol:[30,315]`,
+  both traced to Mausio's Table 1 (optimal 1,500–4,000 mm, absolute 750–8,000 mm). The session-5 "correction
+  to ~120 in" was briefly applied on Ferns/Elevitch alone, then reversed when the Hawaiʻi-tree-calibrated
+  model was found — the 157 upper was unsourced, not wrong. **This record is the worked example of the
+  expand-when-justifiable rule (SOURCES.md): a too-narrow band is itself a defect, because it wrongly
+  reads a plant "poor" on ground it thrives on.** (Also the only cross-read against permacultureplants.com
+  — secondary colour only.)

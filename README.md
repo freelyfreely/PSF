@@ -28,6 +28,7 @@ seeing land as inert substrate to seeing it as a living community that is alread
 | [INDICATORS.md](INDICATORS.md) | The second axis — reading a site off what already grows on it |
 | [PRAXIS.md](PRAXIS.md) | The doing — outer technique and inner succession |
 | [INSIGHTS.md](INSIGHTS.md) | The seedbed |
+| [NEEDS.md](NEEDS.md) | What the tool is waiting on, and who can supply it |
 
 Nothing on the map is drawn by hand: the coastline is US Census, the rain bands are the Rainfall
 Atlas of Hawaiʻi, elevation is USGS 3DEP. Temperature is derived from elevation and labeled derived

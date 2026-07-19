@@ -643,7 +643,7 @@ with a knife.
 *Artocarpus altilis* · canopy · first food year 3
 
 ### Simple
-**FRUIT — STARCH.** 60–120 in · warm, no frost · coast to 2,100 ft · sun
+**FRUIT — STARCH.** 60–157 in · warm, no frost · coast to 2,100 ft · sun
 
 > A tree that makes bread. One mature ʻulu drops more starch in a season than a family eats, on
 > ground that gets no fertilizer and no tilling. It is slow for three years, and then it is the
@@ -2324,7 +2324,7 @@ land, waiting only to be recognised. The succession got there first.
 *Piper methysticum* · understory shrub · **not food** · harvest year 3–4
 
 ### Simple
-**NO FOOD — DRINK, MEDICINE, CEREMONY.** 60+ in · warm, no frost · coast to 2,000 ft · shade to part sun
+**NO FOOD — DRINK, MEDICINE, CEREMONY.** 70+ in · warm, no frost · coast to 2,000 ft · shade to part sun
 *Not eaten. The root is pounded and steeped into a calming drink; heavy prolonged use dries and
 scales the skin, and eases off when the use does.*
 
@@ -2347,7 +2347,7 @@ root. Replant a cutting from the same plant and the line continues.
 **Prep**
 - Filtered shade to part sun — a true understory shrub, happiest beneath the food trees. Warm,
   frost-free, wet, on rich, well-drained, mulched ground.
-- 60 inches a year and up. Coast to about 2,000 ft.
+- 70 inches a year and up — genuinely wet. Coast to about 2,000 ft.
 - Shelter from strong wind; the jointed stems are brittle.
 
 **Set**

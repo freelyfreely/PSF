@@ -12,6 +12,61 @@ Format: `### YYYY-MM-DD — hook` · a paragraph · then `→ where it wants to 
 
 ---
 
+### 2026-07-18 — The second axis is partly in a raster after all: substrate age
+Three documents ([SYNTROPY.md](SYNTROPY.md) VIII, [MAP.md](MAP.md), [INDICATORS.md](INDICATORS.md)) state
+— nearly verbatim — that the colonization→accumulation→abundance axis "is in no raster; it is read off the
+plants already standing." Writing [NEEDS.md](NEEDS.md) surfaced that this is only mostly true. **Lava-flow
+surface age is mapped** (USGS geologic map of Hawaiʻi Island), and surface age is the strongest single
+predictor of how far soil development has gone: a 1990 flow and a 10,000-yr flow at identical rain and
+elevation sit at opposite ends of the consolidation axis, and the map knows which is which. It does *not*
+replace the vegetation reading — the same old flow bare vs. under albizia are different, and only the
+plants tell you — but it means the second axis is **"raster-seeded, conversation-refined," not
+conversation-only.** The tool could give a first-pass successional read before anyone types a word, then
+let the indicator question sharpen it. This weakens the strongest form of the "only a conversation can ask"
+claim in a productive way: the conversation *refines* a reading the raster can already *start*.
+→ Wants its own architecture note (owed in NEEDS.md §III). Revise the three documents' "in no raster"
+sentences once the note is written. Candidate to fold into the second-axis interface design (Trunk 2).
+
+### 2026-07-18 — Expand a filtering band, don't contract it, when a source permits
+The ʻulu rainfall thread ran a full loop this session and taught a rule. The shipped 157-in upper was
+unsourced (and coincided with ginger's/inga's 157, so it looked like day-1 bleed); it was contracted to
+~120 in on Ferns+Elevitch — then **reversed and widened** to optimal 157 / tolerance 315 when a
+Hawaiʻi-calibrated model (Mausio, Miura & Lincoln 2020, *PLoS ONE*, fit to 1,200 naturalized Hawaiʻi
+breadfruit trees) was found. Two things generalize. (1) A suitability model fitted to *this island's*
+observed plants is tier-1 local science and outranks a generic tropical database for a band *here*. (2)
+When a band is genuinely ambiguous between tighter and wider, resolve toward the wider *with a source* —
+because the fit model dims poor fits and hands the ground back to the reader, so a too-narrow band commits
+the costlier error: it reads a plant "poor" where it thrives, overriding the reader on their own land.
+Not licence to invent headroom (the firewall still bit the unsourced 157 until Mausio sourced it) — a rule
+about which way to resolve a real ambiguity.
+→ **Promoted** into [SOURCES.md](SOURCES.md) (authority order + the expand-when-justifiable rule) and
+[[psf-sourcing-conventions]] this session. Worked example lives in [raw/artocarpus-altilis.md](raw/artocarpus-altilis.md).
+
+### 2026-07-18 — Store/story split has three directions of drift, not one
+Session 6 pushed the recrystallization corrections into `site.html` (ʻulu 157→120 + the unsourced 180
+tol ceiling; ice-cream-bean 350–5,000→360–1,770 ft) and compiled the `succ:` axis-2 field into all 19
+shipped entries as *data*. What that surfaced: the store↔story relationship drifts in three separable
+directions, and we had only named two. (1) *Numeric drift* — a copy number no source backs. (2)
+*Meta-drift* — a stated rationale that's wrong (the annuals-are-band-less note). (3) *Ship-lag* — the
+copy/store get corrected and the **shipped artifact silently keeps the old number**, which is the most
+dangerous of the three because it's the only one a reader actually touches. Recrystallization healed
+the story first and left the ship stale for a full session; the fix has to name the artifact as a third
+sink, not assume copy=ship. Generalized: *a correction isn't landed until it reaches the surface a
+person sees.*
+→ Structured into [MAP.md](MAP.md) this session. The `succ:` **rendering** was deliberately *not* done
+— surfacing "placenta 1 / climax" is a voice call (plain word before technical term) that is the
+steward's, and doing the compile without the render keeps the derived-not-authored line clean.
+
+### 2026-07-18 — The reservoir replaces the "chosen nineteen"
+The steward closed the 19/59 question in the opposite direction from where the map was leaning: not a
+curated subset that plants must "earn" into, but a **reservoir** — all 59 and every future plant in,
+per-site fit doing the narrowing, the shipped 19 merely where day 1 stopped. This quietly rewrites the
+open problem from *selection* to *surfacing* (how a tool draws from a growing reservoir without either
+overwhelming a phone or hiding the depth). It also re-points the Minimum Viable Seed test: the seed
+isn't the shortlist, it's the shape the whole reservoir is growing toward.
+→ [MAP.md](MAP.md) and [[psf-project]] updated this session. Wants a surfacing-design pass eventually
+(reservoir → per-site fit → display), which is downstream of the second axis, not a separate feature.
+
 ### 2026-07-18 — The corpus is fully backed, and the backfill caught meta-drift
 Session 5 wrote `raw/` records for the last ~20 entries and completed axis 2 across all 56, so the
 whole corpus is now sourced one file per plant. As with the session-4 backfill, demanding a source for

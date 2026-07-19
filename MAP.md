@@ -48,6 +48,9 @@ order — see [succession.md](succession.md)).
   reading.
 - **[INSIGHTS.md](INSIGHTS.md)** — *the seedbed.* Whatever doesn't fit the others yet, date-stamped,
   periodically promoted or let go.
+- **[NEEDS.md](NEEDS.md)** — *the edges.* What the tool is waiting on, sorted by who or what can supply
+  it (steward-held knowledge, fetchable sources, external rasters, tooling, decisions) — the orthogonal
+  cut to "Deliberately unfinished" below.
 
 ## The strokes (tooling)
 
@@ -176,9 +179,27 @@ sourcing, and marked so.
   flagged in the store — chaya altitude 4,300 ft, cempedak "best under 450", citrus rainfall 40–60 in
   and altitude 3,000 ft — owed a source or a relabel. Deeper cross-reads (Elevitch/Morton for the
   fruit) continue; abiu (#57, still no rainfall band) remains first in line.
-- **Axis 2 is now complete across the corpus** (session 5): every `raw/` record carries the
-  *Succession (axis 2)* line — class + lifespan. What remains is the derived `succ:` field in
-  `site.html` (compiled from `raw/`), still owed.
+  **Session 6 (2026-07-18) worked the shipped-artifact half of the recrystallization drift, and turned up
+  a rule:** ice-cream-bean's natural range `350–5,000 ft` → `360–1,770 ft (110–540 m)` (cultivation ceiling
+  7,200 ft kept). ʻUlu's rainfall went the *other* way: the unsourced shipped `[60,157]/tol[40,180]` was
+  first contracted to `[60,120]/tol[40,120]` on Ferns+Elevitch — then **reversed and expanded** once a
+  Hawaiʻi-calibrated source was found: **Mausio, Miura & Lincoln (2020), *PLoS ONE***, an EcoCrop model
+  re-fitted to 1,200 naturalized breadfruit trees mapped in Hawaiʻi, gives precipitation optimal
+  1,500–4,000 mm and absolute 750–8,000 mm. Shipped now `rain:[60,157]` / `rainTol:[30,315]`. The 157 was
+  unsourced, not wrong. **This is the origin case of the expand-when-justifiable rule (SOURCES.md): widen a
+  filtering band rather than narrow it whenever a real source permits, because a too-narrow band wrongly
+  reads a plant "poor" on ground it thrives on — the costlier error under "the reader knows their own
+  ground."** Still owed on this line: the unsourced reader-facing figures flagged in the store (chaya
+  4,300 ft, cempedak "under 450", citrus 40–60 in / 3,000 ft) — each now a candidate to *source-and-widen*,
+  not trim.
+- **Axis 2 now ships, and it renders** (session 6): the derived `succ:` field is compiled from each
+  `raw/` record's *Succession (axis 2)* line into all 19 shipped `P` entries (placenta 1/2 · secondary
+  1/2 · climax), sitting beside `str:` (axis 1). It renders as a small `.succ` pill next to the stratum
+  pill — **plain word visible, Götsch's class in the tooltip** (PRODUCT.md's "plain word before the
+  technical term," the same idiom the pref bands already use). Plain mapping lives in one editable
+  `SUCC_PLAIN` object in `site.html`: `first in` / `early crop` / `fast nurse` / `long-lived` /
+  `old-growth`. The wording is the steward's to tune (see [NEEDS.md](NEEDS.md) §V). Stratum says *where
+  in the light*; `succ` says *when in its life* — the two axes, finally both visible in the tool.
 - **Numbering "gap" #48–50 resolved** (session 5): the citrus entry *is* #48–50 (orange · grapefruit ·
   lemon, one entry across three species). The copy does not skip — it collapses three numbers into one
   heading. The corpus is 56 entries across a 1–59 numbering because the citrus triple and the true
@@ -203,8 +224,24 @@ sourcing, and marked so.
   what is owed is the steward's ground-truth pass (ratifying or overturning each `[inferred]` /
   `[needs ground-truth]` tag), the CTAHR/DLNR sourcing for the `[established]` entries, and the
   missing entries (wet-forest natives, upcountry and dry-side weeds, everything above the frost line).
-- **The 19/59 selection.** `site.html` carries nineteen plants; the corpus carries fifty-nine. The
-  shipped set is currently bounded by where day 1 stopped rather than by a decision about which
-  plants earn the display. Making the nineteen a *chosen* nineteen is owed — and the Minimum Viable
-  Seed test ([SYNTROPY.md](SYNTROPY.md) VII) is the criterion: does the shipped set contain every
-  organ of the whole system, or is it a slice of a larger one?
+- **The reservoir, now surfaced** (steward, session 6; built session 6/7). The steward set the
+  direction: **all 59 — and every subsequent plant — belong in the reservoir the tool draws from; there
+  is no curated subset.** As of session 7 the site carries the **whole written corpus — 57 cards** (the
+  38 beyond the hand-built 19 were generated from [plant-copy.md](plant-copy.md) + [raw/](raw) and
+  spliced into the `P` array; the citrus trio is one card, so 57 not 59). Per-site `fit()` does the
+  narrowing; the whole reservoir stands behind it. **The per-plant fit-tuning pass is now done (session
+  7):** all 38 reservoir cards were re-distilled by hand against `raw/` — the generator's truncated
+  Prep/Set/Forget prose restored in full from the copy's *Detailed* beats, the empty `prefs` detail
+  columns filled with the sourced numbers, and the fit bands (rain/rainTol/elev/frost/needsDry) tuned to
+  the ore under the **expand-don't-contract** doctrine ([SOURCES.md](SOURCES.md)). Bands without a
+  published source are labeled lived/general in the pref tooltip (the lived greens, abiu, currant tomato).
+  The pass caught a class of generator inversions worth recording: **`needsDry:true` was mis-set on
+  wet-loving plants** (jackfruit, cempedak, acerola, rose apple, citrus — each "wants no dry season" or
+  "dislikes drought," so the flag falsely read the wet coast as *poor*); **elevation bands were inverted
+  on the two upland crops** (poha and cardamom had `[0,ceiling]`, flagging the hot lowland as ideal when
+  both want the cool mid-elevations — fixed to `[floor,ceiling]`); **noni's `rainTol` floor (28) sat above
+  its lived 10-in dry floor**, contradicting its defining bare-lava-pioneer role; and several cards carried
+  the *tolerance* ceiling in the *preferred* slot. A band-order sweep across all 57 cards is clean. The
+  `succ`/`str` axes still trace to `raw/`. Remaining owed: the guild **placements** (written last, from
+  the whole set at once). The Minimum Viable Seed test ([SYNTROPY.md](SYNTROPY.md) VII) now applies to the
+  *shape the reservoir grows into*. Generator lives in the session scratchpad (`gen.js`).

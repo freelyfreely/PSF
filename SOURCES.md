@@ -30,6 +30,26 @@ Where two tiers disagree on a decidable fact, the higher tier wins. Where they d
 holistic judgment — *is this a good plant for this person's ground?* — no source wins; that is
 handed back to the living, per the gate's own boundary (below).
 
+**Hawaiʻi-calibrated empirical models sit at tier 1 for this island's bands** (added session 6,
+2026-07-18). A climate-suitability model *fitted to observed plant distributions on this island* is
+local, decidable science — it belongs in tier 1 and outranks a generic tropical database (tier 3) for
+a numeric band *here*, even though a global database outranks it elsewhere. The worked case is ʻulu:
+**Mausio, Miura & Lincoln (2020), *PLoS ONE* 15(5):e0228552** re-fit the EcoCrop breadfruit parameters
+to 1,200 naturalized trees mapped across Hawaiʻi and found the generic bounds "highly restrictive…
+especially in terms of rainfall." Its precipitation figures (optimal 1,500–4,000 mm, absolute
+750–8,000 mm) now carry ʻulu's band over Ferns'. Authority is scoped: this outranks Ferns *for
+Hawaiʻi rainfall*, not for, say, propagation or a plant it never studied.
+
+**Expand a filtering band, don't contract it, whenever a real source permits** (the session-6 rule).
+The tool's fit model treats *dry-beyond-tolerance* as `poor` and *wet-beyond* as a mere `caution`, and
+dims poor fits rather than deleting them — all because **the reader knows their own ground.** A band set
+too narrow commits the costlier error: it reads a plant `poor` on ground it actually thrives on,
+overriding the reader on their own land. So when the evidence is genuinely ambiguous between a tighter
+and a wider band, and a citable source supports the wider one, take the wider one. This is *not* licence
+to invent headroom — an unsourced wide number is still necrosis (the 157-in upper was correctly flagged
+until Mausio sourced it). It is a rule about which way to resolve a real ambiguity: toward the reader's
+latitude, with a source.
+
 **The wisdom base is a separate axis, not a higher tier** (added session 3, 2026-07-17). Götsch's
 syntropic method and Freely's own writings — collected in [SYNTROPY.md](SYNTROPY.md) — are authority
 over *mechanism, stance, and purpose*: what succession is, why pruning works, what difficulty
@@ -49,6 +69,7 @@ translation. Take the apparatus; leave the numbers.
 | **CTAHR / UH Mānoa extension** (ctahr.hawaii.edu) | Hawaiʻi-specific | The real local pest, disease, and climate picture | The authoritative word on anything Hawaiʻi-particular |
 | **USDA APHIS / HDOA** | US / Hawaiʻi pest status | Current pest and disease establishment (e.g. the citrus psyllid and HLB status) | — |
 | **Morton, Fruits of Warm Climates** | Tropical fruit | The tropical fruit trees where the temperate databases run thin | Older; cross-check current names and pests |
+| **Mausio, Miura & Lincoln 2020** (*PLoS ONE* 15(5):e0228552) | Breadfruit, empirically re-calibrated to 1,200 naturalized Hawaiʻi trees | ʻUlu's Hawaiʻi rainfall/temperature bands — tier 1 *for this island* (see authority order) | Scope is breadfruit-on-Hawaiʻi only; a species-and-place-specific model, not a general database |
 | **Native Plants Hawaiʻi / CTAHR / DLNR Forestry** (nativeplants.hawaii.edu, dlnr.hawaii.gov) | The endemic and indigenous flora | The one place the databases above cannot help: native plants like the māmaki, read by forest type and elevation, not a raster band | The authority for anything endemic — range, ecology, the native web it sits in |
 | **Grower and cooperative practice** (e.g. Hawaiʻi ʻUlu Cooperative) | Working Hawaiʻi farms | Propagation, spacing, guild companions the databases omit — how a plant is actually put in the ground here | Practice, not a controlled trial; corroborate the numbers, trust the placement |
 | **Peer-reviewed medical / nephrology literature** | Specific human-health cautions | The load-bearing hazard facts (star-fruit caramboxin and renal risk; the raw-katuk-juice lung injury) | Used only to state a plain caution, never as horticulture |
@@ -193,11 +214,15 @@ to Ferns** (the exact defect the gate exists to catch); all three have now been 
 resolved** — what remains is applying the corrections to the shipped artifacts (`site.html` `P` array
 and [plant-copy.md](plant-copy.md)):
 
-- **ʻUlu (#12) — CORRECTION.** The shipped 157-in rainfall upper is unsupported. Ferns caps at
-  3,000 mm/118 in; **Elevitch/Ragone** (*Specialty Crops for Pacific Island Agroforestry*) gives
-  *"1,500–3,000 mm (60–120 in)."* Both agree at ~120 in. 157 in (≈4,000 mm) is ginger's *and* ice-cream
-  -bean's tolerated upper — it **bled from a neighbouring record** during day 1 (cross-plant necrosis).
-  Fix the shipped upper to **~120 in**. The Elevitch read also *added* the pH Ferns lacked (6.1–7.4).
+- **ʻUlu (#12) — RESOLVED, and expanded (session 6).** The shipped 157-in upper was *unsourced* — Ferns
+  caps at 3,000 mm/118 in, Elevitch/Ragone gives 1,500–3,000 mm, and 157 also happened to be ginger's and
+  ice-cream-bean's tolerated upper, so it was rightly flagged as possible day-1 bleed. It was briefly
+  contracted to ~120 in on those two sources — then **reversed** when the Hawaiʻi-calibrated
+  **Mausio et al. 2020** (see authority order) was found: precipitation optimal 1,500–4,000 mm, absolute
+  750–8,000 mm, expanded *because* generic bounds under-fit Hawaiʻi's naturalized trees. **Shipped now
+  `rain:[60,157]` / `rainTol:[30,315]`** in `site.html` and copy #12 — the 157 restored *with a source*
+  and the tolerance widened past the old unsourced 180. The worked example of the expand-when-justifiable
+  rule above. (The Elevitch read also *added* the pH Ferns lacked, 6.1–7.4.)
 - **Banana (#9) — FIRMED.** First-food now **CTAHR-sourced at 15–18 months** (shipped year-1 low end is
   optimistic → ~15 mo). The 4,000 ft ceiling stays a **labelled lived narrowing** of Ferns' 2,400 m
   (conservative, not an error). Bands read from *M. acuminata* as the proxy for shipped *Musa* spp.
