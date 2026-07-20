@@ -319,8 +319,10 @@ real constraints — a plant outside its climate band is stressed, and prolonged
 immune system of the plant *and* of the biocenosis around its roots, which is Götsch's own reason for
 respecting them. But climate determines only whether a species *can* live here. **Where the site sits
 on the colonization → accumulation → abundance axis determines what it will cost to keep alive, what
-will attack it, and what has to be planted first.** That axis is not in any raster. It is read off
-the vegetation already standing on the ground — the indicator plants — and PSF cannot currently ask.
+will attack it, and what has to be planted first.** That axis is only *partly* in a raster: lava-flow
+surface age (USGS) maps how far soil development has likely gone and can seed a first-pass reading — but
+the decisive signal is read off the vegetation already standing on the ground — the indicator plants —
+and PSF cannot currently ask for that.
 
 [succession.md](succession.md) III already knows this: it opens *"given a site read (rain, elevation
 from the map tool) **and** what is already growing there."* The second input has no interface.
@@ -328,7 +330,8 @@ from the map tool) **and** what is already growing there."* The second input has
 This is the strongest argument yet for the conversational/LLM layer, and it reframes it. That layer
 is not an enrichment or a nice-to-have for the pioneer substrate. **It is the second axis of the
 instrument.** One good question — *what is already growing there?* — converts a climate filter into
-a successional reading, and only a conversation can ask it.
+a successional reading. A substrate-age raster can *seed* that reading; only a conversation can sharpen
+it to the ground actually underfoot — **raster-seeded, conversation-refined.**
 
 ---
 

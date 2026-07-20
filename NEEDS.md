@@ -86,16 +86,21 @@ Honest tooling edges hit this session and before:
 - **A real-browser fetch path.** Needed for 403 / JS-only sources (permacultureplants.com) and for
   authenticated data. The Nimble web tools exist but are **unauthenticated in this environment**; a
   connected browser session would close both the §II 403 gap and much of §III.
-- **PDF rendering.** `poppler` is not installed, so image-based PDFs won't render; text PDFs only come
-  through a `pypdf` fallback. This bit twice this session — the CTAHR breadfruit profile (a scanned
-  getmedia PDF) would not extract, and the `Context/` agroforestry PDFs are only partly reachable. The
-  Mausio numbers came through an HTML mirror instead; a scan-only source would have blocked.
-- **A way to actually *drive* `site.html`.** The in-app browser renders local files as static snapshots
-  **without executing JavaScript**, so the map, the fit logic, and the new `succ` pill can be
-  syntax-verified and node-tested but not *seen behaving*. Confirming a fit-model change visually (e.g.
-  that ʻulu now reads "good" on 150-in ground) needs a real browser or a local dev server. This is why
-  this session's verification stopped at "parses, no console errors, node-checked" rather than "watched
-  it work."
+- **PDF rendering — partly closed (session 8).** Earlier sessions had no `poppler`, so image-based PDFs
+  wouldn't render (text only via a `pypdf` fallback). **Session 8's environment had `pdftotext`
+  available**, which read Chazdon's *Second Growth* cleanly (TOC + body). Whether a given session has it
+  is environment-dependent — check `command -v pdftotext` before assuming. Scanned/image-only PDFs (the
+  CTAHR breadfruit getmedia scan) may still need OCR.
+- **Driving `site.html` — CLOSED this session (2026-07-19), and it immediately paid off.** The in-app
+  static-snapshot browser can't run JS, but session 8 had two paths that can: `python -m http.server`
+  for a local server, and a Browser pane that executes JS (`render(g)` was called directly with a
+  synthetic Pahoa reading and the DOM inspected). **This is how the wet-coast fit bug was found and
+  verified** — reasoning had missed it for seven sessions; one afternoon of driving caught it. Standing
+  guidance for the next instance: **after any `fit()` / render / `P`-array change, drive it, don't just
+  node-check it.** Recipe that worked: serve the dir, load `site.html` in the Browser pane, then
+  `render({rain:R, elev:E, frost:false})` and query `.entry[data-fit]` / `.pref[data-flag]`. (Live map
+  clicks still need the ArcGIS/EPQS network calls, which may be blocked in-sandbox — inject the reading
+  instead.)
 
 ## V. Decisions only the steward can make
 

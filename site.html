@@ -171,6 +171,7 @@
   .pref svg{width:15px;height:15px;flex:none;opacity:.85}
   .pref[data-flag="caution"]{color:var(--ent-act)}
   .pref[data-flag="poor"]{color:var(--ent-act);font-weight:600}
+  .pref[data-flag="wet"]{color:var(--ent-mid)}
   .stratum{display:inline-flex;align-items:center;gap:6px}
   .stratum i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ent-ink);display:block}
   .stratum[data-s="ground"] i{background:none}
@@ -182,6 +183,8 @@
 
   .verdict{font-family:var(--mono);font-size:var(--t-mark);color:var(--ent-act);
     margin:var(--s4) 0 0;font-weight:600}
+  /* a good card that only carries a wet-side note reads calm, not alarmed */
+  .entry[data-fit="good"] .verdict{color:var(--ent-mid);font-weight:400}
   .distil{font-family:var(--serif);font-size:var(--t-lead);line-height:1.5;
     margin:var(--s6) 0 0;max-width:var(--measure);text-wrap:pretty}
 
@@ -1114,11 +1117,17 @@ function fit(z, p){
   else if(z.rain < p.rainTol[0]){
     flags.rain="poor"; notes.push("drier here than it will take"); level="poor";
   } else if(z.rain > p.rainTol[1]){
+    // past what it will take: the only wetness that earns the drainage advice
     flags.rain="caution"; notes.push("wetter than it will take — it needs sharp drainage, a mound, or lava under it");
     if(level==="good") level="caution";
-  } else if(z.rain < p.rain[0] || z.rain > p.rain[1]){
-    flags.rain="caution";
-    notes.push(z.rain > p.rain[1] ? "wetter than it likes — give it sharp drainage, or a mound" : "drier than it likes — expect it slower");
+  } else if(z.rain > p.rain[1]){
+    // above its preferred band but still inside its tolerance — this is fine ground,
+    // not a problem to solve. Say so plainly and do not dim the card. (Graduated wetness:
+    // most of the wet coast lands here, and the tool must not greet it with a wall of warnings.)
+    flags.rain="wet"; notes.push("on the wet side of its range, but well within what it takes");
+  } else if(z.rain < p.rain[0]){
+    // dry stays the dangerous direction: a real caution even inside tolerance
+    flags.rain="caution"; notes.push("drier than it likes — expect it slower");
     if(level==="good") level="caution";
   }
   if(z.elev < p.elev[0] || z.elev > p.elev[1]){
@@ -1172,9 +1181,16 @@ function entryHTML(p, v){
   var succPill = sp ? '<span class="succ" title="'+esc(sp[1])+'">'+esc(sp[0])+'</span>' : '';
   var prefs = '<span class="stratum" data-s="'+p.str+'"><i></i>'+p.str+'</span>' + succPill +
     p.prefs.map(function(pr){
-    var key = pr[0], flag = v.flags[key];
+    var key = pr[0], flag = v.flags[key], label = pr[1];
+    // The rain band shown is derived from the same numbers fit() judges on, so the
+    // displayed range can never contradict the verdict (no "up to 157" beside "too wet
+    // at 131"). A qualitative lived band — no digits, e.g. "wet to mesic" — is left as
+    // authored, per the labeled-not-disguised rule for lived bands (SOURCES.md).
+    if(key === "rain" && /\d/.test(label) && p.rain && p.rain.length === 2){
+      label = p.rain[0] + "–" + p.rain[1] + " in";
+    }
     return '<span class="pref"'+(flag?' data-flag="'+flag+'"':'')+' title="'+esc(pr[2])+'">'+
-      '<svg><use href="'+ICON[key]+'"/></svg>'+esc(pr[1])+'</span>';
+      '<svg><use href="'+ICON[key]+'"/></svg>'+esc(label)+'</span>';
   }).join("");
   var names = '<h3 class="hawaiian">'+esc(p.haw)+'</h3>'+
     (p.com ? '<h3 class="common">'+esc(p.com)+'</h3>' : '')+

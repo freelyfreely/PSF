@@ -24,8 +24,33 @@ plants tell you — but it means the second axis is **"raster-seeded, conversati
 conversation-only.** The tool could give a first-pass successional read before anyone types a word, then
 let the indicator question sharpen it. This weakens the strongest form of the "only a conversation can ask"
 claim in a productive way: the conversation *refines* a reading the raster can already *start*.
-→ Wants its own architecture note (owed in NEEDS.md §III). Revise the three documents' "in no raster"
-sentences once the note is written. Candidate to fold into the second-axis interface design (Trunk 2).
+→ Wants its own architecture note (owed in NEEDS.md §III). **The three "in no raster" sentences are now
+revised (session 8, 2026-07-19)** — SYNTROPY VIII, MAP (both spots), and INDICATORS all read
+"raster-seeded, conversation-refined." The standalone architecture note in NEEDS §III is still owed.
+Candidate to fold into the second-axis interface design (Trunk 2).
+
+### 2026-07-19 (session 8) — Driving the tool is how you find the drift; the wet coast proved it
+The steward clicked Pahoa (131 in) and every plant warned "wetter than it likes — give it sharp drainage,
+or a mound," several while displaying a rain max *above* 131 (rose apple's card showed "28–157 in").
+Driving the real `render()` in a browser — the first time the site's JS was ever executed and inspected in
+this project — confirmed **25 of 57 cards** falsely nagged. Two defects, both the store/story split biting
+the *engine*: (1) `fit()` cautioned on the *preferred* upper, treating "past optimal, still tolerated" as a
+problem — so the wettest, most productive coast (the first flyer's own audience) met a wall of warnings,
+violating the expand-don't-contract / reader-knows-their-ground doctrine; (2) the *displayed* rain band
+(often the tolerance figure, or authored prose) was a different number from the one `fit()` judged, so
+"up to 157" sat beside "too wet at 131." Fixed: **graduated wetness** (above tolerance → caution + mound
+advice; above preferred but within tolerance → calm "on the wet side of its range," card stays good; dry
+stays the dangerous direction) and **derived rain labels** (the pill shows the band `fit()` judges, lived
+qualitative bands preserved). Pahoa now reads 35 good / 16 caution / 6 poor, the cautions all honest
+(mango & the needsDry crops; plants whose real tolerance 131 exceeds). Generalization worth keeping: **a
+rule that is right about *severity* ("wet is never fatal") can still be wrong about *frequency* — firing a
+warning on half the list at a completely normal rainfall is itself the bug.** And: the tool had been
+reasoned-about for seven sessions; one afternoon of *driving* it found a defect that touched the primary
+audience. Watch it run.
+→ **Applied to [site.html](site.html) + [MAP.md](MAP.md) this session.** The band-vs-verdict consistency
+is now structural (label derived from `p.rain`), so this class of drift cannot silently return. Related
+open thread: the same "derived, not authored" move wants doing for `succ` (the pill is compiled but its
+plain wording is still hand-authored and unratified — see handoff).
 
 ### 2026-07-18 — Expand a filtering band, don't contract it, when a source permits
 The ʻulu rainfall thread ran a full loop this session and taught a rule. The shipped 157-in upper was

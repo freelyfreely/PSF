@@ -1,8 +1,10 @@
 # Indicator plants — reading the second axis
 
 The input device for the reading [SYNTROPY.md](SYNTROPY.md) VIII says the tool cannot currently take.
-Rain and elevation come off a raster; **consolidated life does not.** It is read off the plants
-already standing on the ground, and this document is where that reading is kept.
+Rain and elevation come off a raster; **consolidated life is only partly rasterable.** Lava-flow surface
+age (USGS) proxies how far soil development has likely gone — a first-pass seed — but the finer read is
+off the plants already standing on the ground, and this document is where that reading is kept
+(**raster-seeded, conversation-refined**).
 
 Götsch's method leans on a Cerrado indicator list — each common volunteer reporting pH, compaction, a
 buried hardpan, a missing micronutrient. His central claim about them is the one to carry over:

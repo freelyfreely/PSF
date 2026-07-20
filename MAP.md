@@ -43,9 +43,9 @@ order — see [succession.md](succession.md)).
 - **[PRAXIS.md](PRAXIS.md)** — *the doing.* The outer techniques (the living cutting, chop-and-drop,
   reading the harvest signal) and the inner succession that is the project's real product.
 - **[INDICATORS.md](INDICATORS.md)** — *the second axis.* What the plants already standing on a site
-  report about its consolidated life — the reading no raster carries and the conversational layer
-  exists to take. A confidence-tagged scaffold, written ahead of its sourcing, awaiting the lived
-  reading.
+  report about its consolidated life — the reading no raster *fully* carries (lava-flow surface age
+  seeds it; the vegetation refines it) and the conversational layer exists to take. A confidence-tagged
+  scaffold, written ahead of its sourcing, awaiting the lived reading.
 - **[INSIGHTS.md](INSIGHTS.md)** — *the seedbed.* Whatever doesn't fit the others yet, date-stamped,
   periodically promoted or let go.
 - **[NEEDS.md](NEEDS.md)** — *the edges.* What the tool is waiting on, sorted by who or what can supply
@@ -128,11 +128,20 @@ In `fit()` in site.html: **temperature is hard, rain is medium, elevation murmur
 
 - Frost at this elevation + a frost-tender plant → poor. No argument with frost.
 - Rain is asymmetric, and the asymmetry is the honest part: too much water is a
-  drainage problem a mound or young lava solves, so wet only ever *cautions*; too
-  little water is not solvable without carrying it, so dry beyond tolerance is
-  *poor*. A plant that needs a dry season (mango) is poor on ground that never
-  gives one.
+  drainage problem a mound or young lava solves, so wet never goes *poor* — but it is
+  also **graduated** (fixed session 8). Above the *preferred* band yet still inside
+  *tolerance* is fine ground, not a problem: the card stays good and says only "on the
+  wet side of its range, but well within what it takes." Wetness earns the caution and
+  the mound-and-drainage advice only once it passes *tolerance*. (Dry stays the
+  dangerous direction: drier than preferred cautions even inside tolerance; drier than
+  tolerance is *poor*. A plant that needs a dry season — mango — is poor on ground that
+  never gives one.) This keeps the tool from greeting its own wet coast with a wall of
+  warnings — the failure the old "wet always cautions" rule produced at Pahoa.
 - Elevation out of range cautions; far out of range is poor.
+- **The band shown is the band judged.** The rain pill's displayed range is derived
+  from the same `p.rain` numbers `fit()` reasons on, so a card can never show "up to
+  157" beside a "too wet" verdict (the drift that surfaced session 8). Qualitative
+  lived bands ("wet to mesic") are left as authored, per the labeled-not-disguised rule.
 
 Verdicts are written as one plain sentence in the entry, in the plant's terms.
 
@@ -153,8 +162,9 @@ compiled from [succession.md](succession.md) — not three separate columns.
 Added session 3. The fit logic above reads **climate** — it answers *can this species survive here*.
 The syntropic reading says the variable that decides cost, pest pressure, and planting order is
 orthogonal to climate: where the ground sits between raw substrate and consolidated abundance. That
-is not in any raster; it is read off what is already growing. `succession.md` III has always assumed
-this input ("*and* what is already growing there") and it has never had an interface.
+is only *partly* in a raster — lava-flow surface age seeds it — and the finer read is off what is
+already growing. `succession.md` III has always assumed this input ("*and* what is already growing
+there") and it has never had an interface. **Raster-seeded, conversation-refined.**
 
 So the conversational / LLM layer is not an enrichment tier for the pioneer substrate. **It is the
 instrument's missing second axis**, and it exists to ask one question: *what is already growing
